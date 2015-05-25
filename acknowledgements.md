@@ -3,8 +3,7 @@
 
 © 2013 Kristian Rother (krother@academis.eu)
 
-This document contains contributions by Magdalena Rother, 
-Kaja Milanowska and Anna Philips.
+This document contains contributions by Allegra Via, Kaja Milanowska and Anna Philips.
 
 ## License
 

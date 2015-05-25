@@ -1,6 +1,6 @@
 
-# Python 3 Basics
+# Python 3 Basics Tutorial
 
 Course material by Dr. Kristian Rother
 
-with support by Allegra Via, Kaja Milanowska and Anna Philips
+with contributions by Allegra Via, Kaja Milanowska and Anna Philips
