@@ -22,3 +22,26 @@ Basic operations and variable assignments:
     g = a ** 2     # 49   
     h = 3.0 / b    # 0.75
     i = 7.0 // b   # floor division, 1.0
+
+## Quiz Questions
+
+#### 1. Which are correct artihmetical operations?
+
+- [ ] `a = 1 * 2`
+- [ ] `2 = 1 + 1`
+- [ ] `5 + 6 = y`
+- [ ] `seven = 3 * 4`
+
+#### 2. Which are correct variable names?
+
+- [ ] `result`
+- [ ] `my.result`
+- [ ] `for`
+- [ ] `result77`
+
+#### 3. Which operations result in 8?
+
+- [ ] `65 // 8`
+- [ ] `17 % 9`
+- [ ] `2 ** 4`
+- [ ] `64 ** 0.5`

@@ -10,7 +10,7 @@ Strings in Python can be defined by single quotes, double quotes or triple quote
     
 ## Accessing individual characters
 
-Using square brackets, any character of a string can be accessed. The first character has the index 0.
+Using square brackets, any character of a string can be accessed. The first character has the index `0`.
 
     s = 'Manipulating Strings'
     s[0]  # first character
@@ -30,7 +30,7 @@ Substrings can be formed by applying square brackets with two numbers inside sep
     s[-4:] 
 
 ## Length of strings
-Is returned as an integer by the len() function.
+Is returned as an integer by the `len()` function.
 
     print(len('Manipulating Strings'))
 
@@ -72,8 +72,8 @@ The following functions work on every string variable.
 ### Reading from the text console
 User input can be read from the keyboard with or without a message text. The value returned is always a string:
 
-    a = raw_input()
-    a = raw_input('Please enter a number')
+    a = input()
+    a = input('Please enter a number')
 
 ### Writing to the text console: 
 The Python print statement is very versatile and accepts almost any combination of strings, numbers, function calls, and  arithmetic operations separated by commas.
@@ -97,10 +97,29 @@ Variables and strings can be combined, using formatting characters. This works a
 
 The formatting characters include:
 
-* %i – an integer.
-* %4i – an integer formatted to length 4.
-* %6.2f – a float number with 6 digits (2 after the dot).
-* %10s – a right-oriented string with length 10.
+* `%i` – an integer.
+* `%4i` – an integer formatted to length 4.
+* `%6.2f` – a float number with 6 digits (2 after the dot).
+* `%10s` – a right-oriented string with length 10.
 
 #### Escape characters
-Strings may contain also the symbols: \t (tabulator), \n (newline), \r (carriage return), and \\ (backslash).
+Strings may contain also the symbols: `\t` (tabulator), `\n` (newline), `\r` (carriage return), and `\\` (backslash).
+
+
+## Quiz Questions
+
+#### 1. Which `input` statements are correct?
+
+- [ ] `a = input()`
+- [ ] `a = input("enter a number")`
+- [ ] `a = input(enter your name)`
+- [ ] `a = input(3)`
+
+#### 2. Which `print` statements are correct?
+
+- [ ] `print("9" + "9")`
+- [ ] `print "nine"`
+- [ ] `print(str(9) + "nine")`
+- [ ] `print(9 + 9)`
+- [ ] `print(nine)`
+

@@ -6,12 +6,12 @@ In Python there are basic and composite data types. The values of basic data typ
 ## Immutable data types
 The immutable data types in Python are:
 
-* Boolean (True / False)
-* Integer (0, 1, -3)
-* Float (1.0, -0.3, 1.2345)
-* Strings ('apple', ″banana″) - both single and double quotes are valid
+* Boolean (`True` / `False`)
+* Integer (`0`, `1`, `-3`)
+* Float (`1.0`, `-0.3`, `1.2345`)
+* Strings (`'apple'`, `"banana"`) - both single and double quotes are valid
 * None (aka an empty variable)
-* Tuples (multiple values in parentheses, e.g. ('Jack', 'Smith', 1990))
+* Tuples (multiple values in parentheses, e.g. `('Jack', 'Smith', 1990)`)
 
 ## Mutable data types
 
@@ -30,3 +30,12 @@ Values can be converted into each other using *conversion functions*. Try the fo
     tuple([1,2,3])
     dict([('A',1),('B',2)])
     set([1,2,2,3])
+
+## Quiz Questions
+
+#### 1. On what data types does the `len()` function work?
+
+- [ ] `lists`
+- [ ] `dictionaries`
+- [ ] `strings`
+- [ ] `floats`

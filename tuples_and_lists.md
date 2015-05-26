@@ -105,3 +105,36 @@ The *zip()* function associates the elements of two lists to a single list or tu
 * filter(f, data) returns elements for which f is True.
 * reduce(f, data) collapses the data into one value.
 
+## Quiz Questions
+
+#### 1. Which are correct tuples?
+
+- [ ] `(1, 2, 3)`
+- [ ] `("Jack", "Knife")`
+- [ ] `('blue', [0, 0, 255])`
+- [ ] `[1, "word"]`
+
+#### 2. What can you do with tuples?
+
+- [ ] `group data of different kind`
+- [ ] `change the values in them`
+- [ ] `run a for loop over them`
+- [ ] `sort them`
+
+#### 3. What does the list b contain?
+
+    a = [8, 7, 6, 5, 4]
+    b = a[2:4]
+
+- [ ] `[7, 6, 5]`
+- [ ] `[7, 6]`
+- [ ] `[6, 5]`
+- [ ] `[6, 5, 4]`
+
+#### 4. Which of the following code pieces results in `a == [2, 4, 6]`?
+
+- [ ] `a = [1, 2, 3] * 2`
+- [ ] `a = [int(s) for s in "246"]`
+- [ ] `a = [x * 2 for x in range(3)]`
+- [ ] `a = [2 ** 1] + [2 ** 2] + [2 ** 3]`
+

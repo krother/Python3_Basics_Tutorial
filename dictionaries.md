@@ -20,7 +20,7 @@ By applying square brackets with a key inside, the values of a dictionary can be
 
 ## Looping over a dictionary:
 
-You can access the keys of a dictionary in a for loop. However, their order is not guaranteed, then.
+You can access the keys of a dictionary in a `for` loop. However, their order is not guaranteed, then.
 
     for fruit in prices:
         print fruit
@@ -50,3 +50,68 @@ There is a number of functions that can be used on every dictionary:
     print prices.values()
     print prices.items()
 
+
+## Quiz Questions
+
+#### 1. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    print(d['A'])
+
+- [ ] `False`
+- [ ] `"B"`
+- [ ] `True`
+- [ ] `1`
+
+#### 2. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    print(d.has_key('B'))
+
+- [ ] `1`
+- [ ] `True`
+- [ ] `"B"`
+- [ ] `False`
+
+#### 3. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    print(d.values())
+
+- [ ] `True`
+- [ ] `['A', 1, True]`
+- [ ] `3`
+- [ ] `[1, 'B', 'A']`
+
+#### 4. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    print(d.keys())
+
+- [ ] `[1, 'B', 'A']`
+- [ ] `['A', 'B', 1]`
+- [ ] `[1, 'A', 'B']`
+- [ ] `The order may vary`
+
+
+#### 5. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    print(d['C'])
+
+- [ ] `None`
+- [ ] `'C'`
+- [ ] `an Error`
+- [ ] `False`
+
+
+#### 6. What do these commands produce?
+
+    d = {1:'A', 'B':1, 'A':True}
+    d.setdefault('C', 3)
+    print(d['C'])
+
+- [ ] `3`
+- [ ] `'C'`
+- [ ] `None`
+- [ ] `an Error`
