@@ -1,9 +1,16 @@
 
 # Overview of Data types in Python
 
+### Exercise
+
+Match the data samples with their types.
+
+![datatype exercise](exercises/datatypes.png)
+
+## Immutable and mutable data types
+
 In Python there are basic and composite data types. The values of basic data types cannot be changed, they are **immutable**. Most of the composite data types are **mutable**.
 
-## Immutable data types
 The immutable data types in Python are:
 
 * Boolean (`True` / `False`)
@@ -13,7 +20,7 @@ The immutable data types in Python are:
 * None (aka an empty variable)
 * Tuples (multiple values in parentheses, e.g. `('Jack', 'Smith', 1990)`)
 
-## Mutable data types
+The mutable data types are
 
 * List [1, 2, 2, 3]
 * Dictionary {'name': 'John Smith', 'year': 1990}

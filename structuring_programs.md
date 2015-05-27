@@ -88,6 +88,13 @@ You can see all directories from within Python by checking the *sys.path* variab
     import sys
     print sys.path
 
+
+### Exercise
+
+Join the right halves of sentences.
+
+![functions exercise](exercises/functions.png)
+
 ## Quiz Questions
 
 #### 1. Which `import` statements are correct?

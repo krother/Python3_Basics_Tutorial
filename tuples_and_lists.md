@@ -15,6 +15,13 @@ A list is a sequence of elements that can be modified. In many cases, all elemen
 
     data = ['apples', 'bananas', 'oranges']
 
+### Exercise
+
+Find out what each of the expressions does to the list in the center.
+
+![list exercise](exercises/lists.png)
+
+
 ## Accessing elements of lists and tuples
 
 Using square brackets, any element of a list and tuple can be accessed. The first character has the index 0.
@@ -35,6 +42,14 @@ Lists can be sliced by applying square brackets in the same way as strings.
     data[:3]       # [0,1,2]
     data[-2:]      # [4,5]
     m = data[:]    # creates a copy!
+
+
+### Exercise
+
+Use the expressions to modify the list as indicated. Use each expression once.
+
+![list funcs exercise1](exercises/list_funcs1.png)
+
 
 ## List methods
 
@@ -58,6 +73,13 @@ Lists provide many useful methods:
 #### Counting elements:
 
     data.count(3)
+
+
+### Exercise
+
+Use the expressions to modify the list as indicated. Use each expression once.
+
+![list funcs exercise2](exercises/list_funcs2.png)
 
 
 ## Built-in functions working on iterable types

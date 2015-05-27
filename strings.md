@@ -8,6 +8,13 @@ Strings in Python can be defined by single quotes, double quotes or triple quote
     s = '''text'''
     s = """text"""
     
+
+### Exercise
+
+Find out what each of the expressions does to the string in the center.
+
+![string exercise](exercises/strings.png)
+
 ## Accessing individual characters
 
 Using square brackets, any character of a string can be accessed. The first character has the index `0`.

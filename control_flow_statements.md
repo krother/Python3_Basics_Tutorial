@@ -68,6 +68,11 @@ Multiple expressions can be combined with boolean logic:
 
 ## Conditional loops with while
 
+### Exercise
+Match the expressions so that the `while` loops run the designated number of times.
+
+![while exercise](exercises/while.png)
+
 While loops combine `for` and `if`. They require a conditional expression at the beginning. The conditional expressions work in exactly the same way as in `if.. elif` statements.
 
     i = 0

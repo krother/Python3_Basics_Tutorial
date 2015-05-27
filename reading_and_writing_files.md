@@ -1,6 +1,11 @@
 
 # Reading and writing files
 
+### Exercise
+Match the descriptions with the Python commands.
+
+![file exercise](exercises/files.png)
+
 ## Opening a file for reading
 
 Text files can be accessed using the `open()` function. From an open file the contents can be read as a string.
@@ -55,4 +60,13 @@ When opening files, you can use full or relative directory names. However, you m
 - [ ] `open(filename).writelines(out)`
 - [ ] `f.close()`
 
+
+
+## The os module
+
+### Exercise
+
+Fill in the gaps
+
+![os exercise](exercises/os.png)
 

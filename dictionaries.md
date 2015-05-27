@@ -3,10 +3,18 @@
 
 Dictionaries are an unordered, associative array. They have a set of key/value pairs. They are very versatile data structures, but slower than lists. Dictionaries can be used easily as a hashtable.
 
+
+### Exercise
+
+Find out what each of the expressions does to the dictionary in the center.
+
+![dict exercise](exercises/dicts.png)
+
+
 ## Creating dictionaries
 
     prices = {
-            'banana':0.75,
+        'banana':0.75,
         'apple':0.55,
         'orange':0.80
         }
