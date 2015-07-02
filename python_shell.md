@@ -1,30 +1,83 @@
 
-# First steps on the Python Shell
+# First steps on the IPython Shell
 
-## Overview
+There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. We will start with the interactive mode.
 
-You can use any Python command from the interactive Python command line or *Python Shell*:
+## Using Python as a pocket calculator
 
-    >>> print(4**216)
-    >>> a = 'blue'
-    >>> print(a)
-    blue
-    >>>
+Enter Python in the interactive mode. You should see a message
 
-Python works in the same way as it would in a program, except that results are automatically printed.
-Define code blocks by indenting extra lines:
+    In [1]:
 
-	>>> for i in range(3):
-	...     print(i)
-	...
-	0
-	1
-	2
-	>>> 
+Complete the following calculations by filling in the blanks:
 
-### Tips
+    In [2]: 1 + ___
+    Out[2]: 3
+
+    In [3]: 12 ___ 8
+    Out[3]: 4
+
+    In [4]: ___ * 5
+    Out[4]: 20
+
+    In [5]: 21 / 7
+    Out[5]: ___
+
+    In [6]: ___ ** 2
+    Out[6]: 81
+
+
+## Definitions
+
+### IPython shell
+
+The IPython shell allows you to enter Python commands one by one and executes them promptly.
+The IPython shell is a luxury version of the simpler Python shell. It is also called *interactive mode* or *interactive Python command line*.
+
+You can use any Python command from the *IPython Shell*:
+
+    In [1]: 1 + 1
+    Out[1]: 2
+    In [2]: 4 * 16
+    Out[2]: 64
+    In [3]:
+
+Results of each command are automatically printed to the screen.
+
+#### How to leave the IPython shell?
 
 * You can leave the command line by Ctrl-Z (Windows) or Ctrl-D (Linux).
-* The CLI works great as a pocket calculator.
-* Writing code blocks with 2+ lines in the CLI gets painful quickly.
-* From IDLE, you can execute a program in the command line by pressing F5.
+* If a program seems to be stuck, you can interrupt the shell with Ctrl-C.
+
+### Integer numbers
+
+The numerical values in the calculations are called **integers**. An integer is a number that has no decimal places. In Python, integers are a predefined **data type**.
+
+Later, we will learn to know other kinds of numbers and data types.
+
+### Operators
+
+The arithmetical symbols like `+ - * /` connecting two integers are called **operators**. Generally, operators connect two values. 
+
+### Exercises
+
+#### Exercise 2.1 Python statements
+
+Which of the following Python statements are valid? Try them in the IPython shell.
+
+    0 + 1
+    2 3
+    4-5
+    6 * * 7
+    8 /
+    9
+    
+#### Exercise 2.2 More operators
+
+There are more operators in Python. Find out what the following operators do?
+
+    3 ** 3
+    24 % 5
+    23 // 10
+
+
