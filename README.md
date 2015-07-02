@@ -1,11 +1,15 @@
 
 # Python 3 Basics Tutorial
 
-(c) 2015 Dr. Kristian Rother
+(c) 2015 Dr. Kristian Rother (krother@academis.eu)
 
 with contributions by Allegra Via, Kaja Milanowska and Anna Philips
 
-## Who this tutorial is for
+Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
+
+Sources of this document on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial) 
+
+## Who is this tutorial for?
 
 This is a tutorial for novice programmers. You are the learner I had in mind when writing this tutorial if:
 
