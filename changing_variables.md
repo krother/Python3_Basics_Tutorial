@@ -7,12 +7,16 @@ Let's change the content of some variables:
     In [2]: emily = emily + 1
     In [3]: emily
     Out[3]: 25953
+
     In [4]: hannah = 23073
     In [5]: xitlalic = 5
+
     In [6]: all_babies = 0
     In [7]: all_babies = _____ + _____ + _____
     In [8]: all_babies
     Out[8]: 49031
+
+Insert the correct variable names into the blanks.
 
 ## Definitions
 
@@ -25,7 +29,7 @@ You may assign to the same variable name twice:
     In [3]: emily
     Out[3]: ______
 
-In this case, the first value is overwritten. There is no way to obtain it.
+In this case, the first value is overwritten by the second assignment. There is no way to obtain it afterwards.
 
 ### Python Statements
 
@@ -37,7 +41,7 @@ So far, you have seen at least three different kinds of statements:
 * Put a number into a variable
 * Print the number from a variable on the screen
 
-In the next lessons, there will be lots of other statements.
+In the next lessons, you will learn to know lots of other statements.
 
 ## Exercises
 
@@ -56,6 +60,6 @@ In the table, you find the five most popular boys' names from the year 2000. Wha
 
 ### Exercise 4.2: Average
 
-What is the average of the top 5 boys? Make a very rough estimate before you do the calculation.
+What is the average number of the top 5 boys? Make a very rough estimate before you do the calculation.
 
 

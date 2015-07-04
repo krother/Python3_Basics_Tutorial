@@ -1,9 +1,5 @@
 
-# First steps on the IPython Shell
-
-There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. We will start with the interactive mode.
-
-## Using Python as a pocket calculator
+# 2. Using IPython as a pocket calculator
 
 Enter Python in the interactive mode. You should see a message
 
@@ -11,21 +7,22 @@ Enter Python in the interactive mode. You should see a message
 
 Complete the following calculations by filling in the blanks:
 
-    In [2]: 1 + ___
-    Out[2]: 3
+    In [1]: 1 + ___
+    Out[1]: 3
 
-    In [3]: 12 ___ 8
-    Out[3]: 4
+    In [2]: 12 ___ 8
+    Out[2]: 4
 
-    In [4]: ___ * 5
-    Out[4]: 20
+    In [3]: ___ * 5
+    Out[3]: 20
 
-    In [5]: 21 / 7
-    Out[5]: ___
+    In [4]: 21 / 7
+    Out[4]: ___
 
-    In [6]: ___ ** 2
-    Out[6]: 81
+    In [5]: ___ ** 2
+    Out[5]: 81
 
+Enter the commands to see what happens (**do not** type the first part `In [1]` etc., these will appear automatically).
 
 ## Definitions
 
@@ -46,8 +43,8 @@ Results of each command are automatically printed to the screen.
 
 #### How to leave the IPython shell?
 
-* You can leave the command line by Ctrl-Z (Windows) or Ctrl-D (Linux).
-* If a program seems to be stuck, you can interrupt the shell with Ctrl-C.
+* You can leave the command line by Ctrl-z (Windows) or Ctrl-d (Linux).
+* If a program seems to be stuck, you can interrupt the shell with Ctrl-c.
 
 ### Integer numbers
 

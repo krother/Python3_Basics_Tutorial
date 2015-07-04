@@ -7,7 +7,9 @@ with contributions by Allegra Via, Kaja Milanowska and Anna Philips
 
 Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
 
-Sources of this document on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial) 
+Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial) 
+
+# Introduction
 
 ## Who is this tutorial for?
 

@@ -3,8 +3,8 @@
 
 The first step into programming is to get Python installed on your computer. You will need two things
 
-1. Python itself
-2. a text editor
+* Python itself
+* a text editor
 
 Which to install, depends on your operating system.
 

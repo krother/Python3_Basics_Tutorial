@@ -16,14 +16,14 @@ The U.S. authorities record the names of all babies born since 1880. How many ba
 
 ### Variables
 
-Variables are *'named containers'* used to store values within Python. Variable names may be composed of letters, underscores and, after the first position, also digits.
+**Variables** are *'named containers'* used to store values within Python. Variable names may be composed of letters, underscores and, after the first position, also digits.
 Lowercase letters are common, uppercase letters are usually used for constants like `PI`.
 
 Variables can be used for calculating in place of the values they contain.
 
-### Assignments
+### Variable assignments
 
-The operator `=` is used in Python to define a variable. A Python statement containing an `=` is called an **assignment**. The value on the right side of the equal sign will be stored in a variable with the name on the left side.
+The operator `=` is used in Python to define a variable. A Python statement containing an `=` is called a **variable assignment**. The value on the right side of the equal sign will be stored in a variable with the name on the left side.
 
 ## Exercises
 

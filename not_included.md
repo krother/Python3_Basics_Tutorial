@@ -1,4 +1,58 @@
 
+  len()
+  dict
+  if
+  Kommentare
+  escape characters
+  Formatstrings
+  math
+  open()
+  TRANSFER: Matrix mutable/immutable, simple/composed
+  sum()
+  sorted()
+  import
+  eingebaute Module
+  installierbare Module
+  pip
+  Bücher und Webseiten
+  Eingabe-Verarbeitung-Ausgabe
+  Copy-Paste-Programmierung
+  Vom Skript zur Software
+  Fehlerbehebung
+
+# Aufgabe:
+
+1. Datei mit Babynamen laden
+2. ersten Buchstaben ausgeben
+3. Gesamte Geburten für 1 Buchstaben
+4. Gesamte Geburten für alle Buchstaben einzelnt
+5. Ausgabe als Tabelle auf dem Bildschirm
+6. Ausgabe in Datei
+7. Alle Jahrgänge laden
+8. Tabelle Excel exportieren
+9. Timeline plotten
+
+## Exercise 7.4
+
+Extract all names from the following string:
+  
+    "In the class were three girls: Hannah, Emily and Xitlalic. Also three boys: John and his best friends William and Jose" 
+
+## Arithmetical operations
+Basic operations and variable assignments:
+
+    a = 7
+    b = 4
+    c = a - b      # 3
+    d = a * b      # 28
+    e = a / b      # 1
+    f = a % b      # modulo, 3
+    g = a ** 2     # 49   
+    h = 3.0 / b    # 0.75
+    i = 7.0 // b   # floor division, 1.0
+
+
+
 Introspection and Namespaces
 Introspection is a feature of Python by which you can examine objects (including variables, functions, classes, modules) at runtime. 
 Everything is an Object
