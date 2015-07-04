@@ -59,9 +59,9 @@ Later, we will learn to know other kinds of numbers and data types.
 
 The arithmetical symbols like `+ - * /` connecting two integers are called **operators**. Generally, operators connect two values. 
 
-### Exercises
+## Exercises
 
-#### Exercise 2.1 Python statements
+### Exercise 2.1 Python statements
 
 Which of the following Python statements are valid? Try them in the IPython shell.
 
@@ -72,7 +72,7 @@ Which of the following Python statements are valid? Try them in the IPython shel
     8 /
     9
     
-#### Exercise 2.2 More operators
+### Exercise 2.2 More operators
 
 There are more operators in Python. Find out what the following operators do?
 
@@ -80,4 +80,12 @@ There are more operators in Python. Find out what the following operators do?
     24 % 5
     23 // 10
 
+### Exercise 2.3 Calculations
+
+Which operations result in 8?
+
+- [ ] `65 // 8`
+- [ ] `17 % 9`
+- [ ] `2 ** 4`
+- [ ] `64 ** 0.5`
 

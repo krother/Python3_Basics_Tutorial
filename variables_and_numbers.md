@@ -1,47 +1,50 @@
-# Variables and numbers
+# 3. Variables
 
-## Variables
-Variables are *'named boxes'* used to store values within a Python program.
-Variable names may be composed of letters, underscores and, after the first position, also digits.
-Lowercase letters are common, but uppercase is also allowed (usually used for constants).
+The U.S. authorities record the names of all babies born since 1880. How many babies with more or less popular names were born in 2000? Let's store the numbers in variables. 
 
-    invitation = 'Hello World'
-    a = 10
-    b = 3.0
-    PI = 3.1415
+    In [1]: emily = 25952
+    In [2]: hannah = 23073
+    In [3]: xitlalic = 5
+    In [4]: emily
+    Out[4]: ______
+    In [5]: hannah + 1
+    Out[5]: ______
+    In [6]: 3 * xitlalic
+    Out[6]: ______
 
-## Arithmetical operations
-Basic operations and variable assignments:
+## Definitions
 
-    a = 7
-    b = 4
-    c = a - b      # 3
-    d = a * b      # 28
-    e = a / b      # 1
-    f = a % b      # modulo, 3
-    g = a ** 2     # 49   
-    h = 3.0 / b    # 0.75
-    i = 7.0 // b   # floor division, 1.0
+### Variables
 
-## Quiz Questions
+Variables are *'named containers'* used to store values within Python. Variable names may be composed of letters, underscores and, after the first position, also digits.
+Lowercase letters are common, uppercase letters are usually used for constants like `PI`.
 
-#### 1. Which are correct artihmetical operations?
+Variables can be used for calculating in place of the values they contain.
+
+### Assignments
+
+The operator `=` is used in Python to define a variable. A Python statement containing an `=` is called an **assignment**. The value on the right side of the equal sign will be stored in a variable with the name on the left side.
+
+## Exercises
+
+### Exercise 3.1 Variable names
+
+Which of the following variable names are correct? Try assigning some numbers to them.
+
+    Emily
+    EMILY
+    emily brown 
+    emily25
+    25emily
+    emily_brown
+    emily.brown
+
+### Exercise 3.2 Calculating with variables
+
+Which are correct variable assignments?
 
 - [ ] `a = 1 * 2`
 - [ ] `2 = 1 + 1`
 - [ ] `5 + 6 = y`
 - [ ] `seven = 3 * 4`
 
-#### 2. Which are correct variable names?
-
-- [ ] `result`
-- [ ] `my.result`
-- [ ] `for`
-- [ ] `result77`
-
-#### 3. Which operations result in 8?
-
-- [ ] `65 // 8`
-- [ ] `17 % 9`
-- [ ] `2 ** 4`
-- [ ] `64 ** 0.5`
