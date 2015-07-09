@@ -1,21 +1,56 @@
 
-#
-## 7. Writing programs
+# Writing Python programs
+
+In the second part, we will write our first programs in Python
+
+
+## 8. Writing programs
 
 Open a text editor window. Type: 
 
     print("Hannah")
     print(1234)
 
-Now run the program by pressing the 'play' button.
+Now save the text to a file with the name `first_program.py`.
 
-#### Definition: print
+Then run the program. 
 
-#### Definition: Python-Interpreter
+* In **Canopy**, you do this by pressing the 'play' button.
+* In **IDLE**, you can execute a program by pressing F5.
+* On **Unix**, you go open a terminal (*a regular one, not IPython*) and write:
 
-#### Exercise
+    python3 first_program.py
 
-Also try:
+
+## Definitions
+
+### Python programs
+
+A Python program is simply a text file that contains Python statements. 
+The Python interpreter reads the file and executes the statements line by line.
+
+* All program files should have the extension `.py`
+* Only one command per line is allowed.
+
+### Developing programs on Unix
+
+When developing on Unix, the first line in each Python program should be:
+
+    #!/usr/bin env python3
+
+### print
+
+The command `print()` Writes textual output to the screen. It accepts one or more arguments in parentheses - all things that will be printed. You can print both strings and integer numbers. You can also provide variables as arguments to `print()`.
+
+We need print because typing a variable name in a Python program does not give you any visible output.
+
+
+
+## Exercises
+
+### Exercise 8.1
+
+Try:
 
     name = "Emily"
     year = 2000
@@ -28,45 +63,3 @@ Write into a program:
 
 What happens?
 
- Python Programs
-
-* All program files should have the extension `.py`
-* Indentation is a central element of Python syntax, marking code blocks. Code blocks should be indented by four spaces/one tab. Indentation must not be used for decorative purposes.
-* Only one command per line is allowed.
-
-### Developing programs on Unix
-
-When developing on Unix, the first line in each Python program should be:
-
-    #!/usr/bin env python
-
-
-## Comments
-
-In Python, single lines can be commented by the hash symbol (`#`):
-
-    # this is a comment.
-    print(a + b)  # adding the variables
-
-Also, multi-line comments can be enclosed by triple quotes:
-
-    '''
-    This is a longer description
-    that stretches over multiple lines.
-    '''
-
-#### Hint
-The triple quoted comments can be used to generate documentation automatically. 
-
-## Quiz Questions
-
-#### 1. Which lines are commented?
-
-- [ ] `"""This is a comment"""`
-- [ ] `# This is a comment`
-- [ ] `// This is a comment`
-- [ ] `<!-- This is a comment !-->`
-- [ ] `'''This is a comment'''`
-
-* Writing code blocks with 2+ lines in the CLI gets painful quickly.
-* From IDLE, you can execute a program in the command line by pressing F5.

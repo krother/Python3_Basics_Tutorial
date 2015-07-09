@@ -1,4 +1,4 @@
-# Text input and output
+# 9. Text input and output
 
 ## Examples
 
@@ -42,7 +42,7 @@ Strings may contain also the symbols: `\t` (tabulator), `\n` (newline), `\r` (ca
 
 ## Exercises
 
-### Exercise 1
+### Exercise 9.1
 
 Which `input` statements are correct?
 
@@ -51,7 +51,7 @@ Which `input` statements are correct?
 - [ ] `a = input(enter your name)`
 - [ ] `a = input(3)`
 
-### Exercise 2
+### Exercise 9.2
 
 Which `print` statements are correct?
 

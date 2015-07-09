@@ -1,6 +1,5 @@
 
-
-## 9. Lists
+# 11. Lists
 
 ## Using a list
 

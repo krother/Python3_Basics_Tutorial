@@ -1,4 +1,4 @@
-# 8. Loops
+# 10. Loops
 
 ## Example
 
@@ -36,7 +36,9 @@ The two words `for` and `in` are also called **reserved words**. They have a spe
 
 The line with the `for` statement, a **code block** starts. A code block contains one or more line that belong to the `for` and are executed within the loop. Python recognizes this code block by **indentation**, meaning that each line starts with four extra spaces.
 
-There are other Python commands that are followed by code blocks. All of them end with a colon (`:`) at the end of the line.
+Indentation is a central element of Python syntax. Indentation must not be used for decorative purposes.
+
+There are other Python commands that are also followed by code blocks. All of them end with a colon (`:`) at the end of the line.
 
 #### Code blocks in the IPython shell
 Define code blocks by indenting extra lines:
@@ -51,7 +53,7 @@ Define code blocks by indenting extra lines:
 
 ## Exercises
 
-### Exercise 1
+### Exercise 10.1
 
 What does the following program do:
 
@@ -61,7 +63,7 @@ What does the following program do:
         text = char + text
     print(text)
 
-### Exercise 2
+### Exercise 10.2
 
 Write a for loop that creates the following output
 
@@ -76,17 +78,17 @@ Write a for loop that creates the following output
     888
     999
 
-### Exercise 3
+### Exercise 10.3
 
 Write a for loop that creates the following string as a variable
 
     000111222333444555666777888999
 
-### Exercise 4
+### Exercise 10.4
 
 Write a for loop that calculates the number of characters in "Emily Smith".
 
-### Exercise 5
+### Exercise 10.5
 
 Write a for loop that creates the following output
 
@@ -98,13 +100,13 @@ Write a for loop that creates the following output
     21
     28
 
-### Exercise 6
+### Exercise 10.6
 
 Write a for loop that creates the following string
 
     "1 4 9 16 25 36 49 64 81 "
 
-### Exercise 7
+### Exercise 10.7
 
 Add a single line at the end of the program, so that it creates the following string:
 

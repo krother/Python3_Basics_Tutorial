@@ -1,3 +1,36 @@
+
+
+## Comments
+
+In Python, single lines can be commented by the hash symbol (`#`):
+
+    # this is a comment.
+    print(a + b)  # adding the variables
+
+Also, multi-line comments can be enclosed by triple quotes:
+
+    '''
+    This is a longer description
+    that stretches over multiple lines.
+    '''
+
+#### Hint
+The triple quoted comments can be used to generate documentation automatically. 
+
+
+
+### Exercise 8.2
+
+Which lines are commented?
+
+- [ ] `"""This is a comment"""`
+- [ ] `# This is a comment`
+- [ ] `// This is a comment`
+- [ ] `<!-- This is a comment !-->`
+- [ ] `'''This is a comment'''`
+
+
+
 ### Length of strings
 
 Is returned as an integer by the `len()` function.
