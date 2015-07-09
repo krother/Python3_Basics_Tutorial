@@ -1,13 +1,15 @@
 
 # Overview of Data types in Python
 
-### Exercise
+## Data types
 
 Match the data samples with their types.
 
 ![datatype exercise](exercises/datatypes.png)
 
-## Immutable and mutable data types
+## Definitions
+
+### Immutable and mutable data types
 
 In Python there are basic and composite data types. The values of basic data types cannot be changed, they are **immutable**. Most of the composite data types are **mutable**.
 
@@ -26,7 +28,7 @@ The mutable data types are
 * Dictionary {'name': 'John Smith', 'year': 1990}
 * Set ()
 
-## Type conversions
+### Type conversions
 
 Values can be converted into each other using *conversion functions*. Try the following:
 
@@ -38,11 +40,14 @@ Values can be converted into each other using *conversion functions*. Try the fo
     dict([('A',1),('B',2)])
     set([1,2,2,3])
 
-## Quiz Questions
+## Exercises
 
-#### 1. On what data types does the `len()` function work?
+### Exercise 1
 
-- [ ] `lists`
-- [ ] `dictionaries`
-- [ ] `strings`
-- [ ] `floats`
+On what data types does the `len()` function work?
+
+- [ ] lists
+- [ ] dictionaries
+- [ ] strings
+- [ ] floats
+

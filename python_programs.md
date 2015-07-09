@@ -1,5 +1,34 @@
 
-# Python Programs
+#
+## 7. Writing programs
+
+Open a text editor window. Type: 
+
+    print("Hannah")
+    print(1234)
+
+Now run the program by pressing the 'play' button.
+
+#### Definition: print
+
+#### Definition: Python-Interpreter
+
+#### Exercise
+
+Also try:
+
+    name = "Emily"
+    year = 2000
+    print(name, year)
+
+Write into a program:
+
+    name = "Emily"
+    name
+
+What happens?
+
+ Python Programs
 
 * All program files should have the extension `.py`
 * Indentation is a central element of Python syntax, marking code blocks. Code blocks should be indented by four spaces/one tab. Indentation must not be used for decorative purposes.
@@ -39,3 +68,5 @@ The triple quoted comments can be used to generate documentation automatically.
 - [ ] `<!-- This is a comment !-->`
 - [ ] `'''This is a comment'''`
 
+* Writing code blocks with 2+ lines in the CLI gets painful quickly.
+* From IDLE, you can execute a program in the command line by pressing F5.

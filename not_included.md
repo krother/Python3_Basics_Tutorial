@@ -1,3 +1,10 @@
+### Length of strings
+
+Is returned as an integer by the `len()` function.
+
+    s = 'Manipulating Strings '
+    print(len(s)
+
 
   len()
   dict

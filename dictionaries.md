@@ -1,17 +1,19 @@
 
 # Dictionaries
 
-Dictionaries are an unordered, associative array. They have a set of key/value pairs. They are very versatile data structures, but slower than lists. Dictionaries can be used easily as a hashtable.
-
-
-### Exercise
+## Using a dictionary
 
 Find out what each of the expressions does to the dictionary in the center.
 
 ![dict exercise](exercises/dicts.png)
 
+## Definitions
 
-## Creating dictionaries
+### Dictionaries
+
+Dictionaries are an unordered, associative array. They have a set of key/value pairs. They are very versatile data structures, but slower than lists. Dictionaries can be used easily as a hashtable.
+
+### Creating dictionaries
 
     prices = {
         'banana':0.75,
@@ -19,21 +21,21 @@ Find out what each of the expressions does to the dictionary in the center.
         'orange':0.80
         }
 
-## Accessing elements in dictionaries
+### Accessing elements in dictionaries
 
 By applying square brackets with a key inside, the values of a dictionary can be requested. Valid types for keys are strings, integers, floats, and tuples.
 
     print prices['banana']  # 0.75
     print prices['kiwi']    # KeyError!
 
-## Looping over a dictionary:
+### Looping over a dictionary:
 
 You can access the keys of a dictionary in a `for` loop. However, their order is not guaranteed, then.
 
     for fruit in prices:
         print fruit
 
-## Dictionary functions
+### Methods of dictionaries
 
 There is a number of functions that can be used on every dictionary:
 
@@ -59,9 +61,11 @@ There is a number of functions that can be used on every dictionary:
     print prices.items()
 
 
-## Quiz Questions
+## Exercises
 
-#### 1. What do these commands produce?
+### Exercise 1. 
+
+What do the following commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     print(d['A'])
@@ -71,7 +75,9 @@ There is a number of functions that can be used on every dictionary:
 - [ ] `True`
 - [ ] `1`
 
-#### 2. What do these commands produce?
+### Exercise 2. 
+
+What do these commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     print(d.has_key('B'))
@@ -81,7 +87,9 @@ There is a number of functions that can be used on every dictionary:
 - [ ] `"B"`
 - [ ] `False`
 
-#### 3. What do these commands produce?
+### Exercise 3. 
+
+What do these commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     print(d.values())
@@ -91,7 +99,9 @@ There is a number of functions that can be used on every dictionary:
 - [ ] `3`
 - [ ] `[1, 'B', 'A']`
 
-#### 4. What do these commands produce?
+### Exercise 4. 
+
+What do these commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     print(d.keys())
@@ -102,7 +112,9 @@ There is a number of functions that can be used on every dictionary:
 - [ ] `The order may vary`
 
 
-#### 5. What do these commands produce?
+### Exercise 5. 
+
+What do these commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     print(d['C'])
@@ -113,7 +125,9 @@ There is a number of functions that can be used on every dictionary:
 - [ ] `False`
 
 
-#### 6. What do these commands produce?
+### Exercise 6. 
+
+What do these commands produce?
 
     d = {1:'A', 'B':1, 'A':True}
     d.setdefault('C', 3)

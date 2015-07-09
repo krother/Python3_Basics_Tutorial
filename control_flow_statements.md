@@ -3,26 +3,6 @@
 
 Control flow means controlling, which instruction is handled next. In this tutorial, we cover three of Pythons control flow statements: `for`, `if` and `while`.
 
-## Loops with for
-
-The `for` loop allows you to repeat one or more instructions. It requires a sequence of items that the loop iterates over. This can be a list, a tuple, a string, a dictionary or any iterator-like object (e.g. a file). Some examples:
-
-    for i in range(3):
-        print(i)
-
-    for char in 'ABCD':
-        print(char)
-
-    for elem in [1,2,3,4]:
-        print(elem)
-
-### When to use for?
-
-* When you want to do something for all elements of a list.
-* When the number of iterations is known at the beginning.
-* Printing numbers, concatenating a list of strings.
-* Modifying all elements of a list.
-
 ## Conditional statements with `if`
 
 if statements are used to implement decisions and branching in the program. They must contain an `if` block, and zero or more `elif`'s and an optional `else` block:
@@ -93,9 +73,11 @@ While loops combine `for` and `if`. They require a conditional expression at the
 After an `for`, `if` or `while` statement, all indented commands are treated as a code block, and are executed if the condition applies.
 The next unindented command is executed in any case.
 
-## Quiz Questions
+## Exercises
 
-#### 1. Which of these `for` commands are correct?
+### Exercise 1
+
+Which of these `for` commands are correct?
 
 - [ ] `for char in "ABCD":`
 - [ ] `for i in range(10):`
@@ -104,7 +86,9 @@ The next unindented command is executed in any case.
 - [ ] `for (i=0; i<10; i++):`
 - [ ] `for var in seq:`
 
-#### 2. Which of these `if` statements are syntactically correct?
+### Exercise 2
+
+Which of these `if` statements are syntactically correct?
 
 - [ ] `if a and b:`
 - [ ] `if len(s) == 23:`
@@ -113,7 +97,9 @@ The next unindented command is executed in any case.
 - [ ] `if a != 3`
 - [ ] `if (a and b) or (c and d):`
 
-#### 3. Which of these `while` commands are correct?
+### Exercise 3
+
+Which of these `while` commands are correct?
 
 - [ ] `while a = 1:`
 - [ ] `while b == 1`
@@ -122,7 +108,9 @@ The next unindented command is executed in any case.
 - [ ] `while a and (b-2 == c):`
 - [ ] `while s.find('c') >= 0:`
 
-#### 4. Which statements are correct?
+### Exercise 4
+
+Which statements are correct?
 
 - [ ] `while` is also called a conditional loop
 - [ ] The expression after `while` may contain function calls

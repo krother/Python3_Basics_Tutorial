@@ -1,7 +1,9 @@
 
 # First steps on the IPython Shell
 
-There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. In this part, we will use the interactive mode to store data on **U.S. baby names**.
+There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. In this part, you will use the IPython shell to write simple commands.
+
+We will use the interactive mode to store data on **U.S. baby names**.
 
 ## The dataset of U.S. baby names
 

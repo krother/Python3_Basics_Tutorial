@@ -1,12 +1,15 @@
 
 # Reading and writing files
 
-### Exercise
+## Exercise
+
 Match the descriptions with the Python commands.
 
 ![file exercise](exercises/files.png)
 
-## Opening a file for reading
+## Definitions
+
+### Opening a file for reading
 
 Text files can be accessed using the `open()` function. From an open file the contents can be read as a string.
 
@@ -19,7 +22,7 @@ An open file behaves like a list of strings. Thus, it is possible to read it lin
 	    name = line[:10].strip()
 	    print(name.strip())
 
-## Opening a file for writing
+### Opening a file for writing
 
 Writing text to files is very similar. The only difference is the `'w'` parameter.
 
@@ -31,14 +34,14 @@ If your data is a list of strings, it can be written to a file as a one-liner. Y
     lines = ['first line\n', 'second line\n']
     open('my_file.txt','w').writelines(lines)
 
-## Appending to a file
+### Appending to a file
 
 It is possible to add text to an existing file, too.
 
     f = open('my_file.txt','a')
     f.write(text)
 
-## Closing files
+### Closing files
 
 Closing files in Python is not mandatory but good practice.
 
@@ -51,22 +54,14 @@ When opening files, you can use full or relative directory names. However, you m
     f = open('..\\my_file.txt')
     f = open('C:\\python\\my_file.txt')
 
-## Quiz Questions
+## Exercises
 
-#### 1. Which are correct commands to work with files?
+### Exercise 1
+
+Which are correct commands to work with files?
 
 - [ ] `for line in open(filename):`
 - [ ] `f = open(filename, 'w')`
 - [ ] `open(filename).writelines(out)`
 - [ ] `f.close()`
-
-
-
-## The os module
-
-### Exercise
-
-Fill in the gaps
-
-![os exercise](exercises/os.png)
 
