@@ -1,17 +1,18 @@
 
 # Recommended books and websites
 
-## Books
+## Free Online Books
 
-I recommend the following free online books if you have a little experience with programming already:
+Books for beginners and people with programming experience:
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/) - a bootcamp-style tutorial by **Zed Shaw**
 * [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - a very systematic, scientific tutorial by **Allen B. Downey**
 * [Dive into Python 3](http://www.diveintopython3.net/) - explains one sophisticated program per chapter - **by Mark Pilgrim**
 
-And if you are a biologist (advertisement):
+## Paper books
 
 * [Managing your Biological Data with Python](https://www.crcpress.com/Managing-Your-Biological-Data-with-Python/Via-Rother-Tramontano/9781439880937) - **Allegra Via, Kristian Rother and Anna Tramontano**
+* [Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do) - **Joel Grus**
 
 ## Websites
 
