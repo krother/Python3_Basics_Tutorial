@@ -10,7 +10,7 @@ Text values are called **strings**. In Python, strings are defined by single quo
     first = '''Emily'''
     first = """Emily"""
 
-## String arithmetics
+## String concatenation
 
 The operator `+` also works for strings, only that it concatenates the strings. It does not matter whether you write the strings as variables or as explicit values. 
 

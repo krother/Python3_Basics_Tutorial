@@ -5,7 +5,7 @@
 
 Is it possible to include the following special characters in a string?
 
-    . 7 @ ? / & * \ Ä ß " '
+    . 7 @ ? / & * \ Ä ß " ' á
 
 ## Exercise 2: 
 

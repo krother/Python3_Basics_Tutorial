@@ -30,9 +30,4 @@ Explain the result of the following operations?
 Write Python statements that create the following string:
 
     12345678901234567890123456789012345678901234567890
-
-## Exercise 5:
-
-Assign the following data types:
-
-![Data types](exercises/datatypes.png)
+    

@@ -78,38 +78,8 @@ Extract all names from the following string:
   
     "In the class were three girls: Hannah, Emily and Xitlalic. Also three boys: John and his best friends William and Jose" 
 
-## Arithmetical operations
-Basic operations and variable assignments:
-
-    a = 7
-    b = 4
-    c = a - b      # 3
-    d = a * b      # 28
-    e = a / b      # 1
-    f = a % b      # modulo, 3
-    g = a ** 2     # 49   
-    h = 3.0 / b    # 0.75
-    i = 7.0 // b   # floor division, 1.0
 
 
-
-Introspection and Namespaces
-Introspection is a feature of Python by which you can examine objects (including variables, functions, classes, modules) at runtime. 
-Everything is an Object
-One consequence of the dynamic typing is that Python can treat everything it manages technically in the same way. Everything is an object, meaning it has attributes. These attributes are objects themselves. Methods are simply attributes that can be called. 
-Each object has a name:
-print x.__name__
-and a type:
-print type(x)
-Built-in help
-You can get context-sensitive help to functions, methods and classes that utilize the triple-quoted comments:
-import time
-print help(time.asctime)
-Namespaces
-In Python classes, functions, modules etc. have separate namespaces. A namespace is the set of attributes of an object. You can explore a namespace with dir():
-print dir()
-import time
-print dir(time)
 Namespaces are nested
 When using a name, Python first uses the local namespace (e.g. of a function/method), then in the class, module, package, and finally in the global namespace.
 

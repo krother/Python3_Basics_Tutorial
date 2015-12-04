@@ -1,65 +1,18 @@
 
 # Writing Python programs
 
-In the second part, we will write our first programs in Python
+Using the interactive IPython alone is exciting only for a while. To write more complex programs, you need to store your instructions in *programs*, so that you can *execute* them later.
 
+In the second part of the tutorial, you will learn a basic set of Python commands. Theoretically, they are sufficient to write any program on the planet (this is called *Turing completeness*). 
 
-## 8. Writing programs
+Practically, you will need shortcuts that make programs prettier, faster, and less painful to write. We will save these shortcuts for the later parts.
 
-Open a text editor window. Type: 
+## Goals
 
-    print("Hannah")
-    print(1234)
+The new Python commands cover:
 
-Now save the text to a file with the name `first_program.py`.
-
-Then run the program. 
-
-* In **Canopy**, you do this by pressing the 'play' button.
-* In **IDLE**, you can execute a program by pressing F5.
-* On **Unix**, you go open a terminal (*a regular one, not IPython*) and write:
-
-    python3 first_program.py
-
-
-## Definitions
-
-### Python programs
-
-A Python program is simply a text file that contains Python statements. 
-The Python interpreter reads the file and executes the statements line by line.
-
-* All program files should have the extension `.py`
-* Only one command per line is allowed.
-
-### Developing programs on Unix
-
-When developing on Unix, the first line in each Python program should be:
-
-    #!/usr/bin env python3
-
-### print
-
-The command `print()` Writes textual output to the screen. It accepts one or more arguments in parentheses - all things that will be printed. You can print both strings and integer numbers. You can also provide variables as arguments to `print()`.
-
-We need print because typing a variable name in a Python program does not give you any visible output.
-
-
-
-## Exercises
-
-### Exercise 8.1
-
-Try:
-
-    name = "Emily"
-    year = 2000
-    print(name, year)
-
-Write into a program:
-
-    name = "Emily"
-    name
-
-What happens?
-
+* How to write to the screen.
+* How to read from the keyboard.
+* How to repeat instructions.
+* How to store many items in a list.
+* How to make decisions.

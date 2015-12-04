@@ -30,3 +30,15 @@ Later, we will learn to know other kinds of numbers and data types.
 
 The arithmetical symbols like `+ - * /` connecting two numbers are called **operators**. Generally, operators connect two values. 
 
+
+### Arithmetical operators
+
+    a = 7
+    b = 4
+    c = a - b      
+    d = a * b      
+    e = a / b      
+    f = a % b      # modulo, 3
+    g = a ** 2     # 49   
+    h = 7.0 // b   # floor division, 1.0
+

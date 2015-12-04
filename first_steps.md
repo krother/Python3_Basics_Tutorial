@@ -1,16 +1,17 @@
 
 # First steps on the IPython Shell
 
-There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. In this part, you will use the IPython shell to write simple commands.
+There are two ways to use Python: The *interactive mode* or *IPython shell* and *writing programs*. We will use the interactive mode to store data on **U.S. baby names**.
 
-We will use the interactive mode to store data on **U.S. baby names**.
+In the first part of the tutorial, you will use the IPython shell to write simple commands.
+
 
 ## Goals
 
-In the first part, we will apply Python to a few very basic questions:
+The commands on the IPython shell cover:
 
-* How to store the number of babies with one particular name?
-* How to add two numbers of babies together?
-* How to store the name of a baby?
-* How to combine a name and a number belonging to the same data record?
+* How to store a number?
+* How to add two numbers together?
+* How to store text?
+* How to convert a number to text and back?
 

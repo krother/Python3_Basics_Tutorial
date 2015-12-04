@@ -1,6 +1,10 @@
 
 # Reading and writing files
 
+IO: eine Tabelle mit Babynamen laden
+  IO: das Textformat CSV kennen lernen
+  OS: read all files
+  
 ## Exercise
 
 Match the descriptions with the Python commands.
