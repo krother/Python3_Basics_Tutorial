@@ -33,3 +33,15 @@ With negative numbers, you can access single characters from the end, the index 
     name[-2] 
 
 Note that none of these modify the contents of the string variable.
+
+
+## Creating substrings
+
+Substrings can be formed by applying square brackets with two numbers inside separated by a colon (slices). The second number is not included in the substring itself.
+
+    s = 'Emily Smith'
+    s[1:6]
+    s[6:11]
+    s[0:2]
+    s[:3] 
+    s[-4:] 
