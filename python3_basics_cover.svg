@@ -174,9 +174,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.482441"
-     inkscape:cx="442.55367"
-     inkscape:cy="722.10629"
-     inkscape:current-layer="g3142"
+     inkscape:cx="596.31074"
+     inkscape:cy="446.26609"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:object-paths="false"
      inkscape:window-width="1301"
@@ -208,7 +208,7 @@
        height="1053.3431"
        x="-1.3202919"
        y="-0.68991953"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002" />
     <image
@@ -219,7 +219,7 @@
        x="-753.98584"
        y="895.25409"
        clip-path="url(#clipPath3072)"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002" />
     <image
@@ -231,7 +231,7 @@
        width="1500"
        clip-path="url(#clipPath3068)"
        transform="translate(1.4285714,1.4285714)"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002" />
     <flowRoot
@@ -239,7 +239,7 @@
        style="font-size:71.80896759px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3135"
        xml:space="preserve"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002"><flowRegion
          id="flowRegion3137"><rect
@@ -282,7 +282,7 @@
        height="77.00927"
        x="54.994942"
        y="36.417492"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002" />
     <image
@@ -294,7 +294,7 @@
        width="300.30286"
        clip-path="url(#clipPath3057)"
        transform="matrix(1.4117647,0,0,1.4117647,-20.588237,-0.35502095)"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002" />
     <rect
@@ -309,7 +309,7 @@
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3171"
        xml:space="preserve"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002"><flowRegion
          id="flowRegion3173"><rect
@@ -320,41 +320,12 @@
            id="rect3175"
            style="text-align:start;text-anchor:start" /></flowRegion><flowPara
          id="flowPara3179"
-         style="font-size:26.35599136px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Sans Bold">tutorial</flowPara></flowRoot>    <path
-       style="fill:none;stroke:#ffffff;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 4;stroke-dashoffset:0"
-       d="m 354.44746,264.50886 0,442.44681"
-       id="path4050"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
-       inkscape:export-xdpi="96.440002"
-       inkscape:export-ydpi="96.440002" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#path4050"
-       id="use4054"
-       transform="translate(-119.9556,-3.286661e-6)"
-       width="744.09448"
-       height="1052.3622"
-       style="stroke:#ffffff;stroke-width:1.5"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
-       inkscape:export-xdpi="96.440002"
-       inkscape:export-ydpi="96.440002" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4054"
-       id="use4056"
-       transform="translate(239.91123,1.5152267)"
-       width="744.09448"
-       height="1052.3622"
-       style="stroke:#ffffff;stroke-width:1.5"
-       inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
-       inkscape:export-xdpi="96.440002"
-       inkscape:export-ydpi="96.440002" />
-    <g
+         style="font-size:26.35599136px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Sans Bold">tutorial</flowPara></flowRoot>    <g
        id="g3142"
-       transform="translate(6.2421735,125.20296)">
+       transform="translate(6.2421735,125.20296)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/Python3_Basics_Tutorial/cover.png"
+       inkscape:export-xdpi="96.440002"
+       inkscape:export-ydpi="96.440002">
       <path
          inkscape:export-ydpi="96.440002"
          inkscape:export-xdpi="96.440002"

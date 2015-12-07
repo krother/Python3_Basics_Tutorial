@@ -1,5 +1,5 @@
 
-# Review: Variables
+# Exercises
 
 Complete the following exercises:
 

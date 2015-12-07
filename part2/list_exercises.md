@@ -17,11 +17,11 @@ What does the list b contain?
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise2](exercises/list_funcs2.png)
+![list funcs exercise2](../exercises/list_funcs2.png)
 
 
 ## Exercise 3
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise1](exercises/list_funcs1.png)
+![list funcs exercise1](../exercises/list_funcs1.png)

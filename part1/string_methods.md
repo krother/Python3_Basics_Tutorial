@@ -4,7 +4,7 @@
 
 Find out what each of the expressions does to the string in the center.
 
-![string exercise](exercises/strings.png)
+![string exercise](../exercises/strings.png)
 
 ## Definitions
 

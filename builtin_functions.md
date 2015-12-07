@@ -1,16 +1,16 @@
 
-# 12. Built-in functions
+# Built-in functions
 
-## Examples
+# Examples
 
-### Determining the length of sequences
+## Determining the length of sequences
 
 The *len()* functions returns an integer with the length of an argument. It works with strings, lists, tuples, and dictionaries.
 
     data = [0,1,2,3]
     len(data)  
 
-### Creating lists of integer numbers
+## Creating lists of integer numbers
 The *range()* function allows to create lists of numbers on-the-fly. There are two optional parameters for the start value and the step size.
 
     data = range(4)       # [0,1,2,3]
@@ -18,20 +18,20 @@ The *range()* function allows to create lists of numbers on-the-fly. There are t
     data = range(2,9,2)   # [2,4,6,8]
     data = range(5,0,-1)  # [5,4,3,2,1]
 
-### Summing up numbers
+## Summing up numbers
 The *sum()* of a list of integer or float numbers or strings can be calculated by the *sum()* function.
 
     data = [1,2,3,4]
     sum(data)
 
-### Enumerating elements of lists
+## Enumerating elements of lists
 The *enumerate()* function associates an integer number starting from zero to each element in a list. This is helpful in loops where an index variable is required.
 
     fruits = ['apple', 'banana', 'orange']
     for i, fruit in enumerate(fruits):
         print(i, fruit)
 
-### Merging two lists
+## Merging two lists
 
 The *zip()* function associates the elements of two lists to a single list or tuple. Excess elements are ignored.
 
@@ -40,7 +40,7 @@ The *zip()* function associates the elements of two lists to a single list or tu
     for fruit,price in zip(fruits, prices):	
         print(fruit, price)
 
-### Other functions
+## Other functions
 
 * sorted(data) returns a sorted list
 * map(f, data) applies a function to all elements.

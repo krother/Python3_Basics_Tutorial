@@ -8,9 +8,9 @@ A tuple is a sequence of elements that cannot be modified. They are useful to gr
 In contrast to lists, tuples can also be used as keys in dictionaries.
 
 
-## Exercises
+# Exercises
 
-### Exercise 1
+## Exercise 1
 
 Which are correct tuples?
 
@@ -19,7 +19,7 @@ Which are correct tuples?
 - [ ] `('blue', [0, 0, 255])`
 - [ ] `[1, "word"]`
 
-### Exercise 2
+## Exercise 2
 
 What can you do with tuples?
 

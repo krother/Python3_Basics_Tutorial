@@ -1,5 +1,5 @@
 
-# Review: The IPython shell
+# Exercises
 
 Complete the following exercises:
 
