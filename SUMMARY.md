@@ -63,6 +63,8 @@
     * [Warming up](part4/introspection_warmup.md)
     * [Definitions](part4/introspection_terms.md)
   * [Standard modules and libraries](part4/standardlib.md)
+    * [re](part4/re.md)
+    * [xml](part4/xml.md)
   * [Installable modules and libraries](part4/installable.md)
     * [pandas](part4/pandas.md)
     * [xlrd](part4/xlrd.md)

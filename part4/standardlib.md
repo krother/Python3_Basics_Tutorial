@@ -45,7 +45,7 @@ Both CSV readers and writers can handle a lot of different formats. Options you 
 * quotechar : the symbol used to quote strings.
 * lineterminator : the symbol at the end of lines.
 
-    reader = csv.reader(open('my_file.csv'),  delimiter='\t', quotechar='"')
+    reader = csv.reader(open('my_file.csv'), delimiter='\t', quotechar='"')
 
 ### Do I really need this?
 

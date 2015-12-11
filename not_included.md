@@ -69,10 +69,6 @@ Is returned as an integer by the `len()` function.
 9. Timeline plotten
 
 
-Namespaces are nested
-When using a name, Python first uses the local namespace (e.g. of a function/method), then in the class, module, package, and finally in the global namespace.
-
-
 Creating plots
 The Matplotlib library contains a wide range of possibilities for creating graphs. See the 'gallery' link on http://matplotlib.sourceforge.net for examples. It needs to be installed separately.
 from pylab import *
