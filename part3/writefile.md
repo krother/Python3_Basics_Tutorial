@@ -1,6 +1,30 @@
 
 # Writing text files
 
+## Warming up
+
+Execute the following program. Explain what happens.
+
+    names = ['Adam', 'Bob', 'Charlie']
+
+    f = open('boy_names.txt', 'w')
+    for name in names:
+        f.write(name + '\n')
+    f.close()
+
+Remove the `+ '\n'` from the code and run the program again. What happens?
+
+
+## Exercise 1
+
+Which are correct commands to work with files?
+
+- [ ] `for line in open(filename):`
+- [ ] `f = open(filename, 'w')`
+- [ ] `open(filename).writelines(out)`
+- [ ] `f.close()`
+
+
 ## The Challenge: Write a table
 
 Given is the following data:
