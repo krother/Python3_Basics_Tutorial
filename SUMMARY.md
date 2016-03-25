@@ -20,11 +20,12 @@
   * [File parsing](part3/parsing.md)
   * [Working with directories](part3/os.md)
 * Leftovers
-  * [Overview of Data types in Python](data_types_in_python.md)
+  * [Data types in Python](data_types_in_python.md)
   * [Introspection](part4/introspection.md)
   * [Dictionaries](dictionaries.md)
   * [Tuples](tuples.md)
   * [while](while.md)
+  * [range](range.md)
   * [String functions](part1/string_methods.md)
   * [List functions](builtin_functions.md)
 * [Using external modules](part4/importing.md)
