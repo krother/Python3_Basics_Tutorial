@@ -63,4 +63,4 @@ Find all six names using a single pattern.
 
 ## Where to learn more about Regular Expressions?
 
-    see [www.regexone.com](http://www.regexone.com)
+see [www.regexone.com](http://www.regexone.com)
