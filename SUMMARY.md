@@ -19,7 +19,7 @@
   * [Writing a text file](part3/writefile.md)
   * [File parsing](part3/parsing.md)
   * [Working with directories](part3/os.md)
-* [Leftovers](leftovers.md)
+* Leftovers
   * [Overview of Data types in Python](data_types_in_python.md)
   * [Introspection](part4/introspection.md)
   * [Dictionaries](dictionaries.md)
