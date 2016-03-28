@@ -9,25 +9,28 @@ In this section you will learn the `for` statements that repeats one or more ins
 
 What does the following program do?
 
-    text = ""
-    characters = "Hannah"
-    for char in characters:
-        text = char + text
-    print(text)
+    for char in 'Emily':
+        print(char)
 
+What advantages does this (apparently more complex) program have over this one:
+
+    print('E')
+    print('m')
+    print('i')
+    print('l')
+    print('y')
 
 ## Exercises
 
 ### Exercise 1
 
-Which of these `for` commands are correct?
+What does the following program do?
 
-- [ ] `for char in "ABCD":`
-- [ ] `for i in range(10):`
-- [ ] `for num in (4, 6, 8):`
-- [ ] `for k in 3+7:`
-- [ ] `for (i=0; i<10; i++):`
-- [ ] `for var in seq:`
+    text = ""
+    characters = "Hannah"
+    for char in characters:
+        text = char + text
+    print(text)
 
 ### Exercise 2
 
@@ -73,6 +76,17 @@ Write a for loop that creates the following string
 Add a single line at the end of the program, so that it creates the following string:
 
     "1 4 9 16 25 36 49 64 81"
+
+### Exercise 7
+
+Which of these `for` commands are correct?
+
+- [ ] `for char in "ABCD":`
+- [ ] `for i in range(10):`
+- [ ] `for num in (4, 6, 8):`
+- [ ] `for k in 3+7:`
+- [ ] `for (i=0; i<10; i++):`
+- [ ] `for var in seq:`
 
 
 ## The Challenge: count characters

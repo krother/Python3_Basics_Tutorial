@@ -18,15 +18,22 @@ Explain the following code:
         print(dirname)
 
 
-## The Challenge: count the files
+## Exercise 1
 
 Write a program that counts the number of files in the unzipped set of baby names. Have the program print that number.
 
 Verify that the number is correct.
 
-### Extra Challenges
+## Exercise 2
 
-* Read each of the files and count the total number of lines.
-* Generate a message that tells you which file the program is reading.
-* Find your name in the files with a program.
+How many entries (lines) does the entire name dataset have?
 
+**Hint**: Generate a message that tells you which file the program is reading.
+
+## Exercise 3
+
+Write a program that finds the *most frequently occuring name* in each year and prints it.
+
+## The Challenge
+
+Find and print your name and the according number in each of the files, so that you can see how the number changes over time.
