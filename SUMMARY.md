@@ -16,9 +16,9 @@
   * [Repeating instructions](reading_data/for_loops.md)
   * [Managing lists of items](reading_data/lists.md)
   * [Making decisions](reading_data/if.md)
-* [Extracting information from files](part3/extracting_information.md)
-  * [File parsing](part3/parsing.md)
-  * [String functions](part1/string_methods.md)
+* [Parsing information](parsing/extracting_information.md)
+  * [String functions](parsing/string_methods.md)
+  * [File parsing](parsing/parsing.md)
 * [Working with Tables]
   * [Tables](tables.md)
   * [Writing a text file](part3/writefile.md)
