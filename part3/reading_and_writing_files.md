@@ -1,14 +1,15 @@
 
-# Reading and writing files
+# Reading data from files
 
-In this section, you will learn to read and write files and to extract information from them.
+In this section, you will learn to extract information from simple text files.
 
-## Goals
+## New concepts
 
-* read text files
-* write text files
-* extract information from a file
-* list all files in a directory
+* reading files with `open()`
+* loops with `for`
+* lists
+* making decisions with `if`
+
 
 ### The Dataset of Baby Names
 

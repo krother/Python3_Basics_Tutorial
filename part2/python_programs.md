@@ -13,6 +13,3 @@ The new Python commands cover:
 
 * How to write to the screen.
 * How to read from the keyboard.
-* How to repeat instructions.
-* How to store many items in a list.
-* How to make decisions.

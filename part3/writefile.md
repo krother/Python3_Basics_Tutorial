@@ -3,6 +3,12 @@
 
 ## Warming up
 
+Match the descriptions with the Python commands.
+
+![file exercise](../exercises/files.png)
+
+## Warming up
+
 Execute the following program. Explain what happens.
 
     names = ['Adam', 'Bob', 'Charlie']

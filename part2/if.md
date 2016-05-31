@@ -4,43 +4,40 @@
 The last missing piece in our basic set of commands is the ability to make decisions in a program. This is done in Python using the `if` command.
 
 
-## Warming up
+## Exercise 1
 
-Add your favourite movie to the following program and execute it:
+Execute the following program. What does it calculate?
 
-    movie = input('Please enter your favourite movie: ')
-    if movie == 'Star Trek':
-        print('Live long and prosper')
-    elif movie == 'Star Wars':
-        print('These are not the droids you are looking for')
-    elif movie == 'Dirty Dancing':
-        print('I fetched the melons')
-    else:
-        print("Sorry, I don't know the movie %s." % (movie) )
+    boys = 0
+    girls = 0
+    for line in open('yob2014.txt'):
+        if ",M," in line:
+            boys = boys + 1
+        elif ",W," in line:
+            girls = girls + 1
+        else:
+            print("unrecognized line:", line)
+    print(boys, girls)
 
 
-## Exercises
-
-### Exercise 1
+## Exercise 2
 
 Which of these `if` statements are syntactically correct?
 
-- [ ] `if a and b:`
-- [ ] `if len(s) == 23:`
-- [ ] `if a but not b < 3:`
-- [ ] `if a ** 2 >= 49:`
-- [ ] `if a != 3`
-- [ ] `if (a and b) or (c and d):`
-
-### Exercise 2
-
-Write a program that lets the user enter a number on the keyboard. Find the number in the list that is closest to the number entered  and write it to the screen.
-
-    data = [1, 2, 5, 10, 20, 100, 200, 500, 1000]
-    query = int(input())
+* `if a and b:`
+* `if len(s) == 23:`
+* `if a but not b < 3:`
+* `if a ** 2 >= 49:`
+* `if a != 3`
+* `if (a and b) or (c and d):`
 
 
-## The Challenge: Filter a list
+## Exercise 3
+
+Write a program that lets the user enter a name on the keyboard. Find the line(s) containing that name in the file `yob2014.txt` and write them to the screen.
+
+
+## Exercise 4
 
 You have a list of the top 20 girls names from 2000:
 
@@ -51,6 +48,15 @@ You have a list of the top 20 girls names from 2000:
 
 Write a program that prints all names that start with an `A`.
 
-### Extra challenge
 
-* count the number of names starting with `A` and print that number as well.
+## Exercise 5
+
+How many baby names are there in 1900 beginning with `M`?
+
+How many in 2014?
+
+
+## Exercise 6
+
+How many different *girls* names starting with an `M` were there in 2014?
+
