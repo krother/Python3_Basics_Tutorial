@@ -27,7 +27,7 @@
   * [Tuples](data_types/tuples.md)
   * [Working with directories](data_types/os.md)
 * [Structuring programs](structure/structuring_programs.md)
-  * [while](while.md)
+  * [while](structure/while.md)
   * [Writing your own functions](structure/functions.md)
   * [Modules](structure/modules.md)
   * [Introspection](structure/introspection.md)
