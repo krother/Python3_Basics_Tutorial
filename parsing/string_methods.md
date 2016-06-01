@@ -1,45 +1,37 @@
-# String methods 
+# Using format strings
 
-## Exercise
+## Exercise 1
 
-Find out what each of the expressions does to the string in the center.
+Try the following expressions on the Python shell:
 
-![string exercise](../exercises/strings.png)
+    "{}".format("Hello")
+    "{:10}".format("Hello")
+    "{:>10}".format("Hello")
+    "{1} {0}".format("First", "Second")
+    "{:5d}".format(42)
+    "{:4.1f}".format(3.14159)
+    "{:6.3f}".format(3.14159)
+        
 
-## Definitions
+## Exercise 2
 
-### String methods
+The following program merges a list of names with a list of numbers and prints them to the screen.
 
-Every string in Python brings a list of functions to work with it. As the functions are contained within the string they are also called **methods**. They are used by adding the `.` to the string variable followed by the method name.
+The program **contains 3 defects**. Find and fix them.
 
-Below you find a few of the available methods:
 
-### Changing case:
+    top_names = ['Jacob', 'Michael', 'Matthew', 'Joshua', 'Christopher', 
+                 'Nicholas', 'Andrew' 'Joseph', 'Daniel', 'Tyler']
 
-    s = 'Manipulating Strings '
-    s.upper()
-    s.lower()
+    top_numbers [34465, 32025, 28569, 27531, 24928,
+                   24928, 23632, 22818, 22307, 21500]
 
-### Removing whitespace at both ends:
+    if len(top_names) == len(top_numbers):
+       print("Warning: lists have different lengths!")
+       print(len(top_names), len(top_numbers))
 
-    s.strip()
-
-### Cutting a string into columns:
-
-    s.split(' ')
-
-### Searching for substrings: 
-
-    s.find('ing')
-
-The method returns the start index of the match. The result -1 means that no match has been found.
-
-### Replacing substrings:
-
-    s.replace('Strings','text')
-
-### Removing whitespace at both ends: 
-
-    s.startswith('Man')
-    s.endswith('ings') 
+    for i in range(len(top_names)):
+        name = top_names[i]
+        number = top_numbers[i]
+        print("{:10s} {:6d}".format(name, number))
 

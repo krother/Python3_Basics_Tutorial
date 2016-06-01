@@ -9,4 +9,4 @@ Parsing means for instance:
 * converting numbers to integers or floats.
 * discarding unnecessary lines.
 
-To parse files, we will need 
+To parse files, we will need string functions.

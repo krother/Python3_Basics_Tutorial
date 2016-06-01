@@ -13,7 +13,7 @@ Execute the following program. What does it calculate?
     for line in open('yob2014.txt'):
         if ",M," in line:
             boys = boys + 1
-        elif ",W," in line:
+        elif ",F," in line:
             girls = girls + 1
         else:
             print("unrecognized line:", line)

@@ -1,5 +1,5 @@
 
-# Builtin Functions
+# Shortcuts
 
 ## Exercise 1
 
@@ -59,8 +59,8 @@ Use `range()` to create the following lists:
 
 On which data types does the `len()` function work?
 
-- [ ] lists
-- [ ] dictionaries
-- [ ] strings
-- [ ] floats
-- [ ] sets
+- lists
+- dictionaries
+- strings
+- floats
+- sets

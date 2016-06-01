@@ -1,40 +1,34 @@
 
-# Parsing Files
+# Parsing data from text files
 
-## Warming up
 
-Create a text file in a text editor. Write the following line there:
+## Exercise 1
 
-    Alice Smith;23;Macroeconomics
+Find out what each of the expressions does to the string in the center.
 
-Save the file with the name `alice.txt`.
+![string exercise](../exercises/strings.png)
 
-Then run the following program:
 
-    f = open('alice.txt')
-    print(f)
-    text = f.read()
-    print(text)
-    columns = text.strip().split(';')
-    print(columns)
-    name = columns[0]
-    age = int(columns[1])
-    studies = columns[2]
-    print(name)
-    print(age)
-    print(studies)
+## Exercise 2
 
-What happens?
+The following program identifies names that occur at least 10000 times and collects them in a list.
 
-## Exercises
+The program **contains 3 defects**. Find and correct them.
 
-### Exercise 1
 
-What does the following line produce?
-  
-    "Take That".split('a')
+    frequent = []
 
-### Exercise 2
+    for line in open('names/yob2000.txt'):
+        columns = line.strip().split(',')
+        name = columns[1]
+        number = int(columns[3])
+        if number >= 10000
+            frequent.append(name)
+
+    print(freqent)
+
+
+## Exercise 3
 
 Create a text file with the contents:
 
@@ -44,24 +38,18 @@ Create a text file with the contents:
 
 Write a program that reads all names and puts them into a list. Print the list.
 
-### Exercise 3
 
-Collect the ages into a separate list.
+## Exercise 4
 
-### Exercise 4
+Collect the names and occupations from the above file in two separate lists.
 
-Collect the occupations into a separate list.
 
-### Exercise 5
+## Exercise 5
 
 Leave the `strip()` command away from the above program. What happens? 
 
 
-## The Challenge: Find Your name
+## Exercise 6
 
-Write a program that finds out how often your name occurs in the list of 2014 baby names and print that number.
-
-### Extra Challenge:
-
-* Calculate the total number of babies registered in 2014.
+Write a program that finds out how often your own name occurs in the list of 2014 baby names and print that number.
 
