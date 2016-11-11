@@ -1,34 +1,16 @@
 
-# Control flow statements
+# Conditional loops with while
 
 Control flow means controlling, which instruction is handled next. In this tutorial, we cover three of Pythons control flow statements: `for`, `if` and `while`.
 
+## Exercise 1
 
-## Conditional loops with while
-
-## Exercise
 Match the expressions so that the `while` loops run the designated number of times.
 
 ![while exercise](exercises/while.png)
 
-While loops combine `for` and `if`. They require a conditional expression at the beginning. The conditional expressions work in exactly the same way as in `if.. elif` statements.
 
-    i = 0
-    while i < 5:
-        print (i)
-        i = i + 1)
-
-
-### When to use while?
-
-* When there is an exit condition.
-* When it may happen that nothing is done at all.
-* When the number of repeats depends on user input.
-* Searching for a particular element in a list.
-
-## Exercises
-
-### Exercise 1
+## Exercise 2
 
 Which of these `while` commands are correct?
 
@@ -39,7 +21,7 @@ Which of these `while` commands are correct?
 - [ ] `while a and (b-2 == c):`
 - [ ] `while s.find('c') >= 0:`
 
-### Exercise 2
+## Exercise 3
 
 Which statements are correct?
 
@@ -49,7 +31,7 @@ Which statements are correct?
 - [ ] The colon after `while` may be omitted
 - [ ] The code block after `while` is executed at least once
 
-### Exercise 3
+## Exercise 4
 
 The following `for` loop searches for `33` in the data. Change the code so that it uses a `while` loop instead.
 
@@ -62,7 +44,7 @@ The following `for` loop searches for `33` in the data. Change the code so that 
 
     print("The value 33 has been found: {}".format(found))
 
-### Exercise 4
+## Exercise 5
 
 The following `while` loop counts numbers higher than 10.
 Change the code so that it uses a `for` loop instead.
@@ -77,7 +59,7 @@ Change the code so that it uses a `for` loop instead.
     
     print("Values higher than 10: {}".format(j))
 
-### Exercise 5
+## Exercise 6
 
 Will the following `while` loop finish?
 

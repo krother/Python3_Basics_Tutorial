@@ -5,7 +5,7 @@
 
 Match the data samples with their types.
 
-![datatype exercise](exercises/datatypes.png)
+![datatype exercise](../exercises/datatypes.png)
 
 # Definitions
 

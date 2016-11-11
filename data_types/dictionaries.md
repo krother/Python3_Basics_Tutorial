@@ -5,7 +5,7 @@
 
 Find out what each of the expressions does to the dictionary in the center.
 
-![dict exercise](exercises/dicts.png)
+![dict exercise](../exercises/dicts.png)
 
 
 
