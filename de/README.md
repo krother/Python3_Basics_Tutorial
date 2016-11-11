@@ -9,7 +9,7 @@ mit Beiträgen von Allegra Via, Kaja Milanowska und Anna Philips.
 
 Veröffentlicht unter den Bedingungen der Creative Commons Attribution Share-alike License 4.0
 
-Die Quellen dieses Dokuments sind unter [https://github.com/krother/Python3_Grundlagen_Tutorial](https://github.com/krother/Python3_Grundlagen_Tutorial) verfügbar.
+Die Quellen dieses Dokuments sind unter [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial) verfügbar.
 
 # Einführung
 
