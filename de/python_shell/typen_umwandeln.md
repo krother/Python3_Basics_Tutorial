@@ -6,7 +6,7 @@ Wir können mittlerweile Zahlen und Text in Variablen abspeichern. Ab und zu ist
 
 ### Aufgabe 1
 
-Setze die folgenden Teile in den Code ein, so daß alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, name, `str(geboren)`, `2000`
+Setze die folgenden Teile in den Code ein, so daß alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `2000`
 
     name = 'Emily Smith'
     geboren = _____
