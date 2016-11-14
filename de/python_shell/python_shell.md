@@ -56,17 +56,3 @@ Welche Operationen ergeben 8?
 * `2 ** 4`
 * `64 ** 0.5`
 * `2 << 2`
-
-
-### Aufgabe 5
-
-In der Tabelle findest Du die fünf häufigsten Jungennamen aus dem Jahr 2000. Wie viele Jungs belegten die Top 5 insgesamt?
-
-| Name | Anzahl |
-|------|--------|
-| Jacob | 34465 |
-| Michael | 32025 |
-| Matthew | 28569 |
-| Joshua | 27531 |
-| Christopher | 24928 |
-

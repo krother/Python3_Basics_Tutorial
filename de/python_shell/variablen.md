@@ -60,16 +60,14 @@ Welche **Zuweisungen** an Variablen sind korrekt?
 
 ## Aufgabe 5
 
-Welches ist die durchschnittliche Anzahl Kinder pro Name unter den 5 beliebtesten Jungennamen?
+Welches ist die durchschnittliche Anzahl Kinder pro Name unter den 3 beliebtesten Jungennamen im Jahr 2000?
 
-Nimm zunächst eine grobe Schätzung vor.
-
-Rechne dann die Anzahl aus und speichere den Wert in einer Variable.
+1. Nimm zunächst eine grobe Schätzung vor.
+2. Speichere die 3 Anzahlen in einzelnen Variablen
+3. Rechne den Durchschnitt aus und speichere den Wert in einer vierten Variable.
 
 | Name | Anzahl |
 |------|--------|
 | Jacob | 34465 |
 | Michael | 32025 |
 | Matthew | 28569 |
-| Joshua | 27531 |
-| Christopher | 24928 |
