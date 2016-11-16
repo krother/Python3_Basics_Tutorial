@@ -27,36 +27,19 @@ Im Programm versteckt sich ein *subtiler semantischer Fehler*. Führe das Progra
 
 Schreibe ein Programm, welches
 
-* Den Benutzer nach einem Namen fragt.
+* einen vorgegebenen Namen in einer Variablen speichert.
 * Die Datei `yob2000.txt` einliest.
 * Alle Zeilen, die diesen Namen enthalten, ausgibt.
 
 ### Aufgabe 3
 
-Erweitere das Programm, so daß es auch nach dem Geschlecht fragt. Gib nur die Zeilen mit Übereinstimmung in der Spalte mit `'M'` oder `'F'` aus.
+Erweitere das Programm, so daß auch das Geschlecht in einer Variablen vorgegeben ist. Gib nur die Zeilen mit Übereinstimmung in der Spalte mit `'M'` oder `'F'` aus.
 
 ### Aufgabe 4
 
-Ersetze die `input`-Befehle durch eine Variable, damit das wiederholte Eintippen von Name usw. nicht so nervig ist.
-
-### Aufgabe 5
-
 Erweitere das Programm, so daß es *alle* Dateien von 1880 bis 2014 einliest und die Übereinstimmungen ausgibt.
 
-### Aufgabe 6
-
-Sammle alle Übereinstimmungen aus dem vorigen Programm in einer einzigen Tabelle. Füge eine Spalte für das Jahr hinzu. Speichere die Tabelle in einer Textdatei.
-
-### Aufgabe 7
-
-Fall in einem Jahrgang keine Übereinstimmung gefunden wurde, füge eine `0` dem Ergebnis hinzu.
-
-
-### Aufgabe 8
-
-Erweitere das Programm so, daß es mehrere Namen auf einmal untersuchen kann. Die zu suchenden Namen sollen in einer Liste am Anfang des Programms stehen.
-
-### Aufgabe 9
+### Aufgabe 5
 
 Untersuche die Beliebtheit der Vornamen folgender US-Promis im Verlauf der letzten 130 Jahre:
 
@@ -67,8 +50,7 @@ Untersuche die Beliebtheit der Vornamen folgender US-Promis im Verlauf der letzt
 | Osama Bin Laden | wird zum Drahtzieher der 9/11 Anschläge erklärt |
 | Barack Obama    | erster afroamerikanischer Präsident der USA |
 | Katrina         | gleichnamiger Hurrikan verwüstet New Orleans |
-| Leonidas        | Der Film '300' erscheint in den Kinos |
-| Angelina Jolie  | Skandal um Affäre mit Brad Pitt |
+| Angelina Jolie  | Affäre, später Ehe mit Brad Pitt |
 | Achilles        | 'Troja' mit Brad Pitt erscheint in den Kinos |
 | Prinzessin Leia | Der Film 'Star Wars' erscheint in den Kinos |
 | Frida Kahlo     | Ihr Leben erscheint als Broadway-Musical |
@@ -77,3 +59,28 @@ Untersuche die Beliebtheit der Vornamen folgender US-Promis im Verlauf der letzt
 | Daenerys Targaryen | Die Buch/Filmserie 'Game of Thrones' erscheint |
 | Khaleesi | offizieller Titel von Daenerys Targaryen |
 | Tyrion Lannister | Die Buch/Filmserie 'Game of Thrones' erscheint |
+
+
+### Aufgabe 6
+
+Sammle alle Übereinstimmungen aus dem vorigen Programm in einer einzigen Tabelle mit den Spalten *Jahr* und *Anzahl*. Gib die Tabelle auf dem Bildschirm aus.
+
+### Aufgabe 7
+
+Speichere die Tabelle in einer Textdatei.
+
+### Aufgabe 8
+
+Falls in einem Jahrgang keine Übereinstimmung gefunden wurde, füge eine `0` dem Ergebnis hinzu.
+
+### Aufgabe 9
+
+Erweitere das Programm so, daß es den Anteil an den gesamten Namen eines Jahrgangs in Prozent berechnet.
+
+### Aufgabe 10
+
+Erweitere das Programm so, daß es mehrere Namen auf einmal untersucht. Die zu suchenden Namen sollen in einer Liste am Anfang des Programms stehen.
+
+## Aufgabe 11
+
+Untersuche die Häufigkeit mehrerer Anfangsbuchstaben im zeitlichen Verlauf.
