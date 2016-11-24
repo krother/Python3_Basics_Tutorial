@@ -16,8 +16,14 @@ Jede Python-Datei (mit der Endung .py) kann aus anderen Python-Programmen import
 
 Schreibe ein eigenes Modul und importiere es aus einem eigenen Programm.
 
-
 ### Aufgabe 3
+
+Lies ein größeres Textdokument in die variable `text` ein. Verwende den folgenden Zweizeiler um vierbuchstabige Wörter mit `A` zu finden.
+
+    import re
+    re.findall('(a\w\w\w)[^\w]', s, re.IGNORECASE)
+
+### Aufgabe 4
 
 Was haben diese vier Bilder gemeinsam?
 
@@ -30,7 +36,7 @@ Bildquellen (links oben nach rechts unten):
 * *[Gaël Marziou from Grenoble, France - IMG_6266_DXO, CC BY 2.0](https://commons.wikimedia.org/w/index.php?curid=47416377)*
 * *Derfu, CC BY-SA 3.0*
 
-### Aufgabe 4
+### Aufgabe 5
 
 Erkläre, was der folgende Codeschnipsel mit dem Bild zu tun hat.
 
@@ -40,14 +46,14 @@ Erkläre, was der folgende Codeschnipsel mit dem Bild zu tun hat.
         print("passt!")
 
 
-### Aufgabe 5
+### Aufgabe 6
 
 Wenn das vorige Beispiel zu kompliziert erscheint, versuche es mal mit Telefonnummern mit Vorwahl nach Deutschland:
 
     print(re.search(r"(00|0 0|\+)\s*4\s*9[0-9 ]+", text))
 
 
-### Aufgabe 6
+### Aufgabe 7
 
 Führe die Übung zum ebook **Python 3 Module Examples** unter [https://www.gitbook.com/book/krother/python-3-module-examples/details](https://www.gitbook.com/book/krother/python-3-module-examples/details) durch.
 
