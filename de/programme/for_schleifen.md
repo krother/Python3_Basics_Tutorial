@@ -3,7 +3,7 @@
 
 In unseren ersten Programmen wurde jeder Python-Befehl genau ein Mal ausgeführt. Strenggenommen macht das die ganze Programmiererei ein wenig sinnlos, weil unsere Programme durch unsere Tippgeschwindigkeit ausgebremst werden.
 
-In diesem Abschnitt werden wir uns daher die `for`-Anweisung genauer anschauen, mit der wir eine oder mehrere Befehle wiederholt ausführen können.
+In diesem Abschnitt werden wir uns daher die `for`-Anweisung genauer anschauen, mit der wir einen oder mehrere Befehle wiederholt ausführen können.
 
 
 ### Aufgabe 1
@@ -13,9 +13,10 @@ Was tut das folgende Programm?
     for zahl in range(1, 43):
         print(zahl)
 
+
 ### Aufgabe 2
 
-Finde drei Vorteile, die `for` gegenüber folgendem Ansatz bietet:
+Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
     print(1)
     print(2)
@@ -57,20 +58,6 @@ und
 
 ### Aufgabe 5
 
-Schreibe eine `for`-Schleife, die den folgenden String produziert:
-
-    1 4 9 16 25 36 49 64 81
-
-
-### Aufgabe 6
-
-Schreibe eine `for`-Schleife, die den folgenden String produziert:
-
-    000111222333444555666777888999
-
-
-### Aufgabe 7
-
 Was tut das folgende Programm?
 
     text = ""
@@ -79,18 +66,8 @@ Was tut das folgende Programm?
         text = char + text
     print(text)
 
-### Aufgabe 8
+
+### Aufgabe 6
 
 Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
 
-
-### Aufgabe 10
-
-Welche der folgenden Befehle sind korrekt?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for number in [4, 6, 8]:`
-* `for k in 3+7:`
-* `for (i=0; i<10; i++):`
-* `for var in open('bigbang.txt'):`

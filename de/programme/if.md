@@ -14,7 +14,7 @@ Führe das folgende Programm aus. Was wird berechnet?
 
     boys = 0
     girls = 0
-    for line in open('yob2014.txt'):
+    for line in open('yob2015.txt'):
         if ",M," in line:
             boys = boys + 1
         elif ",F," in line:
@@ -26,23 +26,6 @@ Führe das folgende Programm aus. Was wird berechnet?
 
 ### Aufgabe 2
 
-Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
-
-* `if a and b:`
-* `if len(s) == 23:`
-* `if a but not b < 3:`
-* `if a ** 2 >= 49:`
-* `if a != 3`
-* `if (a and b) or (c and d):`
-
-
-### Aufgabe 3
-
-Schreibe ein Programm, in dem Du einen Namen über die Tastatur eingeben kannst. Finde die Zeile(n) mit diesem Namen in der Datei `yob2014.txt` und gib diese auf dem Bildschirm aus.
-
-
-### Aufgabe 4
-
 Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 
     ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
@@ -53,14 +36,29 @@ Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` anfangen.
 
 
+### Aufgabe 3
+
+Schreibe ein Programm, das die Zeilen aus der Datei `yob2014.txt` einliest. Finde die Zeile(n) die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
+
+
+### Aufgabe 4
+
+Wie viele unterschiedliche *Mädchennamen* mit `'M'` gab es 2015?
+
+
 ### Aufgabe 5
 
-Wie viele Babynamen aus dem Jahr 1900 fingen mit einem `'M'` an?
+Das folgende Programm gibt alle Vornamen aus, die öfter als 10000 Mal vorkommen. Finde drei Fehler im Programm und korrigiere sie:
 
-Wie viele waren es 2014?
+    dateiname = "yob2015"
+    for line in open(dateiname):
+        columns = line.strip().split()
+        anzahl = int(columns[2])
+    if anzahl < 10000:
+        print(columns[1])
 
 
 ### Aufgabe 6
 
-Wie viele unterschiedliche *Mädchennamen* mit `'M'` gab es 2014?
+Sammle **Operatoren**, **Datentypen** und **Python-Befehle**, die Du bisher kennen gelernt hast als Tabelle.
 
