@@ -29,30 +29,16 @@ Gib die Befehle ein und schau was passiert. Gib den ersten Teil (`In [1]` etc.) 
 
 ### Aufgabe 2
 
-Es gibt außer `+ - * /` und `**` noch weitere sogenannte **Operatoren** in Python. Was tun die folgenden Operatoren?
+Welche Operationen ergeben 8?
 
-    24 % 5
-    23 // 10
-    2 << 4
-    63 >> 2
+* `0 + 8`
+* `4 4`
+* `8 /`
+* `65 // 8`
+* `17 % 9`
+* `2 * * 4`
+* `64 ** 0.5`
 
 ### Aufgabe 3
 
-Welche der folgenden Eingaben sind gültige Python-Anweisungen? Probiere sie in IPython aus.
-
-    0 + 1
-    2 3
-    4-5
-    6 * * 7
-    8 /
-    9
-    
-### Aufgabe 4
-
-Welche Operationen ergeben 8?
-
-* `65 // 8`
-* `17 % 9`
-* `2 ** 4`
-* `64 ** 0.5`
-* `2 << 2`
+Sammle die Dir bereits bekannten **Operatoren** in Python (`+`, `-`, `*` etc.). 

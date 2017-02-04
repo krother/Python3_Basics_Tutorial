@@ -1,7 +1,7 @@
 
 # Zahlen speichern
 
-Die US-Behörden registrieren die Namen sämtlicher US-Bürger seit 1880. Wir möchten die Namen beliebten und weniger beliebten Babynamen aus dem Jahr 2000 genauer untersuchen. Dazu werden wir sie in **Variablen** speichern.
+Die US-Behörden registrieren die Namen sämtlicher US-Bürger seit 1880. Wir möchten die Namen beliebter und weniger beliebter Babynamen aus dem Jahr 2000 genauer untersuchen. Dazu werden wir sie in **Variablen** speichern.
 
 ### Aufgabe 1
 
@@ -25,10 +25,9 @@ Definiere einige Variablen. Bitte ergänze die Lücken:
     In [8]: emily
     Out[8]: _____
 
-    In [9]: alle_babys = 0
-    In [10]: alle_babys = _____ + _____ + _____
-    In [11]: alle_babys
-    Out[11]: 49031
+    In [9]: summe = _____ + _____ + _____
+    In [10]: summe
+    Out[10]: 49031
 
 Setze die korrekten Werte und Variablennamen ein.
 
@@ -42,10 +41,10 @@ Welche der folgenden Variablennamen sind in Python erlaubt? Versuche einige Zahl
     Sarah
     ASHLEY
     madison alexis
-    samantha2000
-    2000jessica
-    elizabeth_lauren
-    alyssa.kayla
+    sam90
+    2000jessy
+    liz_lauren
+    alyssa.kay
 
 
 ### Aufgabe 4

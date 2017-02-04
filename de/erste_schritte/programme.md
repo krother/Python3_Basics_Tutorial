@@ -1,5 +1,7 @@
 
-# Ausgabe auf den Bildschirm
+# Programme in Python schreiben
+
+Mit IPython Anweisungen zu schreiben ist eine Zeitlang ganz nett. Komplexere Programme Befehl für Befehl zu schreiben ist aber auf die Dauer recht beschwerlich. Um wirklich sinnvoll programmieren zu können, müssen wir unsere Anweisungen in **Programmen** speichern, so daß wir sie später beliebig oft **ausführen** können.
 
 In diesem Abschnitt werden wir unserer erstes Python-Programm schreiben. Es wird ein sehr einfaches Programm sein, welches einfach einige Namen von Babys auf den Bildschrim schreibt.
 
@@ -41,36 +43,3 @@ Schreibe in ein **Programm** (eine Datei mit der Endung `.py`):
     name
 
 Was passiert, wenn Du das Programm ausführst?
-
-
-### Aufgabe 5
-
-Welche `print`-Anweisungen sind korrekt?
-
-* `print("9" + "9")`
-* `print "nine"`
-* `print(str(9) + "nine")`
-* `print(9 + 9)`
-* `print(nine)`
-
-
-### Aufgabe 6
-
-Erkläre die folgende Anweisung:
-
-    print("Emily\tSmith\n2000")
-
-### Aufgabe 7
-
-Manche Babys haben berühmte Namensvettern. Schreibe ein Programm, welches folgende Ausgabe produziert:
-
-    Harry      Hermione      Severus
-    Tyrion     Daenerys      Frodo
-    Luke       Leia          Darth
-
-### Aufgabe 8
-
-Erschwere Dir die vorige Aufgabe, indem Du:
-
-* die Ausgabe mit einem einzigen `print`-Befehl erzeugst.
-* die Namen vorher in Variablen speicherst.

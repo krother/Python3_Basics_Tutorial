@@ -81,10 +81,6 @@ Was tut das folgende Programm?
 
 ### Aufgabe 8
 
-Schreibe ein Programm, welches jeden Buchstaben eines Eingabestrings verdoppelt. So wird `Donald` zu `DDoonnaalldd`.
-
-### Aufgabe 9
-
 Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
 
 
