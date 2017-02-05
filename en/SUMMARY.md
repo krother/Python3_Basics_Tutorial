@@ -34,6 +34,7 @@
   * [Writing your own functions](structure/functions.md)
   * [Modules](structure/modules.md)
   * [Introspection](structure/introspection.md)
+* [Programming Challenge: Count Words in Moby Dick](challenge3_count_words/README.md)
 * [Background information on Python 3](appendix/background_info.md)
 * [Recommended books and websites](appendix/literature.md)
 * [Acknowledgements](appendix/acknowledgements.md)
