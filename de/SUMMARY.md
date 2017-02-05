@@ -25,6 +25,7 @@
   * [Abkürzungen](funktionen/abkuerzungen.md)
 * [Stringverarbeitung](stringverarbeitung/README.md)
   * [Methoden von Strings](stringverarbeitung/string_methoden.md)
+  * [Strings formatieren](stringverarbeitung/strings_formatieren.md)
   * [Reguläre Ausdrücke](stringverarbeitung/regulaere_ausdruecke.md)
 * [Dictionaries](andere/dictionaries.md)
 * [Datenstrukturen](tabellen/README.md)
