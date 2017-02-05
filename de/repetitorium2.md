@@ -15,7 +15,7 @@ Das Programm enthält **drei Defekte**. Finde und behebe diese.
                    24928, 23632, 22818, 22307, 21500]
 
     if len(top_names) == len(top_numbers):
-       print("Warning: lists have different lengths!")
+       print("Achtung: die Listen sind unterschiedlich lang!")
        print(len(top_names), len(top_numbers))
 
     for i in range(len(top_names)):
@@ -26,8 +26,9 @@ Das Programm enthält **drei Defekte**. Finde und behebe diese.
 
 ### Aufgabe 2
 
-Verwende `zip()`, um das Programm ein wenig zu vereinfachen.
+Verwende `zip()`, um das Programm zu vereinfachen.
 
 ### Aufgabe 3
 
-Schreibe ein Programm, welches den *häufigsten* Vornamen in jedem Jahrgang ermittelt und ausgibt.
+Schreibe ein Programm, welches *die drei häufigsten* Vornamen für Jungen und Mädchen in jedem Jahrgang ermittelt und ausgibt.
+
