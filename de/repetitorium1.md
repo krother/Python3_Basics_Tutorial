@@ -8,7 +8,7 @@ Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden in e
 
     häufige = []
 
-    for line in open('names/yob2000.txt'):
+    for line in open('names/yob2015.txt'):
         spalten = line.strip().split(',')
         name = spalten[1]
         anzahl = int(spalten[3])
@@ -37,7 +37,7 @@ Hier ist noch einmal der Inhalt der Datei:
 
 ### Aufgabe 3
 
-Sammle die Anzahl der Jungen in einer zweiten Liste. Gib auch diese aus.
+Sammle die Namen der Jungen in einer zweiten Liste. Gib auch diese aus.
 
 
 ### Aufgabe 4
