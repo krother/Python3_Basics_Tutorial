@@ -3,7 +3,7 @@
 
 ### Aufgabe 1
 
-Erstelle eine Textdatei namens `bigbang.txt` für die folgenden Übungen. Fülle sie mit diesen Namen:
+Erstelle eine Textdatei namens `bigbang.txt` für die folgenden Übungen. Fülle sie mit diesen Daten:
 
     Emily,F,12562
     Amy,F,2178
@@ -33,48 +33,50 @@ Je nachdem was für einen Editor Du verwendest, mußt Du eventuell den komplette
 
 ### Aufgabe 3
 
-Schreie ein Programm, welches die Gesamtzahl der Namen (nicht Kinder) in der Datei `bigbang.txt` ermittelt.
+Schreibe ein Programm, welches die Gesamtzahl der Namen (nicht Kinder) in der Datei `bigbang.txt` ermittelt.
 
-Du kannst dazu eine Zählervariable verwenden. Die folgenden zwei Zeilen könnten nützlich sein:
+Du kannst dazu eine Zählervariable verwenden. Die folgenden zwei Zeilen könnten dabei nützlich sein:
 
     namen = 0
 
-and 
+und 
 
     namen = namen + 1
 
 
 ### Aufgabe 4
 
-Erstelle eine neue Datei `bigbang_anzahl.txt` und ermittle die Summe der Zahlen. Befülle die Datei mit folgenden Daten:
+Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
 
-    12562
-    2178
-    342
-    129
-    384
-    208
-    164
-    82
-    41
+**Sortiere** die folgenden Programmzeilen und **rücke sie ein**:
 
+    girls = 0
+
+    if "B" in line:
+
+    print(girls)
+
+    if ",F," in line:
+
+    for line in open('names/yob2015.txt'):
+
+    girls += 1
 
 ### Aufgabe 5
 
-Berechne die durchschnittliche Anzahl aus der Datei `bigbang_anzahl.txt`.
+Führe das folgende Programm aus. Was wird berechnet?
+
+    boys = 0
+    girls = 0
+    for line in open('names/yob2015.txt'):
+        if ",M," in line:
+            boys = boys + 1
+        elif ",F," in line:
+            girls = girls + 1
+        else:
+            print("Zeile nicht erkannt:\n", line)
+    print(boys, girls)
 
 ### Aufgabe 6
 
-Berechne die Standardabweichung aus der Datei `bigbang_anzahl.txt`. Verwende folgenden Codeschnipsel:
-
-    import math
-    wurzel = math.sqrt(wert)
-
-
-### Aufgabe 7
-
-Schreibe ein Programm, welches die dritte Spalte aus der Datei `bigbang.txt` aufsummiert.
-
-#### Hinweis:
-
-Für die Bearbeitung dieser Aufgabe brauchst Du die Funktionen aus der Übung zu Strings.
+Schreibe ein Programm, das die Zeilen aus der Datei `yob2015.txt` einliest. Finde die Zeile(n) die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.

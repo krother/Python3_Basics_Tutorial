@@ -57,15 +57,3 @@ Erzeuge folgenden String:
 
     "123-123-123-123-123-123-123-123-123-123"
     
-
-### Aufgabe 7
-
-Schreibe die Werte aus der Tabelle in Variablen vom entsprechenden Typ. Verbinde die Variablen anschließend zu einem einzeiligen String.
-
-| Zeile      | Wert     | Typ |
-|------------|----------|-----|
-| Vorname    | Tom   | String |
-| Nachname   | O'Malley | String |
-| Geschlecht | M | String |
-| Jahrgang   | 2000  | Integer |
-| Alter      | 16    | Integer |

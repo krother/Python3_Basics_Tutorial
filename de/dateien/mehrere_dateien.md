@@ -25,11 +25,12 @@ Im Programm versteckt sich ein *subtiler semantischer Fehler*. Führe das Progra
 
 ### Aufgabe 2
 
-Schreibe ein Programm, welches
+Schreibe ein Programm, welches alle Zeilen einer Datei, die einen bestimmten Namen enthalten, ausgibt.
+Das Programm beginnt folgendermaßen:
 
-* einen vorgegebenen Namen in einer Variablen speichert.
-* Die Datei `yob2000.txt` einliest.
-* Alle Zeilen, die diesen Namen enthalten, ausgibt.
+    name = "Harley"
+    dateiname = "yob2000.txt"
+
 
 ### Aufgabe 3
 
@@ -46,41 +47,27 @@ Untersuche die Beliebtheit der Vornamen folgender US-Promis im Verlauf der letzt
 | Name            | Kommentar                      |
 |-----------------|--------------------------------|
 | Lance Armstrong | erster Mensch auf dem Mond |
-| Madonna | Hitsingle "Like a Prayer" |
-| Osama Bin Laden | wird zum Drahtzieher der 9/11 Anschläge erklärt |
-| Barack Obama    | erster afroamerikanischer Präsident der USA |
-| Katrina         | gleichnamiger Hurrikan verwüstet New Orleans |
-| Angelina Jolie  | Affäre, später Ehe mit Brad Pitt |
-| Achilles        | 'Troja' mit Brad Pitt erscheint in den Kinos |
-| Prinzessin Leia | Der Film 'Star Wars' erscheint in den Kinos |
+| Madonna         | Hitsingle "Like a Prayer" |
+| Barack Obama    | Präsident der USA |
+| Katrina         | Hurrikan verwüstet New Orleans |
+| Leia            | Der Film 'Star Wars' erscheint in den Kinos |
 | Frida Kahlo     | Ihr Leben erscheint als Broadway-Musical |
 | Arielle         | Ihr Leben wird von Walt Disney verfilmt |
-| Arnold Schwarzenegger | 'Terminator 2' erscheint in den Kinos |
-| Daenerys Targaryen | Die Buch/Filmserie 'Game of Thrones' erscheint |
-| Khaleesi | offizieller Titel von Daenerys Targaryen |
-| Tyrion Lannister | Die Buch/Filmserie 'Game of Thrones' erscheint |
+| Arnold          | 'Terminator 2' erscheint im Kino |
+| Daenerys        | Figur aus 'Game of Thrones' |
+| Tyrion          | Figur aus 'Game of Thrones' |
 
+Gib alle Übereinstimmungen mit *Jahr* und *Anzahl* auf dem Bildschirm aus.
 
 ### Aufgabe 6
 
-Sammle alle Übereinstimmungen aus dem vorigen Programm in einer einzigen Tabelle mit den Spalten *Jahr* und *Anzahl*. Gib die Tabelle auf dem Bildschirm aus.
+Speichere alle Übereinstimmungen in einer Textdatei.
 
 ### Aufgabe 7
 
-Speichere die Tabelle in einer Textdatei.
+Falls in einem Jahrgang keine Übereinstimmung gefunden wurde, füge eine `0` dem Ergebnis hinzu.
+
 
 ### Aufgabe 8
 
-Falls in einem Jahrgang keine Übereinstimmung gefunden wurde, füge eine `0` dem Ergebnis hinzu.
-
-### Aufgabe 9
-
-Erweitere das Programm so, daß es den Anteil an den gesamten Namen eines Jahrgangs in Prozent berechnet.
-
-### Aufgabe 10
-
-Erweitere das Programm so, daß es mehrere Namen auf einmal untersucht. Die zu suchenden Namen sollen in einer Liste am Anfang des Programms stehen.
-
-## Aufgabe 11
-
-Untersuche die Häufigkeit mehrerer Anfangsbuchstaben im zeitlichen Verlauf.
+Vervollständige die zuvor erstellte Tabelle mit **Operatoren**, **Datentypen**, **Funktionen** und **Python-Befehlen**.
