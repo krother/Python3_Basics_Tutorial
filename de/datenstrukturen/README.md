@@ -1,5 +1,5 @@
 
-# Tabellen
+# Datenstrukturen
 
 Wenn wir Daten elektronisch verarbeiten wollen, treten diese am häufigsten in Form von Tabellen auf. Um Tabellen in Python zu verarbeiten, kommt uns entgegen, daß wir in Listen andere Listen speichern könne. Damit sieht eine einfache Tabelle in Python so aus:
 
@@ -8,12 +8,11 @@ Wenn wir Daten elektronisch verarbeiten wollen, treten diese am häufigsten in F
      ["Sheldon", 456]
     ]
 
-In diesem Teil des Kurses werden wir uns mit der Verarbeitung von solchen Tabellen oder *zweidimensionalen Listen* beschäftigen.
+In diesem Teil des Kurses werden wir uns mit der Verarbeitung von Tabellen und anderen Datenstrukturen beschäftigen.
 
 ## Ziele
 
 * zweidimensionale Listen erzeugen
 * tabellarische Daten in Textdateien speichern
-* Text klar formatiert ausgeben
-* effiziente Schreibweisen verwenden
-* mehrere Dateien verarbeiten
+* Baumstrukturen darstellen
+

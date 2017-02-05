@@ -1,5 +1,5 @@
 
-# Dictionaries
+# Methoden von Dictionaries
 
 ### Aufgabe 1
 
