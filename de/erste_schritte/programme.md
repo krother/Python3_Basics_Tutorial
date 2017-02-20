@@ -3,7 +3,7 @@
 
 Mit IPython Anweisungen zu schreiben ist eine Zeitlang ganz nett. Komplexere Programme Befehl für Befehl zu schreiben ist aber auf die Dauer recht beschwerlich. Um wirklich sinnvoll programmieren zu können, müssen wir unsere Anweisungen in **Programmen** speichern, so daß wir sie später beliebig oft **ausführen** können.
 
-In diesem Abschnitt werden wir unserer erstes Python-Programm schreiben. Es wird ein sehr einfaches Programm sein, welches einfach einige Namen von Babys auf den Bildschrim schreibt.
+In diesem Abschnitt werden wir unserer erstes Python-Programm schreiben. Es wird ein sehr einfaches Programm sein, welches einfach einige Namen von Babys auf den Bildschirm schreibt.
 
 
 ### Aufgabe 1
