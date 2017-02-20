@@ -1,8 +1,9 @@
 
 # Dictionaries
 
+![Dictionary](dict.png)
 
-# Dictionaries
+**Suche englische Wörter, die mit Suchen zu tun haben.**
 
 In diesem Teil werden wir eine neue Datenstruktur kennen lernen: **Dictionaries**.
 

@@ -3,7 +3,7 @@
 
 ### Aufgabe 1
 
-Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden in einer Liste. Leider enthält das Programm **vier Fehler**. Find und korrigiere diese.
+Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden in einer Liste. Leider enthält das Programm **vier Fehler**. Finde und korrigiere diese.
 
 
     häufige = []

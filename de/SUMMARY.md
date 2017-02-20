@@ -13,7 +13,7 @@
   * [Anweisungen wiederholen](programme/for_schleifen.md)
   * [Listen](programme/listen.md)
   * [Entscheidungen treffen](programme/if.md)
-* [Dateien Lesen und Schreiben](dateien/README.md)
+* [Dateien lesen und schreiben](dateien/README.md)
   * [Textdateien einlesen](dateien/datei_lesen.md)
   * [Zahlen und Text umwandeln](dateien/typen_umwandeln.md)
   * [Textdateien schreiben](dateien/dateien_schreiben.md)
