@@ -17,7 +17,7 @@
   * [Textdateien einlesen](dateien/datei_lesen.md)
   * [Zahlen und Text umwandeln](dateien/typen_umwandeln.md)
   * [Textdateien schreiben](dateien/dateien_schreiben.md)
-  * [Mehrere Dateien verarbeiten](dateien/mehrere_tabellen.md)
+  * [Mehrere Dateien verarbeiten](dateien/mehrere_dateien.md)
 * [Wiederholungsübung](repetitorium1.md)
 * [Funktionen](funktionen/README.md)
   * [Funktionen selbst schreiben](funktionen/funktionen.md)
