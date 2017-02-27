@@ -18,7 +18,7 @@ Erstelle eine Textdatei namens `bigbang.txt` für die folgenden Übungen. Fülle
 
 ### Aufgabe 2
 
-Bringe das Programm zum Laufen, indem Du `close`, `line`, `bigbang.txt` und `print` in die Lücken einsetzt.
+Bringe das Programm zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `print` in die Lücken einsetzt.
 
     f = open(___)
     for ____ in f:
