@@ -3,12 +3,12 @@
 
 ### Aufgabe 1
 
-erwende den folgenden Zweizeiler um Wörter mit `F` zu finden.
+verwende den folgenden Zweizeiler um Wörter mit `F` zu finden.
 
     import re
 
     text = "Es war einmal ein Ferkel, das hatte eine Flöte"
-    found = re.findall('(a\w+)[^\w]', text, re.IGNORECASE)
+    found = re.findall('(F\w+)[^\w]', text, re.IGNORECASE)
     print(found)
 
 ### Aufgabe 2
