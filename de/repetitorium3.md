@@ -18,4 +18,3 @@ Laß die Benutzer das Geschlecht des Babys auswählen.
 ### Aufgabe 4
 
 Laß die Benutzer auswählen, wie viele Babynamen auszuwürfeln sind.
-

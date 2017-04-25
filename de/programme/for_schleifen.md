@@ -70,4 +70,3 @@ Was tut das folgende Programm?
 ### Aufgabe 6
 
 Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
-

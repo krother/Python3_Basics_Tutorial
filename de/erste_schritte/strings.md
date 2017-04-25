@@ -10,22 +10,23 @@ Bisher haben wir lediglich mit Zahlen gearbeitet. Nun wenden wir uns auch dem Sp
     In [3]: name = vorname + " " + nachname
     In [4]: name
 
+### Aufgabe 2
+
 Was tun die folgenden Anweisungen?
 
     In [5]: name[0]
-
     In [6]: name[3]
-    
     In [7]: name[-1]
 
 
-### Aufgabe 2
+### Aufgabe 3
 
 Ist es möglich, die folgenden Sonderzeichen in einem String zu verwenden?
 
-    . 7 @ ? / & * \ Ä ß " ' á
+    Ä á @ ? & * \ / " '
 
-### Aufgabe 3
+
+### Aufgabe 4
 
 Was ist nach der folgenden Befehlsfolge in `name` enthalten? Erkläre den Code:
 

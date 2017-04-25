@@ -47,6 +47,7 @@ Das folgende Programm soll die Positionen aller Buchstaben *"n"* im Namen ausgeb
             print(position)
     position = position + 1
 
+
 ### Aufgabe 4
 
 Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
@@ -58,13 +59,6 @@ Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
 * `if a != 3`
 * `if (a and b) or (c and d):`
 
-
 ### Aufgabe 5
 
-Schreibe ein Programm, daß zählt, wie oft der Buchstabe *"a"* im Namen *"Stefani Joanne Angelina Germanotta"* vorkommt.
-
-
-### Aufgabe 6
-
 Sammle **Operatoren**, **Datentypen**, **Funktionen** und **Python-Befehle**, die Du bisher kennen gelernt hast, in einer Tabelle.
-

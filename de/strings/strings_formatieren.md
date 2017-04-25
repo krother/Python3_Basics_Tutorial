@@ -23,4 +23,15 @@ Schreibe eine `for`-Schleife, die den folgenden String produziert:
 
 ### Aufgabe 3
 
-Formatiere die Duplikate aus dem Programm aus *'Methoden von Strings - Aufgabe 2'* als an den Spalten ausgerichtete Tabelle mit den Spalten *Jahr* und *Anzahl*. Gib die Tabelle auf dem Bildschirm aus.
+
+Gegeben sind die folgenden zwei Listen:
+
+    top_ten_namen = ['Jacob', 'Michael', 'Matthew', 'Joshua', \
+        'Christopher', 'Nicholas', 'Andrew', 'Joseph', \
+        'Daniel', 'Tyler']
+
+    top_ten_zahlen = [34465, 32025, 28569, 27531, \
+        24928, 23632, 22818, 22307, 21500]
+
+Schreibe ein Programm, welches alle Namen und Zahlen als Tabelle
+mit ausgerichteten Spalten ausgibt.

@@ -56,3 +56,10 @@ Welche der folgenden Befehle sind korrekt?
 * `for (i=0; i<10; i++):`
 * `for var in open('bigbang.txt'):`
 
+### Aufgabe 6
+
+Schreibe ein Programm, welches *die drei häufigsten* Vornamen für Jungen und Mädchen in jedem Jahrgang ermittelt und ausgibt.
+
+### Aufgabe 7
+
+Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen für das Jahr 2000 berechnet und ausgibt.

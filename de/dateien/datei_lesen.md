@@ -48,7 +48,7 @@ und
 
 Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
 
-**Sortiere** die folgenden Programmzeilen und **rücke sie ein**:
+**Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
     girls = 0
 
