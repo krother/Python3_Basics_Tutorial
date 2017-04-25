@@ -11,6 +11,7 @@ verwende den folgenden Zweizeiler um Wörter mit `F` zu finden.
     found = re.findall('(F\w+)[^\w]', text, re.IGNORECASE)
     print(found)
 
+
 ### Aufgabe 2
 
 Besuche die Seite [www.regexone.com](http://www.regexone.com) und führe die ersten drei Übungen aus.

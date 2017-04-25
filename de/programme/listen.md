@@ -73,3 +73,23 @@ Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. V
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise1](../exercises/list_funcs1.png)
+
+### Aufgabe 9
+
+Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
+
+    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
+    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
+    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
+    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
+
+Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
+
+
+### Turing-Vollständigkeit
+
+Programme, die *mehrere* Elemente speichern und verarbeiten können, liefern uns eine wichtige theoretische Grundlage.
+
+Mit `for`-Schleifen, Verzweigungen und Listen sind wir theoretisch in der Lage, jedes erdenkliche Programm zu schreiben. Informatiker nennen das *"Turing-vollständig"*). Trotzdem geht der Kurs natürlich noch weiter, denn *"Turing-vollständig"* bedeutet nicht automatisch *"schnell und bequem"*.
+
+Du kannst alle weiteren Python-Befehle als mögliche *bequeme Arbeitserleichterung* betrachten. Zum Glück gibt es davon in Python recht viele.

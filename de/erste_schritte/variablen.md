@@ -1,7 +1,7 @@
 
-# Zahlen speichern
+# Zahlen in Variablen speichern
 
-Die US-Behörden registrieren die Namen sämtlicher US-Bürger seit 1880. Wir möchten die Namen beliebter und weniger beliebter Babynamen aus dem Jahr 2000 genauer untersuchen. Dazu werden wir sie in **Variablen** speichern.
+Um Zahlen und Rechenergebnisse für spätere Berechnungen aufzuheben, können wir sie in **Variablen** speichern.
 
 ### Aufgabe 1
 
@@ -55,18 +55,3 @@ Welche **Zuweisungen** an Variablen sind korrekt?
 * `2 = 1 + 1`
 * `5 + 6 = y`
 * `sieben = 3 * 4`
-
-
-## Aufgabe 5
-
-Welches ist die durchschnittliche Anzahl Kinder pro Name unter den 3 beliebtesten Jungennamen im Jahr 2000?
-
-1. Nimm zunächst eine grobe Schätzung vor.
-2. Speichere die 3 Anzahlen in einzelnen Variablen
-3. Rechne den Durchschnitt aus und speichere den Wert in einer vierten Variable.
-
-| Name | Anzahl |
-|------|--------|
-| Jacob | 34465 |
-| Michael | 32025 |
-| Matthew | 28569 |

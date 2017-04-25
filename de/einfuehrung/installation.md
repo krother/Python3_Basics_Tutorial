@@ -1,12 +1,16 @@
 
 # Python installieren
 
-Der erste Schritt in die Welt des Programmierens ist, Python auf Deinem Computer zum Laufen zu bringen. Dazu benötigst Du zwei Programme:
+Der erste Schritt in die Welt des Programmierens ist, Python auf Deinem Computer zu installieren. In diesem Kurs verwenden wir das modernere **Python 3**.
 
-* Python 3
-* einen Texteditor
+Die genaue Installation hängt von Deinem Betriebssystem ab.
 
-Welchen Editor Du installieren solltest, hängt von Deinem Betriebssystem ab.
+## Unter Windows
+
+Die Python-Distribution [**Anaconda**](https://store.continuum.io/cshop/anaconda/) enthält Python 3, einen komfortablesn Editor und viele Zusatzpakete.
+Damit ist Anaconda hervorragend für wissenschaftliche Anwendungen geeignet.
+
+Halte nach der Installation im Startmenü nach *Python*, *Anaconda* oder *Spyder* im Startmenü Ausschau und klicke Dich durch die Dialogfenster, die beim ersten Mal erscheinen.
 
 ## Auf Ubuntu Linux
 
@@ -21,11 +25,6 @@ Um zu prüfen, ob es funktioniert hat, gib anschließend ein:
 
 Als Texteditor ist für den Anfang **gedit** in Ordnung. In diesem Falle solltest Du jedoch unbedingt Tabulatoren als 4 Leerzeichen belegen. Dies kannst Du im Menü unter *Edit -> Preferences -> Editor -> Häkchen setzen bei 'Insert spaces instead of tabs'*. Ich bevorzuge allerdings den Editor **Sublime 2**, der zusätzliche Optionen für Fortgeschrittene bietet.
 
-## Unter Windows
-
-Ein bequeme Möglichkeit, Python 3, einen Editor und viele Zusatzpakete in einem Rutsch zu installieren, bietet [**Anaconda**](https://store.continuum.io/cshop/anaconda/) -- eine Python-Distribution, die hervorragend für wissenschaftliche Anwendungen geeignet ist.
-
-Halte nach der Installation im Startmenü nach *Python*, *Anaconda* oder *Spyder* im Startmenü Ausschau und klicke Dich durch die Dialogfenster.
 
 ## Weitere Python-Distributionen
 
