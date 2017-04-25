@@ -10,6 +10,10 @@ Bilde Paare von Datentypen und Werten.
 
 ### Aufgabe 2
 
+Erstelle eine Tabelle, in der Du nach *einfachen* und *zusammengesetzten* Datentypen unterscheidest.
+
+### Aufgabe 3
+
 Auf welchen Datentypen funktioniert die Funktion `len()`?
 
 * Listen
@@ -17,22 +21,3 @@ Auf welchen Datentypen funktioniert die Funktion `len()`?
 * Strings
 * Floats
 * Tupel
-
-### Aufgabe 3
-
-Welches sind korrekte Tupel?
-
-* `(1, 2, 3)`
-* `("Jack", "Knife")`
-* `('blue', [0, 0, 255])`
-* `[1, "word"]`
-
-### Aufgabe 4
-
-Was kannst Du mit Tupeln tun?
-
-* Daten unterschiedlichen Typs gruppieren
-* ihren Inhalt verändern
-* eine `for`-Schleife darüber laufen lassen
-* deren Inhalt sortieren
-

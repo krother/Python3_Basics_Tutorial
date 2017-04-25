@@ -1,5 +1,17 @@
 
-# Tabellen erzeugen
+# Verschachtelte Listen
+
+Daten treten häufig in Form von Tabellen auf. Um Tabellen in Python zu verarbeiten, kommt uns entgegen, daß wir Listen in anderen Listen speichern können. Damit sieht eine einfache Tabelle in Python so aus:
+
+    [
+     ["Penny", 123],
+     ["Sheldon", 456]
+    ]
+
+Diese Art von Tabelle nennt man auch *verschachtelte Liste*.
+
+In diesem Teil des Kurses werden wir uns mit Aufbau und Verarbeitung von verschachtelten Listen beschäftigen.
+
 
 ### Aufgabe 1
 

@@ -1,7 +1,7 @@
 
-# Abkürzungen
+# Hilfsfunktionen
 
-In Python gibt es zahlreiche Funktionen (und noch mehr Erweiterungsmodule), die einem das Leben erleichtern. Bei der Arbeit mit verschachtelten Listen erweisen sich vor allem folgende Funktionen als nützlich:
+In Python gibt es zahlreiche Funktionen (und noch mehr Erweiterungsmodule), die einem das Leben erleichtern. Bei der Arbeit mit Listen (und verschachtelten Listen) erweisen sich vor allem folgende Funktionen als nützlich:
 
 * `enumerate()`
 * `sum()`

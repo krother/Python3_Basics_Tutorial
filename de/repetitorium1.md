@@ -56,14 +56,3 @@ Welche der folgenden Befehle sind korrekt?
 * `for (i=0; i<10; i++):`
 * `for var in open('bigbang.txt'):`
 
-
-### Aufgabe 6
-
-Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
-
-* `if a and b:`
-* `if len(s) == 23:`
-* `if a but not b < 3:`
-* `if a ** 2 >= 49:`
-* `if a != 3`
-* `if (a and b) or (c and d):`
