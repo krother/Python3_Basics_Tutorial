@@ -3,11 +3,9 @@
 
 Ein Programm besteht aus mehreren Zeilen, die in einem Rutsch ausgeführt werden.
 
-Zu einem Programm gehören normalerweise:
+Zu einem Programm gehören normalerweise folgende Schritte:
 
-* Eingabedaten
-* Verarbeitung
-* Ausgabe
+![Eingabe - Verarbeitung - Ausgabe](IPO.png)
 
 Im Detail können Programme natürlich sehr viel komplizierter werden.
 

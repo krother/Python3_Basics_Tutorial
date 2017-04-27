@@ -23,6 +23,7 @@ Nun werden wir das Programm ausführen.
 * In **IDLE** erreichen wir das gleiche durch Drücken von `F5`.
 * Unter **Unix** öffnen wir ein Terminal (ohne IPython), wechseln in das Verzeichnis mit der Datei `ausgabe.py` und schreiben:
 
+
     python3 ausgabe.py
 
 

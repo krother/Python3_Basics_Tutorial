@@ -7,7 +7,7 @@ Schreibe ein Programm, das gerade Zahlen zwischen 2 und 20 ausgibt.
 
 ### Mittel
 
-Gegen ist ein chiffriertes Wort:
+Gegeben ist ein chiffriertes Wort:
 
     name = "CSAIPRALKAINACZEYLVOST"
 
