@@ -1,7 +1,7 @@
 
 # Klassen
 
-![Überblick Objektorientierte Programmierung](oop_simple.png)
+
 
 ### Ziele
 

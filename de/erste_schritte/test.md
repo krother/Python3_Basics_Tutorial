@@ -9,7 +9,7 @@ Gegeben ist folgende chiffrierte Variable:
 
 Multipliziere diese Zahl mit 10, ziehe 1 ab und teile durch 7.
 
-Stelle sicher, daß Du als Ergebnis *977* erhälst, die Anzahl der Babys mit Namen *"Walter"* im Jahr 2014.
+Als Ergebnis erhälst Du die Anzahl der Babys mit Namen *"Walter"* im Jahr 2014.
 
 ### Mittel
 

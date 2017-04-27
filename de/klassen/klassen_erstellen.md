@@ -1,4 +1,8 @@
 
+# Klassen
+
+![Überblick Objektorientierte Programmierung](oop_simple.png)
+
 ### Aufgabe 1
 
 Führe das Codebeispiel `account.py` aus. Erkläre das Programm. 
