@@ -26,11 +26,14 @@ Wie viele Babys sind das insgesamt? Schreibe ein Programm, welches diese Zahl er
 
 ### Aufgabe 4
 
-Erstelle eine neue Liste, welche für jeden der vier Namen die Summe von Kalifornien und New York enthält.
+Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 
-    # Emily, Amy, Penny, Bernadette (2014)
-    california = [2269, 542, 54, 21]
-    new_york = [881, 179, 12, 11]
+    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
+    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
+    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
+    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
+
+Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
 
 
 ### Aufgabe 5
@@ -41,11 +44,8 @@ Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. V
 
 ### Aufgabe 6
 
-Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
+Erstelle eine neue Liste, welche für jeden der vier Namen die Summe von Kalifornien und New York enthält.
 
-    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
-    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
-    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
-    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
-
-Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
+    namen = ["Emily", "Amy", "Penny", "Bernadette"]
+    california = [2269, 542, 54, 21]
+    new_york = [881, 179, 12, 11]

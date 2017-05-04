@@ -19,20 +19,23 @@ Führe das folende Programm aus. Erkläre was passiert.
         f.write(name + '\n')
     f.close()
 
+
 ### Aufgabe 3
 
 Lösche das `+ '\n'` aus dem Programm und führe es noch einmal aus. Was passiert?
 
 
-
 ### Aufgabe 4
 
-Welche Befehle sind korrekt?
+Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
 
-* `for line in open(filename):`
-* `f = open(filename, 'w')`
-* `open(filename).writelines(out)`
-* `f.close()`
+     In [1]: 9 + 9
+
+     In [2]: 9 + '9'
+
+     In [3]: '9' + '9'
+
+     In [4]: 9 * '9'
 
 
 ### Aufgabe 5

@@ -3,7 +3,7 @@
 
 ### Aufgabe 1
 
-Erstelle eine Textdatei namens `bigbang.txt` für die folgenden Übungen. Fülle sie mit diesen Daten:
+Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit folgenden Daten:
 
     Emily,F,12562
     Amy,F,2178
@@ -31,20 +31,8 @@ Bringe das Programm zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `p
 Je nachdem was für einen Editor Du verwendest, mußt Du eventuell den kompletten Pfad (Verzeichnisnamen) zur Datei eingeben. Wenn Du Dich wunderst, daß das Programm *immer noch nicht* funktioniert, ist die wahrscheinlichste Ursache ein falscher Dateipfad oder Dateiname.
 
 
+
 ### Aufgabe 3
-
-Schreibe ein Programm, welches die Gesamtzahl der Namen (nicht Kinder) in der Datei `bigbang.txt` ermittelt.
-
-Du kannst dazu eine Zählervariable verwenden. Die folgenden zwei Zeilen könnten dabei nützlich sein:
-
-    namen = 0
-
-und 
-
-    namen = namen + 1
-
-
-### Aufgabe 4
 
 Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
 
@@ -62,21 +50,27 @@ Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
 
     girls += 1
 
+
+### Aufgabe 4
+
+Erweitere das Programm aus der vorigen Aufgabe so, daß die Anzahl der Jungen- und Mädchennamen getrennt gezählt und ausgegeben werden.
+
+
 ### Aufgabe 5
 
-Führe das folgende Programm aus. Was wird berechnet?
+Welche der folgenden Befehle sind korrekt?
 
-    boys = 0
-    girls = 0
-    for line in open('names/yob2015.txt'):
-        if ",M," in line:
-            boys = boys + 1
-        elif ",F," in line:
-            girls = girls + 1
-        else:
-            print("Zeile nicht erkannt:\n", line)
-    print(boys, girls)
+* `for char in "ABCD":`
+* `for i in range(10):`
+* `for number in [4, 6, 8]:`
+* `for k in 3+7:`
+* `for (i=0; i<10; i++):`
+* `for var in open('bigbang.txt'):`
+
 
 ### Aufgabe 6
 
-Schreibe ein Programm, das die Zeilen aus der Datei `yob2015.txt` einliest. Finde die Zeile(n) die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
+Schreibe ein Programm, das die Zeilen aus der Datei `yob2015.txt` einliest. Finde alle Zeilen, die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
+
+
+
