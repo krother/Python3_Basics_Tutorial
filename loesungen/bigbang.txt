@@ -1,0 +1,9 @@
+Emily,F,12562
+Amy,F,2178
+Penny,F,342
+Bernadette,F,129
+Leonard,M,384
+Howard,M,208
+Sheldon,M,164
+Stuart,M,82
+Raj,M,41

@@ -58,7 +58,3 @@ Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
 * `if a ** 2 >= 49:`
 * `if a != 3`
 * `if (a and b) or (c and d):`
-
-### Aufgabe 5
-
-Sammle **Operatoren**, **Datentypen**, **Funktionen** und **Python-Befehle**, die Du bisher kennen gelernt hast, in einer Tabelle.
