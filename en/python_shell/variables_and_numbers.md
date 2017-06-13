@@ -2,9 +2,9 @@
 
 The U.S. authorities record the names of all babies born since 1880. How many babies with more or less popular names were born in 2000? Let's store the numbers in *variables*. 
 
-## Warming up
+### Exercise 1:
 
-Let's define some variables:
+Let's define some variables. Fill in the gaps:
 
     In [1]: emily = 25952
     In [2]: hannah = 23073
@@ -16,7 +16,9 @@ Let's define some variables:
     In [6]: 3 * khaleesi
     Out[6]: ______
 
-Let's change the content:
+### Exercise 2:
+
+Let's change the content. Insert the correct values and variable names into the blanks.
 
     In [7]: emily = emily + 1
     In [8]: emily
@@ -27,40 +29,25 @@ Let's change the content:
     In [11]: all_babies
     Out[11]: 49031
 
-Insert the correct values and variable names into the blanks.
+*If you like maths, you may sigh loud at the notion of redefining a variable every few lines.*
 
-## Exercises
-
-Complete the following exercises:
-
-### Exercise 1:
+### Exercise 3:
 
 Which of the following variable names are correct? Try assigning some numbers to them.
 
-    Emily
-    EMILY
-    emily brown 
-    emily25
-    25emily
-    emily_brown
-    emily.brown
+    Sarah
+    ASHLEY
+    madison alexis
+    sam90
+    2000jessy
+    liz_lauren
+    alyssa.kay
 
-### Exercise 2:
+### Exercise 4:
 
 Which are correct variable assignments?
 
-- [ ] `a = 1 * 2`
-- [ ] `2 = 1 + 1`
-- [ ] `5 + 6 = y`
-- [ ] `seven = 3 * 4`
-
-
-## The Challenge: Calculate an average
-
-What is the average number of the top five boy names? 
-
-Calculate the number and store it in a variable.
-
-Make a very rough estimate before you do the calculation.
-
-
+* `a = 1 * 2`
+* `2 = 1 + 1`
+* `5 + 6 = y`
+* `seven = 3 * 4`

@@ -1,9 +1,9 @@
 
 # Reading simple text files
 
-## Preparations
+### Exercise 1
 
-For the first exercise, you need a data file `bigbang.txt` containing the following data:
+Create a text file `bigbang.txt` in a text editor, containing the following data:
 
     Emily,F,12562
     Amy,F,2178
@@ -16,6 +16,7 @@ For the first exercise, you need a data file `bigbang.txt` containing the follow
     Raj,M,41
 
 
+
 ## Exercise 1:
 
 Make the program work by inserting `close`, `line`, `bigbang.txt`, `print` into the gaps.
@@ -26,33 +27,46 @@ Make the program work by inserting `close`, `line`, `bigbang.txt`, `print` into 
     f.____()
 
 #### Hint: 
-Depending on your editor, you may need to insert the complete path to the file. If the program does not work, a wrong file name or location are by far the most probable reasons.
+
+Depending on your editor, you may need to insert the complete path to the file. If the program does not work, a wrong file name or location are the most probable reasons.
 
 
-## Exercise 2
+### Exercise 3
 
-Write a program that calculates the total number of names in the file `bigbang.txt` from the dataset of baby names. 
+How many different *girls names* were there in 2015?
 
-You will need to use a counter variable. The follwing two lines will be useful:
+**Sort** the following code lines and **indent them correctly**:
 
-    names = 0
+    girls = 0
 
-and 
+    if "B" in line:
 
-    names = names + 1
+    print(girls)
+
+    if ",F," in line:
+
+    for line in open('names/yob2015.txt'):
+
+    girls += 1
 
 
-## Exercise 3
+### Exercise 4
 
-Write a program that reads a file `bigbang_numbers.txt` that contains numbers only and calculates their sum. For the file, use the following data:
+Extend the program from the previous exercise such that boys and girls names are counted separately.
 
-    12562
-    2178
-    342
-    129
-    384
-    208
-    164
-    82
-    41
 
+### Exercise 5
+
+Which of the following commands are correct?
+
+* `for char in "ABCD":`
+* `for i in range(10):`
+* `for number in [4, 6, 8]:`
+* `for k in 3+7:`
+* `for (i=0; i<10; i++):`
+* `for var in open('bigbang.txt'):`
+
+
+### Exercise 6
+
+Write a program that reads lines from the file `yob2015.txt`. Identify all lines containing your name and print them to the screen.

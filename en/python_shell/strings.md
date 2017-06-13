@@ -1,67 +1,38 @@
 
 # Storing text
 
-## Warming up
+### Exercise 1:
 
 So far, we have only worked with numbers. Now we will work with text as well.
 
-    first = 'Emily'
-    last = "Smith"
-    first
-    last
+    In [1]: first = 'Emily'
+    In [2]: last = "Smith"
+    In [3]: name = first + " " + last
+    In [4]: name
 
-    name = first + " " + last
-    name
-
-What do the following statements do:
-
-    name[0]
-
-    name[3]
-    
-    name[-1]
-
-
-## Exercises
-
-### Exercise 1: 
-
-Is it possible to include the following special characters in a string?
-
-    . 7 @ ? / & * \ Ä ß " ' á
-
-### Exercise 2: 
+### Exercise 2:
 
 What do the following statements do?
 
-    first = `Hannah`
+    In [5]: name[0]
+    In [6]: name[3]
+    In [7]: name[-1]
 
-    first = first[0]
-
-    name = first
-
-    name = ""
 
 ### Exercise 3:
 
-Explain the code
+Is it possible to include the following special characters in a string?
 
-    text = ""
-    characters = "ABC"
-    text = characters[0] + text
-    text = characters[1] + text
-    text = characters[2] + text
-    text
+    Ä á @ ? & * \ / " '
 
-## The Challenge
+### Exercise 4:
 
-| first name | Andrew   |
-|------------|----------|
-| last name  | O'Malley |
-| gender     | M |
-| year of birth | 2000  |
+What does `name` contain after the following statements? Explain the code.
 
-Write the information from each row of the table into a separate string variable, then combine them to a single string, e.g.:
-
-    O'Malley, Andrew, M, 2000
-
+    In [8]: name = ""
+    In [9]: anna = "Anna"
+    In [10]: name = anna[0] + name
+    In [11]: name = anna[1] + name
+    In [12]: name = anna[2] + name
+    In [13]: name = anna[3] + name
+    In [14]: name

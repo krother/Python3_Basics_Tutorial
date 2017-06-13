@@ -9,10 +9,12 @@ In this section we will take a closer look at the `for` statement that repeats o
 
 What does the following program do?
 
-    for number in range(42):
+    for number in range(1, 43):
         print(number)
 
-What advantages does this program have over this one:
+### Exercise 2
+
+What advantages does the `for` loop have over the following one?
 
     print(0)
     print(1)
@@ -22,7 +24,7 @@ What advantages does this program have over this one:
     ..
 
 
-### Exercise 2
+### Exercise 3
 
 Write a for loop that creates the following output
 
@@ -35,7 +37,7 @@ Write a for loop that creates the following output
     49
 
 
-## Exercise 3
+### Exercise 4
 
 
 Explain the difference between the following two programs:
@@ -53,41 +55,7 @@ and
     print(total)
 
 
-## Exercise 4
-
-Write a for loop that creates the following string
-
-    1 4 9 16 25 36 49 64 81
-
-
-## Exercise 5
-
-Write a for loop that creates the following string:
-
-    000111222333444555666777888999
-
-
-## Exercise 6
-
-Which of these `for` commands are correct?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for number in [4, 6, 8]:`
-* `for k in 3+7:`
-* `for (i=0; i<10; i++):`
-* `for var in open('bigbang.txt'):`
-
-
-## Exercise 7
-
-Read the file `bigbang_numbers.txt` and calculate the average and standard deviation. Use the code sniplet:
-
-    import math
-    root = math.sqrt(value)
-
-
-## Exercise 8
+### Exercise 5
 
 What does the following program do?
 
@@ -98,12 +66,6 @@ What does the following program do?
     print(text)
 
 
-## Exercise 9
+## Exercise 6
 
-Write a program that calculates the number of characters in `Emily Smith`.
-
-
-## Exercise 10
-
-Write a program that duplicates each character of a string, so that `Emily` becomes `EEmmiillyy`.
-
+Write a program that calculates the number of characters in `Stefani Joanne Angelina Germanotta`. **Spaces count as well!**

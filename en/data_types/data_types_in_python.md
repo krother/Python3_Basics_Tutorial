@@ -40,13 +40,3 @@ Values can be converted into each other using *conversion functions*. Try the fo
     dict([('A',1),('B',2)])
     set([1,2,2,3])
 
-# Exercises
-
-## Exercise 1
-
-On which data types does the `len()` function work?
-
-- [ ] lists
-- [ ] dictionaries
-- [ ] strings
-- [ ] floats
