@@ -12,23 +12,16 @@
   * [Making decisions](python_programs/if.md)
 * [Overview of data types in Python](data_types/data_types_in_python.md)
 * [Lists](lists/README.md)
-  * [Managing lists of items](lists/lists.md)
-  * [Creating tables](tables/tables.md)
-  * [Shortcuts](tables/builtin_functions.md)
-
-  * [Listen verarbeiten](listen/listen.md)
-  * [Verschachtelte Listen](listen/tabellen.md)
-  * [Abkürzungen](listen/abkuerzungen.md)
-  * [Processing multiple tables](tables/multiple_tables.md)
-  * [Using format strings](parsing/string_methods.md)
+  * [Creating lists](lists/lists.md)
+  * [Shortcuts](lists/builtin_functions.md)
+  * [Working with tables](lists/tables.md)
 * [Reading data from files](reading_data/reading_data.md)
   * [Reading a simple text file](reading_data/readfile.md)
   * [Extracting data from text](reading_data/parsing.md)
   * [Writing files](reading_data/writing_files.md)
   * [Processing multiple files](reading_data/multiple_files.md)
-
-
-
+* [Strings](data_types/strings.md)
+  * [Using format strings](parsing/string_methods.md)
 * [Dictionaries](data_types/dictionaries.md)
 * [Tuples](data_types/tuples.md)
 * [Converting numbers to text and back](python_shell/type_conversions.md)
