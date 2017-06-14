@@ -1,7 +1,9 @@
 
-# Verschachtelte Listen
+# Tabellen
 
-Daten treten häufig in Form von Tabellen auf. Um Tabellen in Python zu verarbeiten, kommt uns entgegen, daß wir Listen in anderen Listen speichern können. Damit sieht eine einfache Tabelle in Python so aus:
+Daten treten häufig in Form von Tabellen auf. Um Tabellen in Python zu verarbeiten, kommt uns entgegen, daß wir Listen in anderen Listen speichern können. Diese nennt man auch **verschachtelte Listen**. 
+
+Damit sieht eine einfache Tabelle in Python so aus:
 
     # Spalten: Name, #California, #New York
     [
@@ -10,9 +12,6 @@ Daten treten häufig in Form von Tabellen auf. Um Tabellen in Python zu verarbei
       ["Penny", 54, 12],
       ["Bernadette", 21, 11]
     ]
-
-
-Diese Art von Tabelle nennt man auch *verschachtelte Liste*.
 
 In diesem Teil des Kurses werden wir uns mit Aufbau und Verarbeitung von verschachtelten Listen beschäftigen.
 

@@ -23,18 +23,16 @@ As a text editor, it is fine to start with **gedit**. Please make sure to change
 
 ## On Windows
 
-A convenient way to install Python, an editor and many additional packages in one go is [**Canopy**](https://www.enthought.com/products/canopy/). Download and install it from the website.
+A convenient way to install Python, an editor and many additional packages in one go is [**Anaconda**](https://store.continuum.io/cshop/anaconda/), a Python distribution with many pre-installed packages for scientific applications.
 
-After installing, you will need to set up Canopy from the Start menu. Select the first item from the **Enthought Canopy** group and click through the dialog.
+After installing, you will need to launch the **Spyder** editor from the Start menu.
 
-## Other Python distributions
+
+### Other Python environments
 
 * [**Python 3**](https://www.python.org/downloads/) - the standard Python installation
-* [**Anaconda**](https://store.continuum.io/cshop/anaconda/) - a Python distribution with many pre-installed packages for scientific applications
-
-### Other editors
-
-* **Idle** - the standard editor
+* [**Canopy**](https://www.enthought.com/products/canopy/) - another Python instllation for scientific purposes.
+* **Idle** - a standard editor installed with Python by default.
 * **Sublime Text** - a very powerful text editor for all operating systems
 * **Notepad++** - a powerful text editor for Windows. *Please do not use the standard Notepad. It won't get you anywhere.*
 * **PyCharm** - a professional Python development environment capable of handling large projects. You won't need most of the functionality for a long time, but it is a well-written editor.

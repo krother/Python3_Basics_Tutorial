@@ -21,7 +21,10 @@ Extrahiere die beiden Initialien aus dem String und speichere sie in einer neuen
 
 ### Schwer
 
-Speichere folgenden Text in *einer* Stringvariablen:
+Speichere die folgenden Zeilen in *drei einzelnen Stringvariablen*. Verbinde sie dann zu einer:
 
-    Im Jahr 2014 wurden in den USA
-    977 Babys mit dem Namen 'Walter' geboren.
+    Im Jahr 2014
+
+    wurden in den USA 977 Babys
+    
+    mit dem Namen 'Walter' geboren.

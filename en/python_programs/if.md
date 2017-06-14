@@ -3,6 +3,7 @@
 
 The last missing piece in our basic set of commands is the ability to make decisions in a program. This is done in Python using the `if` command.
 
+![making decisions](list.png)
 
 ### Exercise 1
 

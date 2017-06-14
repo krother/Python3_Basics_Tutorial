@@ -5,7 +5,7 @@ A program consists of multiple lines that are executed in one go.
 
 Usually a program contains the following sections:
 
-![Eingabe - Verarbeitung - Ausgabe](IPO.png)
+![input-processing-output](IPO.png)
 
 Of course, programs can grow a lot more complicated than that.
 
