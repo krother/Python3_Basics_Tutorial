@@ -1,7 +1,7 @@
 
 # Funktionen selbst schreiben
 
-### Aufgabe 3
+### Aufgabe 1
 
 Schreibe eine Funktion, die eine Summe berechnet. Vervollständige das Programm, indem Du in die Lücken einsetzt: `anzahlen`, `daten`, `def`, `return`, `summe_berechnen', `+=`
 
@@ -16,7 +16,7 @@ Schreibe eine Funktion, die eine Summe berechnet. Vervollständige das Programm,
     print(summe)
 
 
-### Aufgabe 4
+### Aufgabe 2
 
 Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grundgesamtheit einen prozentualen Anteil berechnet. Verwende den folgenden Aufbau:
 
@@ -33,7 +33,7 @@ Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grund
         print("Test erfolgreich!")
 
 
-### Aufgabe 5
+### Aufgabe 3
 
 Erstelle eine neue Datei `bigbang_anzahl.txt` mit folgendem Inhalt:
 
@@ -60,7 +60,7 @@ Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollen.
 **TIP:** Du kannst auch zuerst das Programm ohne Funktionen schreiben und danach die Funktionen aus dem Code ausgliedern.
 
 
-### Aufgabe 6
+### Aufgabe 4
 
 Folgendes Programm berechnet die Standardabweichung aus der Datei `bigbang_anzahl.txt`. Wir möchten die Berechnung verallgemeinern. Packe den Code zur Berechnung der Standardabweichung in eine Funktion.
 
@@ -80,7 +80,7 @@ Folgendes Programm berechnet die Standardabweichung aus der Datei `bigbang_anzah
 
     print("Standardabweichung: {:8.2f}".format(stabw))
 
-### Aufgabe 7
+### Aufgabe 5
 
 Erkläre das Programm `parameter.py`:
 
@@ -96,7 +96,7 @@ Erkläre das Programm `parameter.py`:
     print(addition(b=4, c=5))
 
 
-### Aufgabe 8
+### Aufgabe 6
 
 Erkläre das Programm `fakultaet.py`:
 
