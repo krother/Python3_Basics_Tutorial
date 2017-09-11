@@ -48,6 +48,7 @@
   * [Reguläre Ausdrücke](strings/regulaere_ausdruecke.md)
   * [Eingabe von der Tastatur](andere/input.md)
 * [Wiederholungsübung](repetitorium3.md)
+* [Challenges](challenges/README.md)
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
 * [Danksagungen](appendix/danksagungen.md)
