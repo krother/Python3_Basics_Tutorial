@@ -1,7 +1,7 @@
 
 # Anweisungen wiederholen
 
-In unseren ersten Programmen wurde jeder Python-Befehl genau ein Mal ausgeführt. Strenggenommen macht das die ganze Programmiererei ein wenig sinnlos, weil unsere Programme durch unsere Tippgeschwindigkeit ausgebremst werden.
+In unseren ersten Programmen wurde jeder Python-Befehl genau ein Mal ausgeführt. Streng genommen macht das die ganze Programmiererei ein wenig sinnlos, weil unsere Programme durch unsere Tippgeschwindigkeit ausgebremst werden.
 
 In diesem Abschnitt werden wir uns daher die `for`-Anweisung genauer anschauen, mit der wir einen oder mehrere Befehle wiederholt als **Schleife** ausführen können.
 
