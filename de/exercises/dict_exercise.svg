@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="dict_exercise.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-735.67893"
+     inkscape:cy="754.88216"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     showguides="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.84715939;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4995"
+       width="260.95639"
+       height="174.77783"
+       x="17.310484"
+       y="105.66763"
+       inkscape:export-xdpi="99.964729"
+       inkscape:export-ydpi="99.964729" />
+    <g
+       id="g4993"
+       transform="translate(-5.2916667,2.2678571)"
+       inkscape:export-xdpi="99.964729"
+       inkscape:export-ydpi="99.964729">
+      <path
+         style="fill:#808080;stroke:#808080;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 96.065076,225.23814 215.03665,156.54987"
+         id="path4908"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4906"
+         d="M 215.03665,225.23814 96.065076,156.54987"
+         style="fill:#808080;stroke:#808080;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4902"
+         d="M 155.55086,122.20573 V 259.58227"
+         style="fill:#808080;stroke:#808080;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#808080;stroke:#808080;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 224.23913,190.894 H 86.86259"
+         id="path4904"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(22.835821,32.618751)"
+         id="g4585">
+        <rect
+           y="147.48112"
+           x="199.41743"
+           height="19.780886"
+           width="51.494022"
+           id="rect4570"
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4572"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,1.6114848,87)"><flowRegion
+             id="flowRegion4574"><rect
+               id="rect4576"
+               width="289.89523"
+               height="65.952812"
+               x="775.79718"
+               y="237.10675" /></flowRegion><flowPara
+             id="flowPara4578"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">d.keys()</flowPara></flowRoot>      </g>
+      <g
+         id="g4609"
+         transform="translate(-163.48739,-8.7248435)">
+        <rect
+           y="147.51559"
+           x="199.4519"
+           height="19.711979"
+           width="64.336113"
+           id="rect4599"
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4607"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,1.989461,87)"><flowRegion
+             id="flowRegion4603"><rect
+               id="rect4601"
+               width="289.89523"
+               height="65.952812"
+               x="775.79718"
+               y="237.10675" /></flowRegion><flowPara
+             id="flowPara4605"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">d['Katze']</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-163.45178,32.618741)"
+         id="g4621">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4611"
+           width="51.089024"
+           height="19.783195"
+           x="199.41629"
+           y="147.47998" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,1.6114848,87)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot4619"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4615"><rect
+               y="237.10675"
+               x="775.79718"
+               height="65.952812"
+               width="289.89523"
+               id="rect4613" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+             id="flowPara4617">len(d)</flowPara></flowRoot>      </g>
+      <g
+         id="g4633"
+         transform="translate(-163.48737,73.962328)">
+        <rect
+           y="147.51558"
+           x="199.45189"
+           height="19.711979"
+           width="64.336113"
+           id="rect4623"
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4631"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,1.6114848,87)"><flowRegion
+             id="flowRegion4627"><rect
+               id="rect4625"
+               width="289.89523"
+               height="65.952812"
+               x="775.79718"
+               y="237.10675" /></flowRegion><flowPara
+             id="flowPara4629"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">d.get('dog')</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(9.9592768,-8.7248282)"
+         id="g4645">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4635"
+           width="64.336113"
+           height="19.711979"
+           x="199.45189"
+           y="147.51558" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,1.6114848,87)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot4643"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4639"><rect
+               y="237.10675"
+               x="775.79718"
+               height="65.952812"
+               width="289.89523"
+               id="rect4637" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+             id="flowPara4641">d.values()</flowPara></flowRoot>      </g>
+      <g
+         id="g4657"
+         transform="translate(9.9592768,73.962328)">
+        <rect
+           y="147.51558"
+           x="199.45189"
+           height="19.711979"
+           width="64.336113"
+           id="rect4647"
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4655"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,1.6114848,87)"><flowRegion
+             id="flowRegion4651"><rect
+               id="rect4649"
+               width="289.89523"
+               height="65.952812"
+               x="775.79718"
+               y="237.10675" /></flowRegion><flowPara
+             id="flowPara4653"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">'fox' in d</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-90.908084,-35.723176)"
+         id="g4597">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4587"
+           width="93.247444"
+           height="19.579306"
+           x="199.51823"
+           y="147.58192" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,1.989461,87)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot4595"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4591"><rect
+               y="237.10675"
+               x="775.79718"
+               height="65.952812"
+               width="289.89523"
+               id="rect4589" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+             id="flowPara4593">d['cat']='Katze'</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-90.908042,100.98394)"
+         id="g4669">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79655749;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4659"
+           width="93.24736"
+           height="19.579308"
+           x="199.51823"
+           y="147.58192" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,-0.92757571,87)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot4667"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4663"><rect
+               y="237.10675"
+               x="775.79718"
+               height="50.800533"
+               width="332.82669"
+               id="rect4661" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+             id="flowPara4665">d.setdefault('fish',0)</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(0.18226082,10.50715)"
+         id="g4812">
+        <g
+           transform="translate(-92.22619,7.559524)"
+           id="g4684">
+          <rect
+             style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4674"
+             width="82.009247"
+             height="48.269775"
+             x="206.27318"
+             y="147.78876" />
+          <flowRoot
+             transform="matrix(0.26458333,0,0,0.26458333,8.6684118,87)"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             id="flowRoot4682"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4678"><rect
+                 y="237.10675"
+                 x="775.79718"
+                 height="204.98021"
+                 width="282.83203"
+                 id="rect4676" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4702">d = {</flowPara><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4688" /><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4690" /></flowRoot>          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4732"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             transform="matrix(0.26458333,0,0,0.26458333,8.9478118,82.470347)"><flowRegion
+               id="flowRegion4718"><rect
+                 id="rect4716"
+                 width="282.83203"
+                 height="204.98021"
+                 x="775.79718"
+                 y="237.10675" /></flowRegion><flowPara
+               id="flowPara4720"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /><flowPara
+               id="flowPara4724"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">  'fox': 'Fuchs',</flowPara><flowPara
+               id="flowPara4726"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /><flowPara
+               id="flowPara4728"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /><flowPara
+               id="flowPara4730"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /></flowRoot>          <flowRoot
+             transform="matrix(0.26458333,0,0,0.26458333,8.9478118,90.960306)"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             id="flowRoot4750"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4736"><rect
+                 y="237.10675"
+                 x="775.79718"
+                 height="204.98021"
+                 width="282.83203"
+                 id="rect4734" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4738" /><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4744">  'dog': 'Hund'</flowPara><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4746" /><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'"
+               id="flowPara4748" /></flowRoot>          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4768"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             transform="matrix(0.26458333,0,0,0.26458333,8.0397618,99.428038)"><flowRegion
+               id="flowRegion4756"><rect
+                 id="rect4754"
+                 width="282.83203"
+                 height="204.98021"
+                 x="775.79718"
+                 y="237.10675" /></flowRegion><flowPara
+               id="flowPara4758"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /><flowPara
+               id="flowPara4762"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'">}</flowPara><flowPara
+               id="flowPara4764"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /><flowPara
+               id="flowPara4766"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:37.79527664px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch'" /></flowRoot>        </g>
+      </g>
+    </g>
+  </g>
+</svg>
