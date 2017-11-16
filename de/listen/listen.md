@@ -40,9 +40,17 @@ Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` an
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
-![list funcs exercise1](../exercises/list_funcs1.png)
+![list funcs exercise2](../exercises/list_funcs2.png)
+
 
 ### Aufgabe 6
+
+Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
+
+![list funcs exercise1](../exercises/list_funcs1.png)
+
+
+### Aufgabe 7
 
 Erstelle eine neue Liste, welche für jeden der vier Namen die Summe von Kalifornien und New York enthält.
 

@@ -39,6 +39,3 @@ Welche Operationen ergeben 8?
 * `2 * * 4`
 * `64 ** 0.5`
 
-### Aufgabe 3
-
-Sammle die Dir bereits bekannten **Operatoren** in Python (`+`, `-`, `*` etc.). 

@@ -9,16 +9,8 @@ Dies ist ein Tutorial für Einsteiger ohne Programmiererfahrung in Python. Beim 
 * Du hast bereits ein wenig mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet.
 * Du kennst Dich mit Python ganz gut aus und möchtest es anderen beibringen.
 
-Dieses Tutorial funktioniert am Besten, wenn Du die Kapitel und Übungen eine nach der anderen durcharbeitest. Die Aufgaben nur zu lesen bringt nichts. Um zu lernen, mußt Du sie am Computer lösen.
+Dieses Tutorial funktioniert am Besten, wenn Du die Übungen am Computer durcharbeitest.
 
-## Babynamen in den USA
-
-![Babynamen](einfuehrung/baby.png)
-
-Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger registriert. Der Datensatz ist öffentlich unter [http://www.ssa.gov/oact/babynames/limits.html
-](http://www.ssa.gov/oact/babynames/limits.html) zugänglich. Aus Datenschutzgründen sind nur Namen, die mindestens 5 Mal verwendet wurden, im Datensatz aufgeführt.
-
-In diesem Tutorial, werden wir vor allem mit diesem Datensatz arbeiten.
 
 ## Was für ein System benötige ich?
 

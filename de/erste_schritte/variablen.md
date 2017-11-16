@@ -55,3 +55,12 @@ Welche **Zuweisungen** an Variablen sind korrekt?
 * `2 = 1 + 1`
 * `5 + 6 = y`
 * `sieben = 3 * 4`
+
+
+### Aufgabe 5
+
+Ermittle die Anzahl der Babys mit Namen *"Walter"* im Jahr 2014. Du hast folgenden Zahlencode:
+
+    code = 684
+
+Multipliziere diese Zahl mit 10, ziehe 1 ab und teile anschließend durch 7.

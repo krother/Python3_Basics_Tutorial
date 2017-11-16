@@ -1,5 +1,5 @@
 
-# Text speichern
+# Strings
 
 ### Aufgabe 1
 
@@ -28,6 +28,13 @@ Ist es möglich, die folgenden Sonderzeichen in einem String zu verwenden?
 
 ### Aufgabe 4
 
+Gib die beiden Initialien aus dem folgenden String aus. Verwende die Schreibweise mit eckigen Klammern:
+
+    name = "Walter White"
+
+
+### Aufgabe 5
+
 Was ist nach der folgenden Befehlsfolge in `name` enthalten? Erkläre den Code:
 
     In [8]: name = ""
@@ -37,3 +44,12 @@ Was ist nach der folgenden Befehlsfolge in `name` enthalten? Erkläre den Code:
     In [12]: name = anna[2] + name
     In [13]: name = anna[3] + name
     In [14]: name
+
+
+### Aufgabe 6
+
+Gegeben ist ein chiffriertes Wort:
+
+    name = "CSAIPRALKAINACZEYLVOST"
+
+Schreibe ein Programm, das jeden zweiten Buchstaben des Wortes in einem neuen String sammelt (beginnend beim 2.). Gib den String aus.
