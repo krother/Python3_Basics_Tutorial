@@ -10,21 +10,19 @@ Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen
 
 ### Aufgabe 2
 
-Was tut das folgende Programm?
+Gegeben ist eine Liste mit den Anzahlen der 8 häufigsten
+Jungennamen aus dem Jahr 2000:
 
-    top8 = [34465, 32025, 28569, 27531, \
-            24928, 23632, 22818, 22307]
+    babys = [34465, 32025, 28569, 27531,
+             24928, 23632, 22818, 22307]
 
-    for anzahl in top8:
+    for anzahl in babys:
         print(anzahl)
-
-
-### Aufgabe 3
 
 Wie viele Babys sind das insgesamt? Schreibe ein Programm, welches diese Zahl ermittelt.
 
 
-### Aufgabe 4
+### Aufgabe 3
 
 Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 
@@ -36,21 +34,21 @@ Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
 
 
-### Aufgabe 5
+### Aufgabe 4
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise2](../exercises/list_funcs2.png)
 
 
-### Aufgabe 6
+### Aufgabe 5
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise1](../exercises/list_funcs1.png)
 
 
-### Aufgabe 7
+### Aufgabe 6
 
 Erstelle eine neue Liste, welche für jeden der vier Namen die Summe von Kalifornien und New York enthält.
 
