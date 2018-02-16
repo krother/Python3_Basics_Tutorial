@@ -2,6 +2,9 @@
 
 * [Einführung](README.md)
 * [Python installieren](einfuehrung/installation.md)
+
+----
+
 * [Erste Schritte in IPython](erste_schritte/README.md)
   * [Python als Taschenrechner](erste_schritte/python_shell.md)
   * [Zahlen in Variablen speichern](erste_schritte/variablen.md)
@@ -29,6 +32,9 @@
   * [Methoden von Dictionaries](dictionaries/dictionaries.md)
   * [Buchstaben zählen](dictionaries/zaehlen.md)
 * [Eingabe von der Tastatur](andere/input.md)
+
+### Challenges
+
 * [Challenges](challenges/README.md)
   * [Babynamen](challenges/babynamen.md)
   * [Weihnachtsbaum](challenges/weihnachtsbaum.md)
@@ -39,6 +45,9 @@
   * [Alaeddin und die Wunderlampe](challenges/alaeddin.md)
     * [Hinweise](challenges/alaeddin_hinweise.md)
     * [Antworten](challenges/alaeddin_antworten.md)
+
+----
+
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
 * [Danksagungen](appendix/danksagungen.md)
