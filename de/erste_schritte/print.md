@@ -6,14 +6,18 @@ Im diesem Teil werden wir den `print`-Befehl zur einfachen Textausgabe weiter er
 
 ### Aufgabe 1
 
-Welche `print`-Anweisungen sind korrekt?
+<quiz name="">
+    <question multiple>
+<p>Welche <code>print</code>-Anweisungen sind korrekt?</p>
 
-* `print("9" + "9")`
-* `print "nine"`
-* `print(str(9) + "nine")`
-* `print(9 + 9)`
-* `print(nine)`
-
+<answer correct><code>print("9" + "9")</code></answer>
+<answer><code>print "neun"</code></answer>
+<answer correct><code>print(str(9) + "neun")</code></answer>
+<answer correct><code>print(9 + 9)</code></answer>
+<answer correct><code>print(neun)</code></answer>
+<explanation>Die <code>print</code>-Funktion wandelt alles in Strings um.</explanation>
+</question>
+</quiz>
 
 ### Aufgabe 2
 

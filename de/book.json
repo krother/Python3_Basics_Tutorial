@@ -1,0 +1,23 @@
+{
+    "plugins": ["quiz"],
+
+    "pluginsConfig": {
+    "quiz": {
+            "labels": {
+                "check"             : "Abschicken",
+                "showExplanation"   : "Erklärung", 
+                "showCorrect"       : "Antworten anzeigen",   
+                "explanationHeader" : "Erklärung"
+            },
+            "text": {
+                "noChosen"    : "Wähle bitte eine korrekte Antwort aus",  
+                "incomplete"  : "Einige korrekte Antworten fehlen" 
+            },
+            "buttons": {
+                "showCorrect"       : true, 
+                "showExplanation"   : true 
+            }
+        }
+    }
+
+}
