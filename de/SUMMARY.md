@@ -44,15 +44,15 @@
 
 ### Projekt 2: Gapminder
 
-* [Datenanalyse mit pandas](README.md)
-* [pandas kennen lernen](pandas_grundlagen.md)
-* [Balkendiagramme plotten](balkendiagramm.md)
-* [Histogramme plotten](histogramm.md)
-* [Langes und breites Tabellenformat](long_wide_tables.md)
-* [Mehrere Korrelationen plotten](mehrere_korrelationen.md)
-* [Animierter Scatterplot](animation.md)
-* [Datenquellen](datenquellen.md)
-* [Links](links.md)
+* [Datenanalyse mit pandas](projekt_gapminder/README.md)
+* [pandas kennen lernen](projekt_gapminder/pandas_grundlagen.md)
+* [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
+* [Histogramme plotten](projekt_gapminder/histogramm.md)
+* [Langes und breites Tabellenformat](projekt_gapminder/long_wide_tables.md)
+* [Mehrere Korrelationen plotten](projekt_gapminder/mehrere_korrelationen.md)
+* [Animierter Scatterplot](projekt_gapminder/animation.md)
+* [Datenquellen](projekt_gapminder/datenquellen.md)
+* [Links](projekt_gapminder/links.md)
 
 ----
 
@@ -64,19 +64,18 @@
 
 ### Projekt 4: Songtexte
 
-* [Das Songtexte-Projekt](machine_learning/lyrics/README.md)
-  * [Daten aus dem Internet herunterladen](machine_learning/lyrics/teil1_songliste.md)
-  * [Songtitel auslesen](machine_learning/lyrics/teil2_songs_extrahieren.md)
-  * [Songs herunterladen](machine_learning/lyrics/teil3_songs_herunterladen.md)
-  * [Songs einlesen](machine_learning/lyrics/teil4_songs_einlesen.md)
-  * [Klassifikation nach dem *Naive Bayes*-Verfahren](machine_learning/lyrics/teil5_vorhersage.md)
-* [Links](machine_learning/links.md)
+* [Das Songtexte-Projekt](projekt_lyrics/README.md)
+  * [Daten aus dem Internet herunterladen](projekt_lyrics/teil1_songliste.md)
+  * [Songtitel auslesen](projekt_lyrics/teil2_songs_extrahieren.md)
+  * [Songs herunterladen](projekt_lyrics/teil3_songs_herunterladen.md)
+  * [Songs einlesen](projekt_lyrics/teil4_songs_einlesen.md)
+  * [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/teil5_vorhersage.md)
 
 ----
 
 ### Projekt 5: Strassenverzeichnis
 
-* [Webseite mit Strassennamen](website/website.md)
+* [Webseite mit Strassennamen](projekt_website/website.md)
 
 ----
 
@@ -118,7 +117,8 @@
 
 ### Anhang
 
-* [Machine Learning - Überblick](machine_learning/README.md)
+* [Machine Learning Verfahren](machine_learning/README.md)
+* [Machine Learning Links](machine_learning/links.md)
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
 * [Danksagungen](appendix/danksagungen.md)
