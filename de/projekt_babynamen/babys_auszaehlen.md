@@ -29,7 +29,7 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ### Aufgabe 2
 
-<quiz name="Gitbook Quiz">
+<quiz name="">
     <question>
         <p>Mit welcher der Methoden kannst du einen String wie die Variable <code>bigbang</code> in einzelne Zeilen zerlegen?</p>
         <answer><code>bigbang.replace(x, y)</code></answer>
@@ -42,11 +42,11 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ### Aufgabe 3
 
-Nun wenden wir diese Methoden auf ein Teilproblem an. Schreibe ein Programm, das *die erste* Zeile aus der Variable `bigbang` zerlegt und den Namen und die Anzahl ausgibt:
+Nun wenden wir diese Methode an. Schreibe ein Programm, das *die erste* Zeile aus der Variable `bigbang` zerlegt und den Namen und die Anzahl ausgibt:
 
     zeile = "Emily,F,12562"
 
-Probiere aus, ob das gleiche Programm Code auch für letzte Zeile funktioniert.
+Probiere aus, ob das gleiche Programm auch für letzte Zeile funktioniert.
 
     zeile = "Raj,M,41"
 
@@ -59,14 +59,13 @@ Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem
 
 ### Aufgabe 4
 
-Nun probiere, den gesamten String `bigbang` zu zerlegen. Ermittle die Anzahl aus der 5. Zeile und gib ihn aus.
+Nun probiere, den gesamten String `bigbang` zu zerlegen. Zerlege dann die 5. Zeile und gib die Anzahl aus.
 
 
 ## Listen verarbeiten
 
 Da wir nicht eine, sondern *alle* Zeilen verarbeiten möchten, müssen wir Befehle wiederholen. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
 
-Weil es etwas einfacher ist, werden wir zuerst die *Namen* in einer `for`-Schleife verarbeiten.
 
 ### Aufgabe 5
 
@@ -94,24 +93,19 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gab es 2015?
 
     print(jungs)
 
-    if ",M," in zeile:
-
-    if zeile[0] == 'S':
+    if ",M," in zeile and zeile[0] == 'S':
 
     for zeile in bigbang.split():
 
     jungs += 1
 
-Wie ließe sich das Programm noch verbessern?
-
 ----
 
 ## Typumwandlungen
 
-Nun haben wir es fast geschafft. Ein Detail fehlt aber noch.
+Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
 
 ### Aufgabe 7
-
 
 Schreibe ein Programm, das eine Liste von Zahlen aufsummiert:
 
@@ -125,18 +119,9 @@ Schreibe ein Programm, das eine Liste von Zahlen aufsummiert:
 
 Wie viele Geburten sind das insgesamt? Schreibe ein Programm, welches diese Zahl ermittelt.
 
+Wenn Du stattdessen Strings aufsummierst, erhälst Du ein seltsames Ergebnis oder eine Fehlermeldung. Wir müssen sie zunächst in **int** oder **float** umwandeln.
 
 ### Aufgabe 8
-
-Was passiert, wenn Du stattdessen Strings aufsummierst?
-
-    bigbang_strings = [
-        '12562', '2178', '342', '129',
-        '384', '208', '164', '82', '41'
-    ]
-
-
-### Aufgabe 9
 
 Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `1980`
 
@@ -148,6 +133,16 @@ Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die fo
     jahr = geboren + _____
     print(text)
     print(jahr)
+
+
+### Aufgabe 9
+
+Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
+
+    9 + 9
+    9 + '9'
+    '9' + '9'
+    9 * '9'
 
 
 ### Aufgabe 10
@@ -169,11 +164,14 @@ Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` an
 
 ### Aufgabe 12
 
-Welche der folgenden Befehle sind korrekt?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for number in [4, 6, 8]:`
-* `for k in 7:`
-* `for (i=0; i<10; i++):`
-
+<quiz name="">
+    <question multiple>
+        <p>Welche der folgenden Befehle sind korrekt?</p>
+        <answer correct><code>for char in "ABCD":</code></answer>
+        <answer correct><code>for i in range(10):</code></answer>
+        <answer><code>for k in 7.65:</code></answer>
+        <answer correct><code>for number in [4, 6, 8]:</code></answer>
+        <answer><code>for (i=0; i<10; i++):</code></answer>
+        <explanation>for-Schleifen lassen sich auf aufzählbare Typen wie Strings, Listen, Generatoren (range) und Dateien anwenden. Floats und Integers funktionieren jedoch nicht.</explanation>
+    </question>
+</quiz>

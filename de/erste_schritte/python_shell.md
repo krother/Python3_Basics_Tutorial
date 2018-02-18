@@ -1,9 +1,7 @@
 
 # Python als Taschenrechner
 
-![Shell + Programm](python.png)
-
-Es gibt mehrere Möglichkeiten, Python zu verwenden. Im Editor **Anaconda Spyder** findest Du rechts unten die interaktive *Python-Shell*. Links kannst Du *Programme* mit mehreren Befehlen schreiben.
+Es gibt mehrere Möglichkeiten, Python zu verwenden. Im Editor **Anaconda Spyder** findest Du rechts unten die interaktive *Python-Shell*.
 
 
 ### Aufgabe 1
@@ -32,7 +30,7 @@ Führe einige Berechnungen in Python durch, indem Du die fehlenden Zeichen in di
 Gib die Befehle ein und schau was passiert. Gib den ersten Teil (`In [1]` etc.) **nicht** ein, diese erscheinen automatisch.
 
 
-### Aufgabe
+### Aufgabe 2
 
 Was ist der Unterschied zwischen folgenden Anweisungen?
 
@@ -42,7 +40,7 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
     10 // 3
 
 
-### Aufgabe 2
+### Aufgabe 3
 
 Welche Operationen ergeben 8?
 
@@ -54,8 +52,11 @@ Welche Operationen ergeben 8?
 * `2 * * 4`
 * `64 ** 0.5`
 
+----
 
-### Aufgabe 3
+## Variablen
+
+### Aufgabe 4
 
 Um Zahlen und Rechenergebnisse für spätere Berechnungen aufzuheben, können wir sie in **Variablen** speichern.
 
@@ -71,7 +72,7 @@ Ergänze die Lücken:
     In [6]: 3 * sarah
     Out[6]: ______
 
-### Aufgabe 4
+### Aufgabe 5
 
 Ändere den Inhalt der Variablen:
 
@@ -86,35 +87,53 @@ Ergänze die Lücken:
 Setze die korrekten Werte und Variablennamen ein.
 
 
-### Aufgabe 5
-
-Welche der folgenden Variablennamen sind in Python erlaubt? Versuche einige Zahlen darin abzuspeichern.
-
-    Sarah
-    ASHLEY
-    madison alexis
-    sam90
-    2000jessy
-    liz_lauren
-    alyssa.kay
-
-
 ### Aufgabe 6
 
-Welche **Zuweisungen** an Variablen sind korrekt?
+<quiz name="">
+    <question multiple>
+        <p>Markiere alle in Python erlaubten Variablennamen. Probiere sie ggf. aus.</p>
+        <answer correct><code>YODA</code></answer>
+        <answer><code>darth vader</code></answer>
+        <answer correct><code>luke90</code></answer>
+        <answer><code>2000imperator</code></answer>
+        <answer correct><code>_obi_wan_kenobi</code></answer>
+        <answer><code>darth.maul</code></answer>
+        <explanation>Variablennamen dürfen Buchstaben, Ziffern und Unterstriche enthalten, dürfen jedoch nicht mit einer Ziffer beginnen.</explanation>
+    </question>
+</quiz>
 
-* `a = 1 * 2`
-* `2 = 1 + 1`
-* `5 + 6 = y`
-* `sieben = 3 * 4`
 
 
-### Aufgabe
+### Aufgabe 7
+
+<quiz name="">
+    <question multiple>
+        <p>Welche Zuweisungen an Variablen sind korrekt?</p>
+        <answer correct><code>a = 1 * 2</code></answer>
+        <answer correct><code>2 = 1 + 1</code></answer>
+        <answer><code>5 + 6 = y</code></answer>
+        <answer correct><code>sieben = 3 * 4</code></answer>
+        <explanation>Der Zuweisungsoperator (=) arbeitet immer von rechts nach links.</explanation>
+    </question>
+</quiz>
+
+
+### Aufgabe 8
+
+Führe folgende Befehle aus:
 
     import math
-    math.log(16, 2)
 
+    math.log(16, 2)
     math.sin(math.pi / 2)
 
-
-https://docs.python.org/3/library/math.html
+<quiz name="">
+    <question multiple>
+        <p>Markiere alle korrekten Aussagen:</p>
+        <answer correct>Die Funktion <code>sin()</code> arbeitet mit Winkeln im Bogenmaß</answer>
+        <answer>Das Ergebnis des Logarithmus ist <code>2</code></answer>
+        <answer>Die <code>import</code>-Anweisung könnte man auch weglassen</answer>
+        <answer correct>Die math-Bibliothek enthält eine Funktion <code>sqrt()</code> zum Wurzeln ziehen.</answer>
+        <explanation>Mehr zum Modul math findest Du auf <a href="https://docs.python.org/3/library/math.html" target="_blank">docs.python.org/3/library/math.html</a></explanation>
+    </question>
+</quiz>

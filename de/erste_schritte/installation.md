@@ -3,7 +3,7 @@
 
 Der erste Schritt in die Welt des Programmierens ist, Python auf Deinem Computer zu installieren. In diesem Kurs verwenden wir das moderne **Python 3**.
 
-Die Python-Distribution [**Anaconda**](https://store.continuum.io/cshop/anaconda/) enthält Python 3, einen komfortablesn Editor und viele Zusatzpakete.
+Die Python-Distribution [**Anaconda**](https://store.continuum.io/cshop/anaconda/) enthält Python 3, einen komfortablen Editor und viele Zusatzpakete.
 Damit ist Anaconda hervorragend für wissenschaftliche Anwendungen geeignet.
 
 Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die Anweisungen im entsprechenden Abschnitt durch.

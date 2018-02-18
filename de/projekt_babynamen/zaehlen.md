@@ -1,52 +1,45 @@
 
 # Buchstaben zählen
 
-In dieser Aufgabe werden wir ein Programm schreiben, das **die häufigsten Anfangsbuchstaben** in Babynamen ermittelt.
+In diesem Kapitel werden wir ein Programm schreiben, das **die häufigsten Anfangsbuchstaben** in Babynamen ermittelt. Dazu benötigen wir einen neuen, wichtigen Datentyp: **Dictionaries**
 
-# Dictionaries
+Dictionaries eignen sich gut zum Suchen und Nachschlagen.
+
+### Aufgabe 1
 
 ![Dictionary](dict.png)
 
 **Suche englische Wörter, die mit Suchen zu tun haben.**
 
-In diesem Teil werden wir eine neue Datenstruktur kennen lernen, die sich gut zum Suchen und Nachschlagen eignet: **Dictionaries**.
 
-
-### Aufgabe 1
+### Aufgabe 2
 
 Finde heraus, was jeder der Ausdrücke mit dem Dictionary in der Mitte anstellt.
 
 ![dict exercise](../exercises/dicts.png)
 
 
-### Aufgabe 1
+### Aufgabe 3
+
+Dieses Flussdiagramm zeigt schematisch ein Programm zum Zählen von Anfangsbuchstaben:
 
 ![Flussdiagramm](zaehlen.png)
 
-Betrachte das Flussdiagram. Beantworte folgende Fragen:
-
-#### 1.1 Normale Funktionsweise
-
-Was sollte nach Ausführen des Programms im Dictionary stehen, wenn folgende Datei verarbeitet wird?
+Nimm an, das folgende Datei verarbeitet wird:
 
     Penny,F,342
     Leonard,M,384
     Sheldon,M,164
     Stuart,M,82
 
-#### 1.2 Leere Datei
+Beantworte folgende Fragen:
 
-Was wird voraussichtlich ausgegeben, wenn die Datei leer ist?
+1. Was sollte nach Ausführen des Programms im Dictionary stehen?
+2. Was wird ausgegeben, wenn die Datei stattdessen leer ist?
+3. Durch einen Datenfehler enthält die Eingabedatei eine Leerzeile. An welcher Stelle des Flussdiagramms könnten dadurch Probleme entstehen?
 
-#### 1.3 Datenfehler
 
-Durch einen Datenfehler enthält die Eingabedatei eine Leerzeile. An welcher Stelle des Flussdiagramms könnten dadurch Probleme entstehen?
-
-#### 1.4 Verbesserung
-
-Die Anzahl wird im bestehenden Entwurf nicht verwendet. Schlage eine Verbesserung des Programms vor.
-
-### Aufgabe 2
+### Aufgabe 4
 
 Jetzt fangen wir an, das Programm zu *implementieren*.
 
@@ -62,19 +55,19 @@ Im leeren Dictionary kannst Du den Wert für alle Buchstaben auf `0` setzen:
 
 Dies ist nicht die kürzeste Variante, aber am einfachsten zu verstehen.
 
-Verwende `print()` für die Ausgabe.
-
 Stelle sicher, dass das Programm läuft.
 
-### Aufgabe 3
+
+### Aufgabe 5
 
 Baue als nächstes die Verarbeitung der Datei in das Programm ein. Schreibe dazu den Code für die restlichen Boxen im Flussdiagramm links, sowie die oberste Box rechts (*"nächste Zeile holen"*).
 
-Dazu kannst Du eine `for`-Schleife verwenden, ähnlich denen aus früheren Programmen.
+Dazu kannst Du eine `for`-Schleife aus einem früheren Programm *"ausleihen"*.
 
 Stelle sicher, dass das Programm läuft.
 
-### Aufgabe 4
+
+### Aufgabe 6
 
 Kümmere Dich nun um die Box *"Anfangsbuchstabe ermitteln"*.
 
@@ -82,7 +75,8 @@ Gib den in jeder Zeile ermittelten Anfangsbuchstaben aus.
 
 Stelle sicher, dass das Programm läuft.
 
-### Aufgabe 5
+
+### Aufgabe 7
 
 Kümmere Dich nun um die restlichen Boxen.
 
@@ -97,108 +91,132 @@ oder kürzer:
 Stelle sicher, dass das Programm läuft.
 
 
-### Aufgabe 6
-
-Vereinfache das Programm (das Erstellen des leeren Dictionaries), indem Du `setdefault` verwendest.
-
-### Aufgabe 7
-
-Erweitere das Programm, so dass es die Häufigkeit des Buchstabens `A` für alle Jahrgänge in einer Liste sammelt.
-
 ### Aufgabe 8
 
-Plotte den Inhalt der Liste.
+Vereinfache das Programm (das Erstellen des leeren Dictionaries), indem Du die Methode `d.setdefault()` verwendest.
+
 
 ### Aufgabe 9
 
-Sammle **alle** Buchstabenhäufigkeiten für **alle** Jahrgänge im Dictionary.
+Erstelle eine Liste mit den Schlüsseln des Dictionaries und eine zweite mit den entsprechenden Werten. Verwende das Muster:
 
-Dazu enthält das Dictionary für jeden Buchstaben eine Liste, z.B.:
-
-data = {
-    'A': [100, 103, 107, ..],
-    'B': [73, 32, 22, ..],
-    ..
-}
+    for key in dictionary:
+        print(key, dictionary[key])
 
 
+Alternativ kannst Du auch mit der Methode `d.items()` alle Schlüssel-Wert-Paare ermitteln.
 
-## Quiz zu Dictionaries
 
-### Aufgabe 2 
+### Aufgabe 10
 
-Was haben folgende Anweisungen zum Ergebnis?
+Plotte die Häufigkeit der Buchstaben als Balkendiagramm.
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d['A'])
 
-* `False`
-* `"B"`
-* `True`
-* `1`
+### Aufgabe 11
 
-### Aufgabe 3
+Zähle die Anzahl der Babys anstatt für jeden Namen nur um 1 hochzuzählen (falls Du nicht schon längst selbst darauf gekommen bist).
 
-Was haben folgende Anweisungen zum Ergebnis?
+### Aufgabe 12
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.has_key('B'))
+Sammle die Buchstabenhäufigkeiten für **alle** Jahrgänge im Dictionary.
 
-* `1`
-* `True`
-* `"B"`
-* `False`
+Das Dictionary enthält dann für jeden Buchstaben eine Liste, z.B.:
 
-### Aufgabe 4
+    data = {
+        'A': [100, 103, 107, ..],
+        'B': [73, 32, 22, ..],
+        ..
+    }
 
-Was haben folgende Anweisungen zum Ergebnis?
+Normalisiere die Anahl, indem Du durch die Geburtenzahl teilst.
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.values())
+Plotte einige Liniendiagramme, um zu sehen, ob einige Buchstaben mit der Zeit häufiger werden.
 
-* `True`
-* `['A', 1, True]`
-* `3`
-* `[1, 'B', 'A']`
 
-### Aufgabe 5
+## Quizfragen zu Dictionaries
+
+### Aufgabe 13
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.keys())
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(d['fish'])
 
-* `[1, 'B', 'A']`
-* `['A', 'B', 1]`
-* `[1, 'A', 'B']`
-* Die Reihenfolge ist nicht vorhersagbar.
+<quiz name="">
+    <question>
+        <answer><code>True</code></answer>
+        <answer><code>fish</code></answer>
+        <answer correct><code>Fisch</code></answer>
+        <answer>eine Fehlermeldung</answer>
+        <explanation></explanation>
+    </question>
+</quiz>
 
-
-### Aufgabe 6
-
-Was haben folgende Anweisungen zum Ergebnis?
-
-    d = {1:'A', 'B':1, 'A':True}
-    print(d['C'])
-
-* `None`
-* `'C'`
-* eine Fehlermeldung
-* `False`
-
-
-### Exercise 7
+### Aufgabe 14
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    d = {1:'A', 'B':1, 'A':True}
-    d.setdefault('C', 3)
-    print(d['C'])
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print('Hund' in d)
 
-* `3`
-* `'C'`
-* `None`
-* eine Fehlermeldung
+<quiz name="">
+    <question>
+        <answer><code>Hund</code></answer>
+        <answer correct><code>False</code></answer>
+        <answer><code>True</code></answer>
+        <answer><code>dog</code></answer>
+        <explanation></explanation>
+    </question>
+</quiz>
 
-{% include while.md %}
-{% include abkuerzungen.md %}
+### Aufgabe 15
+
+Was haben folgende Anweisungen zum Ergebnis?
+
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(list(d.keys()))
+    
+<quiz name="">
+    <question>
+        <answer correct>Englische Begriffe, aber die Reihenfolge ist nicht vorhersagbar.</answer>
+        <answer><code>['cat', 'dog', 'fish']</code></answer>
+        <answer>Deutsche Begriffe, aber die Reihenfolge ist nicht vorhersagbar.</answer>
+        <answer><code>['Katze', 'Hund', 'Fisch']</code></answer>
+        <explanation></explanation>
+    </question>
+</quiz>
+
+### Aufgabe 16
+
+Was haben folgende Anweisungen zum Ergebnis?
+
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(d.get('Katze', 'unknown'))
+
+<quiz name="">
+    <question>
+        <answer><code>False</code></answer>
+        <answer><code>'cat'</code></answer>
+        <answer correct><code>'unknown'</code></answer>
+        <answer><code>True</code></answer>
+        <explanation></explanation>
+    </question>
+</quiz>
+
+### Exercise 17
+
+Was haben folgende Anweisungen zum Ergebnis?
+
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    d.setdefault('cat', 'Stubentiger')
+    print(d['cat'])
+
+<quiz name="">
+    <question>
+        <answer>eine Fehlermeldung</answer>
+        <answer><code>'Stubentiger'</code></answer>
+        <answer><code>'cat'</code></answer>
+        <answer correct><code>'Katze'</code></answer>
+        <explanation></explanation>
+    </question>
+</quiz>

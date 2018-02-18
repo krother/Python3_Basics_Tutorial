@@ -1,7 +1,7 @@
 # Übersicht
 
 * [Einführung](README.md)
-* [Python installieren](einfuehrung/installation.md)
+* [Python installieren](erste_schritte/installation.md)
 
 ----
 
@@ -12,6 +12,7 @@
 * [Das erste Programm](erste_schritte/programme.md)
 * [Anweisungen wiederholen](erste_schritte/for_schleifen.md)
 * [Entscheidungen treffen](erste_schritte/if.md)
+* [Bedingte Schleifen](erste_schritte/while.md)
 
 ----
 
@@ -21,7 +22,7 @@
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
 * [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md)
-* [Eine Tabelle ausgeben](projekt_babynamen/tabelle_ausgeben.md)
+* [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md)
 * [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md)
 
 ----

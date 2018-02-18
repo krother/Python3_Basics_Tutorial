@@ -14,10 +14,10 @@ $ python3 -m venv myvenv
 
 # Collapsible
 
-<!--sec data-title="Virtual environment: Windows" data-id="virtualenv_installation_windows"
+<!--sec data-title="Hinweis" data-id="hint-tab-sum"
 data-collapse=true ces-->
 
-collapsible content
+Die Funktion `sum(x)` akzeptiert eine Liste mit Zahlen als Argument.
 
 <!--endsec-->
 
@@ -26,12 +26,15 @@ collapsible content
 
 <quiz name="Gitbook Quiz">
     <question multiple>
-        <p>What is gitbook used for?</p>
-        <answer correct>To read books</answer>
-        <answer>To book hotel named git</answer>
-        <answer correct>To write and publish beautiful books</answer>
-        <explanation>GitBook.com lets you write, publish and manage your books online as a service.</explanation>
+        <p></p>
+        <answer correct></answer>
+        <answer></answer>
+        <answer><code></code></answer>
+        <explanation></explanation>
     </question>
+</quiz>
+    
+<quiz name="Gitbook Quiz">
     <question>
         <p>Is it quiz?</p>
         <answer correct>Yes</answer>

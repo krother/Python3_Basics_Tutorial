@@ -116,6 +116,8 @@ Sammle die Namen nach Jungen und Mädchen getrennt. Verwende dazu zwei Listen:
 
 ### Aufgabe 11
 
+![Balkendiagramm](star_bars.png)
+
 Führe dieses Programm aus:
 
     from pylab import figure, xticks, bar, savefig,\
