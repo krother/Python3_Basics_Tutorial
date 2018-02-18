@@ -7,38 +7,22 @@
 
 ### Erste Schritte
 
-* [Erste Schritte in IPython](erste_schritte/README.md)
-  * [Python als Taschenrechner](erste_schritte/python_shell.md)
-  * [Zahlen in Variablen speichern](erste_schritte/variablen.md)
-  * [Text in Variablen speichern](erste_schritte/strings.md)
-* [Programme schreiben](programme/README.md)
-  * [Das erste Programm](programme/programme.md)
-  * [Anweisungen wiederholen](programme/for_schleifen.md)
-  * [Entscheidungen treffen](programme/if.md)
-  * [Bedingte Schleifen](andere/while.md)
-* [Übersicht Datentypen](datenstrukturen/datentypen.md)
+* [Python als Taschenrechner](erste_schritte/python_shell.md)
+* [Datentypen](erste_schritte/datentypen.md)
+* [Das erste Programm](erste_schritte/programme.md)
+* [Anweisungen wiederholen](erste_schritte/for_schleifen.md)
+* [Entscheidungen treffen](erste_schritte/if.md)
 
 ----
 
 ### Projekt 1: Babynamen
 
-* [Listen](listen/README.md)
-  * [Listen verarbeiten](listen/listen.md)
-  * [Verschachtelte Listen](listen/tabellen.md)
-  * [Abkürzungen](listen/abkuerzungen.md)
-* [Dateien lesen und schreiben](dateien/README.md)
-  * [Textdateien einlesen](dateien/datei_lesen.md)
-  * [Inhalte parsen](dateien/parsen.md)
-  * [Textdateien schreiben](dateien/dateien_schreiben.md)
-  * [Mehrere Dateien verarbeiten](dateien/mehrere_dateien.md)
-* [Strings](strings/README.md)
-  * [Ausgabe auf dem Bildschirm](erste_schritte/print.md)
-  * [Methoden von Strings](strings/string_methoden.md)
-  * [Strings formatieren](strings/strings_formatieren.md)
-* [Dictionaries](dictionaries/README.md)
-  * [Methoden von Dictionaries](dictionaries/dictionaries.md)
-  * [Buchstaben zählen](dictionaries/zaehlen.md)
-* [Eingabe von der Tastatur](andere/input.md)
+* [Übersicht](projekt_babynamen/README.md)
+* [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
+* [Namen finden](projekt_babynamen/namen_finden.md)
+* [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md)
+* [Eine Tabelle ausgeben](projekt_babynamen/tabelle_ausgeben.md)
+* [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md)
 
 ----
 
@@ -51,14 +35,12 @@
 * [Langes und breites Tabellenformat](projekt_gapminder/long_wide_tables.md)
 * [Mehrere Korrelationen plotten](projekt_gapminder/mehrere_korrelationen.md)
 * [Animierter Scatterplot](projekt_gapminder/animation.md)
-* [Datenquellen](projekt_gapminder/datenquellen.md)
-* [Links](projekt_gapminder/links.md)
 
 ----
 
-### Projekt 3: Panik auf der Titanic
+### Projekt 3: Titanic
 
- [Panik auf der Titanic](projekt_titanic/README.md)
+* [Panik auf der Titanic](projekt_titanic/README.md)
 
 ----
 
@@ -112,13 +94,14 @@
   * [Webrecherche](challenges/webrecherche.md)
   * [Blog](challenges/blog.md)
 
-
 ----
 
 ### Anhang
 
-* [Machine Learning Verfahren](machine_learning/README.md)
-* [Machine Learning Links](machine_learning/links.md)
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
+* [Datenquellen](projekt_gapminder/datenquellen.md)
+* [Links zu Pandas](projekt_gapminder/links.md)
+* [Machine Learning Verfahren](machine_learning/README.md)
+* [Machine Learning Links](machine_learning/links.md)
 * [Danksagungen](appendix/danksagungen.md)

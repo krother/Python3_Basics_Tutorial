@@ -3,7 +3,13 @@
 
 Mit IPython Anweisungen zu schreiben ist eine Zeitlang ganz nett. Komplexere Programme Befehl für Befehl zu schreiben ist aber auf die Dauer recht beschwerlich. Um wirklich sinnvoll programmieren zu können, müssen wir unsere Anweisungen in **Programmen** speichern, so daß wir sie später beliebig oft **ausführen** können.
 
-In diesem Abschnitt werden wir unserer erstes Python-Programm schreiben. Es wird ein sehr einfaches Programm sein, welches einfach einige Namen von Babys auf den Bildschirm schreibt.
+Ein Programm besteht aus mehreren Zeilen, die in einem Rutsch ausgeführt werden.
+
+Zu einem Programm gehören normalerweise eine Eingabe, eine Verarbeitung und eine Ausgabe:
+
+![Eingabe - Verarbeitung - Ausgabe](IPO.png)
+
+In diesem Abschnitt wirst Du Dein erstes Python-Programm schreiben.
 
 
 ### Aufgabe 1
@@ -17,12 +23,10 @@ Speichere die Datei anschließend unter dem Namen `ausgabe.py` ab.
 
 ### Aufgabe 2
 
-Nun werden wir das Programm ausführen.
+Nun kannst Du das Programm ausführen.
 
-* Unter **Anaconda** und **Canopy** können wir das mit dem *"Play"*-Knopf tun.
-* In **IDLE** erreichen wir das gleiche durch Drücken von `F5`.
-* Unter **Unix** öffnen wir ein Terminal (ohne IPython), wechseln in das Verzeichnis mit der Datei `ausgabe.py` und schreiben:
-
+* Unter **Anaconda** drückst Du dazu den *"Play"*-Knopf oder `F5`.
+* Mit einer **Kommandozeile** wechselst Du in das Verzeichnis mit der Datei `ausgabe.py` und schreibst:
 
     python3 ausgabe.py
 
@@ -38,9 +42,73 @@ Erkläre das folgende Programm:
 
 ### Aufgabe 4
 
+Was tut die `print`-Anweisung? Wir versuchen sie einmal wegzulassen.
 Schreibe in ein **Programm** (eine Datei mit der Endung `.py`):
 
     name = "Emily"
     name
 
-Was passiert, wenn Du das Programm ausführst?
+Was siehst Du, wenn Du das Programm ausführst?
+
+### Aufgabe 5
+
+Erkläre die folgende Anweisung:
+
+    print("Emily\tSmith\n2000")
+
+### Aufgabe 6
+
+Manche Babys haben berühmte Namensvettern. Schreibe ein Programm, welches folgende Ausgabe produziert:
+
+    Harry      Hermione      Severus
+    Tyrion     Daenerys      Frodo
+    Luke       Leia          Darth
+
+Erschwere Dir die Aufgabe, indem Du:
+
+* die Ausgabe mit einem einzigen `print`-Befehl erzeugst.
+* die Namen vorher in Variablen speicherst.
+
+# Eingabe von der Tastatur
+
+Nun werden wir die Tastatur als Eingabemedium an unser Programm anschließen.
+
+### Aufgabe 1
+
+Was tut das folgende Programm?
+
+    name = input("Wie heißt Du? ")
+    print(name)
+
+
+### Aufgabe 2
+
+Welche `input`-Befehle sind korrekt?
+
+* `a = input()`
+* `a = input("gib eine Zahl ein.")`
+* `a = input(gib Deinen Namen ein)`
+* `a = input(3)`
+
+
+### Aufgabe 3
+
+Schreibe ein Programm, das nach einem Namen und einer Zahl fragt, und beides in einem Satz ausgibt, z.B.:
+
+    Bobby ist 3 Jahre alt.
+
+
+### Aufgabe 7
+
+<quiz name="">
+    <question multiple>
+<p>Welche <code>print</code>-Anweisungen sind korrekt?</p>
+
+<answer correct><code>print("9" + "9")</code></answer>
+<answer><code>print "neun"</code></answer>
+<answer correct><code>print(str(9) + "neun")</code></answer>
+<answer correct><code>print(9 + 9)</code></answer>
+<answer correct><code>print(neun)</code></answer>
+<explanation>Die <code>print</code>-Funktion wandelt alles in Strings um.</explanation>
+</question>
+</quiz>

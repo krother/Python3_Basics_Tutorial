@@ -11,23 +11,23 @@ Mit den bisherigen Python-Befehlen lassen sich bereits eine ganze Menge untersch
 
 Führe das folgende Programm aus und erkläre die Ausgabe:
 
-    anzahl = 123
+    zahl = input("Bitte gib eine Zahl ein")
 
-    if anzahl > 1000:
-        print("Die Anzahl ist größer als 1000.")
-    elif anzahl == 1000:
-        print("Die Anzahl ist genau 1000.")
+    if zahl > 10:
+        print("Die Zahl ist größer als 10.")
+    elif zahl == 10:
+        print("Die Zahl ist genau 10.")
     else:
-        print("Die Anzahl ist kleiner als 1000.")
+        print("Die Zahl ist kleiner als 10.")
 
 
 ### Aufgabe 2
 
-Setze `name` nacheinander so, daß eine, zwei oder alle drei Bedingungen erfüllt sind
+Erweitere das Programm, so dass es zwei weitere Tiere erraten kann.
 
-    name = ____
+    antwort1 = input('Kann das Tier fliegen?')
 
-    if "m" in name:
+    if antwort1 == 'ja':
         print("Es kommt ein 'm' im Namen vor.")
         if name != "Mimi":
             print("Der Name ist nicht Mimi.")

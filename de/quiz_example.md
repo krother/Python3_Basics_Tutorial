@@ -1,3 +1,29 @@
+
+# Include
+
+{% include "/django_installation/instructions.md" %}
+
+
+# Sunken Code example
+
+{% filename %}command-line{% endfilename %}
+```
+$ python3 -m venv myvenv
+```
+
+
+# Collapsible
+
+<!--sec data-title="Virtual environment: Windows" data-id="virtualenv_installation_windows"
+data-collapse=true ces-->
+
+collapsible content
+
+<!--endsec-->
+
+
+# Quiz
+
 <quiz name="Gitbook Quiz">
     <question multiple>
         <p>What is gitbook used for?</p>

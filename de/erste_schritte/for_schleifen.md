@@ -71,3 +71,12 @@ Was tut das folgende Programm?
 ### Aufgabe 6
 
 Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
+
+
+### Aufgabe 7
+
+Gegeben ist ein chiffriertes Wort:
+
+    name = "CSAIPRALKAINACZEYLVOST"
+
+Schreibe ein Programm, das jeden zweiten Buchstaben des Wortes in einem neuen String sammelt (beginnend beim 2.). Gib den String aus.

@@ -1,5 +1,13 @@
 
-# Textdateien einlesen
+# Namen finden
+
+![Programm](programm.png)
+
+In diesem Kapitel werden wir unsere Daten aus einer **Textdatei** einlesen und das für Strings gelernte darauf anwenden. Anschließend suchen wir nach Namen wie *'Miriam'* und *'Malcolm'*, die mit *'M'* beginnen und enden und sammeln diese in einer **Liste**.
+
+Am Ende des Kapitels werden wir ein Balkendiagramm zeichnen.
+
+## Textdateien einlesen
 
 ### Aufgabe 1
 
@@ -15,62 +23,145 @@ Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit fol
     Stuart,M,82
     Raj,M,41
 
+(Dies sind die gleichen Daten wie im vorigen Kapitel.)
+
 
 ### Aufgabe 2
 
-Bringe das Programm zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `print` in die Lücken einsetzt.
+Bringe das Programm zum Lesen der Datei zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `print` in die Lücken einsetzt.
 
     f = open(___)
     for ____ in f:
         ____(line)
     f.____()
 
-
-#### ACHTUNG: 
+#### ACHTUNG:
 
 Je nachdem was für einen Editor Du verwendest, mußt Du eventuell den kompletten Pfad (Verzeichnisnamen) zur Datei eingeben. Wenn Du Dich wunderst, daß das Programm *immer noch nicht* funktioniert, ist die wahrscheinlichste Ursache ein falscher Dateipfad oder Dateiname.
 
+Ersetze unter Windows die **Backslashes durch normale Slashes (`/`)**
 
 
 ### Aufgabe 3
 
-Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
+Erweitere das Programm so, dass es die Anzahl der Babys wie im letzten Kapitel aufsummiert.
 
-**Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
-    girls = 0
+## Der US-Babydatensatz
 
-    if "B" in line:
-
-    print(girls)
-
-    if ",F," in line:
-
-    for line in open('names/yob2015.txt'):
-
-    girls += 1
+Für die folgenden Übungen benötigst Du den offiziellen Babynamen-Datensatz von den US-Meldebehörden. Du kannst die Dateien von der Seite [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html) herunterladen (es genügt die nicht nach Bundesstaaten aufgeschlüsselte Variante). 
 
 
 ### Aufgabe 4
 
-Erweitere das Programm aus der vorigen Aufgabe so, daß die Anzahl der Jungen- und Mädchennamen getrennt gezählt und ausgegeben werden.
+Schreibe ein Programm, das die Datei `yob2015.txt` einliest. 
+Berechne die Gesamtzahl der Babys für das Jahr 2015 berechnet und gebe sie aus. Vergleiche das Ergebnis mit dem für das Jahr 1915.
 
 
 ### Aufgabe 5
 
-Welche der folgenden Befehle sind korrekt?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for number in [4, 6, 8]:`
-* `for k in 3+7:`
-* `for (i=0; i<10; i++):`
-* `for var in open('bigbang.txt'):`
+Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
 
 
 ### Aufgabe 6
 
-Schreibe ein Programm, das die Zeilen aus der Datei `yob2015.txt` einliest. Finde alle Zeilen, die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
+Ändere das Programm so, dass es alle Namen ausgibt, die mit `'M'` anfangen.
+
+----
+
+## Methoden von Listen
+
+Als nächstes werden wir Namen, die mit `'M'` anfangen, in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
 
 
+### Aufgabe 7
+
+Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen.
+
+![Übung zu Listen](../exercises/lists.png)
+
+
+### Aufgabe 8
+
+Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in einer Liste. Leider enthält das Programm **vier Fehler**. Finde und korrigiere diese.
+
+    häufige = []
+
+    for line in open('names/yob2015.txt'):
+        spalten = line.strip().split(',')
+        name = spalten[1]
+        anzahl = int(spalten[3])
+        if anzahl >= 10000
+            häufige.append(name)
+
+    print(haeufige)
+
+
+### Aufgabe 9
+
+Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die Liste sortiert aus.
+
+
+### Aufgabe 10
+
+Sammle die Namen nach Jungen und Mädchen getrennt. Verwende dazu zwei Listen:
+
+    jungen = []
+    maedchen = []
+
+(Wir werden später elegantere Möglichkeiten hierzu kennen lernen, im Moment ist diese Variante gut genug)
+
+
+## Balkendiagramm
+
+### Aufgabe 11
+
+Führe dieses Programm aus:
+
+    from pylab import figure, xticks, bar, savefig,\
+                      xlabel, ylabel, title
+    
+    figure()
+    
+    x = [1, 2, 3]
+    y = [115, 11, 259]
+    labels = ["I", "IV", "VII"]
+    
+    xticks(x, labels)
+    bar(x, y)
+    
+    title('Kosten von Star-Wars-Filmen')
+    xlabel('Episode')
+    ylabel('Budget (Mio USD)')
+    
+
+Falls Du nicht in Anaconda arbeitest, füge am Ende folgenden Befehl hinzu:
+
+    savefig('starwars.png')
+
+
+### Aufgabe 12
+
+Plotte die Anzahl Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm nach Jungen und Mädchen getrennt.
+
+
+----
+
+### Aufgabe 13
+
+Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen für das Jahr 2015 berechnet und ausgibt.
+
+
+### Aufgabe 14
+
+Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
+
+![list funcs exercise2](../exercises/list_funcs2.png)
+
+
+### Aufgabe 15
+
+Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
+
+![list funcs exercise1](../exercises/list_funcs1.png)
 
