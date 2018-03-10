@@ -33,7 +33,7 @@ Gib die beiden Initialien aus dem folgenden String aus. Verwende die Schreibweis
 
 
 
-# Listen erstellen
+# Listen
 
 Um größere Datenmengen zu verarbeiten, können wir nicht für jeden Eintrag einen neuen Variablennamen ausdenken. Irgendwie muß es möglich sein, mehrere Datensätze in einer Variable zu speichern. In Python treten an dieser Stelle **Listen** auf die Bühne.
 

@@ -104,7 +104,7 @@ Schreibe ein Programm, das nach einem Namen und einer Zahl fragt, und beides in 
     Bobby ist 3 Jahre alt.
 
 
-### Aufgabe 7
+### Aufgabe 4
 
 <quiz name="">
     <question multiple>
