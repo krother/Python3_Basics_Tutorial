@@ -11,6 +11,10 @@ Dies ist ein Tutorial für Einsteiger ohne Programmiererfahrung in Python. Beim 
 
 Dieses Tutorial funktioniert am Besten, wenn Du die Übungen am Computer durcharbeitest.
 
+## Übersicht
+
+![5 Kursbereiche](bilder/python_roadmap5.png)
+
 ## Was für ein System benötige ich?
 
 Da Python 3 auf allen gängigen Betriebssystemen läuft, ist es egal, ob Du die Aufgaben unter Linux, Windows oder MacOS bearbeitest. 

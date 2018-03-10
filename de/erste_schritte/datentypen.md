@@ -33,19 +33,6 @@ Gib die beiden Initialien aus dem folgenden String aus. Verwende die Schreibweis
 
 
 
-### Aufgabe 5
-
-Was ist nach der folgenden Befehlsfolge in `name` enthalten? Erkläre den Code:
-
-    In [8]: name = ""
-    In [9]: anna = "Anna"
-    In [10]: name = anna[0] + name
-    In [11]: name = anna[1] + name
-    In [12]: name = anna[2] + name
-    In [13]: name = anna[3] + name
-    In [14]: name
-
-
 # Listen erstellen
 
 Um größere Datenmengen zu verarbeiten, können wir nicht für jeden Eintrag einen neuen Variablennamen ausdenken. Irgendwie muß es möglich sein, mehrere Datensätze in einer Variable zu speichern. In Python treten an dieser Stelle **Listen** auf die Bühne.
@@ -54,7 +41,50 @@ Listen sind eine einfache Abfolge von Elementen. Allerdings zählt Python anders
 
 ![Indizierung](indexing.png)
 
+### Aufgabe 1
 
+Probiere einige Befehle zum Erstellen von Listen aus:
+
+    In [1]: zahlen = [1, 2, 4, 8, 16, 32]
+    In [2]: zahlen = zahlen + [64, 128, 256]
+
+    In [3]: filme = ["Star Wars", "Star Trek", "Ratatouille"]
+    In [4]: filme += ["Arrival"]
+
+### Aufgabe 2
+
+Was ergeben folgende Anweisungen?
+
+    In [5]: zahlen[4]
+    In [6]: filme[0]
+    In [7]: filme[-1]
+    In [8]: zahlen[-3]
+
+### Aufgabe 3
+
+Was ergeben folgende Anweisungen?
+
+    In [9]: filme[2:]
+    In [10]: filme[:2]
+    In [11]: zahlen[2:-2]
+    In [12]: zahlen[::2]
+
+### Aufgabe 4
+
+<quiz name="">
+    <question multiple>
+<p>Welche Anweisungen sind korrekt?</p>
+    <answer correct><code>daten = ["Tilda", "Swinton"]</code></answer>
+    <answer><code>daten = ["Darth Vader" "Yoda"]</code></answer>
+    <answer correct><code>daten = [1, 2 + 3, 4]</code></answer>
+    <answer correct><code>daten = [1, 2] + [3, 4]</code></answer>
+    <answer><code>daten = [1, 2] + 3, 4]</code></answer>
+    <answer correct><code>daten = [1, 2.0, "drei"]</code></answer>
+    <explanation></explanation>
+    </question>
+</quiz>
+
+# Übersicht Datentypen
 
 ### Aufgabe 1
 

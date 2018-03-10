@@ -39,18 +39,32 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
     10.0 / 3.0
     10 // 3
 
+<quiz name="">
+    <question multiple>
+        <p>Markiere alle korrekten Aussagen:</p>
+        <answer correct>Alle Anweisungen sind Divisionen</answer>
+        <answer correct>Der Operator <code>/</code> ergibt immer eine Gleitkommazahl</answer>
+        <answer>Der Operator <code>//</code> rundet auf oder ab</answer>
+        <explanation>Die "Floor-Division" (<code>//</code>) rundet 
+        stets ab, unter Python 3 ist das Ergebnis der gewöhnlichen Division eine Kommazahl.</explanation>
+    </question>
+</quiz>
 
 ### Aufgabe 3
 
-Welche Operationen ergeben 8?
-
-* `0 + 8`
-* `4 4`
-* `8 /`
-* `65 // 8`
-* `17 % 9`
-* `2 * * 4`
-* `64 ** 0.5`
+<quiz name="">
+    <question multiple>
+<p>Welche Operationen ergeben 8?</p>
+    <answer correct><code>0 + 8</code></answer>
+    <answer><code>4 4</code></answer>
+    <answer><code>8 /</code></answer>
+    <answer correct><code>65 // 8</code></answer>
+    <answer correct><code>17 % 9</code></answer>
+    <answer><code>2 * * 4</code></answer>
+    <answer correct><code>64 ** 0.5</code></answer>
+    <explanation>Leerzeichen haben keine Bedeutung, dürfen aber nicht mitten in Operatoren stehen. Der Operator <code>%</code> (Modulo) liefert den Rest einer Division.</explanation>
+    </question>
+</quiz>
 
 ----
 
