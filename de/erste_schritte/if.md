@@ -49,7 +49,7 @@ Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` an
 ### Aufgabe 4
 
 <quiz name="">
-    <question>
+    <question multiple>
 <p>Welche der folgenden <code>if</code>-Anweisungen sind syntaktisch korrekt?</p>
     <answer correct><code>if a and b:</code></answer>
     <answer correct><code>if len(s) == 23:</code></answer>

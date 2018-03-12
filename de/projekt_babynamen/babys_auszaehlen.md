@@ -62,12 +62,9 @@ Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem
 Nun probiere, den gesamten String `bigbang` zu zerlegen. Zerlege dann die 5. Zeile und gib die Anzahl aus.
 
 
-## Listen verarbeiten
+### Aufgabe 5
 
 Da wir nicht eine, sondern *alle* Zeilen verarbeiten möchten, müssen wir Befehle wiederholen. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
-
-
-### Aufgabe 5
 
 Schreibe ein Programm, das alle Namen aus der Variable `bigbang` ausgibt.
 
@@ -99,11 +96,6 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gab es 2015?
 
     jungs += 1
 
-----
-
-## Typumwandlungen
-
-Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
 
 ### Aufgabe 7
 
@@ -119,9 +111,12 @@ Schreibe ein Programm, das eine Liste von Zahlen aufsummiert:
 
 Wie viele Geburten sind das insgesamt? Schreibe ein Programm, welches diese Zahl ermittelt.
 
-Wenn Du stattdessen Strings aufsummierst, erhälst Du ein seltsames Ergebnis oder eine Fehlermeldung. Wir müssen sie zunächst in **int** oder **float** umwandeln.
 
 ### Aufgabe 8
+
+Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
+
+Wenn Du statt einer Liste von Zahlen Strings aufsummieren möchtest, erhälst Du ein seltsames Ergebnis oder eine Fehlermeldung. Wir müssen die Strings zunächst in **int** oder **float** umwandeln.
 
 Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `1980`
 
@@ -148,4 +143,3 @@ Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle 
 ### Aufgabe 10
 
 Schreibe ein Programm, das die Anzahl der Babys in der Variable `bigbang` zusammenzählt und die Summe ausgibt.
-

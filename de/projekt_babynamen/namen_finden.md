@@ -1,8 +1,6 @@
 
 # Namen finden
 
-![Programm](programm.png)
-
 In diesem Kapitel werden wir unsere Daten aus einer **Textdatei** einlesen und das für Strings gelernte darauf anwenden. Anschließend suchen wir nach Namen wie *'Miriam'* und *'Malcolm'*, die mit *'M'* beginnen und enden und sammeln diese in einer **Liste**.
 
 Am Ende des Kapitels werden wir ein Balkendiagramm zeichnen.
@@ -63,16 +61,11 @@ Berechne die Gesamtzahl der Babys für das Jahr 2015 berechnet und gebe sie aus.
 
 Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
 
-
-### Aufgabe 6
-
-Ändere das Programm so, dass es alle Namen ausgibt, die mit `'M'` anfangen.
-
 ----
 
 ## Methoden von Listen
 
-Als nächstes werden wir Namen, die mit `'M'` anfangen, in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
+Als nächstes werden wir einige Namen in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
 
 
 ### Aufgabe 7
@@ -145,7 +138,7 @@ Falls Du nicht in Anaconda arbeitest, füge am Ende folgenden Befehl hinzu:
 
 ### Aufgabe 12
 
-Plotte die Anzahl Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm nach Jungen und Mädchen getrennt.
+Plotte die Anzahl Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm (zwei Balken für Jungen und Mädchen).
 
 
 ----
