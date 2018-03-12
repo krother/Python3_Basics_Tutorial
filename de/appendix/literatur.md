@@ -3,11 +3,8 @@
 
 ## Frei erhältliche Online-Bücher
 
-Bücher für Anfänger und Leute mit Programmiererfahrung:
-
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/) - intensive Drillübung von **Zed Shaw**
-* [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - ein systematisches, wissenschaftliches Tutorial von **Allen B. Downey**
-* [Dive into Python 3](http://www.diveintopython3.net/) - Besprechungen von einem interessanten Beispielprogramm pro Kapitel - **von Mark Pilgrim**
+* [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - ein systematisches, wissenschaftliches Tutorial von **Allen B. Downey** (deutsche Übersetzung ist käuflich)
+* [Dive into Python 3](http://www.diveintopython3.net/) - Besprechungen von einem fortgeschrittenen Beispielprogramm pro Kapitel - **von Mark Pilgrim**
 
 
 ## Webseiten
@@ -20,8 +17,9 @@ Bücher für Anfänger und Leute mit Programmiererfahrung:
 [https://docs.python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
 
 
-## Mehr vom gleichen Autor
+## Bücher und Kursmaterial von Kristian
 
-* [Gitbooks von Kristian Rother](https://www.gitbook.com/@krother) - Tutorials in Python und anderen Themen
+* [Tutorials auf Gitbook](https://www.gitbook.com/@krother) - zu Python und anderen Themen
+* [Datenanalyse mit Python](https://www.dpunkt.de/book_details.php?masterid=5497) - **Wes McKinney**, Übersetzung von Christian Tismer and Kristian Rother.
 * [Einführung in Data Science](http://www.oreilly.de/buecher/12447/9783960090212-einf%C3%BChrung-in-data-science.html) - **Joel Grus**, Übersetzung von Kristian Rother
 * [Managing your Biological Data with Python](https://www.crcpress.com/Managing-Your-Biological-Data-with-Python/Via-Rother-Tramontano/9781439880937) - **Allegra Via, Kristian Rother und Anna Tramontano**
