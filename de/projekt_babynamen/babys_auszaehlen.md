@@ -13,7 +13,7 @@ In diesem Kapitel werden wir einen größeren String auseinandernehmen. Dies kom
     Stuart,M,82
     Raj,M,41"""
 
-Am Ende dieses Kapitels wirst Du ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
+Wir werden ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
 
 
 ## Methoden von Strings
@@ -42,7 +42,7 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ### Aufgabe 3
 
-Nun wenden wir diese Methode an. Schreibe ein Programm, das *die erste* Zeile aus der Variable `bigbang` zerlegt und den Namen und die Anzahl ausgibt:
+Nun wenden wir diese Methode an. Schreibe ein Programm, das *eine Zeile* aus unserem Datensatz zerlegt und den Namen und die korrekte Anzahl ausgibt:
 
     zeile = "Emily,F,12562"
 
@@ -149,29 +149,3 @@ Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle 
 
 Schreibe ein Programm, das die Anzahl der Babys in der Variable `bigbang` zusammenzählt und die Summe ausgibt.
 
-
-### Aufgabe 11
-
-Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
-
-    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
-    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
-    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
-    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
-
-Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
-
-
-### Aufgabe 12
-
-<quiz name="">
-    <question multiple>
-        <p>Welche der folgenden Befehle sind korrekt?</p>
-        <answer correct><code>for char in "ABCD":</code></answer>
-        <answer correct><code>for i in range(10):</code></answer>
-        <answer><code>for k in 7.65:</code></answer>
-        <answer correct><code>for number in [4, 6, 8]:</code></answer>
-        <answer><code>for (i=0; i<10; i++):</code></answer>
-        <explanation>for-Schleifen lassen sich auf aufzählbare Typen wie Strings, Listen, Generatoren (range) und Dateien anwenden. Floats und Integers funktionieren jedoch nicht.</explanation>
-    </question>
-</quiz>

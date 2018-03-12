@@ -11,11 +11,19 @@ In diesem Abschnitt werden wir uns daher die `for`-Anweisung genauer anschauen, 
 
 Was tut das folgende Programm?
 
+    filme = ["Star Wars", "Star Trek", "Ratatouille"]
+    for f in filme:
+        print(f)
+
+### Aufgabe 2
+
+Was tut das folgende Programm?
+
     for zahl in range(1, 43):
         print(zahl)
 
 
-### Aufgabe 2
+### Aufgabe 3
 
 Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
@@ -27,7 +35,7 @@ Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
     print(42)
 
 
-### Aufgabe 3
+### Aufgabe 4
 
 Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
@@ -40,7 +48,7 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
     49
 
 
-### Aufgabe 4
+### Aufgabe 5
 
 Erkläre den Unterschied zwischen den folgenden zwei Programmen:
 
@@ -57,7 +65,7 @@ und
     print(summe)
 
 
-### Aufgabe 5
+### Aufgabe 6
 
 Was tut das folgende Programm?
 
@@ -68,15 +76,21 @@ Was tut das folgende Programm?
     print(text)
 
 
-### Aufgabe 6
+### Aufgabe 7
 
 Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
 
 
-### Aufgabe 7
+### Aufgabe 8
 
-Gegeben ist ein chiffriertes Wort:
-
-    name = "CSAIPRALKAINACZEYLVOST"
-
-Schreibe ein Programm, das jeden zweiten Buchstaben des Wortes in einem neuen String sammelt (beginnend beim 2.). Gib den String aus.
+<quiz name="">
+    <question multiple>
+        <p>Welche der folgenden Befehle sind korrekt?</p>
+        <answer correct><code>for char in "ABCD":</code></answer>
+        <answer correct><code>for i in range(10):</code></answer>
+        <answer><code>for k in 7.65:</code></answer>
+        <answer correct><code>for number in [4, 6, 8]:</code></answer>
+        <answer><code>for (i=0; i&lt;10; i++):</code></answer>
+        <explanation>for-Schleifen lassen sich auf aufzählbare Typen wie Strings, Listen, Generatoren (range) und Dateien anwenden. Floats und Integers funktionieren jedoch nicht.</explanation>
+    </question>
+</quiz>

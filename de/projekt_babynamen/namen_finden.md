@@ -47,18 +47,19 @@ Ersetze unter Windows die **Backslashes durch normale Slashes (`/`)**
 Erweitere das Programm so, dass es die Anzahl der Babys wie im letzten Kapitel aufsummiert.
 
 
-## Der US-Babydatensatz
+## Aufgabe 4
 
 Für die folgenden Übungen benötigst Du den offiziellen Babynamen-Datensatz von den US-Meldebehörden. Du kannst die Dateien von der Seite [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html) herunterladen (es genügt die nicht nach Bundesstaaten aufgeschlüsselte Variante). 
 
+Entpacke die heruntergeladene Datei.
 
-### Aufgabe 4
+### Aufgabe 5
 
 Schreibe ein Programm, das die Datei `yob2015.txt` einliest. 
 Berechne die Gesamtzahl der Babys für das Jahr 2015 berechnet und gebe sie aus. Vergleiche das Ergebnis mit dem für das Jahr 1915.
 
 
-### Aufgabe 5
+### Aufgabe 6
 
 Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, die Deinen Namen enthalten und gib diese auf dem Bildschirm aus.
 

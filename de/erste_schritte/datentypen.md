@@ -84,6 +84,15 @@ Was ergeben folgende Anweisungen?
     </question>
 </quiz>
 
+### Aufgabe 5
+
+Gegeben ist ein chiffriertes Wort:
+
+    name = "CSAIPRALKAINACZEYLVOST"
+
+Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
+
+
 # Übersicht Datentypen
 
 ### Aufgabe 1

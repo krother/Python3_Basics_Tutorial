@@ -23,20 +23,6 @@ Führe das folgende Programm aus und erkläre die Ausgabe:
 
 ### Aufgabe 2
 
-Erweitere das Programm, so dass es zwei weitere Tiere erraten kann.
-
-    antwort1 = input('Kann das Tier fliegen?')
-
-    if antwort1 == 'ja':
-        print("Es kommt ein 'm' im Namen vor.")
-        if name != "Mimi":
-            print("Der Name ist nicht Mimi.")
-            if name[0] == "M" and name[-1] == "m":
-                print("Der Name beginnt mit M und endet auf m.")
-
-
-### Aufgabe 3
-
 Das folgende Programm soll die Positionen aller Buchstaben *"n"* im Namen ausgeben. Leider enthält das Programm **drei Fehler**. Bringe das Programm zum Laufen:
 
     name = "Anna"
@@ -48,13 +34,29 @@ Das folgende Programm soll die Positionen aller Buchstaben *"n"* im Namen ausgeb
     position = position + 1
 
 
+### Aufgabe 3
+
+Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
+
+    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
+    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
+    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
+    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
+
+Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
+
+
 ### Aufgabe 4
 
-Welche der folgenden `if`-Anweisungen ist syntaktisch korrekt?
-
-* `if a and b:`
-* `if len(s) == 23:`
-* `if a but not b < 3:`
-* `if a ** 2 >= 49:`
-* `if a != 3`
-* `if (a and b) or (c and d):`
+<quiz name="">
+    <question>
+<p>Welche der folgenden <code>if</code>-Anweisungen sind syntaktisch korrekt?</p>
+    <answer correct><code>if a and b:</code></answer>
+    <answer correct><code>if len(s) == 23:</code></answer>
+    <answer><code>if a but not b &lt; 3:</code></answer>
+    <answer correct><code>if a ** 2 >= 49:</code></answer>
+    <answer><code>if a != 3</code></answer>
+    <answer correct><code>if (a and b) or (c and d):</code></answer>
+    <explanation>Es sind ein Wahrheitsausdruck und eine Doppelpunkt am Ende notwendig.</explanation>
+    </question>
+</quiz>
