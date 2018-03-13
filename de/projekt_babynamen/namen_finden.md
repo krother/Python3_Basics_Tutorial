@@ -96,19 +96,9 @@ Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in 
 Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die Liste sortiert aus.
 
 
-### Aufgabe 10
-
-Sammle die Namen nach Jungen und Mädchen getrennt. Verwende dazu zwei Listen:
-
-    jungen = []
-    maedchen = []
-
-(Wir werden später elegantere Möglichkeiten hierzu kennen lernen, im Moment ist diese Variante gut genug)
-
-
 ## Balkendiagramm
 
-### Aufgabe 11
+### Aufgabe 10
 
 ![Balkendiagramm](star_bars.png)
 
@@ -136,14 +126,16 @@ Falls Du nicht in Anaconda arbeitest, füge am Ende folgenden Befehl hinzu:
     savefig('starwars.png')
 
 
-### Aufgabe 12
+### Aufgabe 11
 
-Plotte die Anzahl Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm (zwei Balken für Jungen und Mädchen).
+Plotte die ersten fünf Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm.
 
 
 ----
 
-### Aufgabe 13
+## Zusatzaufgaben
+
+### Aufgabe 12
 
 Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen für das Jahr 2015 berechnet und ausgibt.
 

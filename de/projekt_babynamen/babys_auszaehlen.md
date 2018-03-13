@@ -15,19 +15,31 @@ In diesem Kapitel werden wir einen größeren String auseinandernehmen. Dies kom
 
 Wir werden ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
 
+### Aufgabe 1
+
+Wenn alle Zahlen in einer Liste wären, wäre es einfach:
+
+    bigbang_zahlen = [
+        12562, 2178, 342, 129,
+        384, 208, 164, 82, 41
+    ]
+
+Schreibe ein Programm, das diese Zahlen aufsummiert.
+
+----
 
 ## Methoden von Strings
 
-Um den Text in der Variable `bigbang` zu verarbeiten, müssen wir den Datentyp **String** etwas besser kennen lernen.
+### Aufgabe 2
 
-### Aufgabe 1
+Um statt Zahlen den Text in `bigbang` zu verarbeiten, müssen wir den Datentyp **String** etwas besser kennen lernen.
 
 Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ![string exercise](../exercises/strings.png)
 
 
-### Aufgabe 2
+### Aufgabe 3
 
 <quiz name="">
     <question>
@@ -40,7 +52,7 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
     </question>
 </quiz>
 
-### Aufgabe 3
+### Aufgabe 4
 
 Nun wenden wir diese Methode an. Schreibe ein Programm, das *eine Zeile* aus unserem Datensatz zerlegt und den Namen und die korrekte Anzahl ausgibt:
 
@@ -57,12 +69,12 @@ Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem
 
 <!--endsec-->
 
-### Aufgabe 4
+### Aufgabe 5
 
 Nun probiere, den gesamten String `bigbang` zu zerlegen. Zerlege dann die 5. Zeile und gib die Anzahl aus.
 
 
-### Aufgabe 5
+### Aufgabe 6
 
 Da wir nicht eine, sondern *alle* Zeilen verarbeiten möchten, müssen wir Befehle wiederholen. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
 
@@ -78,7 +90,7 @@ Du kannst das Ergebnis von `bigbang.split()` direkt an die `for`-Schleife anhän
 
 <!--endsec-->
 
-### Aufgabe 6
+### Aufgabe 7
 
 Wie viele unterschiedliche Jungennamen mit `'S'` gab es 2015?
 
@@ -97,22 +109,7 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gab es 2015?
     jungs += 1
 
 
-### Aufgabe 7
-
-Schreibe ein Programm, das eine Liste von Zahlen aufsummiert:
-
-    bigbang_zahlen = [
-        12562, 2178, 342, 129,
-        384, 208, 164, 82, 41
-    ]
-
-    for anzahl in bigbang_zahlen:
-        print(anzahl)
-
-Wie viele Geburten sind das insgesamt? Schreibe ein Programm, welches diese Zahl ermittelt.
-
-
-### Aufgabe 8
+### Aufgabe 8 
 
 Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
 
