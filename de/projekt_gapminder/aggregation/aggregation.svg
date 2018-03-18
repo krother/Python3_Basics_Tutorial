@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="aggregation.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path3944"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3944-6"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="283.95174"
+     inkscape:cy="894.40508"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4484"
+       width="747.14288"
+       height="322.85715"
+       x="-1.4285715"
+       y="23.790754"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 109.32956,185.18463 120,0"
+       id="path3911"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g3897"
+       transform="translate(-18.571429,0)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         y="163.22411"
+         x="44.242897"
+         height="43.844193"
+         width="138.79854"
+         id="rect2985"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2" />
+      <flowRoot
+         transform="translate(13.714432,58.085269)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot2989"
+         xml:space="preserve"><flowRegion
+           id="flowRegion2991"><rect
+             y="116.96092"
+             x="55.558392"
+             height="33.335033"
+             width="105.05586"
+             id="rect2993" /></flowRegion><flowPara
+           id="flowPara3781"
+           style="font-size:14px;font-weight:bold;-inkscape-font-specification:Sans Bold">Gruppieren</flowPara></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="468.71078"
+       y="71.504059"
+       id="text3777"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3779"></tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 283.80556,271.12286 0,-59.39085"
+       id="path4450"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g3904"
+       transform="translate(-3.5101646,-3.0304599)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2"
+         id="rect3795"
+         width="114.55486"
+         height="43.844208"
+         x="239.20235"
+         y="264.23935" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3797"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(188.63896,151.70745)"><flowRegion
+           id="flowRegion3799"><rect
+             id="rect3801"
+             width="105.05586"
+             height="33.335033"
+             x="55.558392"
+             y="116.96092" /></flowRegion><flowPara
+           id="flowPara3803"
+           style="font-size:14px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">Spalten auswählen</flowPara></flowRoot>    </g>
+    <g
+       id="g3871"
+       transform="translate(19.957916,-58.58884)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g3864">
+        <rect
+           y="123.82816"
+           x="416.9892"
+           height="43.844193"
+           width="138.79854"
+           id="rect3767"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2" />
+        <flowRoot
+           transform="translate(396.22929,20.046259)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot3769"
+           xml:space="preserve"><flowRegion
+             id="flowRegion3771"><rect
+               y="116.96092"
+               x="55.558392"
+               height="33.335033"
+               width="105.05586"
+               id="rect3773" /></flowRegion><flowPara
+             style="font-size:14px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+             id="flowPara3775">Iterieren</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(0,-0.33673096)"
+         id="g3857">
+        <rect
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2"
+           id="rect3785"
+           width="138.79854"
+           height="43.844193"
+           x="416.9892"
+           y="189.48807" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3787"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(378.81425,84.294543)"><flowRegion
+             id="flowRegion3789"><rect
+               id="rect3791"
+               width="105.05586"
+               height="33.335033"
+               x="55.558392"
+               y="116.96092" /></flowRegion><flowPara
+             id="flowPara3793"
+             style="font-size:14px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">Aggregieren</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(0,0.35418701)"
+         id="g3850">
+        <rect
+           y="254.12041"
+           x="416.9892"
+           height="43.844193"
+           width="138.79854"
+           id="rect3813"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2" />
+        <flowRoot
+           transform="translate(368.11112,150.3385)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot3815"
+           xml:space="preserve"><flowRegion
+             id="flowRegion3817"><rect
+               y="116.96092"
+               x="55.558392"
+               height="18.335039"
+               width="126.48444"
+               id="rect3819" /></flowRegion><flowPara
+             style="font-size:14px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
+             id="flowPara3821">Transformieren</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(6.0609131,0)"
+         id="g3843">
+        <rect
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2"
+           id="rect3833"
+           width="138.79854"
+           height="43.844193"
+           x="410.92828"
+           y="319.79773" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3835"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(363.43693,214.6042)"><flowRegion
+             id="flowRegion3837"><rect
+               id="rect3839"
+               width="122.22846"
+               height="23.233511"
+               x="55.558392"
+               y="116.96092" /></flowRegion><flowPara
+             id="flowPara3841"
+             style="font-size:14px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">GroupBy.apply</flowPara></flowRoot>      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4383"
+       d="M 319.94382,185.18463 430.85244,152.35467"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 319.94382,185.18463 430.85244,89.725212"
+       id="path4385"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4387"
+       d="m 319.94382,185.18463 110.90862,31.31473"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 319.94382,185.18463 110.90862,94.95434"
+       id="path4389"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4448"
+       d="m 303.26985,197.2946 0,59.39085"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g4430"
+       transform="translate(-12.45975,0.41331884)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g4418"
+         transform="translate(10,-101.42857)">
+        <rect
+           ry="21.922096"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2"
+           id="rect4420"
+           width="116.65566"
+           height="43.844208"
+           x="237.10153"
+           y="264.23935" />
+      </g>
+      <flowRoot
+         transform="translate(197.37321,48.744215)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot3797-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3799-5"><rect
+             y="116.96092"
+             x="55.558392"
+             height="33.335033"
+             width="105.05586"
+             id="rect3801-3" /></flowRegion><flowPara
+           style="font-size:14px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
+           id="flowPara3803-5">GroupBy-Objekt</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4438"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-19.562907,13.197587)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion4440"><rect
+           id="rect4442"
+           width="305.06607"
+           height="98.994949"
+           x="43.436558"
+           y="47.260399" /></flowRegion><flowPara
+         id="flowPara4444"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Sans Bold">Gruppenoperationen</flowPara><flowPara
+         id="flowPara4446"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Sans Bold">in pandas</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4452"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-20.714286,10.722526)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion4454"><rect
+           id="rect4456"
+           width="190.71432"
+           height="19.285717"
+           x="608.57141"
+           y="69.505043" /></flowRegion><flowPara
+         id="flowPara4458"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">[df1, df2, df3, ..]</flowPara></flowRoot>    <flowRoot
+       transform="translate(-20.714286,74.651098)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4460"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion4462"><rect
+           y="69.505043"
+           x="608.57141"
+           height="19.285717"
+           width="190.71432"
+           id="rect4464" /></flowRegion><flowPara
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara4466">Spalte -&gt; obj</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4468"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-20.714286,140.72253)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion4470"><rect
+           id="rect4472"
+           width="190.71432"
+           height="19.285717"
+           x="608.57141"
+           y="69.505043" /></flowRegion><flowPara
+         id="flowPara4474"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Spalte -&gt; Spalte</flowPara></flowRoot>    <flowRoot
+       transform="translate(-20.714286,206.43682)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4476"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/datenaggregation/aggregation.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion4478"><rect
+           y="69.505043"
+           x="608.57141"
+           height="19.285717"
+           width="190.71432"
+           id="rect4480" /></flowRegion><flowPara
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara4482">df -&gt; ?</flowPara></flowRoot>  </g>
+</svg>
