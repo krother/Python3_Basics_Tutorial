@@ -7,26 +7,11 @@ In der Bibliothek `pandas` sind Daten als Tabellen vom Typ `pd.DataFrame` abgele
 
 In dieser Übung probieren wir einige pandas-Befehle aus. Finde heraus, was diese tun.
 
-## Vorbereitung
+## Aufgabe
 
-Du benötigst vom Kursleiter die Datei `grosse_laender_2015.csv` mit Daten von [www.gapminder.org](www.gapminder.org) und einige Python-Skripten vom Kursleiter.
+Du benötigst vom Kursleiter:
 
-### Aufgabe 1
+* die Datei `grosse_laender_2015.csv` mit Daten von [www.gapminder.org](www.gapminder.org)
+* ein Jupyter Notebook mit den Beispielen.
 
-Starte die IPython Konsole über Anaconda
-
-### Aufgabe 2
-
-Importiere pandas:
-
-    import pandas as pd
-
-### Aufgabe 3
-
-Lade die Tabelle mit demographischen Daten:
-
-    df = pd.read_csv('grosse_laender_2015.csv', index_col=0)
-
-### Aufgabe 4
-
-    Probiere die Befehle **einzeln** aus. Finde heraus, was diese tun.
+Starte das Jupyter Notebook über Anaconda. Probiere die Befehle **einzeln** aus und ordne mit den Pfeilen die Beschreibungen zu.

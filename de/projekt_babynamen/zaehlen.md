@@ -11,7 +11,6 @@ Dictionaries eignen sich gut zum Suchen und Nachschlagen.
 
 **Suche englische Wörter, die mit Suchen zu tun haben.**
 
-
 ### Aufgabe 2
 
 Finde heraus, was jeder der Ausdrücke mit dem Dictionary in der Mitte anstellt.
