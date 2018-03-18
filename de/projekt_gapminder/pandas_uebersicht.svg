@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pandas_uebersicht.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="395.01512"
+     inkscape:cy="716.56495"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:1.50000000000000000;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       id="rect3814"
+       width="547.14288"
+       height="294.28571"
+       x="11.428572"
+       y="85.219322"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2"
+       id="rect3005"
+       width="472.14285"
+       height="202.14285"
+       x="47.142857"
+       y="139.50505"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(17.172593,28.233508)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="651.42859"
+           height="477.14285"
+           x="68.571426"
+           y="158.07646" /></flowRegion><flowPara
+         id="flowPara2991"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">                 population  fertility      continent</flowPara><flowPara
+         id="flowPara2993"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">Bangladesh     1.609956e+08       2.12           Asia</flowPara><flowPara
+         id="flowPara2995"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">Brazil         2.078475e+08       1.78  South America</flowPara><flowPara
+         id="flowPara2997"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">China          1.376049e+09       1.57           Asia</flowPara><flowPara
+         id="flowPara2999"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">India          1.311051e+09       2.43           Asia</flowPara><flowPara
+         id="flowPara3001"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold">Indonesia      2.575638e+08       2.28           Asia</flowPara><flowPara
+         id="flowPara3003"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:150%;letter-spacing:0.1px;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></flowRoot>    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       id="rect3007"
+       width="98.571426"
+       height="146.429"
+       x="73.571426"
+       y="177.36218"
+       ry="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3009"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-0.71428572,-11.428572)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3011"><rect
+           id="rect3013"
+           width="94.285713"
+           height="25"
+           x="74.285713"
+           y="163.79076" /></flowRegion><flowPara
+         id="flowPara3015"
+         style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold">index</flowPara></flowRoot>    <flowRoot
+       transform="translate(-27.857143,-46.428572)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3017"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3019"><rect
+           y="163.79076"
+           x="74.285713"
+           height="22.857143"
+           width="110"
+           id="rect3021" /></flowRegion><flowPara
+         style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara3023">pd.DataFrame</flowPara></flowRoot>    <flowRoot
+       transform="translate(175.71428,-11.428572)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3025"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3027"><rect
+           y="163.79076"
+           x="74.285713"
+           height="25"
+           width="94.285713"
+           id="rect3029" /></flowRegion><flowPara
+         style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara3031">columns</flowPara></flowRoot>    <rect
+       ry="0"
+       y="177.36218"
+       x="182.14285"
+       height="146.429"
+       width="309.28574"
+       id="rect3033"
+       style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       d="m 373.57141,182.36218 112.14291,0 0,115.71429 -112.14291,0 z"
+       id="rect3035"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3806"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(327.14286,137.85714)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/veit_schiele/datenanalyse-in-python/pandas_grundlagen/pandas_uebersicht.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3808"><rect
+           id="rect3810"
+           width="94.285713"
+           height="25"
+           x="74.285713"
+           y="163.79076" /></flowRegion><flowPara
+         id="flowPara3812"
+         style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold">pd.Series</flowPara></flowRoot>  </g>
+</svg>
