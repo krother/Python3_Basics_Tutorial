@@ -29,13 +29,13 @@
 
 ### Projekt 2: Gapminder
 
-* [Datenanalyse mit pandas](projekt_gapminder/README.md)
-* [pandas kennen lernen](projekt_gapminder/pandas_grundlagen.md)
+* [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
 * [Histogramme plotten](projekt_gapminder/histogramm.md)
 * [Langes und breites Tabellenformat](projekt_gapminder/long_wide_tables.md)
 * [Mehrere Korrelationen plotten](projekt_gapminder/mehrere_korrelationen.md)
 * [Animierter Scatterplot](projekt_gapminder/animation.md)
+* [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
 
 ----
 
@@ -48,11 +48,11 @@
 ### Projekt 4: Songtexte
 
 * [Das Songtexte-Projekt](projekt_lyrics/README.md)
-  * [Daten aus dem Internet herunterladen](projekt_lyrics/teil1_songliste.md)
-  * [Songtitel auslesen](projekt_lyrics/teil2_songs_extrahieren.md)
-  * [Songs herunterladen](projekt_lyrics/teil3_songs_herunterladen.md)
-  * [Songs einlesen](projekt_lyrics/teil4_songs_einlesen.md)
-  * [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/teil5_vorhersage.md)
+* [Daten aus dem Internet herunterladen](projekt_lyrics/teil1_songliste.md)
+* [Songtitel auslesen](projekt_lyrics/teil2_songs_extrahieren.md)
+* [Songs herunterladen](projekt_lyrics/teil3_songs_herunterladen.md)
+* [Songs einlesen](projekt_lyrics/teil4_songs_einlesen.md)
+* [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/teil5_vorhersage.md)
 
 ----
 
