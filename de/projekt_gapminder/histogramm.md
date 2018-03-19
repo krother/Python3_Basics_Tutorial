@@ -11,26 +11,31 @@ Sorge dafür, daß Du die Lebenserwartung in einem DataFrame `lifeexp` hast.
 
 ### Schritt 2
 
+Wähle einige Jahrgänge aus. Beim Einlesen aus Excel haben die Daten jedoch *Integer-Zahlen* als Spaltennamen. Daher:
+
+    lifeexp = lifeexp[[1950, 1975, 2000, 2015]]
+
+### Schritt 3
+
 Zeichne ein Histogramm für das Jahr 2015 mit den Standardeinstellungen.
 
     import pylab as plt
 
-    plt.figure()
-    plt.hist(lifeexp['spaltenname'])
+    lifeexp[2015].hist()
     plt.savefig('histo.png')
 
 ### Schritt 3
 
 Probiere unterschiedliche Werte für die Klassenanzahl aus. Wähle jeweils einen der folgenden Befehle und ersetze den vorher ausgeführten:
 
-    plt.hist(lifeexp['spaltenname'], 5)
-    plt.hist(lifeexp['spaltenname'], 10)
-    plt.hist(lifeexp['spaltenname'], 20)
+    lifeexp['spaltenname'].hist(bins=5)
+    lifeexp['spaltenname'].hist(bins=10)
+    lifeexp['spaltenname'].hist(bins=20)
 
 Entscheide Dich für einen aussagekräftigen Wert.
 
 
-### Schritt 3
+### Schritt 4
 
 Nun werden wir das Diagramm verschönern.
 
@@ -41,7 +46,7 @@ Beschrifte das Diagramm. Verwende dazu vor dem Abspeichern die Funktionen:
     plt.ylabel('text')
 
 
-### Schritt 4
+### Schritt 5
 
 Stelle über die Funktion `plt.axis` den Bildausschnitt ein.
 
@@ -50,18 +55,18 @@ Stelle über die Funktion `plt.axis` den Bildausschnitt ein.
 Finde passende Zahlen und setze diese in den obigen Befehl ein.
 
 
-### Schritt 5
+### Schritt 6
 
-Probiere nacheinander folgende optionale Parameter der Funktion `plt.hist` aus:
+Probiere nacheinander folgende optionale Parameter der Funktion `hist()` aus:
 
     facecolor='green',
     facecolor='#ff0000',
     alpha=0.75,
     histtype='bar',
 
-Die Parameter werden in den Aufruf von `plt.hist` am Ende angefügt.
+Die Parameter werden in den Aufruf von `hist()` am Ende angefügt.
 
-### Schritt 6
+### Schritt 7
 
 Lege die Auflösung beim Schreiben fest.
 

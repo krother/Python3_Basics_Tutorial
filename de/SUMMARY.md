@@ -33,7 +33,6 @@
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
 * [Histogramme plotten](projekt_gapminder/histogramm.md)
 * [Langes und breites Tabellenformat](projekt_gapminder/long_wide_tables.md)
-* [Mehrere Korrelationen plotten](projekt_gapminder/mehrere_korrelationen.md)
 * [Animierter Scatterplot](projekt_gapminder/animation.md)
 * [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
 

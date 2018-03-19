@@ -10,13 +10,16 @@ Dazu erstellen wir eine Serie von Bildern, die wir zu einem animierten GIF verbi
 Erstelle einen Scatterplot für die Korrelation zwischen Lebenserwartung und Fruchtbarkeit wie in der ersten Übung für *jedes* Jahr zwischen 1960 und 2015
 (davor sind die Daten sehr lückenhaft).
 
-
 ### Schritt 2
+
+Passe Dein Programm so an, dass die Größe der Kugeln die Bevölkerung aus den Gapminder-Daten repräsentiert.
+
+### Schritt 3
 
 Speichere jeden Scatterplot als eigene Datei mit der Jahreszahl im Dateinamen ab, z.B. `lifeexp_..` .
 
 
-### Schritt 3
+### Schritt 4
 
 Installiere das Python-Modul `imageio`, indem Du auf der Kommandozeile eingibst:
 
@@ -25,7 +28,7 @@ Installiere das Python-Modul `imageio`, indem Du auf der Kommandozeile eingibst:
 (kein Problem unter Linux/Mac, unter Windows mußt Du eventuell vorher Anaconda installieren.)
 
 
-### Schritt 4
+### Schritt 5
 
 Passe das folgende Skript an und führe es aus:
 
