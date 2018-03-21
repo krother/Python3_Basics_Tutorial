@@ -10,6 +10,7 @@
 ## Webseiten
 
 * Offizielle Dokumentation und Python Tutorial: [http://www.python.org/doc](http://www.python.org/doc)
+* [Python - Einführung in die Programmierung](https://www.luis.uni-hannover.de/python.html) - Kursmaterial der Leibnitz Universität
 * Tutorial für Anfänger: [http://greenteapress.com/thinkpython/thinkCSpy/html/](http://greenteapress.com/thinkpython/thinkCSpy/html/)
 * Übersicht zahlreicher weiterer Python-Tutorials, Webseiten und Bücher: [http://www.whoishostingthis.com/resources/python/](http://www.whoishostingthis.com/resources/python/)
 * Offizielle Referenz zum kompletten Python 3 Sprachumfang: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
