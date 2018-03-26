@@ -106,19 +106,36 @@ Wähle einige Strassen aus der Datei aus und stelle diese auf der Webseite als T
 
 ## 10. Ein Formular erstellen
 
-Recherchiere, wie Du ein Formular mit Flask erstellst. Baue ein Formular ein, in dem Du einen Strassennamen in ein Eingabefeld eingibst und über einen Knopf das Formular abschickst.
+Erstelle ein Formular mit Flask. Baue ein Formular ein, in dem Du einen Strassennamen in ein Eingabefeld eingibst und über einen Knopf das Formular abschickst. Der HTML-Code sollte etwa folgendes enthalten:
 
-## 11. Kopf- und Fußzeilen
+    <form action="/suchen">
+      <input name="suchtext"></input>
+      <input type="submit" value="Strasse suchen"></input>
+    </form>
 
-Du kannst Deine Templates auf mehrere Dateien aufteilen, um Redundanzen zu vermeiden. Erstelle eine Datei für Kopf- und eine für Fusszeilen.
+Die URL `/suchen` kann nun auf den Inhalt des Textfeldes mit dem Namen `suchtext` zugreifen:
+
+    from flask import request
+
+    # in der aufgerufenen Funktion
+    text = request.form['suchtext']
+
+## 11. Suchergebnisse anzeigen
+
+Verbinde die das Suchergebnis so mit den Daten, dass z.B. eine Tabelle angezeigt wird.
 
 ## 12. CSS-Stylesheets einbinden
-Hier kannst Du Typographie und Farben festlegen. Details nächste Woche.
+Nun legen wir Typographie und Farben fest. Lege dazu eine Datei `static/style.css` an. In die Datei schreibst Du Anweisungen, die z.B. die Hintergrundfarbe für das `<body>`-Tag setzen.
 
-## 13. Eine Karte mit Folium zeichnen
-Stelle die gefundenen Strassen als interaktive Karte dar. Details nächste Woche.
+    body {
+        background-color: lightblue;
+    }
 
-## 14. Bootstrap
+Im Header-Teil des HTML-Templates mußt Du das CSS-Stylesheet einbinden:
+
+    <link rel="stylesheet" href="/static/style.css">
+
+## 13. Bootstrap
 
 *"Half the internet is built on Bootstrap"*
 
@@ -127,22 +144,21 @@ Stelle die gefundenen Strassen als interaktive Karte dar. Details nächste Woche
 Dazu ist eine Reihe von Schritten nötig:
 
 * Binde die Bootstrap-Dateien in Deine Templates ein (siehe [Anleitung](http://getbootstrap.com/docs/4.0/getting-started/introduction/))
-* Probiere eine Vorlage aus der Dokumentation aus
-* Probiere einzelne Elemente aus (unter *"Components"* findest Du einige, bei denen Du leicht siehst, ob sie funktionieren)
+* Probiere das *"Starter Template"* aus der Dokumentation aus
+* Probiere einzelne Elemente aus (z.B. das [Jumbotron](http://getbootstrap.com/docs/4.0/components/jumbotron/).
 
 #### Anmerkung:
 
-Oft ist es nicht wünschenswert, Dateien von einer Drittpartei einzubinden. Nachhaltiger ist es, diese als *statische Dateien* auf Deinem eigenen Server abzulegen.
+Oft ist es nicht git, Dateien von einer zweiten Webseite einzubinden. Besser ist es, diese als *statische Dateien* auf dem eigenen Server abzulegen.
+
+## 14. Eine Karte mit Folium zeichnen
+
+Stelle die gefundenen Strassen als interaktive Karte dar. 
 
 
-## 15. Eine SQL-Datenbank verwenden
+## Erweiterungsmöglichkeiten
 
-Es ist natürlich nicht grade effizient, bei jedem Neustart des Servers 900 MB Daten in den Speicher zu laden. Eine bessere Alternative ist eine **Datenbank**. Verwende das Python-Modul `sqlite3`, um eine Datenbank zu erstellen und die gewünschten Strassen aus einer Tabelle abzufragen.
-
-## 16. Deployment auf einem öffentlichen Server
-
-Lies Dir im [Djangogirls-Tutorial](https://tutorial.djangogirls.org/en/deploy/) durch, wie Du einen Server auf [pythonanywhere](https://www.pythonanywhere.com/) anlegst. Probiere es aus! Es kostet nichts.
-
-#### Hinweis:
-
-Es ist sehr zu empfehlen, den Code mit `git` zu veröffentlichen, bevor Du Dich mit dem öffentlichen Server beschäftigst. Dadurch werden viele Einzelheiten deutlich einfacher.
+* **Eine SQL-Datenbank verwenden** – Anstatt bei jedem Neustart des Servers 900 MB Daten in den Speicher zu laden, kannst Du mit dem Python-Modul `sqlite3` eine Datenbank erstellen und die gewünschten Strassen aus einer Tabelle abfragen.
+* **Deployment auf einem öffentlichen Server** – Auf [pythonanywhere](https://www.pythonanywhere.com/) kannst Du Deinen eigenen Server anlegen. Probiere es aus! Es kostet nichts.
+* **git** – mit `git` kannst Du Deinen Code veröffentlichen. Dadurch werden viele andere Schritte deutlich einfacher.
+* Im [**Djangogirls-Tutorial**](https://tutorial.djangogirls.org/en/deploy/) findest Du eine ausführliche Anleitung für diese Schritte mit dem Python-Server `Django`.
