@@ -1,6 +1,8 @@
 
 # Ein Mini-Spiel schreiben
 
+![tilegamelib](tilegamelib.png)
+
 Die Python-Bibliothek [`tilegamelib`](https://github.com/krother/tilegamelib) vereinfacht das Verwenden der beliebten Bibliothek **pygame**. Sie erleichtert das Erstellen einfacher Spiele mit Klötzchengrafik. In diesem Projekt schreiben wir ein einfaches Labyrinth-Spiel mit einigen Zeilen Python-Code.
 
 Zunächst installiere die Bibliothek mit:
