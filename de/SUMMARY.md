@@ -61,6 +61,12 @@
 
 ----
 
+### Projekt 6: Spiel
+
+* [Labyrinth-Spiel](projekt_spiel/README.md)
+
+----
+
 ### Python-Bibliotheken
 
 * [Reguläre Ausdrücke](regular_expressions/regex.md)
