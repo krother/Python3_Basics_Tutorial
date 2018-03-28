@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Unser Strassenverzeichnis</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="/static/style.css">
+	
+  </head>
+  <body>
+  
+  <div class="jumbotron">
+    <h1 class="display-4">Unser Strassenverzeichnis</h1>
+    <p class="lead">Hier kannst Du nach Strassen suchen.</p>
+  </div>
+
+  <div class="container">
+    {% include 'karte.html' %}
+ 
+    {{ inhalt|safe }}
+
+    <hr>
+  	
+  	<form action="/suchen">
+	  <input name="text"></input>
+	  <input type="submit" value="Straße suchen"></input>
+	</form>
+
+</div>
+	  
+{% include 'fusszeile.html' %}
+
+  </body>
+</html>
