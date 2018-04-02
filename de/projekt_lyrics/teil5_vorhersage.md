@@ -79,7 +79,7 @@ Führe eine 10-fache Kreuzvalidierung durch:
 
 Führe eine Vorhersage durch:
 
-    model.predict("take the 8mile road in detroit")
+    model.predict(["take the 8mile road in detroit"])
 
 ## Aufgabe 5.11
 
