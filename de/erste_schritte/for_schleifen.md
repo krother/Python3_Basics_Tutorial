@@ -75,7 +75,7 @@ und
 
 Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
 
-![](four_squares.svg)
+![](concentric.svg)
 
 
 
