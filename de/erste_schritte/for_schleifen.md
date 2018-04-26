@@ -50,6 +50,12 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
 ### Aufgabe 5
 
+Zeichne vier Quadrate:
+
+![](four_squares.svg)
+
+### Aufgabe 6
+
 Erkläre den Unterschied zwischen den folgenden zwei Programmen:
 
     summe = 0
@@ -65,20 +71,12 @@ und
     print(summe)
 
 
-### Aufgabe 6
-
-Was tut das folgende Programm?
-
-    text = ""
-    characters = "Hannah"
-    for char in characters:
-        text = char + text
-    print(text)
-
-
 ### Aufgabe 7
 
-Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
+Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
+
+![](four_squares.svg)
+
 
 
 ### Aufgabe 8
@@ -94,3 +92,10 @@ Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joann
         <explanation>for-Schleifen lassen sich auf aufzählbare Typen wie Strings, Listen, Generatoren (range) und Dateien anwenden. Floats und Integers funktionieren jedoch nicht.</explanation>
     </question>
 </quiz>
+
+
+### Aufgabe 9
+
+Zeichne eine Spirale. 
+
+![](square_spiral.svg)

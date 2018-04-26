@@ -1,11 +1,9 @@
 
-# Datentypen in Python
+# Strings und Listen
 
-Bisher haben wir lediglich mit Zahlen gearbeitet. Nun werden wir auch Text in Variablen speichern. 
-
+Bisher haben wir lediglich mit Zahlen gearbeitet. Nun werden wir auch Text (**Strings**) in Variablen speichern und mehrere Variablen in einer **Liste** zusammenfassen.
 
 ## Strings
-
 
 ### Aufgabe 1
 
@@ -31,6 +29,12 @@ Gib die beiden Initialien aus dem folgenden String aus. Verwende die Schreibweis
 
     name = "Walter White"
 
+
+### Aufgabe 5
+
+Erkläre die folgende Anweisung:
+
+    print("Emily\tSmith\n2000")
 
 
 # Listen
@@ -92,27 +96,23 @@ Gegeben ist ein chiffriertes Wort:
 
 Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
 
+### Aufgabe 6
 
-# Übersicht Datentypen
+Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
 
-### Aufgabe 1
+### Aufgabe 7
+
+Was tut das folgende Programm?
+
+    text = ""
+    characters = "Hannah"
+    for char in characters:
+        text = char + text
+    print(text)
+
+### Aufgabe 8
 
 Bilde Paare von Datentypen und Werten.
 
 ![datatype exercise](../exercises/datatypes.png)
-
-
-### Aufgabe 2
-
-Erstelle eine Tabelle, in der Du nach *einfachen* und *zusammengesetzten* Datentypen unterscheidest.
-
-### Aufgabe 3
-
-Auf welchen Datentypen funktioniert die Funktion `len()`?
-
-* Listen
-* Dictionaries
-* Strings
-* Floats
-* Tupel
 
