@@ -8,8 +8,7 @@
 ### Erste Schritte
 
 * [Python als Taschenrechner](erste_schritte/python_shell.md)
-* [Datentypen](erste_schritte/datentypen.md)
-* [Das erste Programm](erste_schritte/programme.md)
+* [Dein erstes Programm](erste_schritte/programme.md)
 * [Anweisungen wiederholen](erste_schritte/for_schleifen.md)
 * [Entscheidungen treffen](erste_schritte/if.md)
 * [Bedingte Schleifen](erste_schritte/while.md)
@@ -19,6 +18,7 @@
 ### Projekt 1: Babynamen
 
 * [Übersicht](projekt_babynamen/README.md)
+* [Datentypen](erste_schritte/datentypen.md)
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
 * [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md)

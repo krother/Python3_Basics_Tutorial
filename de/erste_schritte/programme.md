@@ -101,7 +101,7 @@ Welche `input`-Befehle sind korrekt?
 
 Schreibe ein Programm, bei dem der Nutzer die Größe des gezeichneten Quadrats einstellen kann. Du kannst eine Zahl mit folgendem Befehl einlesen:
 
-    zahl = input("Gib eine Zahl ein: ")
+    zahl = int(input("Gib eine Zahl ein: "))
     print(zahl)
 
 
