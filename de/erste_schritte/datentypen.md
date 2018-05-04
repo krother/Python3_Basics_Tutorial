@@ -43,7 +43,7 @@ Um größere Datenmengen zu verarbeiten, können wir nicht für jeden Eintrag ei
 
 Listen sind eine einfache Abfolge von Elementen. Allerdings zählt Python anders als Menschen:
 
-![Indizierung](indexing.png)
+![Indizierung](../bilder/indexing.png)
 
 ### Aufgabe 1
 
