@@ -10,8 +10,11 @@ Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die 
 
 ## Unter Windows
 
-Halte nach der Installation im Startmenü nach *Python*, *Anaconda* oder *Spyder* im Startmenü Ausschau und klicke Dich durch die Dialogfenster, die beim ersten Mal erscheinen.
-
+1. Lade Anaconda für Windows herunter
+2. Klicke Dich durch den Installationsdialog (ändere das Verzeichnis, falls etwas nicht funktioniert)
+3. Suche ach der Installation im Startmenü nach *Anaconda Navigator*
+4. Klicke die Dialogfenster weg, die beim ersten Mal erscheinen.
+5. Starte **Spyder** aus dem Navigator-Fenster
 
 ## Weitere Python-Distributionen
 
