@@ -7,7 +7,7 @@ with contributions by Allegra Via, Kaja Milanowska and Anna Philips
 
 Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
 
-Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial) 
+Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial)
 
 # Introduction
 
@@ -19,7 +19,7 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 * you have no programming experience at all
 * you know Python well and would like to teach others
 
-This tutorial works best if you follow the chapters and exercises step by step. 
+This tutorial works best if you follow the chapters and exercises step by step.
 
 ## The dataset of U.S. baby names
 
@@ -40,3 +40,44 @@ For a tutorial for non-beginners, I recommend the following free online books:
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/) - a bootcamp-style tutorial by **Zed Shaw**
 * [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - a very systematic, scientific tutorial by **Allen B. Downey**
 * [Dive into Python 3](http://www.diveintopython3.net/) - explains one sophisticated program per chapter - **by Mark Pilgrim**
+
+## Contents
+
+* [Installing Python](introduction/installing_python.md)
+* [First steps in the IPython Shell](python_shell/first_steps.md)
+  * [Using Python as a calculator](python_shell/python_shell.md)
+  * [Storing numbers](python_shell/variables_and_numbers.md)
+  * [Storing text](python_shell/strings.md)
+* [Writing Python programs](python_programs/README.md)
+  * [My first program](python_programs/programs.md)
+  * [Repeating instructions](python_programs/for_loops.md)
+  * [Making decisions](python_programs/if.md)
+* [Overview of data types in Python](data_types/data_types_in_python.md)
+* [Lists](lists/README.md)
+  * [Creating lists](lists/lists.md)
+  * [Shortcuts](lists/builtin_functions.md)
+  * [Working with tables](lists/tables.md)
+* [Reading data from files](reading_data/reading_data.md)
+  * [Reading a simple text file](reading_data/readfile.md)
+  * [Extracting data from text](reading_data/parsing.md)
+  * [Writing files](reading_data/writing_files.md)
+  * [Processing multiple files](reading_data/multiple_files.md)
+* [Strings](strings/strings.md)
+  * [Screen output](strings/print.md)
+  * [String methods](strings/string_methods.md)
+  * [Format strings](strings/format_strings.md)
+* [Other topics]
+  * [Dictionaries](data_types/dictionaries.md)
+  * [Tuples](data_types/tuples.md)
+  * [Reading from the keyboard](python_programs/input.md)
+  * [Converting numbers to text and back](python_shell/type_conversions.md)
+  * [Structuring programs](structure/structuring_programs.md)
+  * [while](structure/  while.md)
+  * [Writing your own functions](structure/functions.md)
+  * [Modules](structure/modules.md)
+  * [Introspection](structure/introspection.md)
+  * [Working with directories](data_types/os.md)
+* [Programming Challenge: Count Words in Moby Dick](challenge3_count_words/README.md)
+* [Background information on Python 3](appendix/background_info.md)
+* [Recommended books and websites](appendix/literature.md)
+* [Acknowledgements](appendix/acknowledgements.md)
