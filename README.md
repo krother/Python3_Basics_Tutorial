@@ -21,6 +21,16 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 
 This tutorial works best if you follow the chapters and exercises step by step. 
 
+## The dataset of U.S. baby names
+
+![Babynamen](images/baby.png)
+
+The authorities of the United States have recorded the first names of all people born as U.S. citizens since 1880. The dataset is publicly available on [http://www.ssa.gov/oact/babynames/limits.html
+](http://www.ssa.gov/oact/babynames/limits.html). However for the protection of privacy only names used at least 5 times appear in the data.
+
+Throughout this tutorial, we will work with this data.
+
+
 ## If you are an experienced programmer
 
 If you are fluent in any programming language, this tutorial might be very easy for you. Of course, you can work through the exercises to get the Python syntax into your fingers. However, this tutorial contains very little material on the higher abstraction levels in Python, like classes, namespaces or even functions.
