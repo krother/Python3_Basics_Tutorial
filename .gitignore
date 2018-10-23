@@ -4,3 +4,5 @@ de/node_modules/*
 names.zip
 
 de/challenges/movie/mencoder.exe
+Gemfile.lock
+_site/*
