@@ -5,7 +5,7 @@
 
 Match the data samples with their types.
 
-![datatype exercise](../exercises/datatypes.png)
+![datatype exercise](../images/datatypes.png)
 
 # Definitions
 
@@ -39,4 +39,3 @@ Values can be converted into each other using *conversion functions*. Try the fo
     tuple([1,2,3])
     dict([('A',1),('B',2)])
     set([1,2,2,3])
-

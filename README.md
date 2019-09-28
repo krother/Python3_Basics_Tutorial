@@ -44,7 +44,6 @@ Throughout this tutorial, we will work with this data.
 
 ## Files
 
-* [Reading data from files](reading_data/reading_data.md)
 * [Reading a simple text file](reading_data/readfile.md)
 * [Extracting data from text](reading_data/parsing.md)
 * [Writing files](reading_data/writing_files.md)
@@ -52,7 +51,6 @@ Throughout this tutorial, we will work with this data.
 
 ## Strings
 
-* [Strings](strings/strings.md)
 * [Screen output](strings/print.md)
 * [String methods](strings/string_methods.md)
 * [Format strings](strings/format_strings.md)

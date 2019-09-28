@@ -7,7 +7,7 @@ To process bigger amounts of data, you will need to work on more than one file. 
 
 Fill in the gaps
 
-![os exercise](../exercises/os.png)
+![os exercise](../images/os.png)
 
 ## Exercise 1
 

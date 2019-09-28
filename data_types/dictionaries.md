@@ -5,11 +5,10 @@
 
 Find out what each of the expressions does to the dictionary in the center.
 
-![dict exercise](../exercises/dicts.png)
+![dict exercise](../images/dicts.png)
 
 
-
-## Exercise 2 
+## Exercise 2
 
 What do the following commands produce?
 

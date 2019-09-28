@@ -3,7 +3,7 @@
 
 The last missing piece in our basic set of commands is the ability to make decisions in a program. This is done in Python using the `if` command.
 
-![making decisions](list.png)
+![making decisions](../images/list.png)
 
 ### Exercise 1
 
@@ -55,4 +55,3 @@ Which of these `if` statements are syntactically correct?
 * `if a ** 2 >= 49:`
 * `if a != 3`
 * `if (a and b) or (c and d):`
-

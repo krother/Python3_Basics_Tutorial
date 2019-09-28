@@ -1,6 +1,10 @@
 
 # Reading simple text files
 
+In this chapter, you will learn to extract information from simple text files.
+
+For the next exercises, you will need the complete archive of baby names (the shorter one not grouped by states). You can download the files from [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html).
+
 ### Exercise 1
 
 Create a text file `bigbang.txt` in a text editor, containing the following data:
@@ -26,7 +30,7 @@ Make the program work by inserting `close`, `line`, `bigbang.txt`, `print` into 
         ____(line)
     f.____()
 
-#### Hint: 
+#### Hint:
 
 Depending on your editor, you may need to insert the complete path to the file. If the program does not work, a wrong file name or location are the most probable reasons.
 

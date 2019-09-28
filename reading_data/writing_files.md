@@ -5,7 +5,7 @@
 
 Form pairs of Python commands and their meanings.
 
-![file exercise](../exercises/files.png)
+![file exercise](../images/files.png)
 
 
 ### Exercise 2
@@ -42,7 +42,7 @@ Complete the following statements by `int()` or `str()` so that all of them work
 
 Write a program that writes the following data into a two-column text file.
 
-    names = ["Emma", "Olivia", "Sophia", "Isabella", 
+    names = ["Emma", "Olivia", "Sophia", "Isabella",
              "Ava", "Mia", "Emily"]
-    values = [20799, 19674, 18490, 16950, 
+    values = [20799, 19674, 18490, 16950,
                15586, 13442, 12562]

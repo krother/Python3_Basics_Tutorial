@@ -1,12 +1,18 @@
 
 # Creating lists
 
+To handle larger amounts of data, we cannot invent a new variable for every new data item. Somehow we need to store more data in one variable. This is where Python **lists** come in.
+
+However, Python counts a bit different than humans do:
+
+![indexing](../images/indexing.png)
+
 
 ### Exercise 1
 
 Find out what each of the expressions does to the list in the center.
 
-![list exercise](../exercises/lists.png)
+![list exercise](../images/lists.png)
 
 
 
@@ -30,9 +36,9 @@ How many babies are there in total? Write a program that calculates that number.
 
 You have a list of the 20 most popular girls names from the year 2000:
 
-    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
-    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
-    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
+    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah',
+    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor',
+    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna',
     'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
 
 Write a program that prints all names starting with `'A'` or `'M'`.
@@ -42,7 +48,7 @@ Write a program that prints all names starting with `'A'` or `'M'`.
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise1](../exercises/list_funcs1.png)
+![list funcs exercise1](../images/list_funcs1.png)
 
 
 ### Exercise 6
@@ -58,4 +64,4 @@ Create a new list containing the sum of *California* and *New York* for each nam
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise2](../exercises/list_funcs2.png)
+![list funcs exercise2](../images/list_funcs2.png)

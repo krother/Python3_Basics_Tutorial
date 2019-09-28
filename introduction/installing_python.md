@@ -6,23 +6,6 @@ The first step into programming is to get Python installed on your computer. You
 * Python itself
 * a text editor
 
-Which to install, depends on your operating system.
-
-## On Ubuntu Linux
-
-By default, Python is already installed. In this tutorial however, we will use Python3 whenever possible. You can install it from a terminal window with: 
-
-    sudo apt-get install python3
-    sudo apt-get install ipython3
-
-To check whether everything worked, type:
-
-    ipython3
-
-As a text editor, it is fine to start with **gedit**. Please make sure to change tabs to spaces via *Edit -> Preferences -> Editor -> tick 'Insert spaces instead of tabs'*.
-
-## On Windows
-
 A convenient way to install Python, an editor and many additional packages in one go is [**Anaconda**](https://store.continuum.io/cshop/anaconda/), a Python distribution with many pre-installed packages for scientific applications.
 
 After installing, you will need to launch the **Spyder** editor from the Start menu.
@@ -31,10 +14,8 @@ After installing, you will need to launch the **Spyder** editor from the Start m
 ### Other Python environments
 
 * [**Python 3**](https://www.python.org/downloads/) - the standard Python installation
-* [**Canopy**](https://www.enthought.com/products/canopy/) - another Python instllation for scientific purposes.
 * **Idle** - a standard editor installed with Python by default.
-* **Sublime Text** - a very powerful text editor for all operating systems
-* **Notepad++** - a powerful text editor for Windows. *Please do not use the standard Notepad. It won't get you anywhere.*
+* **Atom**
 * **PyCharm** - a professional Python development environment capable of handling large projects. You won't need most of the functionality for a long time, but it is a well-written editor.
 * **vim** - a console-based text editor for Unix systems. The tool of choice for many system administrators.
 

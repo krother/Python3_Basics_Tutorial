@@ -5,7 +5,7 @@
 
 Determine what the expressions do to the string in the center.
 
-![string exercise](../exercises/strings.png)
+![string exercise](../images/strings.png)
 
 ### Exercise 2
 
@@ -18,9 +18,9 @@ Complete the code to dissect lines to columns, so that the variables `name` and 
     duplicates = []
 
     for line in open('names/yob2015.txt'):
-        
+
         # insert your code here
-        
+
         if gender == 'F':
            girls.append(name)
         elif gender == 'M':
@@ -32,4 +32,3 @@ Complete the code to dissect lines to columns, so that the variables `name` and 
         text = "{:>15s}\n".format(name)
         output.write(text)
     output.close()
-
