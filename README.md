@@ -37,7 +37,6 @@ Throughout this tutorial, we will work with this data.
 ## Lists
 
 * [Overview of data types in Python](data_types/data_types_in_python.md)
-* [Lists](lists/README.md)
 * [Creating lists](lists/lists.md)
 * [Shortcuts](lists/builtin_functions.md)
 * [Working with tables](lists/tables.md)
