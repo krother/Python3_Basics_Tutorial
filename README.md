@@ -78,3 +78,9 @@ with contributions by Allegra Via, Kaja Milanowska and Anna Philips
 Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
 
 Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial)
+
+## Acknowledgements
+
+I would like to thank the following people for inspiring exchange on training an
+d Python that this tutorial has benefited from: Pedro Fernandes, Tomasz Puton, E
+dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
