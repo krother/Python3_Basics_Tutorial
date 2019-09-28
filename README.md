@@ -21,16 +21,17 @@ Throughout this tutorial, we will work with this data.
 
 ## First Steps
 
-* [Installing Python](introduction/installing_python.md)
-* [First steps in the IPython Shell](python_shell/first_steps.md)
-* [Using Python as a calculator](python_shell/python_shell.md)
-* [Storing numbers](python_shell/variables_and_numbers.md)
-* [Storing text](python_shell/strings.md)
+* [Installing Python](first_steps/installing_python.md)
+* [Using Python as a calculator](first_steps/python_shell.md)
+* [Storing numbers](first_steps/variables_and_numbers.md)
+* [Storing text](first_steps/strings.md)
+* [Recap](first_steps/recap.md)
 
 ## Writing Programs
 
 * [Writing Python programs](python_programs/README.md)
 * [My first program](python_programs/programs.md)
+* [Screen output](python_programs/print.md)
 * [Repeating instructions](python_programs/for_loops.md)
 * [Making decisions](python_programs/if.md)
 
@@ -45,14 +46,10 @@ Throughout this tutorial, we will work with this data.
 
 * [Reading a simple text file](reading_data/readfile.md)
 * [Extracting data from text](reading_data/parsing.md)
+* [String methods](reading_data/string_methods.md)
 * [Writing files](reading_data/writing_files.md)
 * [Processing multiple files](reading_data/multiple_files.md)
 
-## Strings
-
-* [Screen output](strings/print.md)
-* [String methods](strings/string_methods.md)
-* [Format strings](strings/format_strings.md)
 
 ## Other Topics
 
