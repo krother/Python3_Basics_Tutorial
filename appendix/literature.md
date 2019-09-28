@@ -5,9 +5,10 @@
 
 Books for beginners and people with programming experience:
 
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/) - a bootcamp-style tutorial by **Zed Shaw**
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - by **Al Sweigart**
 * [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - a very systematic, scientific tutorial by **Allen B. Downey**
-* [Dive into Python 3](http://www.diveintopython3.net/) - explains one sophisticated program per chapter - **by Mark Pilgrim**
+* [Python 101](http://python101.pythonlibrary.org/) - by **Michael Driscoll**
+* [Dive into Python 3](https://diveinto.org/python3/table-of-contents.html) - explains one sophisticated program per chapter - **by Mark Pilgrim**
 
 ## Paper books
 

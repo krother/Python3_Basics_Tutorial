@@ -19,16 +19,6 @@ The authorities of the United States have recorded the first names of all people
 Throughout this tutorial, we will work with this data.
 
 
-## If you are an experienced programmer
-
-If you are fluent in any programming language, this tutorial might be very easy for you. Of course, you can work through the exercises to get the Python syntax into your fingers. However, this tutorial contains very little material on the higher abstraction levels in Python, like classes, namespaces or even functions.
-
-For a tutorial for non-beginners, I recommend the following free online books:
-
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/) - a bootcamp-style tutorial by **Zed Shaw**
-* [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - a very systematic, scientific tutorial by **Allen B. Downey**
-* [Dive into Python 3](http://www.diveintopython3.net/) - explains one sophisticated program per chapter - **by Mark Pilgrim**
-
 ## First Steps
 
 * [Installing Python](introduction/installing_python.md)
