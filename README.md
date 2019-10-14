@@ -9,40 +9,41 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 
 This tutorial works best if you follow the chapters and exercises step by step.
 
-## The dataset of U.S. baby names
+## Goals
 
-![Babynamen](images/baby.png)
+The main goal of this tutorial is to enable you to write Python projects with up to 100 lines.
+Here you find a detailed syllabus:
 
-The authorities of the United States have recorded the first names of all people born as U.S. citizens since 1880. The dataset is publicly available on [http://www.ssa.gov/oact/babynames/limits.html
-](http://www.ssa.gov/oact/babynames/limits.html). However for the protection of privacy only names used at least 5 times appear in the data.
-
-Throughout this tutorial, we will work with this data.
-
+* [Learning Goals](appendix/goals.md)
 
 ## First Steps
 
 * [Installing Python](first_steps/installing_python.md)
-* [Using Python as a calculator](first_steps/python_shell.md)
-* [Storing numbers](first_steps/variables_and_numbers.md)
+* [My first prRobert De Niro on his father's journalsogram](python_programs/programs.md)
+* [How to write programs](python_programs/README.md)
+* [Reading from the keyboard](python_programs/input.md)
+* [Screen output](python_programs/print.md)
 * [Storing text](first_steps/strings.md)
 * [Recap](first_steps/recap.md)
 
-## Writing Programs
+## Python as a Calculator
 
-* [Writing Python programs](python_programs/README.md)
-* [My first program](python_programs/programs.md)
-* [Screen output](python_programs/print.md)
-* [Repeating instructions](python_programs/for_loops.md)
-* [Making decisions](python_programs/if.md)
+* [Using Python as a calculator](first_steps/python_shell.md)
+* [Storing numbers](first_steps/variables_and_numbers.md)
+* [Converting numbers to text and back](first_steps/type_conversions.md)
 
-## Lists
+## Plotting
 
 * [Overview of data types in Python](data_types/data_types_in_python.md)
 * [Creating lists](lists/lists.md)
+
+## Iteration
+
+* [Repeating instructions](python_programs/for_loops.md)
 * [Shortcuts](lists/builtin_functions.md)
 * [Working with tables](lists/tables.md)
 
-## Files
+## Aggregation
 
 * [Reading a simple text file](reading_data/readfile.md)
 * [Extracting data from text](reading_data/parsing.md)
@@ -50,28 +51,33 @@ Throughout this tutorial, we will work with this data.
 * [Writing files](reading_data/writing_files.md)
 * [Processing multiple files](reading_data/multiple_files.md)
 
+## Conditionals
 
-## Other Topics
+* [Working with directories](data_types/os.md)
+* [Making decisions](python_programs/if.md)
+
+## Conditional Loops
+
+* [while](structure/while.md)
+* [Structuring programs](structure/structuring_programs.md)
+
+## Dictionaries
 
 * [Dictionaries](data_types/dictionaries.md)
+* [Programming Challenge: Count Words in Moby Dick](challenge3_count_words/README.md)
+
+## Appendix
+
 * [Tuples](data_types/tuples.md)
-* [Reading from the keyboard](python_programs/input.md)
-* [Converting numbers to text and back](python_shell/type_conversions.md)
-* [Structuring programs](structure/structuring_programs.md)
-* [while](structure/  while.md)
 * [Writing your own functions](structure/functions.md)
 * [Modules](structure/modules.md)
 * [Introspection](structure/introspection.md)
-* [Working with directories](data_types/os.md)
-* [Programming Challenge: Count Words in Moby Dick](challenge3_count_words/README.md)
 * [Background information on Python 3](appendix/background_info.md)
 * [Recommended books and websites](appendix/literature.md)
-* [Acknowledgements](appendix/acknowledgements.md)
-
 
 ## License
 
-(c) 2015 Dr. Kristian Rother (krother@academis.eu)
+© 2015 Dr. Kristian Rother (krother@academis.eu)
 
 with contributions by Allegra Via, Kaja Milanowska and Anna Philips
 

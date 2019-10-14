@@ -1,0 +1,10 @@
+tomatoes	4
+potatoes	5
+pizza	17
+tomatoes	3
+coffee	5
+tomatoes	7
+bread	4
+coffee	5
+tomatoes	2
+coffee	5
