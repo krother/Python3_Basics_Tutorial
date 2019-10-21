@@ -1,13 +1,15 @@
 
-# Zufallsdaten
+# Random Data
 
-**🎯 Schreibe eine Funktion, die zufällige Personendaten erzeugt.**
+**🎯 Write a function that generates random personal data.**
 
-Jeder Datensatz enthält:
+Each record contains
 
-* ein Geschlecht (W oder M) zu je gleichen Teilen
-* ein Alter (18-65), gleichverteilt
-* eine Körpergröße in cm (normalverteilt, Mittelwert bei 170, Standardabweichung 10 cm)
-* eine Firmenabteilung (IT 30%, Support 30%, Buchhaltung 10%, Vertrieb 25%, Management 5%)
-* erstelle insgesamt N Datensätze
-* speichere die fertigen Daten in einer CSV-Datei
+* a gender (W or M), equally distributed
+* a age (18-65), equally distributed
+* a height in cm (normally distributed, mean at 170, standard deviation 10 cm)
+* a company department (IT 30%, support 30%, accounting 10%, sales 25%, management 5%)
+* create a total of N records
+* save the finished data in a CSV file
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

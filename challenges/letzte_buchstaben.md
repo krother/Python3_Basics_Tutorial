@@ -1,60 +1,63 @@
 
-# Analyse der letzten Buchstaben
+# Last Letters
 
-**🎯 Analysiere welche letzten Buchstaben am häufigsten in Vornamen vorkommen.**
+**🎯 Analyze which last letters appear most frequently in first names.**
 
-## Aufgabe 1
+## Task 1
 
-Lies alle Jahrgänge aus dem [Babynamen-Datensatz](http://www.ssa.gov/oact/babynames/limits.html) in ein einzelnes `DataFrame` ein. Das `DataFrame` soll die Spalten **Anzahl**, **Geschlecht**, **Name** und **Jahr** haben. Folgende Codeschnipsel könnten dabei nützlich sein:
+Read all files from the [Baby Name Dataset](http://www.ssa.gov/oact/babynames/limits.html) into a single `DataFrame`. The `DataFrame` should have the columns **Name**, **Gender**, **Number** and **Year**. The following code snippets could be useful:
 
-    df['jahr'] = 2015
+    df['year'] = year
 
     df = pd.concat([df1, df2, df3, ...])
 
-    for jahr in range(1880, 2015):
+    for year in range(1880, 2015):
 
     jahrgaenge = []
 
 
-## Aufgabe 2
+## Task 2
 
-Schreibe eine Funktion, die den letzten Buchstaben zurückgibt. Füge dem DataFrame eine neue Spalte mit dem letzten Buchstaben hinzu. Verwende dazu `df.apply`.
+Write a function that returns the last letter. Add a new column with the last letter to the DataFrame. Use `df.apply` to do this.
 
-## Aufgabe 3
+## Task 3
 
-Berechne die Summe der Vornamen nach Geschlecht, Anfangsbuchstabe und Jahr gruppiert. Die resultierende Tabelle sollte etwa so aussehen:
+Calculate the sum of the first names grouped by gender, last letter and year. The resulting table should look something like this:
 
     gender  last  year
     F       a     1880    31446
                   1881    31581
                   1882    36536
 
-Dieses `DataFrame` besitzt einen **hierarchischen Index**.
+This `DataFrame` has a **hierarchical index**.
 
-## Aufgabe 4
+## Task 4
 
-Nun müssen wir den **Anteil an den gesamten Vornamen eines Jahrgangs** für Jungen berechnen. Leider sind die drei Befehle dazu durcheinandergekommen. Finde die korrekte Reihenfolge heraus:
+Now calculate the **proportion of a first name within a year** for boys. Unfortunately, the three commands have been mixed up. Find out the correct order:
 
     df = df / df.sum()
     df = df.unstack()
     df = df.ix['M']
 
-### Hinweise:
+### Hints:
 
-Der Endbuchstabe `a` hatte im Jahr 1880 einen Anteil von 0.007023
+The final letter `a` had a ratio of 0.007023 in 1880.
 
-## Aufgabe 5
+## Task 5
 
-Wähle die Jahrgänge **1910** und **2010** aus. Zeichne ein Balkendiagramm mit je einer Balkengruppe für jeden Buchstaben, bestehend aus zwei Balken für die beiden Jahrgänge.
+Select the years **1910** and **2010**. Draw a bar chart with a group of bars for each letter, consisting of two bars for each year.
 
-## Aufgabe 6
+## Task 6
 
-Wähle die Endbuchstaben **d**, **n** und **y** aus. Zeichne ein Liniendiagramm, das die Häufigkeit dieser Buchstaben im zeitlichen Verlauf darstellt.
+Select the final letters **d**, **n** and **y**. Draw a line chart showing the frequency of these letters over time.
 
-## Aufgabe 7
+## Task 7
 
-Wie haben sich die Endbuchstaben im letzten Jahrhundert verändert?
+How have the final letters changed in the last century?
 
-## Aufgabe 8
+## Task 8
 
-Ist ein ähnlicher Effekt für Mädchen zu beobachten?
+Is there a similar effect for girls?
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

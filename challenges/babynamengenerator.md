@@ -1,10 +1,12 @@
-# Babynamengenerator
+# Baby Name Generator
 
-**🎯 Programmiere einen Babynamengenerator für unentschlossene Eltern.**
+**🎯 Write a baby name generator for undecided parents.**
 
-## Optionale Ziele:
+## Extra Challenges:
 
-* Das Programm gibt zufällig einen Namen aus einer vorgegebenen Liste aus
-* Das Programm gibt zufällig einen Namen aus dem [US-Melderegister](http://www.ssa.gov/oact/babynames/limits.html) aus
-* Der Benutzer kann wahlweise Jungen- oder Mädchennamen auswählen
-* Das Programm macht 10 Vorschläge
+* The program randomly outputs a name from a predefined list.
+* The program randomly outputs a name from the [US civil register](http://www.ssa.gov/oact/babynames/limits.html)
+* The user can select either a boy's or girl's name
+* The programme makes 10 proposals
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

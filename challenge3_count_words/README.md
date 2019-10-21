@@ -5,7 +5,7 @@
 
 The book *"Moby Dick"* by Herman Melville describes an epic battle of a gloomy captain against his personal nemesis, the white whale. Who of them is mentioned in the book more often?
 
-![Moby Dick word count](mobydick_count.png)
+![Moby Dick word count](../images/mobydick_count.png)
 
 ### Your Task
 
@@ -17,5 +17,5 @@ When you know whether `whale` or `captain` occurs more often, you have mastered 
 
 ### Background
 
-You can find the full text for Herman Melville’s “Moby Dick” in the text file `mobydick.txt` and on 
-[www.gutenberg.org](http://www.gutenberg.org). 
+You can find the full text for Herman Melville’s “Moby Dick” in the text file `mobydick.txt` and on
+[www.gutenberg.org](http://www.gutenberg.org).

@@ -39,12 +39,12 @@
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Babynamengenerator](babynamengenerator.md) | ⭐ |
-| [Zufallsdaten](random.md) | ⭐ |
-| [Benford-Analyse](benford.md) | ⭐⭐ |
-| [Filmbewertungen](moviedb.md) | ⭐⭐ |
-| [Babynamen in den USA](babynamen.md) | ⭐⭐ |
-| [Letzte Buchstaben](letzte_buchstaben.md) | ⭐⭐⭐ |
+| [Baby Name Generator](babynamengenerator.md) | ⭐ |
+| [Random Data](random.md) | ⭐ |
+| [Benford Analysis](benford.md) | ⭐⭐ |
+| [Movie Ratings](moviedb.md) | ⭐⭐ |
+| [US Baby Names](babynamen.md) | ⭐⭐ |
+| [Last Letters](letzte_buchstaben.md) | ⭐⭐⭐ |
 
 ## Algorithms
 
@@ -73,15 +73,15 @@
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Würfeln](wuerfel.md) | ⭐⭐ |
+| [Dice](dice.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 
 ## Advanced Python
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Punkte beim Tennis](tennis.md) | ⭐⭐ |
-| [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
+| [Tennis](tennis.md) | ⭐⭐ |
+| [Decorator-Metaclass](metaclass.md) | ⭐⭐⭐⭐⭐ |
 
 
 ## Coding Katas

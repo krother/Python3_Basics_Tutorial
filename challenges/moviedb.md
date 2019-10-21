@@ -1,48 +1,51 @@
 
-# Filmbewertungen
+# Movie Ratings
 
-**🎯 Analysiere einen Datensatz mit Filmbewertungen.**
+**🎯 Analyze a data set with movie ratings.**
 
-## Aufgabe 1
+## Task 1
 
-Lade den **[TMDB 5000-Datensatz](https://www.kaggle.com/tmdb/tmdb-movie-metadata)** herunter.
+Download the **[TMDB 5000 Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata)**.
 
-## Aufgabe 2
+## Task 2
 
-Lade die Tabellen in `pandas`. Verschaffe Dir einen Überblick, was für Daten sie enthalten.
+Load the tables into `pandas`. Get an overview of what data they contain.
 
-## Aufgabe 3
+## Task 3
 
-* Wie viele Filme gibt es im Datensatz?
-* Wie viele Bewertungen gibt es im Datensatz?
-* Wie viele Schauspieler gibt es im Datensatz?
+* How many movies are there in the dataset?
+* How many ratings are there in the dataset?
+* How many actors are there in the dataset?
 
-## Aufgabe 4
+## Task 4
 
-* Finde die 100 Filme mit der besten Bewertung
+* Find the 100 movies with the best rating.
 
-## Aufgabe 5
+## Task 5
 
-* Finde alle Filme mit Brad Pitt
-* Welcher dieser Filme ist der älteste?
+* Find all movies featuring Brad Pitt
+* Which one of these movies is the oldest?
 
-## Aufgabe 6
+## Task 6
 
-* Finde alle Filme, die das Wort `samurai` enthalten.
-* Berechne deren durchschnittliche Bewertung und die Standardabweichung.
+* Find all movies that contain the word `samurai`.
+* Calculate their average rating and standard deviation.
 
-## Aufgabe 7
+## Task 7
 
-* Welches Genre hat **Pulp Fiction**?
+* What is the genre of Pulp Fiction?
 
-## Aufgabe 8
+## Task 8
 
-* Sind Komödien oder Horrorfilme im Durchschnitt besser?
+* Are comedies or horror movies better on average?
 
-## Aufgabe 9
+## Task 9
 
-* Welche Filme haben Fans von **"Dirty Dancing"** ebenfalls gefallen?
+* Which movies did fans of *"Dirty Dancing"* also like?
 
-## Aufgabe 10
+## Task 10
 
-* Finde alles über Deine Lieblingsfilme, Schauspieler oder Genres heraus.
+* Find out everything about your favourite movies, actors or genres.
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

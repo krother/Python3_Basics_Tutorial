@@ -3,7 +3,15 @@
 
 In this chapter, you will learn to extract information from simple text files.
 
-For the next exercises, you will need the complete archive of baby names (the shorter one not grouped by states). You can download the files from [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html).
+## The dataset of U.S. baby names
+
+![Babynamen](../images/baby.png)
+
+For the next exercises, you will need to download a data set of baby names.
+The authorities of the United States have recorded the first names of all people born as U.S. citizens since 1880. The dataset is publicly available on [http://www.ssa.gov/oact/babynames/limits.html
+](http://www.ssa.gov/oact/babynames/limits.html). For the protection of privacy only names used at least 5 times appear in the data.
+
+Download the shorter archive of baby names (not grouped by states) from [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html).
 
 ### Exercise 1
 

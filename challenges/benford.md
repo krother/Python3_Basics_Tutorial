@@ -1,11 +1,14 @@
 
-# Benford-Analyse
+# Benford Analysis
 
-**🎯 Führe eine Benford-Analyse durch.**
+**🎯 Conduct a Benford analysis..**
 
-Das **Benford-Verfahren** ist eine Statistik, mit der sich z.B. Manipulationen bei der Buchhaltung ermitteln lassen.
-Die Grundidee ist die Beobachtung, dass die Ziffer 1 beim Zählen von Dingen am häufigsten auftritt, die 2 am zweithäufigsten usw.
+The **Benford distribution** is a statistic that can be used, for example, to determine manipulations in accounting.
+The basic idea is to observe that the number 1 occurs most frequently when counting things, the number 2 occurs second most frequently, and so on.
 
-* Lade den eine Tabelle aus dem [Gapminder-Datensatz](http:/www.gapminder.org)
-* Zähle wie oft jede Ziffer vorkommt
-* Vergleiche das Ergebnis mit der theoretischen Benford-Verteilung
+* Load a table from the [Gapminder dataset](http:/www.gapminder.org)
+* Count how often each digit occurs
+* Compare the result with the theoretical Benford distribution.
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

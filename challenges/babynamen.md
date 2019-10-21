@@ -1,115 +1,112 @@
 
-# Babynamen in den USA
+# US Baby Names
 
 ![Babynamen](images/baby.png)
 
-Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger registriert. Der Datensatz ist öffentlich unter [http://www.ssa.gov/oact/babynames/limits.html
-](http://www.ssa.gov/oact/babynames/limits.html) zugänglich. Aus Datenschutzgründen sind nur Namen, die mindestens 5 Mal verwendet wurden, im Datensatz aufgeführt.
+The US authorities have registered the names of all US citizens born since 1880. The record is [publicly available](http://www.ssa.gov/oact/babynames/limits.html). For data protection reasons, only names that have been used at least 5 times are listed in the data record.
 
 
-## Vorbereitungen
+## Preparations
 
-* Lade den Datensatz der U.S.-Babynamen von [www.ssa.gov/oact/babynames/limits.html](https://www.ssa.gov/oact/babynames/limits.html) herunter.
-* Entpacke die Datei
-
-----
-
-## Aufgabe 1
-
-Lies die Datei **'yob2000.txt'** ein, gib die ersten 10 Zeilen aus und schreibe die Daten in eine andere Datei.
+* Download the dataset of US baby names from [www.ssa.gov/oact/babynames/limits.html](https://www.ssa.gov/oact/babynames/limits.html) .
+* Unzip the file
 
 ----
 
-## Aufgabe 2
+## Task 1
 
-Schreibe ein Programm, das die Datei **'yob2000.txt'** einliest und die Summe der dritten Spalte berechnet und ausgibt.
-
-----
-
-## Aufgabe 3
-
-Wie Aufgabe 2, aber berechne die Summe für Jungen und Mädchen getrennt.
+Read the file **'yob2000.txt'**, print the first 10 lines and write the data to another file.
 
 ----
 
-## Aufgabe 4
+## Task 2
 
-Schreibe ein Programm, das Alle Namen ausgibt, die in der Datei **'yob2000.txt'** mindestens 1000 Mal auftreten.
-
-----
-
-## Aufgabe 5
-
-Berechne für jeden Namen der Datei **'yob2000.txt'** dessen prozentualen Anteil an den gesamten Geburten. Schreibe diesen prozentualen Anteil als vierte Spalte in eine Datei.
+Write a program that reads the file **'yob2000.txt'**, calculates the sum of the third column and prints it.
 
 ----
 
-## Aufgabe 6
+## Task 3
 
-Wie Aufgabe 5, aber nach Jungen und Mädchen getrennt.
-
-----
-
-## Aufgabe 7
-
-Zähle aus, wie viele Namen mit **'A'** beginnen. Füge eine zusätzliche Spalte mit dem Anfangsbuchstaben hinzu.
+Like Task 2, but calculate the sum for boys and girls separately.
 
 ----
 
-## Aufgabe 8
+## Task 4
 
-Füge eine zusätzliche Spalte hinzu, die die Länge des Namens enthält. Gib die 10 längsten Namen aus.
-
-----
-
-## Aufgabe 9
-
-Finde alle Zeilen, die einen bestimmten Namen enthalten (z.B. Deinen eigenen).
+Write a program that displays all names that occur at least 1000 times in the **'yob2000.txt'** file.
 
 ----
 
-## Aufgabe 10
+## Task 5
 
-Erstelle eine Liste mit den Jahreszahlen **`[1880, 1881, 1882 ... 2015]`**.
-
-----
-
-## Aufgabe 11
-
-Erstelle eine Liste von Dateinamen **['yob1880.txt', 'yob1881.txt' … 'yob2015.txt']**.
+Calculate for each name in **'yob2000.txt'** its percentage of total births. Store this percentage as a fourth column.
 
 ----
 
-## Aufgabe 12
+## Task 6
 
-Wähle einen Namen. Erstelle eine Tabelle mit Daten aus dem Datensatz: Dem *Jahrgang* und der Anzahl Babys mit diesem Namen.
+Like Task 5, but separated by boys and girls.
 
 ----
 
-## Aufgabe 13
+## Task 7
 
-Wie Aufgabe 12, aber lege auch das Geschlecht fest.
+Add an additional column containing the length of the name. Output the 10 longest names.
 
-## Aufgabe 14
-Wie Aufgabe 13, aber setze eine 0 ein, falls ein Name nicht vorkommt.
+----
+
+## Task 8
+
+Find all rows that contain a certain name (e.g. your own).
+
+----
+
+## Task 9
+
+Create a list with the years **`[1880, 1881, 1882 ... 2015]`**.
+
+----
+
+## Task 10
+
+Create a list of file names **['yob1880.txt', 'yob1881.txt' ... 'yob2015.txt']**.
+
+----
+
+## Task 11
+
+Select a name. Create a table containing a subset of the data: the *year* and the number of babies with this name.
+
+----
+
+## Task 12
+
+Like Task 11, but also control the gender.
+
+## Task 13
+
+Same as Task 12, but use a 0 if a name does not occur in a year.
 
 
-## Aufgabe 15
-Untersuche die Beliebtheit der Vornamen einiger US-Promis im Verlauf der letzten 130 Jahre. Gib Übereinstimmungen für einen Namen mit *Jahr* und *Anzahl* auf dem Bildschirm aus.
+## Task 14
 
-Folgende Promis könnten interessant sein:
+Investigate the popularity of the first names of some US celebrities over the last 130 years. Display matches for a name with *year* and *number* on the screen.
 
-| Name            | Kommentar                      |
+The following celebrities might be interesting:
+
+| name            | comment                        |
 |-----------------|--------------------------------|
-| Lance           | Erster Mensch auf dem Mond |
-| Madonna         | Hitsingle "Like a Prayer" |
-| Barack          | Präsident |
-| Katrina         | Hurrikan in New Orleans |
+| Lance           | first man on the moon |
+| Madonna         | hit single "Like a Prayer" |
+| Barack          | president |
+| Katrina         | hurricane in New Orleans |
 | Luke            | Jedi |
-| Leia            | Prinzessin aus Star Wars |
-| Frida           | Malerin, Biographie als Broadway-Musical |
-| Arielle         | Meerjungfrau, Biographie von Walt Disney verfilmt |
-| Harley          | Motorrad |
-| Tyrion          | Figur aus 'Game of Thrones' |
-| Daenerys        | Figur aus 'Game of Thrones' |
-| Khaleesi        | Beruf aus 'Game of Thrones' |
+| Leia            | princess from Star Wars |
+| Frida           | painter, biography went on a Broadway show |
+| Arielle         | mermaid |
+| Harley          | chopper |
+| Tyrion          | character in 'Game of Thrones' |
+| Daenerys        | character in 'Game of Thrones' |
+| Khaleesi        | job title in 'Game of Thrones' |
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

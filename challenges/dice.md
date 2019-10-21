@@ -1,22 +1,24 @@
 
-# Würfeln
+# Dice
 
-**🎯 Schreibe ein Programm, das zwei Würfel wirft.**
+**🎯 Write a program that rolls two dice.**
 
 ![double dice](images/double_dice.png)
 
-Implementiere folgende Schritte:
+Implement the following steps:
 
-* zeichne das Bild eines Würfels
-* Ändere das Würfelbild einige Male (als Animationseffekt)
-* zeige ein zufälliges Würfelergebnis
-* füge einen zweiten Würfel hinzu
-* würfle erneut, bis beide Würfel die gleiche Zahl zeigen
+* display the image of a dice
+* Change the dice image a few times (as animation effect)
+* show a random dice result
+* add a second dice
+* roll again until both dice show the same number
 
-## Hinweise
+## Hints
 
-* für die Grafik kannst Du `arcade` verwenden
-* die Funktion `time.sleep(x)` wartet `x` Sekunden
-* verwende folgendes Bild für die Würfel:
+* for the graphics you can use `arcade`.
+* the function `time.sleep(x)` waits `x` seconds
+* Use the following image for the dice:
 
 ![dice faces](images/pillow_dice.png)
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
