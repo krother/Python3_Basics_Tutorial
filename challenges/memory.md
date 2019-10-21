@@ -1,9 +1,11 @@
 
 # Memory
 
-**🎯 Schreibe ein Memory-Spiel, bei dem ein Spieler Kartenpaare per Maus oder Tastatur aufdeckt.**
+**🎯 Write a memory game in which a player uncovers pairs of cards using the mouse or keyboard.**
 
-## Hinweise
+## Hints
 
-* die Bibliothek `arcade` erlaubt es, Grafiken einzubinden und Nutzereingaben abzufangen.
-* Bilder gibt es auf [unsplash.com](https://unsplash.com)  und [opengameart.org](https://opengameart.org/).
+* the `arcade` library allows you to include graphics and act on user input.
+* Images are available on [unsplash.com](https://unsplash.com) and [opengameart.org](https://opengameart.org/).
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

@@ -1,28 +1,31 @@
 
 # Tennis
 
-**🎯 Schreibe eine Klasse `TennisSpiel`, die den Spielstand bei einer Runde Tennis ermittelt.**
+**🎯 Write a class `TennisGame` that determines the score of a round of tennis..**
 
-* Der Spielstand soll von der Methode `get_score()` ls String berechnet werden
-* Der Schiedsrichter ruft entweder `punkt('spieler1')` oder  `punkt('spieler2')` auf
+* The score should be calculated by the method `get_score()` as a string
+* The referee calls either `point('player1')` or `point('player2')`.
 
-Verwende folgende Grundstruktur:
+Use the following structure:
 
-    class TennisSpiel:
+    class TennisGame:
 
         def __init__(self):
-            self.punktestand = {'player1': 0, 'player2': 0}
+            self.score = {'player1': 0, 'player2': 0}
 
-        def punkt(self, spieler):
-            """mit 'spieler1' oder 'spieler2' aufgerufen"""
+        def point(self, player):
+            """called with 'player1' or 'player2'"""
             self.scores[player] += 1
 
         def get_score(self):
             ...
 
-## Regeln
+## Rules
 
-1. Der erste Spieler mit mindestens vier Punkten und zwei Punkten mehr als der Gegner gewinnt. Der Punktestand ist dann *"Sieg Spieler 1"* oder *"Sieg Spieler 2"*.
-2. Der aktuelle Spielstand beim Tennis ist etwas eigentümlich: Punkte von 0 bis 3 werden mit *"love", "fifteen", "thirty" und "forty"* beschrieben.
-3. Wenn beide Spieler mindestens drei Punkte haben, ist der Spielstand bei Gleichstand *"deuce"*.
-4. Wenn beide Spieler mindestens drei Punkte haben, ist der Spielstand je nach Spieler mit Mehr Punkten *"Vorteil Spieler 1"* oder *"Vorteil Spieler 2"*
+1. The first player with at least four points and two points more than the opponent wins. The score is then *"Win Player 1"* or *"Win Player 2"*.
+2. The current score in tennis is somewhat peculiar: points from 0 to 3 are described with *"love", "fifteen", "thirty" and "forty"*.
+3. If both players have at least three points, the score with equal points is *"deuce"*.
+4. If both players have at least three points, the score will be *"Advantage Player 1"* or *"Advantage Player 2"* depending on which player has more points.
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
