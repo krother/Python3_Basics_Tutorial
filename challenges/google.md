@@ -1,27 +1,29 @@
 
-# Google
+# Google Search
 
-**🎯 Sende eine Suchanfrage aus einem Python-Programm an die Suchmaschine Google.**
+**🎯 Send a search query from a Python program to the search engine Google.**
 
-### Aufgabe 1
+### Task 1
 
-Lade die Webseite `www.google.de` mit Python herunter.
+Download the website `www.google.de` with Python.
 
-### Aufgabe 2
+### Task 2
 
-Inspiziere die HTML-Seite in einem Texteditor.
-Finde das Formular mit dem Suchfeld.
+Inspect the HTML page in a text editor.
+Find the form with the search field.
 
-### Aufgabe 3
+### Task 3
 
-Führe eine Google-Suche aus Python durch. Recherchiere, wie Du ein Formular über ein POST-request ausfüllen kannst.
+Perform a Google search from Python. Research how to fill out a form submitting a POST-request.
 
-Gib die Suchergebnisse auf dem Bildschirm aus.
+Display search results on screen.
 
 
-## Hinweise:
+## Hints:
 
-* Das Modul `requests` hilft beim Senden der Suchanfrage.
-* Das Formular verwendet HTTP POST.
-* Es gibt im Formular mindestens ein *'hidden'*-Feld, das Du angeben mußt.
-* **Selenium** ist eine bequeme Alternative (aber schwieriger zu installieren)
+* The `requests` module helps to send the search query.
+* The form uses HTTP POST.
+* There is at least one *'hidden'* field in the form that you must specify.
+**Selenium** is a convenient alternative (but harder to install)
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

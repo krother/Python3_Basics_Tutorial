@@ -65,8 +65,8 @@
 | Challenge | Difficulty |
 |-----------|---------------|
 | [Ping Pong](pingpong.md) | ⭐⭐ |
-| [Google-Suche](google.md) | ⭐⭐⭐ |
-| [Webseiten herunterladen](webrecherche.md) | ⭐⭐⭐ |
+| [Google Search](google.md) | ⭐⭐⭐ |
+| [Download Web Pages](webrecherche.md) | ⭐⭐⭐ |
 | [Blog](blog.md) | ⭐⭐⭐⭐ |
 
 ## Games

@@ -1,37 +1,39 @@
 
-# Herunterladen von Webseiten
+# Download Web Pages
 
-**🎯 Lade Daten von einer dynamischen Webseite oder einem RSS-Feed herunter.**
+**🎯 Download data from a dynamic website or RSS feed.**
 
-### Aufgabe 1
+### Task 1
 
-Suche Dir eine der folgenden Seiten aus:
+Choose one of the following pages:
 
-| Seite | Link |
+| page | link |
 |-------|------|
-| RSS-Feeds des Parlaments | [https://www.parlament-berlin.de/de/Service/RSS-Feeds](https://www.parlament-berlin.de/de/Service/RSS-Feeds) |
-| Presse | [http://www.reuters.com/tools/rss](http://www.reuters.com/tools/rss) |
-| Biologische Datenbanken (NCBI Esearch) | [https://www.ncbi.nlm.nih.gov/books/NBK25499/](https://www.ncbi.nlm.nih.gov/books/NBK25499/) |
+| RSS-Feed of the German Parliament | [https://www.parlament-berlin.de/de/Service/RSS-Feeds](https://www.parlament-berlin.de/de/Service/RSS-Feeds) |
+| Press | [http://www.reuters.com/tools/rss](http://www.reuters.com/tools/rss) |
+| Biological Databases (NCBI Esearch) | [https://www.ncbi.nlm.nih.gov/books/NBK25499/](https://www.ncbi.nlm.nih.gov/books/NBK25499/) |
 
-### Aufgabe 2
+### Task 2
 
-Lade eine Seite/den Feed mit Python herunter. Entscheide was für Daten Du extrahieren möchtest.
+Download a page/feed with Python. Decide what kind of data you want to extract.
 
-### Aufgabe 3
+### Task 3
 
-Inspiziere den Quelltext. Suche nach markanten Elementen, anhand derer Du Titel, Links oder Inhalte erkennst.
+Inspect the source code. Search for distinctive elements that help you recognize titles, links, or content.
 
-### Aufgabe 4
+### Task 4
 
-Entwickle eine Strategie zum Extrahieren der Daten. Verwende die Methoden von Strings, reguläre Ausdrücke oder einen fertigen Parser.
+Develop a strategy to extract the data. Use the methods of strings, regular expressions, or a parser library.
 
-### Aufgabe 5
+### Task 5
 
-Lade 10 Teilergebnisse herunter und gib sie aus.
+Download and print 10 records.
 
 
-## Nützliche Module
+## Useful Modules
 
-* `requests` zum Herunterladen von Webseiten
-* `BeautifulSoup` zum Parsen von HTML-Seiten
-* `scrapy` für beides zusammen
+* `requests` for downloading websites
+* `BeautifulSoup` for parsing HTML pages
+* `scrapy` for both together
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

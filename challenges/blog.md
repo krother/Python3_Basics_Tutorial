@@ -1,13 +1,11 @@
 # Blog
 
-**🎯 Erstelle eine eigene Webseite und veröffentliche sie im Netz.**
+**🎯 Create your own website and publish it on the web.**
 
-## Hinweise:
+## Hints:
 
-* Das [Django Girls Tutorial](https://djangogirls.org/resources/) bietet eine ausgezeichnete Anleitung für Anfänger.
-* Wenn Du schon erste Erfahrungen mit Webservern hast, kannst Du auch mit dem **Flask Mega-Tutorial** oder **How to build your own Django Website** starten.
-* zum Veröffentlichen kannst Du **Pythonanywhere** oder **Heroku** ausprobieren. Es kostet nichts.
+* The [Django Girls Tutorial](https://djangogirls.org/resources/) provides an excellent tutorial for beginners.
+* If you already have some experience with web servers, you can also start with the **Flask Mega-Tutorial** or **How to build your own Django Website**.
+* For publishing you can try **Pythonanywhere** or **Heroku**. It costs nothing.
 
-### Themen:
-
-Server-Programmierung, HTML, Deployment
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

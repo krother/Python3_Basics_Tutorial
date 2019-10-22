@@ -1,16 +1,18 @@
 
 # Ping-Pong
 
-**🎯 Tausche eine Nachricht zwischen zwei Programmen über das Netzwerk aus.**
+**🎯 Exchange a message between two programs over the network.**
 
-* implementiere einen Webserver in Python
-* der Server soll einen Namen als Parameter akzeptieren und den String *'Hallo <NAME>'* zurückschicken
-* schreibe ein zweites Program (Client), das einen Namen zum Server schickt
-* starte den Server und den Client
+* implement a webserver in Python
+* the server should accept a name as parameter and send back the string *'Hello <NAME>'*.
+* write a second program (client) that sends a name to the server
+* start the server and the client
 
 
-## Hinweise
+## Hints:
 
-* für den Server eignet sich `flask`.
-* um den Server anzusteuern, kannst Du `requests` verwenden
-* es ist kein HTML nötig
+* `flask` is suitable for the server.
+* to access the server from the client you can use `requests`.
+* no HTML required
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
