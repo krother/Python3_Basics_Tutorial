@@ -1,59 +1,60 @@
 
-# Sortieralgorithmen
+# Sorting Algorithms
 
-**🎯 Probiere mehrere Sortieralgorithmen aus.**
+**🎯 Try several sorting algorithms.**
 
-Sortieralgorithmen gehören zu den wichtigsten Algorithmen überhaupt. In dieser Übung kannst Du Dir ein Grundverständnis einiger Verfahren erarbeiten.
+Sorting algorithms are among the most fundamental algorithms of all. In this exercise, you will gain a basic understanding of some of these algorithms.
 
-**Für diese Übung brauchst Du keine Computer**
+**This is an offline exercise.**
 
 ## Material
 
-* einen Stapel mit etwa 20 Spielkarten
-* einen Ausdruck mit dem Pseudocode der 4 Algorithmen
-* eine Stoppuhr
-* einen Zettel, um die Zeit aufzuschreiben
+* a deck of 20 playing cards per group (2-3 participants)
+* the pseudocode of the 4 algorithms
+* a stopwatch
+* paper to write down the time
 
-(bei mehr Leuten benötigst Du eine Ausfertigung pro zwei Teilnehmer)
+## Instructions
 
-## Anweisungen
-
-* lies Dir den Algorithmus genau durch
-* mische den Kartenstapel
-* starte die Stoppuhr
-* führe einen der Algorithmen aus
-* stoppe die Uhr, sobald alle Karten sortiert sind
+* read the algorithm description carefully
+* shuffle the deck of cards
+* start the stopwatch
+* execute one of the algorithms
+* stop the clock as soon as all the cards are sorted
 
 ### Selection Sort
 
-1. Lege die Karten in einer Reihe vor Dir aus
-2. Nimm die Karte mit der kleinsten Zahl und tue sie auf den Zielstapel
-3. Wiederhole Schritt 2, bis alle Karten sortiert sind
+1. lay the cards in a row in front of you
+2. take the card with the smallest number and put it on the target pile
+3. repeat step 2 until all cards are sorted
 
 ### Insertion Sort
 
-1. Nimm eine Karte vom Stapel und lege sie vor Dir aus
-2. Liegen dort bereits Karten, füge die neue Karte an der richtigen Stelle ein
-3. Wiederhole Schritte 1 und 2, bis alle Karten sortiert sind
+1. take a card from the pile and lay it out in front of you
+2. if there are already cards there, insert the new card in the correct position
+3. repeat steps 1 and 2 until all cards are sorted
 
 ### Bubblesort
 
-1. Lege alle Karten in einer Reiche vor Dir aus
-2. Gehe die Karten von links nach rechts durch
-3. Wenn eine kleinere Karte rechts von einer größeren liegt, vertausche beide
-4. Wiederhole Schritte 2 und 3, bis sich in einem Durchgang nichts ändert
+1. lay out all cards in a row in front of you
+2. go through the cards from left to right
+3. if there is a smaller card to the right of a larger one, swap both cards
+4. repeat steps 2 and 3 until nothing changes in one pass
 
 ### Mergesort
 
-1. Teile den Kartenstapel in zwei gleich große Stapel
-2. Sortiere jeden der Stapel nach dem Mergesort-Verfahren
-3. Drehe beide Stapel um, so dass die jeweils kleinste Karte sichtbar ist
-4. Lege die kleinere der beiden Karten auf den Zielstapel
-5. Wiederhole Schritt 4, bis alle Karten sortiert sind
+1. divide the deck of cards into two equal piles
+2. sort each pile according to the mergesort method
+3. turn both piles upside down so that the smallest card is visible
+4. place the smaller card from one of the piles on the target pile
+5. Repeat step 4 until all cards are sorted.
 
 
-## Optionale Ziele
+## Optionale Goals
 
-* wiederhole die Übung mit einem kleinen (10) und einem grossen Kartenstapel (20)
-* implementiere einen der Algorithmen
-* messe das Laufzeitverhalten mit `%timeit`
+* repeat the exercise with a small (10) and a large (20) deck of cards
+* implement one of the algorithms
+* measure the runtime with `%timeit`.
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

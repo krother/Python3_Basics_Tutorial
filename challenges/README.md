@@ -50,14 +50,14 @@
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Sortieralgorithmen](sortieralgorithmen.md) | ⭐ |
-| [Problem des Josephus](josephus.md) | ⭐⭐ |
-| [Baum abschreiten](tree_traversal.md) | ⭐⭐ |
-| [Graph abschreiten](graph_traversal.md) | ⭐⭐⭐ |
-| [Magisches Quadrat](magisches_quadrat.md) | ⭐⭐⭐ |
-| [Problem des Handlungsreisenden](tsp.md) | ⭐⭐⭐ |
-| [König](kings.md) | ⭐⭐⭐⭐ |
-| [Rucksack-Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
+| [Sorting Algorithms](sortieralgorithmen.md) | ⭐ |
+| [Josephus' Problem](josephus.md) | ⭐⭐ |
+| [Tree Traverasl](tree_traversal.md) | ⭐⭐ |
+| [Graph Traversal](graph_traversal.md) | ⭐⭐⭐ |
+| [Magic Square](magisches_quadrat.md) | ⭐⭐⭐ |
+| [Traveling Salesman](tsp.md) | ⭐⭐⭐ |
+| [King](kings.md) | ⭐⭐⭐⭐ |
+| [Backpack Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
 | [Blockchain](blockchain.md) | ⭐⭐⭐⭐ |
 
 ## Web Development

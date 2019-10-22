@@ -1,44 +1,46 @@
 
-# Das Rucksack-Problem
+# Backpack Problem
 
-**🎯 Optimiere die Beute eines Raubzugs.**
+**🎯 Optimize the value of a heist.**
 
 ![Einbrecher](images/burglar.png)
 
-Ein Einbrecher ist in eine Villa eingebrochen. Dort findet er so viele Wertgegenstände vor, dass er nicht alle in seinen Rucksack packen kann. Schreibe ein Programm, das eine optimale Auswahl trifft.
+A burglar broke into a villa. There he finds so many valuables that he can't put them all in his backpack. Write a program that makes an optimal selection.
 
-Der Einbrecher ist ein erfahrener Profi, der den Marktwert und die Größe jedes Gegenstandes in Null Komma Nichts genau einschätzen kann:
+The burglar is an experienced professional who can estimate the market value and size of each item in no time:
 
-| Gegenstand | Größe | Wert |
-|------------|-------|------|
-| Laptop | 2  | 600,- |
-| Silberbesteck | 2 | 400,- |
-| Stereoanlage | 3  | 300,- |
-| Juwelen | 2 | 1100,- |
-| Vase | 5 | 700,- |
-| Kamera | 2 | 500,- |
-| Gemälde | 4 | 900,- |
-| Bargeld | 1 | 800,- |
+| item  | size  | value |
+|-------|-------|-------|
+| laptop | 2  | 600,- |
+| cutlery | 2 | 400,- |
+| spotify speakers | 3  | 300,- |
+| jewels | 2 | 1100,- |
+| vase | 5 | 700,- |
+| camera | 2 | 500,- |
+| painting | 4 | 900,- |
+| cash | 1 | 800,- |
 
-Der Rucksack hat ein Fassungsvermögen von `8`.
+The backpack has a capacity of `8`.
 
-When Dein Programm es schafft, Gegenstände im Wert `3000` einzupacken, taugt es als App für Amateur-Einbrecher.
+When your program manages to pack items worth `3000`, it can be used as an app for amateur burglars.
 
-## Hinweise
+## Hints
 
-* die optimale Lösung verwendet **dynamische Programmierung**
-* verwende den unten angegebenen Pseudocode
+* the optimal solution uses **dynamic programming****.
 
-### Pseudocode des Rucksack-Algorithmus
+Use the following pseudocode:
 
-1. Erstelle eine Liste, die für eine jede Rucksackgröße die beste(n) Kombination(en) von Gegenständen aufnehmen wird
-2. Füge für einen Rucksack der Größe 0 eine leere Kombination ein
-3. Beginne mit einem Rucksack der Größe 1
-4. Kopiere die beste Kombination für die aktuelle Größe aus der vorangegangenen Größe
-5. Gehe alle Gegenstände durch
-6. Erstelle eine neue Kombination für einen Gegenständ plus die beste Kombination für den noch verbliebenen Platz
-7. Ist die Kombination wertvoller als der bisherige Kandidat, ersetze die bisherige Kombination
-8. Ist die Kombination gleich viel wert, speichere beide
-8. Erhöhe die Größe des Rucksacks um 1
-9. Wiederhole Schritt 4, bis Du die gewünschte Größe erreichst
-10. Gib die beste Kombination für die gewünschte Größe aus
+1. create an empty list that will include the best combination(s) of items for each backpack size
+2. insert an empty combination for a size 0 backpack
+3. start with a size 1 backpack
+4. copy the best combination for the current size from the previous size, store it as `current best`
+5. go through all objects
+6. create a new combination usign an item plus the best combination for the space remaining
+7. if the combination is more valuable than the `current best`, replace `current best` by the new combination
+8. if the combination is worth the same amount, save both
+8. increase the size of the backpack by 1
+9. repeat step 4 until you reach the desired size
+10. print the best combination for the desired size
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

@@ -1,18 +1,20 @@
 
-# Das Problem des Josephus
+# Josephus' Problem
 
-**🎯 Kläre Morde im Kloster auf.**
+**🎯 Clear up murders in the monastery..**
 
-![Sean Connery jagt den Mördermönch](images/moenche.jpg)
+![Sean Connery hunts the monk-killer](images/moenche.jpg)
 
-In einem Kloster befinden sich 1 Meuchler und folgende 9 Mönche:
+In a monastery there are 1 assassin and the following 9 monks:
 
-    moenche = [
+    monks = [
            "Adalbertus", "Bonifacius", "Commodus",
            "Dominicus", "Emarius", "Franziskus",
            "Gustavus", "Henrik", "Iohannes"
            ]
 
-Jede Nacht wird der jeweils 5. Mönch ermordet (ab dem 1. Mönch bzw. dem letzten Opfer). Der letzte Mönch stellt den Mörder.
+Every night the 5th monk is murdered (counting from the 1st monk or the last victim). The last monk catches the assassin.
 
-Welcher Mönch überlebt?
+Which monk will survive?
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

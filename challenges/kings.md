@@ -1,17 +1,19 @@
 
-# König
+# King
 
-**🎯 Implementiere eine optimale Strategie für folgendes Spiel:**
+**🎯 Implement a winning strategy for the following game:**
 
-## Spielregeln
+## Rules
 
-* Auf einem Schachbrett bewegen zwei Spieler einen König von der rechten unteren in die linke obere Ecke
-* Beide Spieler ziehen abwechselnd
-* Es sind nur Züge um ein Feld nach links, oben und links oben erlaubt
-*  Wer den letzten Zug macht gewinnt
+* On a chess board, two players move a king from the lower right corner to the upper left corner.
+* Both players draw alternately
+* The only moves allowed are: one space up, one space to the left, and one up + one left.
+* Whoever moves to the corner wins
 
-## Hinweise
+## Hints
 
-* Probiere das Spiel zunächst ohne Computer aus
-* Löse das Spiel zunächst für ein Schachbrett der Größen 2x2, 2x3, 3x2, 3x3 usw.
-* Informiere Dich über **Dynamische Programmierung**
+* First try the game without a computer
+* Solve the game for a chess board of sizes 2x2, 2x3, 3x2, 3x3 etc.
+* Find out more about **Dynamic Programming**
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

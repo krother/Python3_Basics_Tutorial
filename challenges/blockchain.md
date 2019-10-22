@@ -1,25 +1,25 @@
 
 # Blockchain
 
-**🎯 Implementiere Deinen eigenen Blockchain-Algorithmus.**
+**🎯 Implement your own blockchain algorithm.**
 
-## Schritt 1
+## Step 1
 
-Schreibe eine Funktion, die zufällige Transaktionen im Format `(name1, name2, betrag)` generiert.
+Write a function that generates random transactions in the format `(name1, name2, amount)`.
 
-Wir möchten diese Transaktionen *fälschungssicher* speichern, also so,  dass sie nachträglich möglichst schwer zu manipulieren sind.
+We want to save these transactions *forgery-proof*, so that they are as difficult to manipulate as possible afterwards.
 
-## Schritt 2
+## Step 2
 
-Definiere einen Datentyp *"Block"*, der folgendes enthält:
+Define a data type *"Block "* that contains the following:
 
-* Den Hash eines vorhergehenden Blocks
-* Einige Transaktionen
-* Eine Prüfsumme (eine beliebige Zahl oder einen String)
+* The hash of a previous block
+* Some transactions
+* A checksum (any number or string)
 
-## Schritt 3
+## Step 3
 
-Schreibe eine Funktion, die aus allen Eigenschaften eines Blocks einen Hash berechnet. Repräsentiere dazu den gesamten Block als String. Verwende die Hash-Funktion `sha256`:
+Write a function that calculates a hash from all properties of a block. To do this, represent the entire block as a string. Use the hash function `sha256`:
 
     import hashlib
 
@@ -27,35 +27,37 @@ Schreibe eine Funktion, die aus allen Eigenschaften eines Blocks einen Hash bere
     h.update(text.encode())
     print(h.hexdigest())
 
-## Schritt 4
+## Step 4
 
-Lege die Blockchain als leere Liste an.
+Create the blockchain as an empty list.
 
-Erzeuge den ersten Block, den "Genesis-Block". Verwende 'genesis' als vorangegangenen Hash. Plaziere einige zufällige Transaktionen im Block.
+Create the first block, the "Genesis block". Use 'genesis' as previous hash. Place some random transactions in the block.
 
-Finde eine Prüfsumme, so dass der *sha256-hexdigest* mit vier Nullen (`0000`) endet. Du musst eventuell viele Prüfsummen ausprobieren.
+Find a checksum so that the *sha256-hexdigest* ends with four zeros (`0000`). You may need to try many checksums.
 
-Füge den fertigen Block an die Blockchain an.
+Add the finished block to the blockchain.
 
-## Schritt 5
+## Step 5
 
-Erzeuge den zweiten Block:
+Create the second block:
 
-* Der Hash ist der `hexdigest` des vorangegangenen Blocks
-* Füge weitere Transaktionen hinzu.
-* Finde wieder eine Prüfsumme, die einen `hexdigest` mit vier Nullen am Ende erzeugt.
-* Füge den fertigen Block der Blockchain hinzu.
+* The hash is the `hexdigest` of the previous block
+* Add more transactions.
+* Again find a checksum that generates a `hexdigest` with four zeros at the end.
+* Add the finished block to the blockchain.
 
-## Schritt 6
+## Step 6
 
-Erzeuge weitere Blöcke.
+Generate more blocks.
 
-## Fragen
+## Questions
 
-* Was passiert, wenn die Anzahl notwendiger Nullen im Hexdigest auf 2 oder 6 gesetzt wird?
-* Was passiert, wenn jemand eine Transaktion im Genesis-Block verändert?
-* Wodurch wird die Blockchain fälschungssicher?
-* Wie ließe sich eine Blockchain dennoch fälschen?
-* Warum nennt man das Finden der Prüfsumme auch *"proof of work"*?
-* Warum sind in einer Blockchain mehrere Rechner beteiligt?
-* Was ist ein *"Konsens-Algorithmus"?
+* What happens if the number of necessary zeros in the hex digest is set to 2 or 6?
+* What happens if someone changes a transaction in the Genesis block?
+* What makes the blockchain forgery-proof?
+* How could a blockchain still be forged?
+* Why is finding the checksum also called *"proof of work"*?
+* Why are several computers involved in a blockchain?
+* What is a *"consensus algorithm"?
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

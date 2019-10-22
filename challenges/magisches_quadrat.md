@@ -1,22 +1,25 @@
 
-# Magisches Quadrat
+# Magic Square
 
-**🎯 Löse ein magisches Quadrat.**
+**🎯 Solve a magic square.**
 
-* erstelle ein magisches Quadrat mit 3 * 3 Feldern.
-* befülle das Quadrat mit den Zahlen von 1-9
-* die Summe der Zahlen in jeder Zeile, Spalte und Diagonalen soll 15 betragen
-* verwende jede Zahl nur einmal
-* gib das fertige Quadrat aus
+* create a magic square with 3 * 3 fields.
+* fill the square with the numbers from 1-9
+* the sum of the numbers in each row, column and diagonal shall be 15
+* use each number only once
+* print the finished square
 
-## Hinweise
+## Hints
 
-* Schreibe Dir eine Funktion, die alle Summen ermittelt
-* Ein *brute-force*-Ansatz ist, alle Permuationen auszuprobieren
+* Write a function that calculates all sums
+* A *brute-force* approach is to try out all permutations*
+* See the `itertools` module
 
-## Zusatzaufgabe
+## Extra Challenge
 
-Befülle ein magisches Quadrat mit 4 * 4 Feldern mit den Zahlen von 1-16 (Summe 34).
+Fill a magic square with 4 * 4 fields with the numbers 1-16 (sum 34).
 
-Wenn Du nicht alle Möglichkeiten ausprobieren möchtest (9!), kannst Du das magische Quadrat als lineares Gleichungssystem beschreiben.
-Das Python-Paket **PuLP** erlaubt es, die nötigen Gleichungen sehr kompakt auszudrücken.
+If you don't want to try all the possibilities (9!), you can describe the magic square as a linear system of equations.
+The Python package **PuLP** allows you to express the necessary equations in a very compact way.
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

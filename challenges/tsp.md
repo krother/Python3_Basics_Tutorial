@@ -1,11 +1,11 @@
 
-# Das Problem des Handlungsreisenden
+# Traveling Salesman
 
-**🎯 Implementiere eine Lösung für das Traveling Salesman Problem**
+**🎯 Implement a Solution for the Traveling Salesman Problem**
 
-Ein Handlungsreisender möchte N Städte besuchen und dabei eine möglichst kurze Strecke zurücklegt.
+A traveling salesman would like to visit N cities and cover as short a distance as possible.
 
-Schreibe ein Programm, das die Städte mit folgenden Koordinaten *besucht*:
+Write a program that *visits* all cities with the following coordinates:
 
     import random
 
@@ -14,17 +14,22 @@ Schreibe ein Programm, das die Städte mit folgenden Koordinaten *besucht*:
     x = [random.randint(1, 100) for i in range(N)]
     y = [random.randint(1, 100) for i in range(N)]
 
-Eine Lösung könnte so aussehen:
+A solution could look like this:
 
     7 5 2 8 6 1 0 3 9 4
 
-    gesamte zurückgelegte Strecke: 123.45
+    total distance traveled: 123.45
 
 
-## Teilaufgaben
+## Tasks
 
-* Probiere eine *brute force*-Lösung aus, die alle Möglichkeiten ausprobiert. Warum ist diese Lösung nicht immer die beste?
-* Werte die Laufzeit für unterschiedliche Werte von *N* aus.
-* Schreibe eine *heuristische Lösung*
-* Recherchiere das *Problem des Handlungsreisenden (Traveling Salesman Problem)*
-* Recherchiere, was ein **NP-vollständiges Problem** ist
+* Implement a random solution first.
+* Try a *brute force* solution that tries out all the options.
+* Why isn't this solution always the best?
+* Measure the runtime for different values of *N*.
+* Write a *heuristic solution*.
+* Research the traveling salesman problem.
+* Research what a **NP-complete problem** is.
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

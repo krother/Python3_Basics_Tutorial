@@ -1,39 +1,41 @@
 
-# Baum abschreiten
+# Tree Traversal
 
-**🎯 Gib alle Knoten in einem Baum aus.**
+**🎯 Output all nodes in a tree.**
 
-Gib alle Lebewesen in folgenden Binärbäumen ohne Klammern aus.
+Output all living beings in the following binary trees without brackets.
 
-## Einfach
+## Easy
 
-    baum1 = ["Blauwal", "Delfin"]
+    tree1 = ["blue whale", "dolphin"]
 
-## Mittel
+## Medium
 
-    baum2 = [['Schimpanse', 'Mensch'],
-              'Ratte'
+    tree2 = [['chimp', 'human'],
+              'rat'
             ]
 
-## Schwer
+## Difficult
 
-    baum3 = [
-              ['Rose', 'Bananenbaum'],
+    tree3 = [
+              ['Rose', 'banana tree'],
               [
                 [
-                  ['Hammerhai', 'Rochen'],
+                  ['hammerhead shark', 'stingray'],
                   [
-                    ['Schimpanse', 'Men'],
-                     'Ratte'
+                    ['chimp', 'human'],
+                     'rat'
                   ]
                 ],
-                ['Biene', 'Ameise']
+                ['bee', 'ant']
               ]
             ]
 
-## Hinweise
+## Hints
 
-* Wie kannst Du prüfen, ob Du es mit einem String oder einer Liste zu tun hast?
-* Ist es grundsätzlich möglich, Bäume beliebiger Tiefe mit dem gleichen Programm abzuschreiten?
-* Zeichne den Baum. In welcher Reihenfolge würdest Du die Lebewesen abhandeln?
-* Recherchiere *"Tree Traversal"*
+* Draw the tree. In which order would you go through the beings?
+* How can you check whether you are dealing with a string or a list?
+* Is it basically possible to walk trees of any depth with the same program?
+* Research *"Tree Traversal"*
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

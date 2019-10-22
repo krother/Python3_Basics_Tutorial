@@ -1,7 +1,7 @@
 
-# Graphen abschreiten
+# Graph Traversal
 
-**🎯 Finde den Weg aus dem Labyrinth.**
+**🎯 Find your way out of the labyrinth.**
 
     maze = """
     ############
@@ -16,13 +16,15 @@
     x, y = (10, 1)
     target = (1, 7)
 
-Schreibe eine Funktion, die das Labyrinth (den Graphen) abschreitet, bis der Ausgang (`X`) erreicht ist.
+Write a function that will walk the maze (the graph) until the exit (`X`) is reached.
 
-## Hinweise
+## Hints
 
-Du kannst ähnlich wie bei der *Baumsuche* vorgehen:
+You can proceed in a similar way to *tree traversal*:
 
-* erstelle eine Liste der zu besuchenden Knoten
-* erstelle eine Liste mit bereits besuchten Knoten
-* besuche einen Knoten und füge seine Nachbarn der Liste zu besuchender Knoten hinzu
-* experimentiere, was sich an der Reihenfolge der Ausgabe ändert, wenn Du die Liste als Stack oder als Queue implementierst
+* create a list of the nodes to visit
+* create a list of already visited nodes
+* visit a node and add its neighbours to the list of nodes to visit
+* experiment with what changes in the order of output when you implement the list as a stack or queue
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
