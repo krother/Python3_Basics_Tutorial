@@ -68,6 +68,7 @@ Here you find a detailed syllabus:
 
 ## Appendix
 
+* [Recap Questions](recap.md)
 * [Tuples](data_types/tuples.md)
 * [Writing your own functions](structure/functions.md)
 * [Modules](structure/modules.md)
