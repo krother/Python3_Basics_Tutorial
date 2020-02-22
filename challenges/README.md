@@ -73,6 +73,7 @@
 
 | Challenge | Difficulty |
 |-----------|---------------|
+| [Guess the Number](guess_the_number.md) | ⭐ |
 | [Dice](dice.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 
