@@ -12,8 +12,11 @@ Books for beginners and people with programming experience:
 
 ## Paper books
 
-* [Managing your Biological Data with Python](https://www.crcpress.com/Managing-Your-Biological-Data-with-Python/Via-Rother-Tramontano/9781439880937) - **Allegra Via, Kristian Rother and Anna Tramontano**
 * [Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do) - **Joel Grus**
+* [Python Best Practices](https://www.apress.com/gp/book/9781484222409) - **Kristian Rother**
+* [Managing your Biological Data with Python](https://www.crcpress.com/Managing-Your-Biological-Data-with-Python/Via-Rother-Tramontano/9781439880937) - **Allegra Via, Kristian Rother and Anna Tramontano**
+
+## Other
 
 ## Websites
 

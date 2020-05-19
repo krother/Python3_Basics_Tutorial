@@ -19,7 +19,7 @@ Here you find a detailed syllabus:
 ## First Steps
 
 * [Installing Python](first_steps/installing_python.md)
-* [My first prRobert De Niro on his father's journalsogram](python_programs/programs.md)
+* [My first program](python_programs/programs.md)
 * [How to write programs](python_programs/README.md)
 * [Reading from the keyboard](python_programs/input.md)
 * [Screen output](python_programs/print.md)
@@ -64,7 +64,6 @@ Here you find a detailed syllabus:
 ## Dictionaries
 
 * [Dictionaries](data_types/dictionaries.md)
-* [Programming Challenge: Count Words in Moby Dick](challenge3_count_words/README.md)
 
 ## Appendix
 

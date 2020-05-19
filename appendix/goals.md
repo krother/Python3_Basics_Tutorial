@@ -22,13 +22,16 @@ Achieving this goal includes six skills (or *competencies* as pro didacticians c
 
 ## Goals per lesson
 
-| lesson | applications | syntax | functionality | elementary patterns | debugging | tools |
-|--------|--------------|--------|---------------|---------------------|-----------|-------|
-| 1      | Hello World  | instructions | strings | type commands | fix SyntaxErrors | Anaconda |
-|        |              | variables | print() | modify code   | code/debug cycle | Spyder   |
-|        |              |           | input() |               |                  | keyboard shortcuts |
-|        |              |           |         |               |                  |          |
-|        |              |           |         |               |                  |          |
+### 1.1 First Steps
+
+* install Anaconda
+* write a Hello World program
+* execute instructions in Spyder
+* use the code/debug cycle
+* store strings in variables
+* use the `print()` function
+* use the `input()` function
+* fix SyntaxErrors
 
 
 ### 1.2 Arithmetics
