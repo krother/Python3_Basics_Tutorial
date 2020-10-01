@@ -66,7 +66,7 @@ Here you find a detailed syllabus:
 * [Dictionaries](data_types/dictionaries.md)
 
 ## Appendix
-
+[Revising concept](https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON)
 * [Recap Questions](recap.md)
 * [Tuples](data_types/tuples.md)
 * [Writing your own functions](structure/functions.md)
