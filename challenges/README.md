@@ -74,6 +74,7 @@
 | Challenge | Difficulty |
 |-----------|---------------|
 | [Guess the Number](guess_the_number.md) | ⭐ |
+| [Quiz](quiz.md) | ⭐ |
 | [Dice](dice.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 
