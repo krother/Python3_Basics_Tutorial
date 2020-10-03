@@ -28,3 +28,7 @@ Store the following three lines in *three separate string variables.* Then conca
     977 Babys having the name 'Walter'
 
     were born in the U.S.
+
+## Recap Quiz
+
+Complete the [w3schools Python Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON)
