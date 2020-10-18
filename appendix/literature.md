@@ -21,3 +21,22 @@
 * Python Library Reference covering the language basics: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
 * Global Module Index – description of standard modules:
 [https://docs.python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
+
+## Coding Katas
+
+A **Coding Kata** is a programming exercise that you can perform to build and maintain your coding skills. Probably you already know **"Hello World"**, the simplest Kata possible.
+
+Here are a few places to find them:
+
+* [www.codewars.com](http://www.codewars.com/) – Plenty of small tasks in 7+ languages. Results are checked online
+* [codility.com](https://codility.com/) – Commercial website with free katas for learning
+* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas for bioinformaticians.
+* [projecteuler.net](http://projecteuler.net) – Mathematical problems that require programming to solve.
+* [regexone.com/](http://regexone.com/) – Learning regular expressions in 16+ lessons.
+* [Regex Golf](https://regex.alf.nu/) – Very hard regular expression problems.
+
+## Conclusions
+
+You can repeat Coding Katas once in a while. Try different languages, programming paradigms or automated tests to crank up the difficulty. Like running in sports, I consider doing Coding Katas a basic exercise to improve and to maintain your fitness as a programmer.
+
+I wish you good coding.

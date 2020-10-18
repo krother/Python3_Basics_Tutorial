@@ -65,30 +65,7 @@ Here you find a detailed syllabus:
 
 * [Dictionaries](data_types/dictionaries.md)
 
-## Appendix
-
-* [Recap Questions](recap.md)
-* [Tuples](data_types/tuples.md)
-* [Writing your own functions](structure/functions.md)
-* [Modules](structure/modules.md)
-* [Introspection](structure/introspection.md)
-* [Background information on Python 3](appendix/background_info.md)
-* [Recommended books and websites](appendix/literature.md)
-
-## License
-
-© 2015 Dr. Kristian Rother (krother@academis.eu)
-
-with contributions by Allegra Via, Kaja Milanowska and Anna Philips
-
-Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
-
-Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial)
-
-## Acknowledgements
-
-I would like to thank the following people for inspiring exchange on training and Python that this tutorial has benefited from: Pedro Fernandes, Tomasz Puton, E
-dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
+----
 
 # Challenges
 
@@ -126,17 +103,6 @@ dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
 | [Recursive Graphics](recursive_graph.md) | ⭐⭐⭐ |
 | [Choropleth](choropleth.md) | ⭐⭐⭐ |
 
-## Data Analysis
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Baby Name Generator](babynamengenerator.md) | ⭐ |
-| [Random Data](random.md) | ⭐ |
-| [Benford Analysis](benford.md) | ⭐⭐ |
-| [Movie Ratings](moviedb.md) | ⭐⭐ |
-| [US Baby Names](babynamen.md) | ⭐⭐ |
-| [Last Letters](letzte_buchstaben.md) | ⭐⭐⭐ |
-
 ## Algorithms
 
 | Challenge | Difficulty |
@@ -160,14 +126,6 @@ dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
 | [Download Web Pages](webrecherche.md) | ⭐⭐⭐ |
 | [Blog](blog.md) | ⭐⭐⭐⭐ |
 
-## Games
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Guess the Number](guess_the_number.md) | ⭐ |
-| [Quiz](quiz.md) | ⭐ |
-| [Dice](dice.md) | ⭐⭐ |
-| [Memory](memory.md) | ⭐⭐⭐ |
 
 ## Advanced Python
 
@@ -176,22 +134,33 @@ dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
 | [Tennis](tennis.md) | ⭐⭐ |
 | [Decorator-Metaclass](metaclass.md) | ⭐⭐⭐⭐⭐ |
 
+----
 
-## Coding Katas
 
-A **Coding Kata** is a programming exercise that you can perform to build and maintain your coding skills. Probably you already know **"Hello World"**, the simplest Kata possible.
+## Appendix
 
-Here are a few places to find them:
+* [Recap Questions](recap.md)
+* [Tuples](data_types/tuples.md)
+* [Writing your own functions](structure/functions.md)
+* [Modules](structure/modules.md)
+* [Introspection](structure/introspection.md)
+* [Background information on Python 3](appendix/background_info.md)
+* [Recommended books and websites](appendix/literature.md)
 
-* [www.codewars.com](http://www.codewars.com/) – Plenty of small tasks in 7+ languages. Results are checked online
-* [codility.com](https://codility.com/) – Commercial website with free katas for learning
-* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas for bioinformaticians.
-* [projecteuler.net](http://projecteuler.net) – Mathematical problems that require programming to solve.
-* [regexone.com/](http://regexone.com/) – Learning regular expressions in 16+ lessons.
-* [Regex Golf](https://regex.alf.nu/) – Very hard regular expression problems.
+----
 
-## Conclusions
 
-You can repeat Coding Katas once in a while. Try different languages, programming paradigms or automated tests to crank up the difficulty. Like running in sports, I consider doing Coding Katas a basic exercise to improve and to maintain your fitness as a programmer.
+## License
 
-I wish you good coding.
+© 2015 Dr. Kristian Rother (krother@academis.eu)
+
+with contributions by Allegra Via, Kaja Milanowska and Anna Philips
+
+Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
+
+Sources of this document can be found on [https://github.com/krother/Python3_Basics_Tutorial](https://github.com/krother/Python3_Basics_Tutorial)
+
+## Acknowledgements
+
+I would like to thank the following people for inspiring exchange on training and Python that this tutorial has benefited from: Pedro Fernandes, Tomasz Puton, E
+dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
