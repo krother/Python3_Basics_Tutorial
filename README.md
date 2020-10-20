@@ -154,7 +154,7 @@ Here you find a detailed syllabus:
 
 © 2015 Dr. Kristian Rother (krother@academis.eu)
 
-with contributions by Allegra Via, Kaja Milanowska and Anna Philips
+with contributions by Allegra Via, Kaja Milanowska, Anna Philips, @ShalokShalom and @devSython.
 
 Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
 
