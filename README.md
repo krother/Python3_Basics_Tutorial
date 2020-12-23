@@ -1,5 +1,5 @@
 
-# Python 3 Basics Tutorial
+# Python Exercises for Beginners
 
 This is a tutorial for novice programmers. You are the learner I had in mind when writing this tutorial if:
 
@@ -112,7 +112,7 @@ Here you find a detailed syllabus:
 | [Josephus' Problem](algorithms/josephus.md) | ⭐⭐ |
 | [Tree Traversal](algorithms/tree_traversal.md) | ⭐⭐ |
 | [Graph Traversal](algorithms/graph_traversal.md) | ⭐⭐⭐ |
-| [Magic Square](algorithms/magisches_quadrat.md) | ⭐⭐⭐ |
+| [Magic Square](algorithms/magic_square.md) | ⭐⭐⭐ |
 | [Traveling Salesman](algorithms/tsp.md) | ⭐⭐⭐ |
 | [King](algorithms/kings.md) | ⭐⭐⭐⭐ |
 | [Backpack Problem](algorithms/backpack_problem.md) | ⭐⭐⭐⭐ |

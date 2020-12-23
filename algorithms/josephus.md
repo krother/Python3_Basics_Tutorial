@@ -7,6 +7,7 @@
 
 In a monastery there are 1 assassin and the following 9 monks:
 
+    :::python3
     monks = [
            "Adalbertus", "Bonifacius", "Commodus",
            "Dominicus", "Emarius", "Franziskus",

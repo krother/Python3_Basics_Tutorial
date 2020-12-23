@@ -3,20 +3,9 @@
 
 **🎯 Output all nodes in a tree.**
 
-Output all living beings in the following binary trees without brackets.
+Collect all living beings from the following tree structure in a single list.
 
-## Easy
-
-    tree1 = ["blue whale", "dolphin"]
-
-## Medium
-
-    tree2 = [['chimp', 'human'],
-              'rat'
-            ]
-
-## Difficult
-
+    :::python3
     tree3 = [
               ['Rose', 'banana tree'],
               [
@@ -31,11 +20,14 @@ Output all living beings in the following binary trees without brackets.
               ]
             ]
 
+----
+
 ## Hints
 
 * Draw the tree. In which order would you go through the beings?
 * How can you check whether you are dealing with a string or a list?
 * Is it basically possible to walk trees of any depth with the same program?
 * Research *"Tree Traversal"*
+
 
 *Translated with [www.DeepL.com](www.DeepL.com/Translator)*

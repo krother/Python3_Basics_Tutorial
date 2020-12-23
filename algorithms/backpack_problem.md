@@ -3,7 +3,7 @@
 
 **🎯 Optimize the value of a heist.**
 
-![Einbrecher](images/burglar.png)
+![Burglar](../images/burglar.png)
 
 A burglar broke into a villa. There he finds so many valuables that he can't put them all in his backpack. Write a program that makes an optimal selection.
 
@@ -26,7 +26,7 @@ When your program manages to pack items worth `3000`, it can be used as an app f
 
 ## Hints
 
-* the optimal solution uses **dynamic programming****.
+* the optimal solution uses **dynamic programming**.
 
 Use the following pseudocode:
 
