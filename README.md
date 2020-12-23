@@ -107,15 +107,16 @@ Here you find a detailed syllabus:
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Sorting Algorithms](sortieralgorithmen.md) | ⭐ |
-| [Josephus' Problem](josephus.md) | ⭐⭐ |
-| [Tree Traverasl](tree_traversal.md) | ⭐⭐ |
-| [Graph Traversal](graph_traversal.md) | ⭐⭐⭐ |
-| [Magic Square](magisches_quadrat.md) | ⭐⭐⭐ |
-| [Traveling Salesman](tsp.md) | ⭐⭐⭐ |
-| [King](kings.md) | ⭐⭐⭐⭐ |
-| [Backpack Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
-| [Blockchain](blockchain.md) | ⭐⭐⭐⭐ |
+| [Binary Search](algorithms/binary_search.md) | ⭐ |
+| [Sorting Algorithms](algorithms/sorting.md) | ⭐ |
+| [Josephus' Problem](algorithms/josephus.md) | ⭐⭐ |
+| [Tree Traversal](algorithms/tree_traversal.md) | ⭐⭐ |
+| [Graph Traversal](algorithms/graph_traversal.md) | ⭐⭐⭐ |
+| [Magic Square](algorithms/magisches_quadrat.md) | ⭐⭐⭐ |
+| [Traveling Salesman](algorithms/tsp.md) | ⭐⭐⭐ |
+| [King](algorithms/kings.md) | ⭐⭐⭐⭐ |
+| [Backpack Problem](algorithms/backpack_problem.md) | ⭐⭐⭐⭐ |
+| [Blockchain](algorithms/blockchain.md) | ⭐⭐⭐⭐ |
 
 ## Web Development
 
