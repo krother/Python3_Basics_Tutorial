@@ -109,6 +109,7 @@ Here you find a detailed syllabus:
 |-----------|---------------|
 | [Binary Search](algorithms/binary_search.md) | ⭐ |
 | [Sorting Algorithms](algorithms/sorting.md) | ⭐ |
+| [Chained List](algorithms/chained_list.md) | ⭐⭐ |
 | [Josephus' Problem](algorithms/josephus.md) | ⭐⭐ |
 | [Tree Traversal](algorithms/tree_traversal.md) | ⭐⭐ |
 | [Graph Traversal](algorithms/graph_traversal.md) | ⭐⭐⭐ |
