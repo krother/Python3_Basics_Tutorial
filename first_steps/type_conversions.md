@@ -1,71 +1,83 @@
 
-# Converting numbers to text and back
+# Ada Lovelace
 
-Now you know how to store numbers and how to store text. Being able to convert the two into each other will come in handy. For that, we will use *type conversions*.
+**🎯 Calculate the age of Ada Lovelace, the first programmer.**
 
+![](../images/ada.jpg)
 
-## Warming up
+[Ada Lovelace, image by Alfred Edward Chalon - Biography.com, public domain](https://commons.wikimedia.org/w/index.php?curid=25519820)
 
-Now we are going to combine strings with integer numbers.
+----
 
-    name = 'Emily Smith'
+## In this chapter you will learn to:
+
+| area    | topic |
+|---------|-------|
+| ⚙ | distinguish data types |
+| 💡 | use the data type `float` |
+| 💡 | convert data types |
+| 🐞 | recognize bugs at runtime |
+
+----
+
+Python contains many functions for **type conversion**.
+
+With the functions `int()`, `float()` and `str()` you can convert numbers and strings into each other.
+
+----
+
+### Exercise 1: Ada Lovelace
+
+Insert the following pieces into the gaps, so that all instructions are executed correctly: `age`, `int(age)`, `name`, `str(born)`, `1815`
+
+    :::python3
+    name = "Ada Lovelace"
     born = _____
-    ____ = '15'
+    ____ = "37"
 
-    text = ____ + ' was born in the year ' + _____
+    text = ____ + " was born in the year " + _____ + "."
     year = born + _____
-    text
-    year
+    print(text)
+    print(year)
 
-Insert into the following items into the code, so that all statements are working: `age`, `int(age)`, name, `str(born)`, `2000`
+----
 
-### Questions
+### Exercise 2: Nine plus nine
 
-* Can you leave `str(born)` and `int(age)` away?
-* What do `str()` and `int()` do?
+Insert `int()` or `str()` into the instructions, so that all of them run without an error.
 
-## Exercises
+    :::python3
+    9 + 9
+    9 + '9'
+    '9' + '9'
+    9 * '9'
 
-### Exercise 1:
+----
 
-What is the result of the following statements?
+### Exercise 3: Output
 
-     9 + 9
+Which `print` statements work?
 
-     9 + '9'
+    :::python3
+    print("9" + "9")
+    print "nine"
+    print(str(9) + "nine")
+    print(9 + 9)
+    print(9 + int("9"))
+    print(nine)
+    print(float("9") + int(9.0))
 
-     '9' + '9'
+----
 
+### Exercise 4: Debugging
 
-### Exercise 2:
+The following code should calculate the age of Ada in a year entered by the user.
+It contains three bugs.
+Find and fix them.
 
-Change the statements above by adding int() or str() to each of them, so that the result is 18 or '99', respectively.
+    :::python3
+    year_of_birth = 1815
+    year = input('Which year is it? ')
+    age = year_of_birth - year
 
-
-### Exercise 3:
-
-Explain the result of the following operations?
-
-     9 * 9
-     9 * '9'
-     '9' * 9
-
-### Exercise 4:
-
-Write Python statements that create the following string:
-
-    12345678901234567890123456789012345678901234567890
-    
-
-## The Challenge: A data record with types
-
-| field      | value    | type |
-|------------|----------|------|
-| first name | Andrew   | string |
-| last name  | O'Malley | string |
-| gender     | M | string |
-| year of birth | 2000  | integer |
-| age | 15 | integer |
-
-Write the values from each row of the table into string or integer variables, then combine them to a single one-line string.
-
+    print("Today, Ada Lovelace would be " + age + " years old.")    

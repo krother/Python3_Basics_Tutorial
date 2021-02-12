@@ -1,14 +1,45 @@
 
-# Using Python as a calculator
+# Python as a Calculator
 
-### Exercise 1:
+**🎯 Use Python for simple arithmetics.**
 
-Enter Python in the interactive mode. You should see a message
+![](../images/calculator.png)
 
+*[photograph by Charles Deluvio on Unsplash](https://unsplash.com/@charlesdeluvio)*
+
+----
+
+### In this chapter you will learn to:
+
+| area | topic |
+|---------|-------|
+| 💼 | calculate with numbers |
+| 💡 | use the data type *integer* |
+| ⚙ | use arithmetical operators |
+| ⚙ | store numbers in variables  |
+| ⚙ | change the contenst of variables |
+| 🔧 | use the Variablee Explorer |
+
+----
+
+## Arithmetics
+
+In this chapter we will use the Python console as a pocket calculator.
+In Spyder you should see the following prompt (in the bottom right window):
+
+    :::python3
     In [1]:
 
-Complete the following calculations by filling in the blanks:
+If you see a different number than 1 it is still the right place.
 
+----
+
+### Exercise 1: Basic Arithmetics
+
+Execute a few calculations in Python.
+Insert the missing symbols into the gaps:
+
+    :::python3
     In [1]: 1 + ___
     Out[1]: 3
 
@@ -24,21 +55,103 @@ Complete the following calculations by filling in the blanks:
     In [5]: ___ ** 2
     Out[5]: 81
 
-Enter the commands to see what happens (**do not** type the first part `In [1]` etc., these will appear automatically).
+Enter the commands into the console and see what happens.
 
+Do not enter the first part (`In [1]` etc.). It appears automatically.
 
-### Exercise 2:
+----
+
+### Exercise 2: Division
+
+What is the difference between the following instructions?
+
+    :::python3
+    10 / 4
+    10.0 / 4
+    10.0 / 4.0
+    10 // 4
+    10 * 0.25
+
+Enter them in the console and examine the result.
+
+----
+
+### Exercise 3: More Operators
 
 Which operations result in 8?
 
-* `0 + 8`
-* `4 4`
-* `8 /`
-* `65 // 8`
-* `17 % 9`
-* `2 * * 4`
-* `64 ** 0.5`
+    :::python3
+    0 + 8
+    4 - -4
+    65 // 8
+    17 % 9
+    2 * 4
+    64 ** 0.5
 
-### Exercise 3:
+Enter the instructions and examine the result.
 
-Collect the Python operators you already know in a table (`+`, `-`, `*` etc.).
+----
+
+### Exercise 4: Variables
+
+For saving numbers and results of calculations for later, you can store them in **variables**.
+
+Fill the gaps:
+
+    :::python3
+    In [1]: apples = 25
+    In [2]: bananas = 7
+    In [3]: cherries = 5
+    In [4]: apples
+    Out[4]: ______
+    In [5]: bananas + 1
+    Out[5]: ______
+    In [6]: 3 * cherries
+    Out[6]: ______
+
+----
+
+### Exercise 5: Modify Variables
+
+The first instruction modifies the value of a variable from exercise 4.
+Insert values and variables so that the result is correct:
+
+    :::python3
+    In [7]: apples = apples + 1
+    In [8]: apples
+    Out[8]: _____
+
+    In [9]: fruit = _____ + _____ + _____
+    In [10]: fruit
+    Out[10]: 38
+
+In the **Variable Explorer** in Spyder (top right) you can inspect the content of each variable.
+
+----
+
+### Exercise 6: Assignments
+
+Which variable assignmments are correct?
+
+    :::python3
+    a = 1 * 2
+    2 = 1 + 1
+    5 + 6 = y
+    seven = 3 * 4
+
+----
+
+### Exercise 7: White Rabbits
+
+In April you have 10 white rabbits:
+
+    :::python3
+    rabbits = 10
+
+The rabbits constantly multiply.
+Every month, their number grows by 20%. In May you already have 12 rabbits.
+
+**How many rabbits will you have in December?**
+
+Assume that no rabbits die and that there are no half rabbits.
+Use Python to solve the task.

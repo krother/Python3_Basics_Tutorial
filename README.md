@@ -7,38 +7,24 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 * you have no programming experience at all
 * you know Python well and would like to teach others
 
-This tutorial works best if you follow the chapters and exercises step by step.
+Pick an exercise and start programming!
 
-## Goals
-
-The main goal of this tutorial is to enable you to write Python projects with up to 100 lines.
-Here you find a detailed syllabus:
-
-* [Learning Goals](appendix/goals.md)
+----
 
 ## First Steps
 
-* [Installing Python](first_steps/installing_python.md)
-* [My first program](python_programs/programs.md)
-* [How to write programs](python_programs/README.md)
-* [Reading from the keyboard](python_programs/input.md)
-* [Screen output](python_programs/print.md)
-* [Storing text](first_steps/strings.md)
-* [Recap](first_steps/recap.md)
-
-## Python as a Calculator
-
-* [Using Python as a calculator](first_steps/python_shell.md)
-* [Storing numbers](first_steps/variables_and_numbers.md)
-* [Converting numbers to text and back](first_steps/type_conversions.md)
-
-## Plotting
-
-* [Overview of data types in Python](data_types/data_types_in_python.md)
-* [Creating lists](lists/lists.md)
+| Exercise | Difficulty |
+|-----------|---------------|
+| [Installing Python](first_steps/installing_python.md) | ⭐ |
+| [Python as a calculator](first_steps/python_shell.md) | ⭐ |
+| [Hello World](first_steps/hello.md) | ⭐ |
+| [Ada Lovelace](first_steps/type_conversions.md) | ⭐ |
+| [Rock-Paper-Scissors](first_steps/rock_paper_scissors.md) | ⭐ |
+| [Recap](first_steps/recap.md) | ⭐ |
 
 ## Iteration
 
+* [Creating lists](lists/lists.md)
 * [Repeating instructions](python_programs/for_loops.md)
 * [Shortcuts](lists/builtin_functions.md)
 * [Working with tables](lists/tables.md)
@@ -69,8 +55,6 @@ Here you find a detailed syllabus:
 
 # Challenges
 
-## First Steps
-
 | Challenge | Difficulty |
 |-----------|---------------|
 | [Christmas Tree](ctree.md) | ⭐ |
@@ -78,6 +62,12 @@ Here you find a detailed syllabus:
 | [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
 | [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
 | [Checkerboard](checker.md) | ⭐⭐ |
+
+## Text processing
+
+| Challenge | Difficulty    |
+|-----------|---------------|
+| [Storing text](first_steps/strings.md) | ⭐ |
 | [Palindrome](palindrome.md) | ⭐⭐ |
 | [Anagrams](anagramme.md) | ⭐⭐ |
 | [Roman Numbers](roman.md) | ⭐⭐⭐ |
@@ -147,6 +137,7 @@ Here you find a detailed syllabus:
 * [Modules](structure/modules.md)
 * [Introspection](structure/introspection.md)
 * [Background information on Python 3](appendix/background_info.md)
+* [Learning Goals](appendix/goals.md)
 * [Recommended books and websites](appendix/literature.md)
 
 ----

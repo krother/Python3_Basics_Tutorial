@@ -5,6 +5,7 @@
 
 You have the following variable:
 
+    :::python3
     In [1]: code = 684
 
 Multiply this number by 10, substract 1, and divide by 7.
@@ -15,6 +16,7 @@ As a result, you obtain the number of babies having the name *"Walter"* in 2014.
 
 You have the following variable:
 
+    :::python3
     In [2]: name = "Walter White"
 
 Extract both initials from the string and store them to a new variable.
@@ -23,6 +25,7 @@ Extract both initials from the string and store them to a new variable.
 
 Store the following three lines in *three separate string variables.* Then concatenate them to *one variable*:
 
+    :::text
     In the year 2014
 
     977 Babys having the name 'Walter'
