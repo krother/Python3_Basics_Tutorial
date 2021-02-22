@@ -1,5 +1,15 @@
 
-# Modules
+# Structuring Programs and Modules
+
+## Programs
+A program consists of multiple lines that are executed in one go.
+
+Usually a program contains the following sections:
+
+![input-processing-output](../images/IPO.png)
+
+Of course, programs can grow a lot more complicated than that.
+
 
 ## What is a module?
 
