@@ -153,5 +153,8 @@ Every month, their number grows by 20%. In May you already have 12 rabbits.
 
 **How many rabbits will you have in December?**
 
-Assume that no rabbits die and that there are no half rabbits.
-Use Python to solve the task.
+#### Hints:
+
+- assume that rabbits never die
+- it is OK to calculate with fractions of rabbits
+- it is OK to copy the same line(s) multiple times for each month
