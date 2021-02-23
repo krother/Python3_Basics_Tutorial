@@ -1,38 +1,58 @@
 
-# Storing text
+# Strings
 
-### Exercise 1:
+In diesem Kapitel wirst Du Text (**Strings**) in Variablen speichern.
 
-So far, we have only worked with numbers. Now we will work with text as well.
+### Exercise 1: Concatenate
 
-    In [1]: first = 'Emily'
-    In [2]: last = "Smith"
-    In [3]: name = first + " " + last
-    In [4]: name
+Try the following commands to create and concatenate **string variables**:
 
-### Exercise 2:
+    :::python3
+    first = "Ada"
+    last = "Lovelace"
+    name = first + " " + last
+    print(name)
 
-What do the following statements do?
+----
 
-    In [5]: name[0]
-    In [6]: name[3]
-    In [7]: name[-1]
+### Exercise 2: Indexing and slicing strings
 
+What do the following expressions result in?
 
-### Exercise 3:
+    :::python3
+    name[0]
+    name[3]
+    name[-1]
+    name[0] + name[6]
+    name[5:]
+    name[5:10]
+    name[:10:2]
 
-Is it possible to include the following special characters in a string?
+----
 
-    Ä á @ ? & * \ / " '
+### Exercise 3: Decypher
 
-### Exercise 4:
+The following text contains an encrypted word:
 
-What does `name` contain after the following statements? Explain the code.
+    :::python3
+    name = "CSAIPRALKAINACZEYLVOST"
 
-    In [8]: name = ""
-    In [9]: anna = "Anna"
-    In [10]: name = anna[0] + name
-    In [11]: name = anna[1] + name
-    In [12]: name = anna[2] + name
-    In [13]: name = anna[3] + name
-    In [14]: name
+Print every second character, starting with the 2nd).
+
+----
+
+### Exercise 4: Escape characters
+
+Explain this instruction:
+
+    :::python3
+    print("Ada\nLovelace\n1843")
+
+----
+
+### Exercise 5: String methods
+
+Find out what the expressions do to the string in the middle.
+
+![string exercise](../exercises/strings.png)
+
