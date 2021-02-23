@@ -20,6 +20,7 @@ Pick an exercise and start programming!
 | [Hello World](first_steps/hello.md) | ⭐ |
 | [Ada Lovelace](first_steps/type_conversions.md) | ⭐ |
 | [Rock-Paper-Scissors](first_steps/rock_paper_scissors.md) | ⭐ |
+| [Slideshow](first_steps/slideshow.md) | ⭐ |
 | [Recap](first_steps/recap.md) | ⭐ |
 
 ----
