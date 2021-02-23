@@ -1,67 +1,102 @@
 
-# Creating lists
+# Lists
 
-To handle larger amounts of data, we cannot invent a new variable for every new data item. Somehow we need to store more data in one variable. This is where Python **lists** come in.
+In this chapter we will combine multiple values to a new data type: a **list**.
 
-However, Python counts a bit different than humans do:
+To process larger amounts of data, we cannot invent a new variable name for every entry (and write the code for it).
+Somehow it has to be possible to store multiple data records in one variable.
+This is where **lists** come in.
 
-![indexing](../images/indexing.png)
+Lists are a simple sequence of elements.
+However, Python is counting differently than humans:
 
+![Indexing](../images/indexing.png)
+
+----
 
 ### Exercise 1
+
+Try a few commands for creating lists:
+
+    :::python3
+    numbers = [1, 2, 4, 8, 16, 32]
+    numbers = numbers + [64, 128, 256]
+
+    movies = ["Star Wars", "Star Trek", "Ratatouille"]
+    movies += ["Arrival"]
+
+Print the lists.
+
+----
+
+### Exercise 2: Indexing
+
+What do the following commands result in?
+
+    :::python3
+    zahlen[4]
+    filme[0]
+    filme[-1]
+    zahlen[-3]
+
+----
+
+### Exercise 3: Slicing
+
+What do the following commands result in?
+
+    :::python3
+    filme[2:]
+    filme[:2]
+    zahlen[2:-2]
+    zahlen[::2]
+
+----
+
+### Exercise 4: List syntax
+
+Which instructions are correct?
+
+* `daten = ["Tilda", "Swinton"]`
+* `daten = ["Darth Vader" "Yoda"]`
+* `daten = [1, 2 + 3, 4]`
+* `daten = [1, 2] + [3, 4]`
+* `daten = [1, 2] + 3, 4]`
+* `daten = [1, 2.0, "drei"]`
+
+----
+
+### Exercise 5: Loop over a list
+
+Wahat does the following program do?
+
+    :::python3
+    filme = ["Star Wars", "Star Trek", "Ratatouille"]
+    for f in filme:
+        print(f)
+
+----
+
+### Exercise 6: List methods
 
 Find out what each of the expressions does to the list in the center.
 
 ![list exercise](../images/lists.png)
 
 
-
-### Exercise 2
-
-What does the following program do?
-
-    top8 = [34465, 32025, 28569, 27531, \
-            24928, 23632, 22818, 22307]
-
-    for value in top8:
-        print(value)
-
-
-### Exercise 3
-
-How many babies are there in total? Write a program that calculates that number.
-
-
-### Exercise 4
-
-You have a list of the 20 most popular girls names from the year 2000:
-
-    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah',
-    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor',
-    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna',
-    'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
-
-Write a program that prints all names starting with `'A'` or `'M'`.
-
-
-### Exercise 5
-
-Use the expressions to modify the list as indicated. Use each expression once.
-
-![list funcs exercise1](../images/list_funcs1.png)
-
-
-### Exercise 6
-
-Create a new list containing the sum of *California* and *New York* for each name.
-
-    names = ["Emily", "Amy", "Penny", "Bernadette"]
-    california = [2269, 542, 54, 21]
-    new_york = [881, 179, 12, 11]
-
+----
 
 ### Exercise 7
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
 ![list funcs exercise2](../images/list_funcs2.png)
+
+----
+
+### Exercise 8
+
+Use the expressions to modify the list as indicated. Use each expression once.
+
+![list funcs exercise1](../images/list_funcs1.png)
+
