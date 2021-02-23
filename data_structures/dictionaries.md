@@ -1,84 +1,89 @@
 
 # Dictionaries
 
-## Exercise 1
+### Exercise 1
 
 Find out what each of the expressions does to the dictionary in the center.
 
 ![dict exercise](../images/dicts.png)
 
+----
 
-## Exercise 2
-
-What do the following commands produce?
-
-    d = {1:'A', 'B':1, 'A':True}
-    print(d['A'])
-
-- `False`
-- `"B"`
-- `True`
-- `1`
-
-## Exercise 3
+### Exercise 2
 
 What do these commands produce?
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.has_key('B'))
+    :::python3
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(d['fish'])
+    
+----
 
-- `1`
-- `True`
-- `"B"`
-- `False`
-
-## Exercise 4
+### Exercise 3
 
 What do these commands produce?
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.values())
+    :::python3
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print('Hund' in d)
 
-- `True`
-- `['A', 1, True]`
-- `3`
-- `[1, 'B', 'A']`
+----
 
-## Exercise 5
+### Exercise 4
 
 What do these commands produce?
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d.keys())
+    :::python3
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(list(d.keys()))
 
-- `[1, 'B', 'A']`
-- `['A', 'B', 1]`
-- `[1, 'A', 'B']`
-- `The order may vary`
+----
 
-
-## Exercise 6
+### Exercise 5
 
 What do these commands produce?
 
-    d = {1:'A', 'B':1, 'A':True}
-    print(d['C'])
+    :::python3
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(d.get('Katze', 'unknown'))
 
-- `None`
-- `'C'`
-- `an Error`
-- `False`
+----
 
-
-## Exercise 7
+### Exercise 6
 
 What do these commands produce?
 
-    d = {1:'A', 'B':1, 'A':True}
-    d.setdefault('C', 3)
-    print(d['C'])
+    :::python3
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    d.setdefault('cat', 'Stubentiger')
+    print(d['cat'])
 
-- `3`
-- `'C'`
-- `None`
-- `an Error`
+----
+
+### Exercise 7
+
+The following program allows you to travel from one city to the next.
+Unfortunately, it contains **3 bugs**. Find and fix them.
+
+    :::python3
+    cities = {
+        "New York": ["Tokyo", "Paris", "London"],
+        "Poznan": ["London", "Berlin"],
+        "London": ["New York", "Poznan"]
+        "Berlin": ["Tokyo", "Poznan"],
+        "Tokyo": ["New York", "Berlin"],
+        "Paris": ["Katmandu"]
+        }
+    
+    location = "Paris"
+    
+    print "\nYour task: fly to Katmandu\n"
+    
+    while location in cities and location == 'Katmandu':
+        print(f"You are in {location}")
+    
+    print("There are flights to ", cities[location])
+    location = input("Where would you like to travel?")
+
+    print("You have reached your destination")
+    
