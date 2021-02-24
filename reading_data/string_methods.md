@@ -3,12 +3,6 @@
 
 ### Exercise 1
 
-Determine what the expressions do to the string in the center.
-
-![string exercise](../images/strings.png)
-
-### Exercise 2
-
 The following program identifies names used for both girls and boys and writes them to a file.
 
 Complete the code to dissect lines to columns, so that the variables `name` and `gender` are defined.
@@ -33,9 +27,9 @@ Complete the code to dissect lines to columns, so that the variables `name` and 
         output.write(text)
     output.close()
 
-## Format Strings
+----
 
-### Exercise 3
+### Exercise 2: Format Strings
 
 Try the following expressions in a Python shell:
 
@@ -48,7 +42,7 @@ Try the following expressions in a Python shell:
     "{:6.3f}".format(3.14159)
 
 
-### Exercise 4
+### Exercise 3
 
 You have the following two lists:
 
@@ -61,7 +55,7 @@ You have the following two lists:
 
 Write a program that creates a table with two vertically aligned columns.
 
-### Exercise 5
+### Exercise 4
 
 Write a `for` loop producing the following string:
 

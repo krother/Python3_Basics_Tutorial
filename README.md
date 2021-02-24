@@ -13,21 +13,42 @@ Pick an exercise and start programming!
 
 ## First Steps
 
-| Exercise | Difficulty |
+| Chapter | Difficulty |
 |-----------|---------------|
 | [Installing Python](first_steps/installing_python.md) | ⭐ |
 | [Python as a calculator](first_steps/python_shell.md) | ⭐ |
 | [Hello World](first_steps/hello.md) | ⭐ |
 | [Ada Lovelace](first_steps/type_conversions.md) | ⭐ |
 | [Rock-Paper-Scissors](first_steps/rock_paper_scissors.md) | ⭐ |
+| [Square Numbers](first_steps/for.md) | ⭐ |
+| [Slideshow](first_steps/slideshow.md) | ⭐ |
 | [Recap](first_steps/recap.md) | ⭐ |
 
-## Iteration
+----
 
-* [Creating lists](lists/lists.md)
-* [Repeating instructions](python_programs/for_loops.md)
-* [Shortcuts](lists/builtin_functions.md)
-* [Working with tables](lists/tables.md)
+## Data Structures
+
+| Chapter | Difficulty |
+|-----------|---------------|
+| [Strings](data_structures/strings.md) | ⭐ |
+| [Lists](data_structures/lists.md) | ⭐ |
+| [Dictionaries](data_structures/dictionaries.md) | ⭐⭐ |
+| [Working with tables](data_structures/tables.md) | ⭐⭐ |
+| [Data Types overview](data_structures/data_types.md) | ⭐ |
+
+----
+
+## Program Structures
+
+| Chapter | Difficulty |
+|-----------|---------------|
+| [Repeating instructions](structure/for_loops.md) | ⭐ |
+| [Conditional Loops](structure/while.md) | ⭐ |
+| [Writing your own functions](structure/functions.md) | ⭐⭐ |
+| [Shortcuts](structure/builtin_functions.md) | ⭐⭐ |
+| [Structuring programs](structure/modules.md) | ⭐⭐ |
+
+----
 
 ## Aggregation
 
@@ -36,20 +57,8 @@ Pick an exercise and start programming!
 * [String methods](reading_data/string_methods.md)
 * [Writing files](reading_data/writing_files.md)
 * [Processing multiple files](reading_data/multiple_files.md)
+* [Working with directories](reading_data/os.md)
 
-## Conditionals
-
-* [Working with directories](data_types/os.md)
-* [Making decisions](python_programs/if.md)
-
-## Conditional Loops
-
-* [while](structure/while.md)
-* [Structuring programs](structure/structuring_programs.md)
-
-## Dictionaries
-
-* [Dictionaries](data_types/dictionaries.md)
 
 ----
 
