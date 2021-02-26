@@ -1,7 +1,7 @@
 
 # Strings
 
-In diesem Kapitel wirst Du Text (**Strings**) in Variablen speichern.
+In this chapter you will store text (**strings**) in variables.
 
 ### Exercise 1: Concatenate
 

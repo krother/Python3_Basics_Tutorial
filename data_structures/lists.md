@@ -34,10 +34,10 @@ Print the lists.
 What do the following commands result in?
 
     :::python3
-    zahlen[4]
-    filme[0]
-    filme[-1]
-    zahlen[-3]
+    numbers[4]
+    movies[0]
+    movies[-1]
+    numbers[-3]
 
 ----
 
@@ -46,10 +46,10 @@ What do the following commands result in?
 What do the following commands result in?
 
     :::python3
-    filme[2:]
-    filme[:2]
-    zahlen[2:-2]
-    zahlen[::2]
+    movies[2:]
+    movies[:2]
+    numbers[2:-2]
+    numbers[::2]
 
 ----
 
@@ -57,22 +57,22 @@ What do the following commands result in?
 
 Which instructions are correct?
 
-* `daten = ["Tilda", "Swinton"]`
-* `daten = ["Darth Vader" "Yoda"]`
-* `daten = [1, 2 + 3, 4]`
-* `daten = [1, 2] + [3, 4]`
-* `daten = [1, 2] + 3, 4]`
-* `daten = [1, 2.0, "drei"]`
+* `data = ["Tilda", "Swinton"]`
+* `data = ["Darth Vader" "Yoda"]`
+* `data = [1, 2 + 3, 4]`
+* `data = [1, 2] + [3, 4]`
+* `data = [1, 2] + 3, 4]`
+* `data = [1, 2.0, "three"]`
 
 ----
 
 ### Exercise 5: Loop over a list
 
-Wahat does the following program do?
+What does the following program do?
 
     :::python3
-    filme = ["Star Wars", "Star Trek", "Ratatouille"]
-    for f in filme:
+    movies = ["Star Wars", "Star Trek", "Ratatouille"]
+    for f in movies:
         print(f)
 
 ----
