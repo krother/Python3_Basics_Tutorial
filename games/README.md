@@ -10,6 +10,7 @@ Here you find some tasks and recipes to write your own mini-games.
 | [Guess the Number](guess_the_number.md) | ⭐ |
 | [Quiz](quiz.md) | ⭐ |
 | [Dice](dice.md) | ⭐⭐ |
+| [Text Adventur](textadventure.md) | ⭐⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 
 ----
