@@ -12,7 +12,7 @@ Repeat pandas and Numpy basics, seven lines at a time.
 | [Inspect DataFrames](seven_lines/inspect_df.md) | ⭐ |
 | [Select Rows and Columns](seven_lines/select_df.md) | ⭐ |
 | [Filter DataFrames](seven_lines/filter_df.md) | ⭐ |
-| [Read and Write](seven_lines/round_trip.md) | ⭐ |
+| [Read and Write DataFrames](seven_lines/round_trip.md) | ⭐ |
 | [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
 
 
@@ -28,7 +28,6 @@ Repeat pandas and Numpy basics, seven lines at a time.
 | [Movie Ratings](moviedb.md) | ⭐⭐ |
 | [US Baby Names](babynamen.md) | ⭐⭐ |
 | [Last Letters](letzte_buchstaben.md) | ⭐⭐⭐ |
-
 
 ----
 
