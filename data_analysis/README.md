@@ -3,7 +3,22 @@
 
 Some tasks using pandas for analyzing and visualizing data.
 
+## Seven Line Challenges
+
+Repeat pandas and Numpy basics, seven lines at a time.
+
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Inspect DataFrames](seven_lines/inspect_df.md) | ⭐ |
+| [Select Rows and Columns](seven_lines/select_df.md) | ⭐ |
+| [Filter DataFrames](seven_lines/filter_df.md) | ⭐ |
+| [Read and Write](seven_lines/round_trip.md) | ⭐ |
+| [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
+
+
 ----
+
+## Coding Kata
 
 | Challenge | Difficulty |
 |-----------|---------------|
