@@ -5,7 +5,7 @@ Some tasks using pandas for analyzing and visualizing data.
 
 ## Seven Line Challenges
 
-Repeat pandas and Numpy basics, seven lines at a time.
+Repeat pandas basics, seven lines at a time.
 
 | Challenge | Difficulty |
 |-----------|---------------|
@@ -13,6 +13,7 @@ Repeat pandas and Numpy basics, seven lines at a time.
 | [Select Rows and Columns](seven_lines/select_df.md) | ⭐ |
 | [Filter DataFrames](seven_lines/filter_df.md) | ⭐ |
 | [Read and Write DataFrames](seven_lines/round_trip.md) | ⭐ |
+| [Aggregation](seven_lines/aggregation.md) | ⭐ |
 | [Plotting with pandas](seven_lines/plot.md) | ⭐ |
 | [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
 | [Datetime Indexes](seven_lines/datetime_index.md) | ⭐ |
