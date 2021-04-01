@@ -16,6 +16,7 @@ Repeat pandas and Numpy basics, seven lines at a time.
 | [Plotting with pandas](seven_lines/plot.md) | ⭐ |
 | [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
 | [Datetime Indexes](seven_lines/datetime_index.md) | ⭐ |
+| [Linear Regression](seven_lines/regression.md) | ⭐⭐ |
 | [Overfit a Regression Model](seven_lines/overfitting.md) | ⭐⭐ |
 
 ----
