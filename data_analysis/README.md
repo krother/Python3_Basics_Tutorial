@@ -3,7 +3,7 @@
 
 Some tasks using pandas for analyzing and visualizing data.
 
-## Seven Line Challenges
+## Seven Line pandas Challenges
 
 Repeat pandas basics, seven lines at a time.
 
@@ -17,6 +17,14 @@ Repeat pandas basics, seven lines at a time.
 | [Plotting with pandas](seven_lines/plot.md) | ⭐ |
 | [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
 | [Datetime Indexes](seven_lines/datetime_index.md) | ⭐ |
+
+
+## Seven Line scikit Challenges
+
+Repeat Machine Learning basics, seven lines at a time.
+
+| Challenge | Difficulty |
+|-----------|---------------|
 | [Linear Regression](seven_lines/regression.md) | ⭐⭐ |
 | [Overfit a Regression Model](seven_lines/overfitting.md) | ⭐⭐ |
 
@@ -27,11 +35,20 @@ Repeat pandas basics, seven lines at a time.
 | Challenge | Difficulty |
 |-----------|---------------|
 | [Baby Name Generator](babynamengenerator.md) | ⭐ |
-| [Random Data](random.md) | ⭐ |
 | [Benford Analysis](benford.md) | ⭐⭐ |
 | [Movie Ratings](moviedb.md) | ⭐⭐ |
 | [US Baby Names](babynamen.md) | ⭐⭐ |
 | [Last Letters](letzte_buchstaben.md) | ⭐⭐⭐ |
+
+----
+
+## Engineering
+
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Penguin Dashboard](pingubase/README.md) | ⭐⭐⭐⭐ |
+
+
 
 ----
 

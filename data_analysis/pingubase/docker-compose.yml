@@ -1,0 +1,24 @@
+version: '3'
+services:
+
+  pg_database:
+    image: postgres:13.0
+    ports:
+    - 5555:5432
+    volumes:
+    - ./sql_init/:/docker-entrypoint-initdb.d
+    environment:
+    - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    - POSTGRES_USER=${POSTGRES_USER}
+    - POSTGRES_DB=${POSTGRES_DB}
+
+  dashboard:
+    image: metabase/metabase:latest
+    ports:
+    - 3000:3000
+    volumes:
+    - ./metabase_data/:/metabase-data
+    environment:
+      - MB_DB_FILE=/metabase-data/metabase.db
+    depends_on:
+    - pg_database
