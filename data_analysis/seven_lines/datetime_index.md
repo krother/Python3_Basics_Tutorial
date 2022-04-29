@@ -9,17 +9,38 @@ To prepare for the challenge, create 30 random numbers:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. create timestamps for an entire April, one per day
 
-    # 2. display the year for each timestamp
+----
+
+## Task 1
+Create timestamps for an entire April, one per day
+
+----
+
+## Task 2
+Display the year for each timestamp
     
-    # 3. display the weekday for each timestamp
+----
 
-    # 4. create a Series with the random data and the timestamps as index 
+## Task 3
+Display the weekday for each timestamp
+
+----
+
+## Task 4
+Create a Series with the random data and the timestamps as index 
     
-    # 5. select the timestamps until the 11th
+----
 
-    # 6. calculate the total number per week
+## Task 5
+Select the timestamps until the 11th
 
-    # 7. calculate a rolling average with a 7-day window
+----
+
+## Task 6
+Calculate the total number per week
+
+----
+
+## Task 7
+Calculate a rolling average with a 7-day window

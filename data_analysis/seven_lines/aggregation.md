@@ -10,17 +10,38 @@ To prepare for the challenge, execute the following lines::
 
 Answer the following questions:
 
-    :::python3
-    # 1. what is the total mass of all penguins?
 
-    # 2. how many penguins are from which island?
+----
 
-    # 3. what is the average body mass of each species?
+## Task 1
+What is the total mass of all penguins?
 
-    # 4. how long is the longest beak of each species?
+----
 
-    # 5. what is the mean of each numerical column, per species?
+## Task 2
+How many penguins are from which island?
 
-    # 6. how many penguins are there for each species/sex combination?
+----
 
-    # 7. what is the standard deviation of bill length and depth for each species/sex combination
+## Task 3
+What is the average body mass of each species?
+
+----
+
+## Task 4
+How long is the longest beak of each species?
+
+----
+
+## Task 5
+What is the mean of each numerical column, per species?
+
+----
+
+## Task 6
+How many penguins are there for each species/sex combination?
+
+----
+
+## Task 7
+What is the standard deviation of bill length and depth for each species/sex combination

@@ -72,17 +72,6 @@ Probiere Methoden zur natürlichen Sprachverarbeitung durch
 
 Erstelle ein neuronales Netz, das automatisch Bilder beschriftet. [Hinweise gibt es in diesem Artikel](https://www.oreilly.com/learning/caption-this-with-tensorflow).
 
-----
-
-## Common Voice
-
-Bringe einem Computer bei, geschriebenen Text als Sprache auszugeben.
-
-Quelle:
-
-* [Mozilla Common Voice](https://voice.mozilla.org/) von Michael Henretty
-* Deep Speech
-* Text2Speech
 
 ----
 ## Weitere Aufgaben

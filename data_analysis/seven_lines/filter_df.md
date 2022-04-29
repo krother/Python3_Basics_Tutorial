@@ -9,17 +9,38 @@ To prepare for the challenge, execute the following lines:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. display the survived passengers
 
-    # 2. display the 2nd class passengers
+----
 
-    # 3. display the infants (age 1 or younger)
+## Task 1
+Display the survived passengers
 
-    # 4. display children between 10 and 13
+----
 
-    # 5. display survived 2nd class passengers
+## Task 2
+Display the 2nd class passengers
 
-    # 6. find at least one female passenger who embarked in Cherbourg and is 40-50 years old
+----
 
-    # 7. display the passengers that do not have a missing age
+## Task 3
+Display the infants (age 1 or younger)
+
+----
+
+## Task 4
+Display children between 10 and 13
+
+----
+
+## Task 5
+Display survived 2nd class passengers
+
+----
+
+## Task 6
+Find at least one female passenger who embarked in Cherbourg and is 40-50 years old
+
+----
+
+## Task 7
+Display the passengers that do not have a missing age

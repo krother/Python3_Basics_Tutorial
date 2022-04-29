@@ -16,14 +16,19 @@ Read all files from the [Baby Name Dataset](http://www.ssa.gov/oact/babynames/li
     jahrgaenge = []
 
 
+----
+
 ## Task 2
 
-Write a function that returns the last letter. Add a new column with the last letter to the DataFrame. Use `df.apply` to do this.
+Write a function that returns the last letter. Add a new column with the last letter to the DataFrame. Use `df.apply()` to do this.
+
+----
 
 ## Task 3
 
 Calculate the sum of the first names grouped by gender, last letter and year. The resulting table should look something like this:
 
+    :::text
     gender  last  year
     F       a     1880    31446
                   1881    31581
@@ -31,10 +36,13 @@ Calculate the sum of the first names grouped by gender, last letter and year. Th
 
 This `DataFrame` has a **hierarchical index**.
 
+----
+
 ## Task 4
 
 Now calculate the **proportion of a first name within a year** for boys. Unfortunately, the three commands have been mixed up. Find out the correct order:
 
+    :::python3
     df = df / df.sum()
     df = df.unstack()
     df = df.ix['M']
@@ -43,17 +51,25 @@ Now calculate the **proportion of a first name within a year** for boys. Unfortu
 
 The final letter `a` had a ratio of 0.007023 in 1880.
 
+----
+
 ## Task 5
 
 Select the years **1910** and **2010**. Draw a bar chart with a group of bars for each letter, consisting of two bars for each year.
+
+----
 
 ## Task 6
 
 Select the final letters **d**, **n** and **y**. Draw a line chart showing the frequency of these letters over time.
 
+----
+
 ## Task 7
 
-How have the final letters changed in the last century?
+How have the final letters changed over the last century?
+
+----
 
 ## Task 8
 

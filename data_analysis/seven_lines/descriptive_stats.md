@@ -9,17 +9,38 @@ To prepare for the challenge, execute the following lines:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. count the frequency of each passenger class
 
-    # 2. calculate the total fare over all passengers
+----
 
-    # 3. calculate the mean age over all passengers
+## Task 1
+Count the frequency of each passenger class
 
-    # 4. calculate the median age over all passengers
+----
 
-    # 5. calculate the standard deviation of the age
+## Task 2
+Calculate the total fare over all passengers
 
-    # 6. count the non-empty age values
+----
 
-    # 7. calculate min, max and quartiles over all columns
+## Task 3
+Calculate the mean age over all passengers
+
+----
+
+## Task 4
+Calculate the median age over all passengers
+
+----
+
+## Task 5
+Calculate the standard deviation of the age
+
+----
+
+## Task 6
+Count the non-empty age values
+
+----
+
+## Task 7
+Calculate min, max and quartiles over all columns

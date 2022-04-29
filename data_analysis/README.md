@@ -38,7 +38,7 @@ Repeat Machine Learning basics, seven lines at a time.
 | [Benford Analysis](benford.md) | ⭐⭐ |
 | [Movie Ratings](moviedb.md) | ⭐⭐ |
 | [US Baby Names](babynamen.md) | ⭐⭐ |
-| [Last Letters](letzte_buchstaben.md) | ⭐⭐⭐ |
+| [Last Letters](last_letters.md) | ⭐⭐⭐ |
 
 ----
 

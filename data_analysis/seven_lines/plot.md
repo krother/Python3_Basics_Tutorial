@@ -9,17 +9,38 @@ To prepare for the challenge, execute the following lines:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. create a bar plot indicating the number of first, second and third class passengers
 
-    # 2. plot a histogram of the age column
+----
 
-    # 3. let the histogram have 20 bins
+## Task 1
+Create a bar plot indicating the number of first, second and third class passengers
 
-    # 4. create a boxplot of the age column
+----
 
-    # 5. create a scatterplot of fare over age
+## Task 2
+Plot a histogram of the age column
 
-    # 6. create a bar plot that shows the survived vs. dead passengers with one bar group for each gender
+----
 
-    # 7. create a heatmap from the correlation matrix of all columns
+## Task 3
+Let the histogram have 20 bins
+
+----
+
+## Task 4
+Create a boxplot of the age column
+
+----
+
+## Task 5
+Create a scatterplot of fare over age
+
+----
+
+## Task 6
+Create a bar plot that shows the survived vs. dead passengers with one bar group for each gender
+
+----
+
+## Task 7
+Create a heatmap from the correlation matrix of all columns

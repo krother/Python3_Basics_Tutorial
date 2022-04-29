@@ -10,17 +10,38 @@ For this challenge, import the following modules:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. create an array `X` of 100 floating-point numbers
 
-    # 2. calculate an array `y` as the square of `X` and add some random noise
+----
 
-    # 3. reshape `X` to `(100, 1)`
+## Task 1
+Create an array `X` of 100 floating-point numbers
 
-    # 4. fit a decision tree on `X` and `y`
+----
 
-    # 5. use the model to predict numbers from `X` 
+## Task 2
+Calculate an array `y` as the square of `X` and add some random noise
 
-    # 6. plot `y` and `ypred` over `X`
+----
 
-    # 7. vary the amount of noise and the `max_depth` hyperparameter to see overfitting
+## Task 3
+Reshape `X` to `(100, 1)`
+
+----
+
+## Task 4
+Fit a decision tree on `X` and `y`
+
+----
+
+## Task 5
+Use the model to predict numbers from `X` 
+
+----
+
+## Task 6
+Plot `y` and `ypred` over `X`
+
+----
+
+## Task 7
+Vary the amount of noise and the `max_depth` hyperparameter to see overfitting

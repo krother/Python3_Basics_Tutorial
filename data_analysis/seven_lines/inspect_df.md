@@ -9,17 +9,38 @@ To prepare for the challenge, execute the following lines:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. display the DataFrame
 
-    # 2. display the first 5 rows
+----
 
-    # 3. display the last 5 rows
+## Task 1
+Display the DataFrame
 
-    # 4. display the number of rows and columns
+----
 
-    # 5. list the column names
+## Task 2
+Display the first 5 rows
 
-    # 6. list the row index
+----
 
-    # 7. display the column types
+## Task 3
+Display the last 5 rows
+
+----
+
+## Task 4
+Display the number of rows and columns
+
+----
+
+## Task 5
+List the column names
+
+----
+
+## Task 6
+List the row index
+
+----
+
+## Task 7
+Display the column types

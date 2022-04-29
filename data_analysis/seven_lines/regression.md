@@ -10,17 +10,36 @@ To prepare for the challenge, execute the following lines::
 
 Solve the following tasks:
 
-    :::python3
-    # 1. drop the missing values
+## Task 1
+Drop the missing values
 
-    # 2. define the bill length as an independent variable (X)
 
-    # 3. define the body mass as the dependent variable (y)
+----
 
-    # 4. perform a train-test-split
+## Task 2
+Define the bill length as an independent variable (X)
 
-    # 5. fit a linear model on the training data
+----
 
-    # 6. calculate a R^2 score on the training data
+## Task 3
+Define the body mass as the dependent variable (y)
 
-    # 7. calculate the Mean Squared Error (MSE) for the training and test data
+----
+
+## Task 4
+Perform a train-test-split
+
+----
+
+## Task 5
+Fit a linear model on the training data
+
+----
+
+## Task 6
+Calculate a R^2 score on the training data
+
+----
+
+## Task 7
+Calculate the Mean Squared Error (MSE) for the training and test data

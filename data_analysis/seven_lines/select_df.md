@@ -9,17 +9,38 @@ To prepare for the challenge, execute the following lines:
 
 Solve the following tasks:
 
-    :::python3
-    # 1. display the 'fare' column
 
-    # 2. display the 'fare' and 'age' columns
+----
 
-    # 3. display the passenger with id 3
+## Task 1
+Display the 'fare' column
 
-    # 4. display the passengers having ids 3, 5 and 8
+----
 
-    # 5. display the 'fare' and 'age' columns for passengers 3, 5 and 8 
+## Task 2
+Display the 'fare' and 'age' columns
 
-    # 6. display the first three passengers and first three columns
+----
 
-    # 7. display the first three columns for every second passengers from 10 through 30
+## Task 3
+Display the passenger with id 3
+
+----
+
+## Task 4
+Display the passengers having ids 3, 5 and 8
+
+----
+
+## Task 5
+Display the 'fare' and 'age' columns for passengers 3, 5 and 8 
+
+----
+
+## Task 6
+Display the first three passengers and first three columns
+
+----
+
+## Task 7
+Display the first three columns for every second passengers from 10 through 30
