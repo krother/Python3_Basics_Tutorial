@@ -52,13 +52,14 @@ Pick an exercise and start programming!
 
 ## Aggregation
 
-* [Reading a simple text file](reading_data/readfile.md)
-* [Extracting data from text](reading_data/parsing.md)
-* [String methods](reading_data/string_methods.md)
-* [Writing files](reading_data/writing_files.md)
-* [Processing multiple files](reading_data/multiple_files.md)
-* [Working with directories](reading_data/os.md)
-
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Reading a simple text file](reading_data/readfile.md) | ⭐ |
+| [Extracting data from text](reading_data/parsing.md) | ⭐ |
+| [String methods](reading_data/string_methods.md) | ⭐ |
+| [Writing files](reading_data/writing_files.md) | ⭐ |
+| [Processing multiple files](reading_data/multiple_files.md) | ⭐ |
+| [Working with directories](reading_data/os.md) | ⭐ |
 
 ----
 
@@ -76,7 +77,6 @@ Pick an exercise and start programming!
 
 | Challenge | Difficulty    |
 |-----------|---------------|
-| [Storing text](first_steps/strings.md) | ⭐ |
 | [Palindrome](palindrome.md) | ⭐⭐ |
 | [Anagrams](anagramme.md) | ⭐⭐ |
 | [Roman Numbers](roman.md) | ⭐⭐⭐ |
@@ -92,15 +92,6 @@ Pick an exercise and start programming!
 | [Fibonacci](fibonacci.md) | ⭐⭐ |
 | [Multiplicative Digital Root](querprodukt.md) | ⭐⭐ |
 | [Birthday Problem](geburtstage.md) | ⭐⭐ |
-
-## Graphics
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Spiral](spiral.md) | ⭐ |
-| [Postcard](postcard.md) | ⭐⭐ |
-| [Recursive Graphics](recursive_graph.md) | ⭐⭐⭐ |
-| [Choropleth](choropleth.md) | ⭐⭐⭐ |
 
 ## Algorithms
 
@@ -141,8 +132,6 @@ Pick an exercise and start programming!
 ## Appendix
 
 * [Recap Questions](recap.md)
-* [Tuples](data_types/tuples.md)
-* [Writing your own functions](structure/functions.md)
 * [Modules](structure/modules.md)
 * [Introspection](structure/introspection.md)
 * [Background information on Python 3](appendix/background_info.md)
