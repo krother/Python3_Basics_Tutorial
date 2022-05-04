@@ -153,5 +153,4 @@ Sources of this document can be found on [https://github.com/krother/Python3_Bas
 
 ## Acknowledgements
 
-I would like to thank the following people for inspiring exchange on training and Python that this tutorial has benefited from: Pedro Fernandes, Tomasz Puton, E
-dward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother
+I would like to thank the following people for inspiring exchange on training and Python that this tutorial has benefited from: Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann and Magdalena Rother

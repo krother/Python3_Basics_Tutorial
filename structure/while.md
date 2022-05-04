@@ -9,7 +9,7 @@ In this chapter, you will learn a new way to influence the order in which instru
 
 Match the expressions so that the `while` loops run the designated number of times.
 
-![while exercise](exercises/while.png)
+![while exercise](../images/while.png)
 
 ----
 

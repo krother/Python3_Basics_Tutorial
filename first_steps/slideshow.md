@@ -28,7 +28,7 @@
 
 Use the **Pillow** library to display images in Spyder:
 
-* download the [zipfile with 10 images](/static/content/python_basics_DE/10bilder.zip).
+* download the [zipfile with 10 images](../images/ten_images.zip).
 * unzip the file
 * copy the image `"rainbow.jpg"` into your folder with Python programs.
 

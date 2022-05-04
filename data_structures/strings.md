@@ -54,5 +54,5 @@ Explain this instruction:
 
 Find out what the expressions do to the string in the middle.
 
-![string exercise](../exercises/strings.png)
+![string exercise](../images/strings.png)
 

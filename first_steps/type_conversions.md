@@ -3,7 +3,7 @@
 
 **🎯 Calculate the age of Ada Lovelace, the first programmer.**
 
-![](../images/ada.jpg)
+![Ada Lovelace](../images/ada.jpg)
 
 [Ada Lovelace, image by Alfred Edward Chalon - Biography.com, public domain](https://commons.wikimedia.org/w/index.php?curid=25519820)
 

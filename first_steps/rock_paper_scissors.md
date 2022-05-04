@@ -3,7 +3,7 @@
 
 **🎯 Write a rock-paper-scissors game.**
 
-![](../images/Rock-paper-scissors_de.svg)
+![](../images/rock-paper-scissors_de.svg)
 
 [image by Enzoklop, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=27958795)
 

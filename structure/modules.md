@@ -6,7 +6,7 @@ A program consists of multiple lines that are executed in one go.
 
 Usually a program contains the following sections:
 
-![input-processing-output](../images/IPO.png)
+![input-processing-output](../images/ipo.png)
 
 Of course, programs can grow a lot more complicated than that.
 
