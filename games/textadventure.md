@@ -7,7 +7,7 @@
 
 ## The Story
 
-![](../images/dragon_egg.png)
+![](images/dragon_egg.png)
 
 Far, far away, in an hardly accessible landscape, the mystic dragon egg lies hidden..
 Will you find the egg and awaken the life within?
