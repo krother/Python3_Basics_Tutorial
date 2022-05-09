@@ -3,9 +3,9 @@
 
 In this tutorial, you will build a dashboard like this one using **Metabase** and **Docker Compose**:
 
-![penguin dashboard](images/penguin_dashboard.png)
+![penguin dashboard](../images/penguin_dashboard.png)
 
-The data are 333 penguins stored in the file :::file penguins.csv
+The data are 333 penguins stored in the file :::file ../images/penguins.csv
 
 ----
 
@@ -108,7 +108,7 @@ Stop the container again.
 The database is still empty.
 To fill it with data, you need to do a few things:
 
-1. Add the CSV file :::file penguins.csv to the `sql_init/` folder (where `penguins.sql` is already).
+1. Add the CSV file :::file ../images/penguins.csv to the `sql_init/` folder (where `penguins.sql` is already).
 2. Inspect the columns in the CSV file and what type they have
 3. Add the necessary columns to the `CREATE TABLE` statement
 4. Tear down the container with `docker-compose down`. Otherwise the `.sql` script won't be executed.

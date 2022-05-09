@@ -3,7 +3,7 @@
 
 **🎯 Clear up murders in the monastery..**
 
-![Sean Connery hunts the monk-killer](images/moenche.jpg)
+![Sean Connery hunts the monk-killer](../images/moenche.jpg)
 
 In a monastery there are 1 assassin and the following 9 monks:
 
