@@ -1,5 +1,5 @@
 
-# Pyramide
+# Pyramid
 
 **🎯 Use Python to complete the following task:**
 

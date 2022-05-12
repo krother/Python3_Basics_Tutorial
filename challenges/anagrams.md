@@ -5,10 +5,12 @@
 
 For example, the string:
 
+    :::text
     ROT
 
 has the anagrams (permutations of characters):
 
+    :::text
     TOR
     ORT
     TRO
@@ -17,7 +19,7 @@ has the anagrams (permutations of characters):
 
 ## Hints
 
-* Try the function `itertools.permutations()`.
+* Look up the function `itertools.permutations()`.
 
 ## Extra challenges
 

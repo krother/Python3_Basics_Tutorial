@@ -6,11 +6,12 @@
 You are given a Tic-Tac-Toe playing field as a nested list:
 
 
+    :::python
     ttt = [['X', 'O', 'X'],
            ['.', 'X', 'O'],
            ['X', 'O', 'O']]
 
-Write a function that determines which player has three symbols in a row (or whether it is a draw).
+Write a program that determines which player has three symbols in a row (or whether it is a draw).
 
 ## Hints
 

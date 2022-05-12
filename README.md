@@ -1,11 +1,11 @@
 
 # Python Exercises for Beginners
 
-This is a tutorial for novice programmers. You are the learner I had in mind when writing this tutorial if:
+This is a tutorial for novice programmers. You are the learner I had in mind when writing these exercises if:
 
-* you have worked a little with a different programming language like R, MATLAB or C.
 * you have no programming experience at all
-* you know Python well and would like to teach others
+* you have some experience with a different programming language like R, MATLAB or C.
+* you would like to teach Python to others
 
 Pick an exercise and start programming!
 
@@ -22,7 +22,6 @@ Pick an exercise and start programming!
 | [Rock-Paper-Scissors](first_steps/rock_paper_scissors.md) | ⭐ |
 | [Square Numbers](first_steps/for.md) | ⭐ |
 | [Slideshow](first_steps/slideshow.md) | ⭐ |
-| [Recap](first_steps/recap.md) | ⭐ |
 
 ----
 
@@ -33,8 +32,8 @@ Pick an exercise and start programming!
 | [Strings](data_structures/strings.md) | ⭐ |
 | [Lists](data_structures/lists.md) | ⭐ |
 | [Dictionaries](data_structures/dictionaries.md) | ⭐⭐ |
-| [Working with tables](data_structures/tables.md) | ⭐⭐ |
-| [Data Types overview](data_structures/data_types.md) | ⭐ |
+| [Tables](data_structures/tables.md) | ⭐⭐ |
+| [Data Types Overview](data_structures/data_types.md) | ⭐ |
 
 ----
 
@@ -42,15 +41,15 @@ Pick an exercise and start programming!
 
 | Chapter | Difficulty |
 |-----------|---------------|
-| [Repeating instructions](structure/for_loops.md) | ⭐ |
+| [Repeat Instructions](structure/for_loops.md) | ⭐ |
 | [Conditional Loops](structure/while.md) | ⭐ |
-| [Writing your own functions](structure/functions.md) | ⭐⭐ |
+| [Writing your own Functions](structure/functions.md) | ⭐⭐ |
 | [Shortcuts](structure/builtin_functions.md) | ⭐⭐ |
-| [Structuring programs](structure/modules.md) | ⭐⭐ |
+| [Structuring Programs](structure/modules.md) | ⭐⭐ |
 
 ----
 
-## Aggregation
+## Aggregating Data
 
 | Challenge | Difficulty |
 |-----------|---------------|
@@ -67,31 +66,31 @@ Pick an exercise and start programming!
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Christmas Tree](ctree.md) | ⭐ |
-| [Pyramid](pyramid.md) | ⭐ |
-| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
-| [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
-| [Checkerboard](checker.md) | ⭐⭐ |
+| [Christmas Tree](challenges/ctree.md) | ⭐ |
+| [Pyramid](challenges/pyramid.md) | ⭐ |
+| [Fizz-Buzz-Test](challenges/fizzbuzz.md) | ⭐ |
+| [Tic-Tac-Toe](challenges/tictac.md) | ⭐⭐ |
+| [Checkerboard](challenges/checker.md) | ⭐⭐ |
 
 ## Text processing
 
 | Challenge | Difficulty    |
 |-----------|---------------|
-| [Palindrome](palindrome.md) | ⭐⭐ |
-| [Anagrams](anagramme.md) | ⭐⭐ |
-| [Roman Numbers](roman.md) | ⭐⭐⭐ |
-| [Encryption](encrypt.md) | ⭐⭐⭐ |
-| [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
+| [Palindrome](challenges/palindrome.md) | ⭐⭐ |
+| [Anagrams](challenges/anagrams.md) | ⭐⭐ |
+| [Roman Numbers](challenges/roman.md) | ⭐⭐⭐ |
+| [Encryption](challenges/encrypt.md) | ⭐⭐⭐ |
+| [Minesweeper](challenges/minesweeper.md) | ⭐⭐⭐ |
 
 ## Math Problems
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Factorials](factorials.md) | ⭐ |
-| [Common Divisor](ggt.md) | ⭐ |
-| [Fibonacci](fibonacci.md) | ⭐⭐ |
-| [Multiplicative Digital Root](querprodukt.md) | ⭐⭐ |
-| [Birthday Problem](geburtstage.md) | ⭐⭐ |
+| [Factorials](challenges/factorials.md) | ⭐ |
+| [Common Divisor](challenges/ggt.md) | ⭐ |
+| [Fibonacci](challenges/fibonacci.md) | ⭐⭐ |
+| [Multiplicative Digital Root](challenges/querprodukt.md) | ⭐⭐ |
+| [Birthday Problem](challenges/birthdays.md) | ⭐⭐ |
 
 ## Algorithms
 
@@ -105,7 +104,6 @@ Pick an exercise and start programming!
 | [Graph Traversal](algorithms/graph_traversal.md) | ⭐⭐⭐ |
 | [Magic Square](algorithms/magic_square.md) | ⭐⭐⭐ |
 | [Traveling Salesman](algorithms/tsp.md) | ⭐⭐⭐ |
-| [King](algorithms/kings.md) | ⭐⭐⭐⭐ |
 | [Backpack Problem](algorithms/backpack_problem.md) | ⭐⭐⭐⭐ |
 | [Blockchain](algorithms/blockchain.md) | ⭐⭐⭐⭐ |
 
@@ -113,22 +111,25 @@ Pick an exercise and start programming!
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Ping Pong](pingpong.md) | ⭐⭐ |
-| [Google Search](google.md) | ⭐⭐⭐ |
-| [Download Web Pages](webrecherche.md) | ⭐⭐⭐ |
-| [Blog](blog.md) | ⭐⭐⭐⭐ |
+| [Ping Pong](web/pingpong.md) | ⭐⭐ |
+| [Google Search](web/google.md) | ⭐⭐⭐ |
+| [Download Web Pages](web/webrecherche.md) | ⭐⭐⭐ |
 
 ----
 
-
-## Appendix
+## More about Python
 
 * [Recap Questions](recap.md)
 * [Modules](structure/modules.md)
 * [Introspection](structure/introspection.md)
 * [Background information on Python 3](appendix/background_info.md)
+
+----
+
+## Appendix
+
+* [Recommended books and websites](appendix/links.md)
 * [Learning Goals](appendix/goals.md)
-* [Recommended books and websites](appendix/literature.md)
 
 ----
 

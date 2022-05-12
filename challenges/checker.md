@@ -3,6 +3,7 @@
 
 **🎯 Write a program that outputs a chess board with 8 * 8 squares:**
 
+    :::text
     #_#_#_#_
     _#_#_#_#
     #_#_#_#_

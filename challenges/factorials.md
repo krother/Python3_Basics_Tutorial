@@ -3,6 +3,7 @@
 
 **🎯 Calculate the factorial of 10:**
 
+    :::text
     1 * 2 * 3 * 4 ... * 10
 
 ## Hints

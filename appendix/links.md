@@ -3,7 +3,8 @@
 
 ## Free Online Tutorials and Books
 
-* [Python for Everybody](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/) - online course - by **Dr. Chuck**
+* [Python for Everybody](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/) - video course with exercises by **Dr. Chuck**
+* [W3 Schools Python Tutorial](https://www.w3schools.com/python/default.asp) - Lightweight course with exercises
 * [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - a very systematic, scientific tutorial by **Allen B. Downey**
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - by **Al Sweigart**
 * [Python 101](http://python101.pythonlibrary.org/) - by **Michael Driscoll**
