@@ -1,4 +1,4 @@
-# Repeating instructions
+# Repeat Instructions
 
 In our early programs, each Python instruction was executed only once. That makes programming a bit pointless, because our programs are limited by our typing speed.
 
@@ -9,6 +9,7 @@ In this section we will take a closer look at the `for` statement that repeats o
 
 What does the following program do?
 
+    :::python
     for number in range(1, 43):
         print(number)
 
@@ -16,6 +17,7 @@ What does the following program do?
 
 What advantages does the `for` loop have over the following one?
 
+    :::python
     print(0)
     print(1)
     print(2)
@@ -28,6 +30,7 @@ What advantages does the `for` loop have over the following one?
 
 Write a for loop that creates the following output
 
+    :::python
     1
     4
     9
@@ -42,6 +45,7 @@ Write a for loop that creates the following output
 
 Explain the difference between the following two programs:
 
+    :::python
     total = 0
     for number in range(10):
         total = total + number
@@ -49,6 +53,7 @@ Explain the difference between the following two programs:
 
 and
 
+    :::python
     total = 0
     for number in range(10):
         total = total + number
@@ -59,6 +64,7 @@ and
 
 What does the following program do?
 
+    :::python
     text = ""
     characters = "Hannah"
     for char in characters:
