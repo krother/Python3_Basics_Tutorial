@@ -10,7 +10,7 @@ This is where **lists** come in.
 Lists are a simple sequence of elements.
 However, Python is counting differently than humans:
 
-![Indexing](../images/indexing.png)
+![Indexing](indexing.png)
 
 ----
 
@@ -81,7 +81,7 @@ What does the following program do?
 
 Find out what each of the expressions does to the list in the center.
 
-![list exercise](../images/lists.png)
+![list exercise](lists.png)
 
 
 ----
@@ -90,7 +90,7 @@ Find out what each of the expressions does to the list in the center.
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise2](../images/list_funcs2.png)
+![list funcs exercise2](list_funcs2.png)
 
 ----
 
@@ -98,5 +98,26 @@ Use the expressions to modify the list as indicated. Use each expression once.
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
-![list funcs exercise1](../images/list_funcs1.png)
+![list funcs exercise1](list_funcs1.png)
 
+---
+
+### Exercise 9
+
+Create a list that contains names of movies.
+
+Write a `for` loop that iterates through the movie names.
+
+Build a new list that contains only the first characters of each title.
+
+For instance with the input:
+
+    :::text
+    Star Wars, Star Trek, Ratatouille
+
+your program should output
+
+    :::text
+    S
+    S
+    R

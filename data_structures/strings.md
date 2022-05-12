@@ -43,7 +43,7 @@ Print every second character, starting with the 2nd).
 
 ### Exercise 4: Escape characters
 
-Explain this instruction:
+Execute and explain this instruction:
 
     :::python3
     print("Ada\nLovelace\n1843")
@@ -54,5 +54,5 @@ Explain this instruction:
 
 Find out what the expressions do to the string in the middle.
 
-![string exercise](../images/strings.png)
+![string exercise](strings.png)
 

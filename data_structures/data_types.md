@@ -1,11 +1,11 @@
 
-# Overview of Data types in Python
+# Data Types Overview
 
 ## Data types
 
 Match the data samples with their types.
 
-![datatype exercise](../images/datatypes.png)
+![datatype exercise](datatypes.png)
 
 # Definitions
 
@@ -32,6 +32,7 @@ The mutable data types are
 
 Values can be converted into each other using *conversion functions*. Try the following:
 
+    :::python
     int('5.5')
     float(5)
     str(5.5)
