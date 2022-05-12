@@ -118,14 +118,6 @@ Pick an exercise and start programming!
 | [Download Web Pages](webrecherche.md) | ⭐⭐⭐ |
 | [Blog](blog.md) | ⭐⭐⭐⭐ |
 
-
-## Advanced Python
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Tennis](tennis.md) | ⭐⭐ |
-| [Decorator-Metaclass](metaclass.md) | ⭐⭐⭐⭐⭐ |
-
 ----
 
 
