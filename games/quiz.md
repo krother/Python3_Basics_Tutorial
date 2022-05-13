@@ -8,8 +8,7 @@ Depending on the input, the program outputs **CORRECT** or **WRONG**.
 
 ### Sample output:
 
-    :::python
-
+    :::text
     Question 1:
 
     Who are the burglars trying to rob Duck McScrooge?

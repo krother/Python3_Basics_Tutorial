@@ -13,6 +13,7 @@ The player tries to guess a number that the computer has generated.
 
 ### Example output:
 
+    :::text
     I have memorized a number.
     Try to guess it!
 
