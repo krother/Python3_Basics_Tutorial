@@ -1,96 +1,108 @@
 
 # Writing your own Functions
 
-Python 3.5 has 72 builtin functions. To start writing useful programs, knowing about 25 of them is sufficient. Many of these functions are useful shortcuts that make your programs shorter.
+**🎯 Implement functions in Python**
 
-# Eigene Funktionen
+Writing all instructions into a single sequence creates programs that are hard to debug.
+Here, you learn to break the code down into smaller units: **functions**.
 
-**🎯 Schreibe eigene Funktionen**
-
-### In diesem Kapitel lernst Du:
+### In this chapter you learn:
 
 | Bereich | Thema |
 |---------|-------|
-| 💼 | Mittelwert und Standardabweichung berechnen |
-| ⚙ | Funktionen definieren |
-| ⚙ | Funktionsparameter |
-| ⚙ | Rückgabewerte von Funktionen mit `return` |
-| 🔀 | Rekursion |
-
-----
-### Aufgabe 1: Summenfunktion
-
-Schreibe eine Funktion, die eine Summe berechnet. Vervollständige das Programm, indem Du in die Lücken einsetzt: `anzahlen`, `daten`, `def`, `return`, `summe_berechnen', `+=`
-
-    ____ summe_berechnen(daten):
-        gesamt = 0
-        for anzahl in ____:
-            gesamt ____ anzahl
-        ____ gesamt
-
-    anzahlen = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
-    summe = ____(____)
-    print(summe)
+| 💼 | Calculate the mean and standard deviation |
+| ⚙ | define functions |
+| ⚙ | use function parameters |
+| ⚙ | use `return` to deliver results |
+| 🔀 | recursion |
 
 ----
 
-### Aufgabe 2: Prozente
+### Exercise 1: Sum up
 
-Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grundgesamtheit einen prozentualen Anteil berechnet. Verwende den folgenden Aufbau:
+Write a function that calculates a sum from a list of numers.
+Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
 
-    def anteil_berechnen(daten, grundgesamtheit):
+    :::text
+    ____ calc_sum(data):
+        total = 0
+        for n in ____:
+            total ____ n
+        ____ total
 
-        # hier eigenen Code einsetzen
-
-        return anteil
-
-
-    testdaten = [1, 2, 3, 4]
-    prozent = anteil_berechnen(testdaten, 100.0)
-    if prozent == 10:
-        print("Test erfolgreich!")
+    amount = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+    s = ____(____)
+    print(s)
 
 ----
 
-### Aufgabe 3: Mittelwert
+### Exercise 2: Percentage
 
-Schreibe eine Funktion, die den Mittelwert aus folgenden Zahlen ermittelt:
+Write a function that calculates a percentage value (0-100) from a list of numbers and a population size.
+Use the following structure:
 
-    :::python3
-    def durchschnitt(daten):
+    :::python
+    def calc_percentage(data, population):
+
+        # insert your code here
         ...
 
-    daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+        return percentage
 
-Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollte.
+
+    testdata = [1, 2, 3, 4]
+    perc = calc_percentage(testdata, 100.0)
+    if perc == 10:
+        print("Test successful!")
+    else:
+        print(f"you got {perc}% instead of 10")
 
 ----
 
-### Aufgabe 4: Standardabweichung
+### Exercise 3: Mean
 
-Folgendes Programm berechnet die Standardabweichung aus einer Liste von Zahlen.
-Do möchtest die Berechnung verallgemeinern. Packe den Code zur Berechnung der Standardabweichung in eine Funktion.
+Write a function that calculates the mean value from the following numbers:
 
+    :::python3
+    def mean(daten):
+        ...
+
+    data = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+
+    ...
+
+Find out what the function should deliver with `return`.
+
+----
+
+### Exercise 4: Standard Deviation
+
+The following program calculates the standard deviation from a list of numbers.
+You would like to generalize the code, so that it can be used with other data sets.
+Wrap the code for the calculation – but not the data – in a function.
+
+    :::python3
     import math
 
-    daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+    data = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
 
-    avg = durchschnitt(daten)
+    avg = mean(data)
 
     stdsum = 0.0
-    for zahl in daten:
-        stdsum += (zahl - avg) ** 2
-    varianz = stdsum / len(daten)
-    stabw = math.sqrt(varianz)
+    for n in data:
+        stdsum += (n - avg) ** 2
+    variance = stdsum / len(data)
+    stdev = math.sqrt(variance)
 
-    print(f"Standardabweichung: {stabw:8.2f}")
+    print(f"Standard Deviation: {stdev:8.2f}")
 
 ----
 
-### Aufgabe 5: Optionale Parameter
+### Exercise 5: Optional Parameters
 
-Erkläre das Programm `parameter.py`:
+Explain the program:
 
+    :::python3
     def addition(a=2, b=2, c=2):
         return a + b + c
 
@@ -104,17 +116,19 @@ Erkläre das Programm `parameter.py`:
 
 ----
 
-### Aufgabe 6: Rekursion
+### Exercise 6: Rekursion
 
-Erkläre das Programm `fakultaet.py`:
+Explain the code:
 
-    def fakultaet(zahl):
-        """Berechnet die Fakultaet der gegebenen Zahl."""
-        if zahl > 1:
-            return zahl * fakultaet(zahl - 1)
+    :::python3
+    def factorial(n):
+        """Calculates the factorial of the given number."""
+        if n > 1:
+            return n * factorial(n - 1)
         else:
             return 1
 
-    x = int(input('Bitte gib eine Zahl ein: '))
-    y = fakultaet(x)
-    print (f"Das Ergebnis ist:\n{x}! = {y}}")
+
+    x = int(input('Please enter a number: '))
+    y = factorial(x)
+    print (f"The result is:\n{x}! = {y}}")
