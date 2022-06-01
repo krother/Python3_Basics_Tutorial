@@ -68,7 +68,6 @@ What is the difference between the following instructions?
     :::python3
     10 / 4
     10.0 / 4
-    10.0 / 4.0
     10 // 4
     10 * 0.25
 
@@ -81,11 +80,9 @@ Enter them in the console and examine the result.
 Which operations result in 8?
 
     :::python3
-    0 + 8
     4 - -4
     65 // 8
     17 % 9
-    2 * 4
     64 ** 0.5
 
 Enter the instructions and examine the result.

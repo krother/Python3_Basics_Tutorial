@@ -21,7 +21,7 @@
 
 ----
 
-### Exercise 1: Tap your own shoulder
+### Exercise 1: Pat your own shoulder
 
 Execute the following program.
 What happens?
@@ -100,7 +100,7 @@ Implement a `for` loop that produces the following output:
 
 ### Exercise 6: More loops
 
-Execute the following loops.
+Execute the following loops one by one.
 
     :::python3
     for char in "ABCD":

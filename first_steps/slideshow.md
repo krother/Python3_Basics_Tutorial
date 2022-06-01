@@ -56,7 +56,7 @@ If you don't see anything (e.g. because you are using a different editor), repla
 
 ### Exercise 2: Paths
 
-Next, we will read an image froma different folder.
+Next, we will read an image from a different folder.
 
 Move the entire ordner with 10 images into your folder with Python programs.
 
@@ -122,16 +122,18 @@ If everything is done correctly, you should see a caption with the right number 
 
 Prepare a list of image captions e.g.:
 
-captions =  [
-        'oil reflections by Daniel Olah',
-        'white flower by Annie Spratt',
-        'pebbles by John Salzarulo'
-        ]
+    :::python3
+    captions =  [
+            'oil reflections by Daniel Olah',
+            'white flower by Annie Spratt',
+            'pebbles by John Salzarulo'
+            ]
 
 We would like to print one caption at a time.
 We will use **indexing** for that.
 Check what output the following instructions produce:
 
+    :::python3
     print(captions[0])
 
     print(captions[2])

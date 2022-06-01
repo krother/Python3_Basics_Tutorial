@@ -28,8 +28,8 @@ The following program collects names in a list that occur at least 10000 times. 
     for line in open('names/yob2015.txt'):
         columns = line.strip().split(',')
         name = colums[1]
-        anzahl = int(columns[3])
-        if anzahl >= 10000
+        n = int(columns[3])
+        if n >= 10000
             frequent.append(name)
 
     print(frequent)

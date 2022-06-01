@@ -1,8 +1,9 @@
 
 # Shortcuts
 
-There are many **builtin functions** in Python that make your life easier.
-Here you find a few exercises to make code shorter.
+Python 3.8 has 73 builtin functions.
+To start writing useful programs, knowing about 25 of them is sufficient.
+Here you find a few exercises where you use builtin functions to make code shorter.
 
 ### Exercise 1
 
