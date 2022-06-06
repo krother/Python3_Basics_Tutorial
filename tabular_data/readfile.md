@@ -1,5 +1,5 @@
 
-# Reading simple text files
+# Reading text files
 
 In this chapter, you will learn to extract information from simple text files.
 
@@ -68,17 +68,5 @@ Extend the program from the previous exercise such that boys and girls names are
 
 
 ### Exercise 5
-
-Which of the following commands are correct?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for number in [4, 6, 8]:`
-* `for k in 3+7:`
-* `for (i=0; i<10; i++):`
-* `for var in open('bigbang.txt'):`
-
-
-### Exercise 6
 
 Write a program that reads lines from the file `yob2015.txt`. Identify all lines containing your name and print them to the screen.
