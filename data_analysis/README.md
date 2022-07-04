@@ -48,6 +48,11 @@ Repeat Machine Learning basics, seven lines at a time.
 |-----------|---------------|
 | [Penguin Dashboard](pingubase/README.md) | ⭐⭐⭐⭐ |
 
+----
+
+## Course Planning
+
+* [Learning Goals: Data Analytics with pandas](pandas_data_analytics.md)
 
 
 ----
