@@ -1,5 +1,5 @@
 
-# Select Rows and Columns
+# Filter Rows
 
 To prepare for the challenge, execute the following lines:
 
