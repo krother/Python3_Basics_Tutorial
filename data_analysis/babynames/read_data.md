@@ -1,112 +1,101 @@
 
-# US Baby Names
+# Read Baby Name Data
 
-![Babynamen](images/baby.png)
+![Babynamen](../images/baby.png)
 
-The US authorities have registered the names of all US citizens born since 1880. The record is [publicly available](http://www.ssa.gov/oact/babynames/limits.html). For data protection reasons, only names that have been used at least 5 times are listed in the data record.
+The US authorities have registered the names of all US citizens born since 1880. The record is [publicly available](http://www.ssa.gov/oact/babynames/limits.html).
 
+In this and the following chapters, you will to analyze this data.
+If you want to use the `pandas` library, you find a list of useful functions at the bottom.
 
 ## Preparations
 
-* Download the dataset of US baby names from [www.ssa.gov/oact/babynames/limits.html](https://www.ssa.gov/oact/babynames/limits.html) .
+* Download the dataset of US baby names from [www.ssa.gov/oact/babynames/limits.html](https://www.ssa.gov/oact/babynames/limits.html) 
+* start with the **national data**
 * Unzip the file
+
+## Disclaimer
+
+To protect individuals, only name/gender combinations that occur at least 5 times are listed in the data record.
+Also, the table contains genders assigned at birth. Although more genders exist, only two of them are in the data.
 
 ----
 
 ## Task 1
 
-Read the file **'yob2000.txt'**, print the first 10 lines and write the data to another file.
+Inspect the file **yob2021.txt** in a text editor.
+What do you observe about the structure of the file?
+
+Usually these questions are the most relevant:
+
+* How many columns are there?
+* How are columns separated?
+* Is there a header on top of the files?
 
 ----
 
 ## Task 2
 
-Write a program that reads the file **'yob2000.txt'**, calculates the sum of the third column and prints it.
+Read the file **'yob2021.txt'** into pandas.
 
 ----
 
 ## Task 3
 
-Like Task 2, but calculate the sum for boys and girls separately.
+Print the first 10 rows.
 
 ----
 
 ## Task 4
 
-Write a program that displays all names that occur at least 1000 times in the **'yob2000.txt'** file.
+Display the number of rows and columns.
 
 ----
 
 ## Task 5
 
-Calculate for each name in **'yob2000.txt'** its percentage of total births. Store this percentage as a fourth column.
+Calculate the total number of babies born in 2021, i.e. the sum of the third column.
 
 ----
 
 ## Task 6
 
-Like Task 5, but separated by boys and girls.
+Like Task 5, but calculate the sum for boys and girls separately.
 
 ----
 
 ## Task 7
 
-Add an additional column containing the length of the name. Output the 10 longest names.
+Check if your name occurs in the data.
 
 ----
 
 ## Task 8
 
-Find all rows that contain a certain name (e.g. your own).
+Calculate the percentage of girls and boys among the total births.
 
 ----
 
 ## Task 9
 
-Create a list with the years **`[1880, 1881, 1882 ... 2015]`**.
+Create a table that contains the top 5 girls names and top 5 boys names.
 
 ----
 
 ## Task 10
 
-Create a list of file names **['yob1880.txt', 'yob1881.txt' ... 'yob2015.txt']**.
+Write the data from task 9 to an Excel spreadsheet.
 
 ----
 
-## Task 11
+## Useful pandas functions
 
-Select a name. Create a table containing a subset of the data: the *year* and the number of babies with this name.
-
-----
-
-## Task 12
-
-Like Task 11, but also control the gender.
-
-## Task 13
-
-Same as Task 12, but use a 0 if a name does not occur in a year.
-
-
-## Task 14
-
-Investigate the popularity of the first names of some US celebrities over the last 130 years. Display matches for a name with *year* and *number* on the screen.
-
-The following celebrities might be interesting:
-
-| name            | comment                        |
+| function        | comment                        |
 |-----------------|--------------------------------|
-| Lance           | first man on the moon |
-| Madonna         | hit single "Like a Prayer" |
-| Barack          | president |
-| Katrina         | hurricane in New Orleans |
-| Luke            | Jedi |
-| Leia            | princess from Star Wars |
-| Frida           | painter, biography went on a Broadway show |
-| Arielle         | mermaid |
-| Harley          | chopper |
-| Tyrion          | character in 'Game of Thrones' |
-| Daenerys        | character in 'Game of Thrones' |
-| Khaleesi        | job title in 'Game of Thrones' |
-
-*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
+| `pd.read_csv()` | set `index_col` to 0 or 1 |
+| `df.head(x)`    | `x` is a number |
+| `df.shape`    | this is an attribute, not a method |
+| `df.sum()`    | also try to select a column first |
+| `df[df[col] == x]` | selection logic |
+| `pd.concat[list]`  | `list` is a list of DataFrames |
+| `df.to_excel(fn)`  | `fn` is a path/filename |

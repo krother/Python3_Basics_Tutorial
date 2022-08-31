@@ -3,6 +3,13 @@
 
 Some tasks using pandas for analyzing and visualizing data.
 
+## Learning pandas with Baby Names
+
+| Chapter | Topics |
+|-----------|---------------|
+| [Read Baby Name Data](babynames/read_data.md) | DataFrames, selecting rows and columns |
+
+
 ## Seven Line pandas Challenges
 
 Repeat pandas basics, seven lines at a time.
@@ -11,7 +18,7 @@ Repeat pandas basics, seven lines at a time.
 |-----------|---------------|
 | [Inspect DataFrames](seven_lines/inspect_df.md) | ⭐ |
 | [Select Rows and Columns](seven_lines/select_df.md) | ⭐ |
-| [Filter DataFrames](seven_lines/filter_df.md) | ⭐ |
+| [Filter Rows](seven_lines/filter_df.md) | ⭐ |
 | [Read and Write DataFrames](seven_lines/round_trip.md) | ⭐ |
 | [Aggregation](seven_lines/aggregation.md) | ⭐ |
 | [Plotting with pandas](seven_lines/plot.md) | ⭐ |
@@ -69,4 +76,4 @@ Sources of this document on: [https://github.com/krother/Python3_Basics_Tutorial
 
 ## Acknowledgements
 
-I would like to thank the following people for inspiring exchange on training and Python that this material has benefited from: Jasmin Touati, Veit Schiele, Dinu Gherman, Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann, Allegra Via, Kaja Milanowska, Anna Philips und Magdalena Rother.
+I would like to thank the following people for inspiring exchange on training and Python that this material has benefited from: Jasmin Touati, Veit Schiele, Dinu Gherman, Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann, Allegra Via, Kaja Milanowska, Anna Philips, Paul Wlodkowski, Tom Gadsby, Stefan Roth, Gesa Johannsen, Ugur Ural, Malte Bonart, Paula Gonzalez, Samuel McGuire, Sara Maras, Carmine Somma, Kiran Challa, Dina Deifallah and Magdalena Rother.
