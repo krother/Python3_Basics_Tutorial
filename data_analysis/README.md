@@ -8,6 +8,7 @@ Some tasks using pandas for analyzing and visualizing data.
 | Chapter | Topics |
 |-----------|---------------|
 | [Read Baby Name Data](babynames/read_data.md) | DataFrames, selecting rows and columns |
+| [Timelines of Baby Names](babynames/timeline.md) | Data Wrangling |
 
 
 ## Seven Line pandas Challenges
@@ -44,7 +45,6 @@ Repeat Machine Learning basics, seven lines at a time.
 | [Baby Name Generator](babynamengenerator.md) | ⭐ |
 | [Benford Analysis](benford.md) | ⭐⭐ |
 | [Movie Ratings](moviedb.md) | ⭐⭐ |
-| [US Baby Names](babynamen.md) | ⭐⭐ |
 | [Last Letters](last_letters.md) | ⭐⭐⭐ |
 
 ----

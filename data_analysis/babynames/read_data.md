@@ -97,5 +97,5 @@ Write the data from task 9 to an Excel spreadsheet.
 | `df.shape`    | this is an attribute, not a method |
 | `df.sum()`    | also try to select a column first |
 | `df[df[col] == x]` | selection logic |
-| `pd.concat[list]`  | `list` is a list of DataFrames |
+| `pd.concat[list]`  | concatenates DataFrames. `list` is a list of DataFrames |
 | `df.to_excel(fn)`  | `fn` is a path/filename |
