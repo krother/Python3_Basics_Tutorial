@@ -1,92 +1,137 @@
 
-# Programming Exercises for Data Analysis, Level A2
+# Life Expectancy Animation
 
-These exercises are for people who are learning a new programming language and would like to apply it to data analysis. They work with **Python**, **R**, but also when you getting familiar with libraries like **pandas**.
+In this Step, you will create an animated scatterplot on global demography
+similar to the one in a famous [talk by Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo).
 
-During the exercises, you will analyze from the **Gapminder Foundation** [www.gapminder.org](http://www.gapminder.org) on global demography.
+## Step 1: Download the Data
 
-In this challenge, you will learn:
+You will use data by the [Gapminder Foundation](http://www.gapminder.org).
+Go to [www.gapminder.org/data](http://www.gapminder.org/data) and download CSV files on:
 
-* integrating data from multiple sources
-* aggregation
-* plotting, plotting, plotting
-
-## Preparations
-
-Download the Gapminder datasets from [www.gapminder.org](http://www.gapminder.org) on:
-
-* fertility
 * life expectancy
+* fertility rate, total
 * population
 
-## Exercise 1
+----
 
-Load all three tables and determine their dimensions.
+## Step 2
 
-## Exercise 2
+Load all three tables. Make sure the data is correct:
 
-Pick fertility and life expectancy for the year 2010. Integrate both in a single table.
+* inspect the dimensions you should have 200+ rows and 60+ columns.
+* make sure the country names are in the **row index**
+* make sure the years are in the **column index**
+* use `df.columns` to check whether the column index consists of strings or integers (both are ok but you need to know)
 
-## Exercise 3
+----
+
+## Step 3
+
+Choose fertility and life expectancy for the year 2015 and put them into a single table.
+
+----
+
+## Step 4
 
 Remove all rows with missing values.
 
-## Exercise 4
+----
 
-Draw a scatterplot of fertility over life expectancy in 2010.
+## Step 5
 
-## Exercise 5
+Draw a scatterplot of fertility over life expectancy in 2015.
 
-Draw a histogram of life expectancy in 2010. Try different bin sizes.
+----
 
-## Exercise 6
+## Step 6
 
-Make the histogram a publication-quality figure.
+Repeat steps 3-5 for the year 1960. What differences do you observe?
 
-## Exercise 7
+Ideally, format the axes of both plots so that they are the same.
+This can be done (e.g. with `plt.axes([left, bottom, width, height])`).
 
-Draw a bar plot displaying the fertility of a few selected countries in 2010.
+----
 
-## Exercise 8
+## Step 7
 
-Repeat exercises 2-7 for the year 1960. Observe differences.
+Write a function that allows you to draw a scatterplot for any given year.
 
-## Exercise 9
+----
 
-Make it convenient to repeat the process for any given year.
+## Step 8
 
-## Exercise 10
+Create one scatterplot for each year from 1960 to 2010 and write it to a file.
 
-Calculate a correlation coefficient between fertility and life expectancy (for the year 2010).
+----
 
-## Exercise 11
-
-Fit a linear model allowing to model fertility by life expectancy.
-
-## Exercise 12
-
-Read a list of country-continent pairs. Associate the continent with each country (e.g. as an extra column).
-
-## Exercise 13
-
-Summarize the world population by continent over time as a scatterplot.
-
-## Exercise 14
-
-Identify a few countries that are redundant in the dataset. Remove the respective entries.
-
-## Exercise 15
-
-Integrate all three tables into a single data structure.
-
-## Exercise 16
-
-Plot population, life expetancy and fertility from 1960 to 2010 in a single diagram.
-
-## Exercise 17
-
-Create a series of scatterplots like in Exercise 4 (one for each year) where the color indicates the continent.
-
-## Exercise 18
+## Step 9
 
 Connect the scatterplots to an animation.
+
+You can use the `imageio` module.
+Install it with:
+
+    :::bash
+    pip install imageio
+
+Then adapt and run the code:
+
+    :::python3
+    import imageio
+
+    plots = [
+        imageio.imread(f'myplot_{year}.png'))
+        for year in range(___, ___)
+    ]
+
+    imageio.mimsave('animation.gif', plots, fps=20)
+
+
+----
+
+## Step 10
+
+Also read the population file.
+Because the population is written like **500k** or **20M**, you need a conversion function that converts a single value:
+
+    :::python3
+    def pop_convert(x):
+        if pop.endswith('k'):
+            return int(pop[:-1]) * 100_000
+        ...
+
+Use the `df.apply()` function to convert the entire DataFrame or a single column:
+
+    :::python3
+    df.apply(pop_convert)
+
+----
+
+## Step 11
+
+Divide the population by `100_000`. 
+Use the population to control the size of the bubbles in the scatterplot (`df.plot.scatter` accepts an argument `s` of the type `pd.Series`).
+
+----
+
+## Step 12
+
+Let's color by continent:
+
+Read a list of country-continent pairs (:::file continents.csv ).
+
+* Create an extra continent column. 
+* Ignore countries for which the continent information does not fit (probably because of spelling).
+* Use the continents to color the scatterplot bubbles by continent.
+
+#### Hint:
+
+In matplotlib, this is very tedious. You may need to convert the continents to integers starting from 0.
+With `seaborn` it is **a lot easier**.
+
+----
+
+## Step 13
+
+If you use the data on your website or GitHub profile, please copy the license remark from the Gapminder page.
