@@ -78,4 +78,4 @@ Sources of this document on: [https://github.com/krother/Python3_Basics_Tutorial
 
 ## Acknowledgements
 
-I would like to thank the following people for inspiring exchange on training and Python that this material has benefited from: Jasmin Touati, Veit Schiele, Dinu Gherman, Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann, Allegra Via, Kaja Milanowska, Anna Philips, Paul Wlodkowski, Tom Gadsby, Stefan Roth, Gesa Johannsen, Ugur Ural, Malte Bonart, Paula Gonzalez, Samuel McGuire, Sara Maras, Carmine Somma, Kiran Challa, Dina Deifallah and Magdalena Rother.
+I would like to thank the following people for inspiring exchange on training and Python that this material has benefited from: Jasmin Touati, Veit Schiele, Dinu Gherman, Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann, Allegra Via, Kaja Milanowska, Anna Philips, Paul Wlodkowski, Tom Gadsby, Stefan Roth, Gesa Johannsen, Ugur Ural, Malte Bonart, Paula Gonzalez, Samuel McGuire, Sara Maras, Carmine Somma, Kiran Challa, Dina Deifallah, Emely Henninger and Magdalena Rother.
