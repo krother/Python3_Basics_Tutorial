@@ -12,6 +12,7 @@ Some tasks using pandas for analyzing and visualizing data.
 | [Last Letters](babynames/last_letters.md) | Data Visualization |
 | [Climate Stripes](climate_stripes.md) | Time Series, Aggregation |
 | [Life Expectancy Animation](gapminder.md) | Multiple Indexes |
+| [Beakonomics](beakonomics.md) | Reporting data |
 
 
 ## Seven Line pandas Challenges
