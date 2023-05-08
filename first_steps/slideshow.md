@@ -3,7 +3,7 @@
 
 **🎯 Program a small slideshow.**
 
-![Beispielausgabe](../images/slideshow.png)
+![Beispielausgabe](slideshow.png)
 
 *Example output*
 
@@ -28,13 +28,12 @@
 
 Use the **Pillow** library to display images in Spyder:
 
-* download the [zipfile with 10 images](../images/ten_images.zip).
+* download the [zipfile with 10 images](ten_images.zip).
 * unzip the file
 * copy the image `"rainbow.jpg"` into your folder with Python programs.
 
 Create a new program file with the following instructions:
 
-    :::python3
     from PIL import Image
     from IPython.display import display
 
@@ -47,9 +46,9 @@ In Spyder, you should see the image in the **Python Console** at the bottom righ
 If you see an error message, the image is probably stored somewhere else.
 Please check that it is in the same folder in which you saved the Python code.
 
-If you don't see anything (e.g. because you are using a different editor), replace the `display()` command by:
+If you don't see anything (e.g. because you are using a different editor),
+replace the `display()` command by:
 
-    :::python3
     pic.show()
 
 ----
@@ -62,7 +61,6 @@ Move the entire ordner with 10 images into your folder with Python programs.
 
 Define a variable that contains the name of the folder (also called a *"path"*):
 
-    :::python3
     from PIL import Image
     from IPython.display import display
 
@@ -81,7 +79,6 @@ If you see an error message, it is likely that the images are probably somewhere
 
 Create a list with names of images:
 
-    :::python3
     images = ['rainbow.jpg', 'flower.jpg', 'pebbles.jpg']
     for filename in images:
         pic = Image.open(path + filename)
@@ -89,7 +86,6 @@ Create a list with names of images:
 
 Add the following instruction to the program:
 
-    :::python3
     input('press <Enter> for the next image')
 
 Where do you need to insert the command to see the next image?
@@ -105,7 +101,6 @@ The counter increases by one in every round of the `for` loop, so that it contai
 
 Add the following instructions to the program from the previous exercise. Find out which line needs to go where:
 
-    :::python3
     print(title)
     i = i + 1
     i = 0
@@ -113,7 +108,6 @@ Add the following instructions to the program from the previous exercise. Find o
 
 If everything is done correctly, you should see a caption with the right number below each image, e.g.:
 
-    :::text
     Image No. 1
 
 ----
@@ -122,7 +116,6 @@ If everything is done correctly, you should see a caption with the right number 
 
 Prepare a list of image captions e.g.:
 
-    :::python3
     captions =  [
             'oil reflections by Daniel Olah',
             'white flower by Annie Spratt',
@@ -133,14 +126,12 @@ We would like to print one caption at a time.
 We will use **indexing** for that.
 Check what output the following instructions produce:
 
-    :::python3
     print(captions[0])
 
     print(captions[2])
 
 Insert the variable `i` from the previous exercise into the square bracket to output the right caption for an image, e.g.:
 
-    :::text
     Image No. 1
     oil reflections by Daniel Olah
 
@@ -151,7 +142,6 @@ Insert the variable `i` from the previous exercise into the square bracket to ou
 The **Pillow** library can do a lot more!
 Try the following instructions one by one to find out what they do:
 
-    :::python3
     x, y = pic.size
     print(x, y)
 
@@ -176,7 +166,6 @@ Use your own images and label them.
 
 To suppress the last input, you could modify the `input()`-command:
 
-    :::python3
     if i < len(images):
         input('next image')
 

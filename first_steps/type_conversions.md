@@ -3,7 +3,7 @@
 
 **🎯 Calculate the age of Ada Lovelace, the first programmer.**
 
-![Ada Lovelace](../images/ada.jpg)
+![Ada Lovelace](ada.jpg)
 
 [Ada Lovelace, image by Alfred Edward Chalon - Biography.com, public domain](https://commons.wikimedia.org/w/index.php?curid=25519820)
 
@@ -18,7 +18,6 @@
 | 💡 | convert data types |
 | 🐞 | recognize bugs at runtime |
 
-----
 
 Python contains many functions for **type conversion**.
 
@@ -30,13 +29,12 @@ With the functions `int()`, `float()` and `str()` you can convert numbers and st
 
 Insert the following pieces into the gaps, so that all instructions are executed correctly: `age`, `int(age)`, `name`, `str(born)`, `1815`
 
-    :::python3
     name = "Ada Lovelace"
-    born = _____
-    ____ = "37"
+    born = ...
+    ...  = "37"
 
-    text = ____ + " was born in the year " + _____ + "."
-    year = born + _____
+    text = ... + " was born in the year " + ... + "."
+    year = born + ...
     print(text)
     print(year)
 
@@ -46,7 +44,6 @@ Insert the following pieces into the gaps, so that all instructions are executed
 
 Insert `int()` or `str()` into the instructions, so that all of them run without an error.
 
-    :::python3
     9 + 9
     9 + '9'
     '9' + '9'
@@ -58,7 +55,6 @@ Insert `int()` or `str()` into the instructions, so that all of them run without
 
 Which `print` statements work?
 
-    :::python3
     print("9" + "9")
     print "nine"
     print(str(9) + "nine")
@@ -75,7 +71,6 @@ The following code should calculate the age of Ada in a year entered by the user
 It contains three bugs.
 Find and fix them.
 
-    :::python3
     year_of_birth = 1815
     year = input('Which year is it? ')
     age = year_of_birth - year

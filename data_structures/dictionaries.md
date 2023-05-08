@@ -1,7 +1,7 @@
 
 # Dictionaries
 
-### Exercise 1
+### Exercise 1: Explore
 
 Find out what each of the expressions does to the dictionary in the center.
 
@@ -9,63 +9,36 @@ Find out what each of the expressions does to the dictionary in the center.
 
 ----
 
-### Exercise 2
+### Exercise 2: Commands
 
-What do these commands produce?
+Define a dictionary:
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    d = {
+         'cat':'Katze',
+         'dog':'Hund',
+         'fish':'Fisch'
+    }
+
+Then run the following commands and find out what they result in:
+
     print(d['fish'])
     
-----
-
-### Exercise 3
-
-What do these commands produce?
-
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     print('Hund' in d)
 
-----
-
-### Exercise 4
-
-What do these commands produce?
-
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     print(list(d.keys()))
 
-----
-
-### Exercise 5
-
-What do these commands produce?
-
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     print(d.get('Katze', 'unknown'))
 
-----
-
-### Exercise 6
-
-What do these commands produce?
-
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     d.setdefault('cat', 'Stubentiger')
     print(d['cat'])
 
 ----
 
-### Exercise 7
+### Exercise 3
 
 The following program allows you to travel from one city to the next.
-Unfortunately, it contains **3 bugs**. Find and fix them.
+Unfortunately, it contains **three bugs**. Find and fix them.
 
-    :::python3
     cities = {
         "New York": ["Tokyo", "Paris", "London"],
         "Poznan": ["London", "Berlin"],

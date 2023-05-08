@@ -32,8 +32,20 @@ Pick an exercise and start programming!
 | [Strings](data_structures/strings.md) | ⭐ |
 | [Lists](data_structures/lists.md) | ⭐ |
 | [Dictionaries](data_structures/dictionaries.md) | ⭐⭐ |
-| [Tables](data_structures/tables.md) | ⭐⭐ |
+| [Nested Lists](data_structures/tables.md) | ⭐⭐ |
 | [Data Types Overview](data_structures/data_types.md) | ⭐ |
+
+----
+
+## Tabular Data
+
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Reading a text file](tabular_data/readfile.md) | ⭐ |
+| [Extracting data from text](tabular_data/parsing.md) | ⭐ |
+| [Writing files](tabular_data/writing_files.md) | ⭐ |
+| [Create a Time Series](tabular_data/time_series.md) | ⭐ |
+| [Working with directories](tabular_data/os.md) | ⭐ |
 
 ----
 
@@ -41,24 +53,10 @@ Pick an exercise and start programming!
 
 | Chapter | Difficulty |
 |-----------|---------------|
-| [Repeat Instructions](structure/for_loops.md) | ⭐ |
 | [Conditional Loops](structure/while.md) | ⭐ |
 | [Writing your own Functions](structure/functions.md) | ⭐⭐ |
 | [Shortcuts](structure/builtin_functions.md) | ⭐⭐ |
-| [Structuring Programs](structure/modules.md) | ⭐⭐ |
 
-----
-
-## Aggregating Data
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Reading a simple text file](reading_data/readfile.md) | ⭐ |
-| [Extracting data from text](reading_data/parsing.md) | ⭐ |
-| [String methods](reading_data/string_methods.md) | ⭐ |
-| [Writing files](reading_data/writing_files.md) | ⭐ |
-| [Processing multiple files](reading_data/multiple_files.md) | ⭐ |
-| [Working with directories](reading_data/os.md) | ⭐ |
 
 ----
 

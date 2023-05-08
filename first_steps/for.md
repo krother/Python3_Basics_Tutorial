@@ -3,11 +3,10 @@
 
 **🎯 Calculate a Series of square numbers.**
 
-![](../images/squares.jpg)
+![](squares.jpg)
 
 *[Image by travelnow.or.crylater on Unsplash](https://unsplash.com/@travelnow_or_crylater?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-----
 
 ### In this chapter you will learn to:
 
@@ -26,7 +25,6 @@
 Execute the following program.
 What happens?
 
-    :::python3
     import time
 
     for i in range(5):
@@ -39,7 +37,6 @@ What happens?
 
 Execute the following two lines:
 
-    :::python3
     for zahl in range(1, 7):
         print(zahl)
 
@@ -51,7 +48,6 @@ Make the code print the numbers from 1 to 20.
 
 Explain why the `for`-loop is better than this code sniplet:
 
-    :::python3
     print(1)
     print(2)
     print(3)
@@ -66,7 +62,6 @@ Explain why the `for`-loop is better than this code sniplet:
 
 Explain the difference between the following two programs:
 
-    :::python3
     x = 1
     for i in range(10):
         x = x * 2
@@ -74,7 +69,6 @@ Explain the difference between the following two programs:
 
 and
 
-    :::python3
     x = 1
     for i in range(10):
         x = x * 2
@@ -87,7 +81,6 @@ and
 
 Implement a `for` loop that produces the following output:
 
-    :::bash
     1
     4
     9
@@ -102,7 +95,6 @@ Implement a `for` loop that produces the following output:
 
 Execute the following loops one by one.
 
-    :::python3
     for char in "ABCD":
         print(char)
 

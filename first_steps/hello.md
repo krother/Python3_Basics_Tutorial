@@ -1,7 +1,7 @@
 
 # Hello World
 
-**🎯 Write a "Hello World"-Program**
+**🎯 Write your first program.**
 
 ### In this chapter you will learn:
 
@@ -9,7 +9,7 @@
 |---------|-------|
 | 💡 | using the *string* data type |
 | 💡 | call the functions `print()` and `input()` |
-| ⚙ | store text in a variable |
+| ⚙ | store text in a string variable |
 | 🔧 | enter Python commands |
 | 🔧 | modify Python commands |
 | 🐞 | find SyntaxErrors |
@@ -22,12 +22,10 @@ Write your first program.
 
 Create a new file in the **editor window** and enter the following instructions:
 
-    :::python3
     name = input("What is your name? ")
     print("Hello", name)
 
 Execute the program by pressing the **"Execute"** button or pressing **F5**.
-
 What happens?
 
 ----
@@ -38,7 +36,6 @@ When programming, it is inevitable that you make mistakes. Errors can be simple 
 
 Try the following programs with errors one by one and try to understand the error message:
 
-    :::python3
     name = input("What is your name? ")
     pront("Hello", name)
 
@@ -60,10 +57,13 @@ How can you find out what is going on?
 Which of the following `input` commands work?
 Try them one by one.
 
-* `name input("enter your name: ")`
-* `name = input("enter a number: ")`
-* `name = input(enter your name)`
-* `name = input()`
+    name input("enter your name: ")
+
+    name = input("enter a number: ")
+
+    name = input(enter your name)
+
+    name = input()
 
 ----
 
@@ -72,24 +72,32 @@ Try them one by one.
 Which of the following `print` commands work?
 Try them one by one.
 
-* `print "Hello"`
-* `print("Hello", name, name)`
-* `print("Hello" + name)`
-* `print("Hello name")`
-* `print(name)`
+    print "Hello"
+
+    print("Hello", name, name)
+
+    print("Hello" + name)
+
+    print("Hello name")
+
+    print(name)
 
 ----
 
 ### Exercise 5: Variable names
 
-Try which of the following names of Python variables are valid:
+Try which of the following names of Python variables can be used:
 
-    :::python3
     YODA = 'jedi'
+
     darth vader = 'sith'
+
     luke99 = 'jedi' = 'sith'
+
     2000imperator = 'sith'
+
     obi_wan_kenobi = 'jedi'
+
     darth.maul = 'sith'
 
 ----
@@ -101,7 +109,6 @@ It contains three bugs.
 
 Find and fix them.
 
-    :::python3
     part1 = "Don't worry about a thing"
     part2 = "Cause every little thing"
     part3 = gonna be all right
@@ -114,14 +121,3 @@ Find and fix them.
 ### Exercise 7
 
 Write a program that asks for your first and last name and outputs both.
-
-----
-
-## New commands and concepts
-
-| concept | description |
-|---------|------------------|
-| `input` | a function reading text from the keyboard |
-| `name` | a variable for storing text |
-| `print` | a function that prints text on the screen |
-| `"Hello"` | a string (text) that is directly output |

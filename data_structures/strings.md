@@ -3,23 +3,12 @@
 
 In this chapter you will store text (**strings**) in variables.
 
-### Exercise 1: Concatenate
-
-Try the following commands to create and concatenate **string variables**:
-
-    :::python3
-    first = "Ada"
-    last = "Lovelace"
-    name = first + " " + last
-    print(name)
-
-----
-
-### Exercise 2: Indexing and slicing strings
+### Exercise 1: Indexing and slicing strings
 
 What do the following expressions result in?
 
-    :::python3
+    name = "Ada Lovelace"
+
     name[0]
     name[3]
     name[-1]
@@ -30,29 +19,33 @@ What do the following expressions result in?
 
 ----
 
-### Exercise 3: Decypher
+### Exercise 2: Decypher
 
 The following text contains an encrypted word:
 
-    :::python3
     name = "CSAIPRALKAINACZEYLVOST"
 
 Print every second character, starting with the 2nd).
 
 ----
 
-### Exercise 4: Escape characters
-
-Execute and explain this instruction:
-
-    :::python3
-    print("Ada\nLovelace\n1843")
-
-----
-
-### Exercise 5: String methods
+### Exercise 3: String methods
 
 Find out what the expressions do to the string in the middle.
 
 ![string exercise](strings.png)
 
+----
+
+### Exercise 4: String parsing
+
+Store all the first characters of every name in a new string.
+
+    names = """
+    Adelie
+    Bartek
+    Charly
+    Djamal
+    Emilia
+    Florin
+    """

@@ -1,21 +1,26 @@
 
-# Tables
+# Nested Lists
 
-Data frequently occurs in the form of tables. To process tables in Python, it helps to know that we can put lists in other lists. These are also called **nested lists**. 
+Data frequently occurs in the form of tables. To process tables in Python, we can put lists in other lists.
+These are called **nested lists**:
 
-A simple table in Python looks like this:
-
-    :::python
-    # a table with counts of baby names
-    # columns: Name, #California, #New York
     table = [
-      ["Emily", 2269, 881],
-      ["Amy", 542, 179],
-      ["Penny", 54, 12],
-      ["Bernadette", 21, 11]
+      ["Emma", 20799],
+      ["Olivia", 19674],
+      ["Sophia", 18490],
+      ["Isabella", 16950],
+      ["Ava", 15586],
+      ["Mia", 13442],
+      ["Emily", 12562],
     ]
 
-In this chapter we will deal with creating and processing nested lists.
+Generally, for nested lists, the same rules apply as for single lists.
+To access a single element, you need two pairs of square brackets, e.g. for the second column of the third row:
+
+    print(tab[2][1])
+
+
+In this chapter we will create and process nested lists.
 
 
 ### Exercise 1
@@ -24,30 +29,31 @@ Write all rows of the above table to the screen with a `for` loop.
 
 Complete the code:
 
-    :::python
-    for ___ in table:
-        print(___):
+    for ... in table:
+        print(...):
 
 
 ### Exercise 2
+
+Now modify the loop to output only the names.
+
+
+### Exercise 3
 
 Write all *cells* of the table to the screen with a nested `for` loop.
 
 Complete the code:
 
-    :::python
-    for row in ___:
-        ___ cell in row:
-            print(___)
+    for row in ...:
+        ... cell in row:
+            print(...)
 
-
-### Exercise 3
+### Exercise 4
 
 Create an empty table of 10 x 10 cells and fill them with numbers from 1 to 100.
 
 Sort the lines and indent the code properly:
 
-    :::python
     for x in range(10):
     for y in range(10):
     number = 1
@@ -58,10 +64,3 @@ Sort the lines and indent the code properly:
     table.append(row)
     table = []
     
-
-### Exercise 4
-
-Sort the table with baby counts by the second column. Use the following code sniplet:
-
-    from operator import itemgetter
-    tabelle.sort(key=itemgetter(col_index))

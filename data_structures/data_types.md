@@ -32,7 +32,6 @@ The mutable data types are
 
 Values can be converted into each other using *conversion functions*. Try the following:
 
-    :::python
     int('5.5')
     float(5)
     str(5.5)

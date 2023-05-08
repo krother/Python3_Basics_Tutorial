@@ -18,14 +18,19 @@ However, Python is counting differently than humans:
 
 Try a few commands for creating lists:
 
-    :::python3
     numbers = [1, 2, 4, 8, 16, 32]
     numbers = numbers + [64, 128, 256]
+    print(numbers)
+
+    for num in numbers:
+        print(f)
+
+Write code to print all the movie names:
 
     movies = ["Star Wars", "Star Trek", "Ratatouille"]
     movies += ["Arrival"]
 
-Print the lists.
+    ...
 
 ----
 
@@ -33,10 +38,12 @@ Print the lists.
 
 What do the following commands result in?
 
-    :::python3
     numbers[4]
+
     movies[0]
+
     movies[-1]
+
     numbers[-3]
 
 ----
@@ -45,10 +52,12 @@ What do the following commands result in?
 
 What do the following commands result in?
 
-    :::python3
     movies[2:]
+
     movies[:2]
+
     numbers[2:-2]
+
     numbers[::2]
 
 ----
@@ -57,27 +66,21 @@ What do the following commands result in?
 
 Which instructions are correct?
 
-* `data = ["Tilda", "Swinton"]`
-* `data = ["Darth Vader" "Yoda"]`
-* `data = [1, 2 + 3, 4]`
-* `data = [1, 2] + [3, 4]`
-* `data = [1, 2] + 3, 4]`
-* `data = [1, 2.0, "three"]`
+    ["Tilda", "Swinton"]`
+
+    ["Darth Vader" "Yoda"]`
+
+    [1, 2 + 3, 4]`
+
+    [1, 2] + [3, 4]`
+
+    [1, 2] + 3, 4]`
+
+    [1, 2.0, "three"]`
 
 ----
 
-### Exercise 5: Loop over a list
-
-What does the following program do?
-
-    :::python3
-    movies = ["Star Wars", "Star Trek", "Ratatouille"]
-    for f in movies:
-        print(f)
-
-----
-
-### Exercise 6: List methods
+### Exercise 5: List methods
 
 Find out what each of the expressions does to the list in the center.
 
@@ -86,7 +89,7 @@ Find out what each of the expressions does to the list in the center.
 
 ----
 
-### Exercise 7
+### Exercise 6: Puzzle
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
@@ -94,7 +97,7 @@ Use the expressions to modify the list as indicated. Use each expression once.
 
 ----
 
-### Exercise 8
+### Exercise 7: Another puzzle
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
@@ -102,22 +105,18 @@ Use the expressions to modify the list as indicated. Use each expression once.
 
 ---
 
-### Exercise 9
+### Exercise 8: Movie initials
 
 Create a list that contains names of movies.
-
 Write a `for` loop that iterates through the movie names.
-
 Build a new list that contains only the first characters of each title.
 
 For instance with the input:
 
-    :::text
     Star Wars, Star Trek, Ratatouille
 
 your program should output
 
-    :::text
     S
     S
     R
