@@ -1,30 +1,28 @@
 
 # Installing Python
 
-The first step into programming is to get Python installed on your computer. You will need two things
+The first step into programming is to get Python installed on your computer.
+You will need two programs: **Python** itself and an **editor** to write code.
+A convenient way to install both in one go is **Anaconda**, a Python distribution with many pre-installed packages.
+Download it from [www.anaconda.com](https://www.anaconda.com/) and follow the instructions.
 
-* Python itself
-* a text editor
+After installing, launch the **Spyder** editor from the **Anaconda Navigator**.
+It should look like this:
 
-A convenient way to install Python, an editor and many additional packages in one go is [**Anaconda**](https://store.continuum.io/cshop/anaconda/), a Python distribution with many pre-installed packages for scientific applications.
+![](spyder.png)
 
-After installing, you will need to launch the **Spyder** editor from the Start menu.
+### Troubleshooting
 
+Generally, you can use any text editor to write Python code.
+Besides Spyder, I recommend **Visual Studio Code** and **PyCharm**, although both are not that easy to configure.
 
-### Other Python environments
+If you prefer to use the standard Python installation, you find it on [www.python.org](https://www.python.org/downloads/).
 
-* [**Python 3**](https://www.python.org/downloads/) - the standard Python installation
-* **Idle** - a standard editor installed with Python by default.
-* **Atom**
-* **PyCharm** - a professional Python development environment capable of handling large projects. You won't need most of the functionality for a long time, but it is a well-written editor.
-* **vim** - a console-based text editor for Unix systems. The tool of choice for many system administrators.
+In that case, install spyder using the Python package manager `pip`. Type:
 
-## Questions
+    pip install spyder
 
-#### Question 1
+### Reflection Questions
 
-Which text editors are installed on your system?
-
-#### Question 2
-
-Which Python version are you running?
+* Which text editors are installed on your system?
+* Which Python version are you running?
