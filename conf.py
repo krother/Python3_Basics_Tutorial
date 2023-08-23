@@ -45,7 +45,7 @@ html_sidebars = {
 html_theme_options = {
     'logo': 'academis.png',
     'github_user': 'krother',
-    'github_repo': 'training_and_teaching_methods',
+    'github_repo': 'Python3_Basics_Tutorial',
     'show_relbar_top' : True,
     'show_relbar_bottom' : True,
 }

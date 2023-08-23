@@ -7,7 +7,7 @@ Match the data samples with their types.
 
 ![datatype exercise](datatypes.png)
 
-# Definitions
+----
 
 ## Immutable and mutable data types
 
@@ -27,6 +27,8 @@ The mutable data types are
 * List [1, 2, 2, 3]
 * Dictionary {'name': 'John Smith', 'year': 1990}
 * Set ()
+
+----
 
 ## Type conversions
 

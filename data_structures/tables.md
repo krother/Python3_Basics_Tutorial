@@ -22,6 +22,7 @@ To access a single element, you need two pairs of square brackets, e.g. for the 
 
 In this chapter we will create and process nested lists.
 
+----
 
 ### Exercise 1
 
@@ -32,11 +33,13 @@ Complete the code:
     for ... in table:
         print(...):
 
+----
 
 ### Exercise 2
 
 Now modify the loop to output only the names.
 
+----
 
 ### Exercise 3
 
@@ -47,6 +50,8 @@ Complete the code:
     for row in ...:
         ... cell in row:
             print(...)
+
+----
 
 ### Exercise 4
 

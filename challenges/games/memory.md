@@ -3,7 +3,7 @@
 
 **🎯 Write a memory game in which a player uncovers pairs of cards using the mouse or keyboard.**
 
-![](images/memory.png)
+![](images/memory.jpg)
 
 You can use the images in :::file 10images.zip
 

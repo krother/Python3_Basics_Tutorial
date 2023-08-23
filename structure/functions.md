@@ -1,5 +1,5 @@
 
-# Writing your own Functions
+# Writing Functions
 
 **🎯 Implement functions in Python**
 
@@ -36,32 +36,9 @@ Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
 
 ----
 
-### Exercise 2: Percentage
+### Exercise 2: Mean
 
-Write a function that calculates a percentage value (0-100) from a list of numbers and a population size.
-Use the following structure:
-
-    :::python
-    def calc_percentage(data, population):
-
-        # insert your code here
-        ...
-
-        return percentage
-
-
-    testdata = [1, 2, 3, 4]
-    perc = calc_percentage(testdata, 100.0)
-    if perc == 10:
-        print("Test successful!")
-    else:
-        print(f"you got {perc}% instead of 10")
-
-----
-
-### Exercise 3: Mean
-
-Write a function that calculates the mean value from the following numbers:
+Write a function that calculates the arithmetic mean from the following numbers:
 
     :::python3
     def mean(daten):
@@ -75,7 +52,7 @@ Find out what the function should deliver with `return`.
 
 ----
 
-### Exercise 4: Standard Deviation
+### Exercise 3: Standard Deviation
 
 The following program calculates the standard deviation from a list of numbers.
 You would like to generalize the code, so that it can be used with other data sets.
@@ -98,7 +75,7 @@ Wrap the code for the calculation – but not the data – in a function.
 
 ----
 
-### Exercise 5: Optional Parameters
+### Exercise 4: Optional Parameters
 
 Explain the program:
 
@@ -116,7 +93,7 @@ Explain the program:
 
 ----
 
-### Exercise 6: Rekursion
+### Exercise 5: Recursion
 
 Explain the code:
 

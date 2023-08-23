@@ -145,6 +145,17 @@ More about Python
 
 --------------
 
+Reference
+---------
+
+Examples of common Python commands
+
+.. toctree:: 
+   :maxdepth: 1
+
+   reference/README.rst
+
+
 Appendix
 --------
 
@@ -160,8 +171,10 @@ Appendix
 
    I would like to thank the following people for inspiring exchange on
    training and Python that this tutorial has benefited from: Pedro
-   Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert
-   Lehmann and Magdalena Rother
+   Fernandes, Tomasz Puton,
+   Edward Jenkins, Bernard Szlachta, Robert Lehmann,
+   and Magdalena Rother
+
 
 .. topic:: License
 
