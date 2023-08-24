@@ -1,6 +1,17 @@
 
 # Coding Challenge: Count Words in Moby Dick
 
+## In this challenge you can learn:
+
+| area | topic |
+|---------|-------|
+| 🔀 | use a counter variable |
+| 💡 | read a text file |
+| 💡 | split strings |
+| ⚙ | use comparison operators |
+| 🔧 | define absolute and relative paths |
+| 🐞 | check file names |
+
 ### The Challenge
 
 The book *"Moby Dick"* by Herman Melville describes an epic battle of a gloomy captain against his personal nemesis, the white whale. Who of them is mentioned in the book more often?

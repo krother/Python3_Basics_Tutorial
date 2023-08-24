@@ -10,7 +10,7 @@
 
 ## Note
 
-The **Fizz Buzz Test** has often been used at interviews to sort out applicants who cannot program at all.
+The **Fizz Buzz Test** has often been used in coding interviews.
 
 
 *Translated with [www.DeepL.com](www.DeepL.com/Translator)*

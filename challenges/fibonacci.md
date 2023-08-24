@@ -3,6 +3,7 @@
 
 **🎯 Write a program that produces numbers from the Fibonacci series.**
 
+In the Fibonacci series, each number is the sum of the two preceding ones.
 The first numbers of the series are:
 
     :::text

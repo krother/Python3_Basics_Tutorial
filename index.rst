@@ -23,6 +23,7 @@ First Steps
    first_steps/type_conversions.md
    first_steps/rock_paper_scissors.md
    first_steps/for.md
+   first_steps/guess_the_number.md
    first_steps/slideshow.md
 
 --------------
@@ -61,10 +62,10 @@ Program Structures
 .. toctree:: 
    :maxdepth: 1
 
-   structure/while.md
    structure/functions.md
    structure/builtin_functions.md
    structure/modules.md
+   structure/refactoring.md
 
 --------------
 
@@ -78,16 +79,22 @@ Challenges
    challenges/pyramid.md
    challenges/fizzbuzz.md
    challenges/tictac.md
+   challenges/quiz.md
    challenges/checker.md
+   challenges/baby_name_generator.md
    challenges/palindrome.md
    challenges/anagrams.md
+   challenges/spiral.md
    challenges/roman.md
    challenges/encrypt.md
    challenges/minesweeper.md
-   challenges/ggt.md
+   challenges/gcd.md
    challenges/fibonacci.md
    challenges/querprodukt.md
    challenges/birthdays.md
+   challenges/seven_peaks.md
+   challenges/count_words/README.md
+   challenges/text_adventure/README.md
 
 --------------
 

@@ -1,11 +1,9 @@
 
 # Spiral
 
-### The Challenge
+**Write a program, that draws a spiral:**
 
-Write a program, that draws a spiral:
-
-![spiral](images/spiral1.svg)
+![spiral](../images/spiral1.svg)
 
 When your program draws a spiral with at least 3 loops, you have mastered this challenge.
 
@@ -13,7 +11,6 @@ When your program draws a spiral with at least 3 loops, you have mastered this c
 ### What you can practise in this coding challenge
 
 * loops
-* The **Pillow** library in Python
 * The **turtle** module in Python
 
 ### Hints

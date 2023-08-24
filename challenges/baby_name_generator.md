@@ -2,6 +2,8 @@
 
 **🎯 Write a baby name generator for undecided parents.**
 
+Use the function `random.choice()` from the [random module](https://docs.python.org/3/library/random.html#module-random).
+
 ## Extra Challenges:
 
 * The program randomly outputs a name from a predefined list.
