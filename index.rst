@@ -1,22 +1,24 @@
 Python Exercises for Beginners
 ==============================
 
-.. topic:: Target Audience
+Here you find exercises for people new to Python.
+I wrote them for teachers looking for material
+and people learning Python by themselves.
 
-   Here you find exercises for people new to Python.
-   I wrote them for teachers looking for material
-   and people learning Python by themselves.
-   
-   The goal of the exercises is to enable you to write
-   Python programs up to 200 lines.   
-   The exercises cover six areas:
+The goal of the exercises is to enable you to write
+Python programs up to 200 lines.   
+The exercises cover six areas:
 
-   - 🚀 **applications** - programs that do fun stuff
-   - 💡 **functions and data types**
-   - ⚙ **syntax** - grammar rules, keywords and special
-   - **patterns** - useful expressions and idioms
-   - 🔧 **tools** that make programming easier
-   - 🐞 **debugging** techniques to discover and fix broken code
+=============================== ===================================
+area                            description
+=============================== ===================================
+🚀 **applications**             programs that do fun stuff
+💡 **functions and data types** useful Python objects                
+⚙ **syntax**                    grammar rules and keywords
+🔀 **patterns**                  useful expressions and idioms
+🔧 **tools**                    things that make programming easier
+🐞 **debugging**                discover and fix broken code
+=============================== ===================================
 
 
 First Steps
@@ -46,7 +48,6 @@ Data Structures
    data_structures/lists.md
    data_structures/dictionaries.md
    data_structures/tables.md
-   data_structures/data_types.md
 
 --------------
 

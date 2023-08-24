@@ -20,7 +20,6 @@ area topic
 🐞   recognize bugs at runtime
 ==== =============================
 
---------------
 
 Exercise 1: Pat your own shoulder
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

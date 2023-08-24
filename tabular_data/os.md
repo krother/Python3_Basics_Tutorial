@@ -1,5 +1,5 @@
 
-# Working with directories
+# Working with Directories
 
 To process bigger amounts of data, you will need to work on more than one file. Sometimes you don't know all the files in advance.
 

@@ -1,5 +1,5 @@
 
-# Parsing data from text
+# Parsing Data from Text
 
 Most text files contain both text and numbers. Extracting these data fields from a file and storing them in reasonably *structured* variables is called **parsing**. To parse files, we need methods of strings, lists and **type conversions**.
 

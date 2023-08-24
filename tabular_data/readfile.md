@@ -1,5 +1,5 @@
 
-# Reading text files
+# Reading Text Files
 
 In this chapter, you will learn to extract information from simple text files.
 

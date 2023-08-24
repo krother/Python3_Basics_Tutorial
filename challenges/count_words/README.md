@@ -1,5 +1,5 @@
 
-# Coding Challenge: Count Words in Moby Dick
+# Count Words
 
 ## In this challenge you can learn:
 

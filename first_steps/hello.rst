@@ -125,7 +125,6 @@ Exercise 6: Three little bugs
 
 The following program should output a song by Bob Marley.
 It contains three bugs.
-
 Find and fix them.
 
 .. code:: python3

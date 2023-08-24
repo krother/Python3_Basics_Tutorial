@@ -33,7 +33,6 @@ both are not that easy to configure.
 
 If you prefer to use the standard Python installation, you find it on
 `www.python.org <https://www.python.org/downloads/>`__.
-
 In that case, install spyder using the Python package manager ``pip``.
 Type:
 

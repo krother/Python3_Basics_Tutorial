@@ -6,7 +6,6 @@ Python as a Calculator
 `photograph by Charles Deluvio on
 Unsplash <https://unsplash.com/@charlesdeluvio>`__
 
---------------
 
 In this chapter you will:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -22,7 +21,6 @@ area topic
 🔧   use the Variable Explorer
 ==== ================================
 
---------------
 
 Arithmetics
 -----------

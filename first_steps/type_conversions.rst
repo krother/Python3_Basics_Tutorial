@@ -6,7 +6,7 @@ Ada Lovelace
 
    Ada Lovelace
 
-`Ada Lovelace, image by Alfred Edward Chalon - Biography.com, public
+`Ada Lovelace, image by Alfred Edward Chalon - public
 domain <https://commons.wikimedia.org/w/index.php?curid=25519820>`__
 
 

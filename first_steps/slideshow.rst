@@ -21,7 +21,6 @@ area topic
 🐞   fix wrong file paths
 ==== ===============================
 
---------------
 
 Exercise 1: Display an image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
