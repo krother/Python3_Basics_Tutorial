@@ -98,17 +98,6 @@ Challenges
 
 --------------
 
-More about Python
------------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   recap.md
-   appendix/background_info.md
-
---------------
-
 Reference
 ---------
 

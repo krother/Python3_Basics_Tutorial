@@ -35,9 +35,10 @@ The player tries to guess a number that the computer has generated.
     Please enter a number (1-100): 13
     You found it!
 
-# Conditional Loops
 
-In this chapter, you will learn a new way to influence the order in which instructions are executed (called *control flow*): Conditional loops or `while` loops.
+## Conditional Loops
+
+To solve the challenge, you will need a new command to influence the order in which instructions are executed: the conditional loop or `while` loop.
 
 ----
 

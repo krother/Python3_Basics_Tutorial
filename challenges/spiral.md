@@ -3,7 +3,7 @@
 
 **Write a program, that draws a spiral:**
 
-![spiral](../images/spiral1.svg)
+![spiral](spiral1.svg)
 
 When your program draws a spiral with at least 3 loops, you have mastered this challenge.
 
@@ -34,4 +34,4 @@ If you have no idea where to start, try the following Python script:
 * there is a color gradient along the spiral
 * draw the **Fibonacci spiral** instead
 
-![Spiral with width and color](images/spiral2.svg)
+![Spiral with width and color](spiral2.svg)

@@ -3,7 +3,7 @@
 
 **🎯 Use Python for simple arithmetics.**
 
-![](../images/calculator.png)
+![](calculator.png)
 
 *[photograph by Charles Deluvio on Unsplash](https://unsplash.com/@charlesdeluvio)*
 
