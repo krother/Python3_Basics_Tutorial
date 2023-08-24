@@ -64,6 +64,7 @@ Program Structures
    structure/while.md
    structure/functions.md
    structure/builtin_functions.md
+   structure/modules.md
 
 --------------
 
@@ -78,57 +79,15 @@ Challenges
    challenges/fizzbuzz.md
    challenges/tictac.md
    challenges/checker.md
-
-Text processing
----------------
-
-.. toctree:: 
-   :maxdepth: 1
-
    challenges/palindrome.md
    challenges/anagrams.md
    challenges/roman.md
    challenges/encrypt.md
    challenges/minesweeper.md
-
-Math Problems
--------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   challenges/factorials.md
    challenges/ggt.md
    challenges/fibonacci.md
    challenges/querprodukt.md
    challenges/birthdays.md
-
-Algorithms
-----------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   algorithms/binary_search.md
-   algorithms/sorting.md
-   algorithms/chained_list.md
-   algorithms/josephus.md
-   algorithms/tree_traversal.md
-   algorithms/graph_traversal.md
-   algorithms/magic_square.md
-   algorithms/tsp.md
-   algorithms/backpack_problem.md
-   algorithms/blockchain.md
-
-Web Development
----------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   web/pingpong.md
-   web/google.md
-   web/webrecherche.md
 
 --------------
 
@@ -139,8 +98,6 @@ More about Python
    :maxdepth: 1
 
    recap.md
-   structure/modules.md
-   structure/introspection.md
    appendix/background_info.md
 
 --------------
