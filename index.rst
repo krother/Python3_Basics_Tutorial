@@ -146,7 +146,6 @@ Appendix
    :maxdepth: 1
 
    appendix/links.md
-   appendix/goals.md
 
 --------------
 

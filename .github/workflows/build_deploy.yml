@@ -8,14 +8,25 @@ on:
 jobs:
 
   build:
-    name: Build
+    name: sphinx build
     runs-on: ubuntu-latest
     steps:
-    - name: pull from github repo
-      uses: appleboy/ssh-action@master
+
+    - name: checkout repo
+      uses: actions/checkout@v1
+
+    - name: build static html
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        make html
+
+    - name: copy to academis server 
+      uses: appleboy/scp-action@master
       with:
-        host: ssh.pythonanywhere.com
-        username: krother
-        password: ${{ secrets.SSH_PASSWORD }}
+        host: ${{ secrets.ACADEMIS_HOST }}
+        username: ${{ secrets.ACADEMIS_USERNAME }}
         port: 22
-        script: cd academis/content/python_basics && git pull
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "build/html"
+        target: "/www/academis/python_basics"
