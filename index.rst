@@ -3,12 +3,20 @@ Python Exercises for Beginners
 
 .. topic:: Target Audience
 
-   These are Python lessons and exercises for novice programmers.
-   They are for you if:
+   Here you find exercises for people new to Python.
+   I wrote them for teachers looking for material
+   and people learning Python by themselves.
    
-   -  you have no programming experience at all
-   -  you have some experience with a different programming language
-   -  you would like to teach Python to others
+   The goal of the exercises is to enable you to write
+   Python programs up to 200 lines.   
+   The exercises cover six areas:
+
+   - 🚀 **applications** - programs that do fun stuff
+   - 💡 **functions and data types**
+   - ⚙ **syntax** - grammar rules, keywords and special
+   - **patterns** - useful expressions and idioms
+   - 🔧 **tools** that make programming easier
+   - 🐞 **debugging** techniques to discover and fix broken code
 
 
 First Steps
@@ -17,14 +25,14 @@ First Steps
 .. toctree:: 
    :maxdepth: 1
 
-   first_steps/installing_python.md
-   first_steps/python_shell.md
-   first_steps/hello.md
-   first_steps/type_conversions.md
-   first_steps/rock_paper_scissors.md
-   first_steps/for.md
-   first_steps/guess_the_number.md
-   first_steps/slideshow.md
+   first_steps/installing_python.rst
+   first_steps/python_shell.rst
+   first_steps/hello.rst
+   first_steps/type_conversions.rst
+   first_steps/rock_paper_scissors.rst
+   first_steps/for.rst
+   first_steps/guess_the_number.rst
+   first_steps/slideshow.rst
 
 --------------
 
@@ -106,7 +114,28 @@ Examples of common Python commands
 .. toctree:: 
    :maxdepth: 1
 
-   reference/README.rst
+   reference/python_shell.rst
+   reference/basics.rst
+   reference/data_types.rst
+   reference/numbers.rst
+   reference/strings.rst
+   reference/tuples.rst
+   reference/lists.rst
+   reference/dictionaries.rst
+   reference/type_conversions.rst
+   reference/indexing.rst
+   reference/print.rst
+   reference/string_formatting.rst
+   reference/input.rst
+   reference/reading_files.rst
+   reference/writing_files.rst
+   reference/os.rst
+   reference/if.rst
+   reference/for_loops.rst
+   reference/while.rst
+   reference/builtin_functions.rst
+   reference/functions.rst
+   reference/introspection.rst
 
 
 Appendix
