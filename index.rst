@@ -145,7 +145,7 @@ Appendix
 .. toctree:: 
    :maxdepth: 1
 
-   appendix/links.md
+   links.md
 
 --------------
 
