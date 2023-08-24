@@ -109,3 +109,11 @@ Explain the code:
     x = int(input('Please enter a number: '))
     y = factorial(x)
     print (f"The result is:\n{x}! = {y}}")
+
+----
+
+### Reflection Questions
+
+* Why is it useful to write functions?
+* What is the difference between a function and a method?
+* What is the difference between a list and a tuple?

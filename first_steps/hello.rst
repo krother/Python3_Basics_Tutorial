@@ -142,3 +142,12 @@ Exercise 7
 ~~~~~~~~~~
 
 Write a program that asks for your first and last name and outputs both.
+
+----
+
+Reflection questions
+~~~~~~~~~~~~~~~~~~~~
+
+* What can you put inside the brackets of the `print()` function?
+* What are legal/illegal variable names?
+* What can you do if your program does not work?

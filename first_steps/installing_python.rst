@@ -43,8 +43,9 @@ Type:
 Reflection Questions
 ~~~~~~~~~~~~~~~~~~~~
 
--  Which text editors are installed on your system?
--  Which Python version are you running?
+- Which text editors are installed on your system?
+- Which Python version are you running?
+- Name some advantages/disadvantages of the Python language
 
 .. |image0| image:: spyder.png
 

@@ -3,7 +3,7 @@
 
 In this chapter you will store text (**strings**) in variables.
 
-### Exercise 1: Indexing and slicing strings
+## Exercise 1: Indexing and slicing strings
 
 What do the following expressions result in?
 
@@ -19,7 +19,7 @@ What do the following expressions result in?
 
 ----
 
-### Exercise 2: Decypher
+## Exercise 2: Decypher
 
 The following text contains an encrypted word:
 
@@ -29,7 +29,7 @@ Print every second character, starting with the 2nd).
 
 ----
 
-### Exercise 3: String methods
+## Exercise 3: String methods
 
 Find out what the expressions do to the string in the middle.
 
@@ -37,7 +37,7 @@ Find out what the expressions do to the string in the middle.
 
 ----
 
-### Exercise 4: String parsing
+## Exercise 4: String parsing
 
 Store all the first characters of every name in a new string.
 
@@ -49,3 +49,40 @@ Store all the first characters of every name in a new string.
     Emilia
     Florin
     """
+
+----
+
+## Recap: String manipulation
+
+Fill in the blanks so that the assertions pass
+
+    s = "Hello"
+
+    # 1. Concatenate the string
+    ...
+    assert s == "Hello World"
+
+    # 2. Convert the string to upper case
+    ...
+    assert s == "HELLO WORLD"
+
+    # 3. Exract the first word
+    ...
+    assert s == "HELLO"
+
+    # 4. Capitalize the string
+    ...
+    assert s == "Hello"
+
+    # 5. Substitute characters
+    ...
+    assert s == "Hero"
+
+
+----
+
+## Reflection questions
+
+* Can you modify a string?
+* Is there a difference between single-quoted and triple-quoted strings?
+* What characters start with a backslash?

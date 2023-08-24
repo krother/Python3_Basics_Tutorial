@@ -179,3 +179,11 @@ Hints:
 
 .. |image0| image:: calculator.png
 
+----
+
+Reflection Questions
+~~~~~~~~~~~~~~~~~~~~
+
+* What does the `=` operator do?
+* Do you have to initialize every variable before using it?
+* How can you swap the values of two variables?

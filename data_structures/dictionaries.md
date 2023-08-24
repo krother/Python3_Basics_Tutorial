@@ -60,3 +60,10 @@ Unfortunately, it contains **three bugs**. Find and fix them.
 
     print("You have reached your destination")
     
+----
+
+### Reflection Questions
+
+* How can you create a dictionary?
+* How can you modify values in a dictionary?
+* Is it possible to run a for loop over a dictionary?

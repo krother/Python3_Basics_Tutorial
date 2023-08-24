@@ -115,7 +115,7 @@ Examples of common Python commands
 .. toctree:: 
    :maxdepth: 1
 
-   reference/python_shell.rst
+   reference/ipython_shell.rst
    reference/basics.rst
    reference/data_types.rst
    reference/numbers.rst

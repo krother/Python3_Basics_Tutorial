@@ -14,7 +14,7 @@ However, Python is counting differently than humans:
 
 ----
 
-### Exercise 1
+## Exercise 1
 
 Try a few commands for creating lists:
 
@@ -34,7 +34,7 @@ Write code to print all the movie names:
 
 ----
 
-### Exercise 2: Indexing
+## Exercise 2: Indexing
 
 What do the following commands result in?
 
@@ -48,7 +48,7 @@ What do the following commands result in?
 
 ----
 
-### Exercise 3: Slicing
+## Exercise 3: Slicing
 
 What do the following commands result in?
 
@@ -62,7 +62,7 @@ What do the following commands result in?
 
 ----
 
-### Exercise 4: List syntax
+## Exercise 4: List syntax
 
 Which instructions are correct?
 
@@ -80,7 +80,7 @@ Which instructions are correct?
 
 ----
 
-### Exercise 5: List methods
+## Exercise 5: List methods
 
 Find out what each of the expressions does to the list in the center.
 
@@ -89,7 +89,7 @@ Find out what each of the expressions does to the list in the center.
 
 ----
 
-### Exercise 6: Puzzle
+## Exercise 6: Puzzle
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
@@ -97,7 +97,7 @@ Use the expressions to modify the list as indicated. Use each expression once.
 
 ----
 
-### Exercise 7: Another puzzle
+## Exercise 7: Another puzzle
 
 Use the expressions to modify the list as indicated. Use each expression once.
 
@@ -105,7 +105,7 @@ Use the expressions to modify the list as indicated. Use each expression once.
 
 ---
 
-### Exercise 8: Movie initials
+## Exercise 8: Movie initials
 
 Create a list that contains names of movies.
 Write a `for` loop that iterates through the movie names.
@@ -120,3 +120,11 @@ your program should output
     S
     S
     R
+
+----
+
+## Reflection Questions
+
+* How can you create a list?
+* How can you modify a single value in a list?
+* Is it possible to run a for loop over a list?

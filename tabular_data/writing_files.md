@@ -59,3 +59,29 @@ You can concatenate a list of strings with:
 ### Exercise 7: Table to file
 
 Write the formatted data from exercise 6 to a CSV file.
+
+----
+
+## Recap: Format Strings
+
+Define the variables:
+
+    label = "Marvin"
+    n = 42
+    mean = 1.2345678
+
+Produce the following strings using the data from the variables
+
+    "42"
+
+    "Marvin says: the answer to life and the universe is 42"
+
+    "Marvin    :    42"
+
+    "    Marvin:    42"
+
+    "Marvin    : 00042"
+
+    "1.2345678"
+    
+    "   1.2346"
