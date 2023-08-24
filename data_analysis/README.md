@@ -30,39 +30,14 @@ Repeat pandas basics, seven lines at a time.
 | [Descriptive Statistics](seven_lines/descriptive_stats.md) | ⭐ |
 | [Datetime Indexes](seven_lines/datetime_index.md) | ⭐ |
 
-
-## Seven Line scikit Challenges
-
-Repeat Machine Learning basics, seven lines at a time.
-
-| Challenge | Difficulty |
-|-----------|---------------|
-| [Linear Regression](seven_lines/regression.md) | ⭐⭐ |
-| [Overfit a Regression Model](seven_lines/overfitting.md) | ⭐⭐ |
-
 ----
 
 ## Coding Kata
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Baby Name Generator](babynamengenerator.md) | ⭐ |
-| [Benford Analysis](benford.md) | ⭐⭐ |
 | [Movie Ratings](moviedb.md) | ⭐⭐ |
-
-----
-
-## Engineering
-
-| Challenge | Difficulty |
-|-----------|---------------|
 | [Penguin Dashboard](pingubase/README.md) | ⭐⭐⭐⭐ |
-
-----
-
-## Course Planning
-
-* [Learning Goals: Data Analytics with pandas](pandas_data_analytics.md)
 
 
 ----
