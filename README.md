@@ -9,6 +9,8 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 
 Pick an exercise and start programming!
 
+There is a live site on [www.academis.eu/python_basics/](http://www.academis.eu/python_basics/)
+
 ----
 
 ## First Steps
@@ -134,7 +136,7 @@ Pick an exercise and start programming!
 
 ## License
 
-© 2015 Dr. Kristian Rother (krother@academis.eu)
+© 2023 Dr. Kristian Rother (krother@academis.eu)
 
 with contributions by Allegra Via, Kaja Milanowska, Anna Philips, @ShalokShalom and @devSython.
 
