@@ -9,19 +9,21 @@ This is a tutorial for novice programmers. You are the learner I had in mind whe
 
 Pick an exercise and start programming!
 
+There is a live site on [www.academis.eu/python_basics/](http://www.academis.eu/python_basics/)
+
 ----
 
 ## First Steps
 
 | Chapter | Difficulty |
 |-----------|---------------|
-| [Installing Python](first_steps/installing_python.md) | ⭐ |
-| [Python as a calculator](first_steps/python_shell.md) | ⭐ |
-| [Hello World](first_steps/hello.md) | ⭐ |
-| [Ada Lovelace](first_steps/type_conversions.md) | ⭐ |
-| [Rock-Paper-Scissors](first_steps/rock_paper_scissors.md) | ⭐ |
-| [Square Numbers](first_steps/for.md) | ⭐ |
-| [Slideshow](first_steps/slideshow.md) | ⭐ |
+| [Installing Python](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/installing_python.rst) | ⭐ |
+| [Python as a calculator](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/python_shell.rst) | ⭐ |
+| [Hello World](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/hello.rst) | ⭐ |
+| [Ada Lovelace](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/type_conversions.rst) | ⭐ |
+| [Rock-Paper-Scissors](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/rock_paper_scissors.rst) | ⭐ |
+| [Square Numbers](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/for.rst) | ⭐ |
+| [Slideshow](https://github.com/krother/Python3_Basics_Tutorial/blob/master/first_steps/slideshow.rst) | ⭐ |
 
 ----
 
@@ -29,11 +31,11 @@ Pick an exercise and start programming!
 
 | Chapter | Difficulty |
 |-----------|---------------|
-| [Strings](data_structures/strings.md) | ⭐ |
-| [Lists](data_structures/lists.md) | ⭐ |
-| [Dictionaries](data_structures/dictionaries.md) | ⭐⭐ |
-| [Nested Lists](data_structures/tables.md) | ⭐⭐ |
-| [Data Types Overview](data_structures/data_types.md) | ⭐ |
+| [Strings](https://github.com/krother/Python3_Basics_Tutorial/blob/master/data_structures/strings.md) | ⭐ |
+| [Lists](https://github.com/krother/Python3_Basics_Tutorial/blob/master/data_structures/lists.md) | ⭐ |
+| [Dictionaries](https://github.com/krother/Python3_Basics_Tutorial/blob/master/data_structures/dictionaries.md) | ⭐⭐ |
+| [Nested Lists](https://github.com/krother/Python3_Basics_Tutorial/blob/master/data_structures/tables.md) | ⭐⭐ |
+| [Data Types Overview](https://github.com/krother/Python3_Basics_Tutorial/blob/master/reference/data_types.rst) | ⭐ |
 
 ----
 
@@ -41,11 +43,11 @@ Pick an exercise and start programming!
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Reading a text file](tabular_data/readfile.md) | ⭐ |
-| [Extracting data from text](tabular_data/parsing.md) | ⭐ |
-| [Writing files](tabular_data/writing_files.md) | ⭐ |
-| [Create a Time Series](tabular_data/time_series.md) | ⭐ |
-| [Working with directories](tabular_data/os.md) | ⭐ |
+| [Reading a text file](https://github.com/krother/Python3_Basics_Tutorial/blob/master/tabular_data/readfile.md) | ⭐ |
+| [Extracting data from text](https://github.com/krother/Python3_Basics_Tutorial/blob/master/tabular_data/parsing.md) | ⭐ |
+| [Writing files](https://github.com/krother/Python3_Basics_Tutorial/blob/master/tabular_data/writing_files.md) | ⭐ |
+| [Create a Time Series](https://github.com/krother/Python3_Basics_Tutorial/blob/master/tabular_data/time_series.md) | ⭐ |
+| [Working with directories](https://github.com/krother/Python3_Basics_Tutorial/blob/master/tabular_data/os.md) | ⭐ |
 
 ----
 
@@ -53,9 +55,9 @@ Pick an exercise and start programming!
 
 | Chapter | Difficulty |
 |-----------|---------------|
-| [Conditional Loops](structure/while.md) | ⭐ |
-| [Writing your own Functions](structure/functions.md) | ⭐⭐ |
-| [Shortcuts](structure/builtin_functions.md) | ⭐⭐ |
+| [Conditional Loops](https://github.com/krother/Python3_Basics_Tutorial/blob/master/reference/while.rst) | ⭐ |
+| [Writing your own Functions](https://github.com/krother/Python3_Basics_Tutorial/blob/master/structure/functions.md) | ⭐⭐ |
+| [Shortcuts](https://github.com/krother/Python3_Basics_Tutorial/blob/master/structure/builtin_functions.md) | ⭐⭐ |
 
 
 ----
@@ -64,21 +66,21 @@ Pick an exercise and start programming!
 
 | Challenge | Difficulty |
 |-----------|---------------|
-| [Christmas Tree](challenges/ctree.md) | ⭐ |
-| [Pyramid](challenges/pyramid.md) | ⭐ |
-| [Fizz-Buzz-Test](challenges/fizzbuzz.md) | ⭐ |
-| [Tic-Tac-Toe](challenges/tictac.md) | ⭐⭐ |
-| [Checkerboard](challenges/checker.md) | ⭐⭐ |
+| [Christmas Tree](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/ctree.md) | ⭐ |
+| [Pyramid](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/pyramid.md) | ⭐ |
+| [Fizz-Buzz-Test](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/fizzbuzz.md) | ⭐ |
+| [Tic-Tac-Toe](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/tictac.md) | ⭐⭐ |
+| [Checkerboard](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/checker.md) | ⭐⭐ |
 
 ## Text processing
 
 | Challenge | Difficulty    |
 |-----------|---------------|
-| [Palindrome](challenges/palindrome.md) | ⭐⭐ |
-| [Anagrams](challenges/anagrams.md) | ⭐⭐ |
-| [Roman Numbers](challenges/roman.md) | ⭐⭐⭐ |
-| [Encryption](challenges/encrypt.md) | ⭐⭐⭐ |
-| [Minesweeper](challenges/minesweeper.md) | ⭐⭐⭐ |
+| [Palindrome](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/palindrome.md) | ⭐⭐ |
+| [Anagrams](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/anagrams.md) | ⭐⭐ |
+| [Roman Numbers](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/roman.md) | ⭐⭐⭐ |
+| [Encryption](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/encrypt.md) | ⭐⭐⭐ |
+| [Minesweeper](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/minesweeper.md) | ⭐⭐⭐ |
 
 ## Math Problems
 
@@ -86,9 +88,9 @@ Pick an exercise and start programming!
 |-----------|---------------|
 | [Factorials](challenges/factorials.md) | ⭐ |
 | [Common Divisor](challenges/ggt.md) | ⭐ |
-| [Fibonacci](challenges/fibonacci.md) | ⭐⭐ |
-| [Multiplicative Digital Root](challenges/querprodukt.md) | ⭐⭐ |
-| [Birthday Problem](challenges/birthdays.md) | ⭐⭐ |
+| [Fibonacci](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/fibonacci.md) | ⭐⭐ |
+| [Multiplicative Digital Root](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/querprodukt.md) | ⭐⭐ |
+| [Birthday Problem](https://github.com/krother/Python3_Basics_Tutorial/blob/master/challenges/birthdays.md) | ⭐⭐ |
 
 ## Algorithms
 
@@ -126,7 +128,7 @@ Pick an exercise and start programming!
 
 ## Appendix
 
-* [Recommended books and websites](appendix/links.md)
+* [Recommended books and websites](https://github.com/krother/Python3_Basics_Tutorial/blob/master/appendix/links.md)
 * [Learning Goals](appendix/goals.md)
 
 ----
@@ -134,7 +136,7 @@ Pick an exercise and start programming!
 
 ## License
 
-© 2015 Dr. Kristian Rother (krother@academis.eu)
+© 2023 Dr. Kristian Rother (krother@academis.eu)
 
 with contributions by Allegra Via, Kaja Milanowska, Anna Philips, @ShalokShalom and @devSython.
 
