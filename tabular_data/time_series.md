@@ -24,7 +24,6 @@ That will require us to read not *one* but *all* files from the babynames datase
 Use the `range()` function to create lists of numbers.
 The `list()` function converts the objects from `range()` into lists:
 
-    :::python3
     list(range(10))
     list(range(10, 20))
     list(range(10, 100, 10))
@@ -38,7 +37,6 @@ Create a list with the years **`[1880, 1881, 1882, ... 2015]`**.
 
 Create a list of file names that look like this:
 
-    :::python3
     ['yob1880.txt', 'yob1881.txt', ... 'yob2015.txt']
 
 ----
@@ -51,7 +49,6 @@ In the program there are multiple *semantic errors*.
 Execute the code and inspect the output.
 Find and repair the defect.
 
-    :::python3
     for year in range(1890, 2015, 1):
         total = 0
         filename = f"names/yob{year}.txt"
@@ -98,7 +95,6 @@ If no match was found, add a `0` to the list.
 
 Execute the following code to draw a line plot:
 
-    :::python3
     from matplotlib import pyplot as plt
 
     plt.figure()
@@ -123,6 +119,6 @@ Modify the code so that it outputs the frequency of your name.
 
 ### Exercise 10
 
-Plot the time line of Probiere prominente Namen aus und plotte deren Zeitreihe (Tips: *Madonna, Luke Skywalker, Harley Davidson, Tyrion Lannister, Khaleesi, Sheldon*)
+Plot the time line of a few names of celebrities like *Madonna, Luke Skywalker, Harley Davidson, Tyrion Lannister, Khaleesi, Sheldon*.
 
-Du kannst die Funktion `plot()` mehrmals aufrufen und so mehrere Linien im gleichen Diagramm erzeugen.
+Use the `plot()` function multiple times and display multiple lines in the same diagram.

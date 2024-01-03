@@ -7,7 +7,6 @@
 
 Save the message to be encrypted as a string:
 
-    :::python
     s = "TOP_SECRET_MESSAGE"
 
 ## Step 2: Format as a Table
@@ -15,7 +14,6 @@ Save the message to be encrypted as a string:
 Break the string into several lines of equal length.
 Fill in blanks at the end:
 
-    :::text
     TOP_S
     ECRET
     _MESS
@@ -25,7 +23,6 @@ Fill in blanks at the end:
 
 Use a key to sort the columns in a new order. With the key `21403` you get:
 
-    :::text
     POST_
     RCTEE
     EMS_S
@@ -35,7 +32,6 @@ Use a key to sort the columns in a new order. With the key `21403` you get:
 
 Merge the columns one after the other to a new string. This is the final encrypted message:
 
-    :::text
     POST_RCTEEEMS_SEG_A_
 
 ## Extra Challenges:

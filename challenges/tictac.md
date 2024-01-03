@@ -5,8 +5,6 @@
 
 You are given a Tic-Tac-Toe playing field as a nested list:
 
-
-    :::python
     ttt = [['X', 'O', 'X'],
            ['.', 'X', 'O'],
            ['X', 'O', 'O']]

@@ -30,7 +30,6 @@ Remove the `+ '\n'` from the program and execute it again. What happens?
 
 Try the following commands in a Python shell:
 
-    :::python3
     name = "Ada"
     number = 42
     pi = 3.14159
@@ -51,7 +50,6 @@ Create a single comma-separated string from the nested list in exercise 4 and pr
 
 You can concatenate a list of strings with:
 
-    :::python3
     text = '\n'.join(rows)
 
 ----

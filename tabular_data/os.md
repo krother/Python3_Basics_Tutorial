@@ -14,6 +14,7 @@ Fill in the gaps
 Explain the following code:
 
     import os
+    
     for dirname in os.listdir('.'):
         print(dirname)
 
@@ -29,7 +30,7 @@ Verify that the number is correct.
 ----
 
 
-## Recap: Read and Writ Text Files
+## Recap: Read and Write Text Files
 
 Insert working code into the blanks:
 

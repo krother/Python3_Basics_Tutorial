@@ -1,7 +1,7 @@
 
 # Shortcuts
 
-Python 3.8 has 73 builtin functions.
+Python 3.11 has 75 builtin functions.
 To start writing useful programs, knowing about 25 of them is sufficient.
 Here you find a few exercises where you use builtin functions to make code shorter.
 
@@ -9,7 +9,6 @@ Here you find a few exercises where you use builtin functions to make code short
 
 Simplify the following code using the function `sum()`:
 
-    :::python
     counts = [356, 412, 127, 8, 32]
 
     total = 0
@@ -21,7 +20,6 @@ Simplify the following code using the function `sum()`:
 
 Simplify the following code using the function `range()`:
 
-    :::python
     i = 0
     while i < 10:
         print(i * '*')
@@ -31,7 +29,6 @@ Simplify the following code using the function `range()`:
 
 Simplify the following code using the function `zip()`:
 
-    :::python
     names = ['Lilly', 'Lily', 'Leila', 'Lilja', 'Lillie']
     counts = [356, 412, 127, 8, 32]
 
@@ -47,7 +44,6 @@ Simplify the following code using the function `zip()`:
 
 Simplify the following code using the function `enumerate()`:
 
-    :::python
     names = ['Lilly', 'Lily', 'Leila', 'Lilja', 'Lillie']
 
     i = 0
@@ -59,7 +55,6 @@ Simplify the following code using the function `enumerate()`:
 
 Use `list(range())` to create the following lists:
 
-    :::python
     [4, 7, 9, 12]
     
     [10, 20, 30, 40, 50]

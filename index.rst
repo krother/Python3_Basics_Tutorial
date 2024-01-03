@@ -74,7 +74,7 @@ Program Structures
    structure/functions.md
    structure/builtin_functions.md
    structure/modules.md
-   structure/refactoring.md
+   structure/refactoring.rst
 
 --------------
 
@@ -101,7 +101,7 @@ Challenges
    challenges/fibonacci.md
    challenges/querprodukt.md
    challenges/birthdays.md
-   challenges/seven_peaks.md
+   challenges/seven_peaks.rst
    challenges/count_words/README.md
    challenges/text_adventure/README.md
 

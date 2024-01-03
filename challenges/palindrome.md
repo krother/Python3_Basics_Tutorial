@@ -3,7 +3,6 @@
 
 **🎯 Write a function that checks whether a string is a palindrome:**
 
-    :::python
     def is_palindrome(s):
         ...
 
@@ -11,7 +10,6 @@
 
 Test your function with this code:
 
-    :::python
     assert is_palindrome('Abba')
     assert is_palindrome('kayak')
     assert is_palindrome('Rats live on no evil star')

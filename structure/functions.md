@@ -23,7 +23,6 @@ Here, you learn to break the code down into smaller units: **functions**.
 Write a function that calculates a sum from a list of numers.
 Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
 
-    :::text
     ____ calc_sum(data):
         total = 0
         for n in ____:
@@ -40,7 +39,6 @@ Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
 
 Write a function that calculates the arithmetic mean from the following numbers:
 
-    :::python3
     def mean(daten):
         ...
 
@@ -58,7 +56,6 @@ The following program calculates the standard deviation from a list of numbers.
 You would like to generalize the code, so that it can be used with other data sets.
 Wrap the code for the calculation – but not the data – in a function.
 
-    :::python3
     import math
 
     data = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
@@ -79,7 +76,6 @@ Wrap the code for the calculation – but not the data – in a function.
 
 Explain the program:
 
-    :::python3
     def addition(a=2, b=2, c=2):
         return a + b + c
 
@@ -97,7 +93,6 @@ Explain the program:
 
 Explain the code:
 
-    :::python3
     def factorial(n):
         """Calculates the factorial of the given number."""
         if n > 1:

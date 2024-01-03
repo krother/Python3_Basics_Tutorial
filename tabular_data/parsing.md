@@ -8,8 +8,7 @@ Most text files contain both text and numbers. Extracting these data fields from
 
 The following program collects names in a list that occur at least 10000 times. Unfortunately, the program contains **four errors**. Find and fix these.
 
-    :::python3
-    frequent = []
+        frequent = []
 
     for line in open('names/yob2015.txt'):
         columns = line.strip().split(',')
