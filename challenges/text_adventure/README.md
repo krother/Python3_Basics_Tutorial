@@ -3,11 +3,10 @@
 
 **🎯 Implement a text adventure.**
 
-----
 
 ## The Story
 
-![](images/dragon_egg.png)
+![](dragon_egg.png)
 
 Far, far away, in an hardly accessible landscape, the mystic dragon egg lies hidden..
 Will you find the egg and awaken the life within?
@@ -21,7 +20,6 @@ Will you find the egg and awaken the life within?
 
 OK, this is not the greatest plot ever written. If you have a better one, program it!
 
-----
 
 ## Requirements
 
@@ -34,11 +32,9 @@ Write a game in which you can travel around between multiple rooms (clearing, to
 
 The game is entirely text-based.
 
-----
 
 ## Example Output
 
-    :::text
     Find the Dragon Egg
     ===================
 
@@ -61,7 +57,6 @@ The game is entirely text-based.
 
     Your quest has been successful!
 
-----
 
 ## Step by Step
 
@@ -71,14 +66,12 @@ The game is entirely text-based.
 * Create a Python file `adventure.py`
 * Open the file in an editor
 
-----
 
 ### Step 2: The Basic Structure
 
 Make the program produce a welcoming message.
 You could use an output with multiple lines:
 
-    :::python3
     print("""
     Find the Dragon Egg
     ===================
@@ -88,7 +81,6 @@ You could use an output with multiple lines:
 
 At the end, the program congratulates the player to success:
 
-    :::python3
     print("""
     On a hidden clearing you discover the dragon egg.
 
@@ -99,7 +91,6 @@ During the project, you will insert more code between these two instructions.
 
 **Execute the program and make sure it works.**
 
-----
 
 ### Step 3: The Main Loop
 
@@ -114,20 +105,17 @@ In such situations a **conditional loop** with `while` is a good choice.
 First you need to define a variable that contains the current location.
 In Python you can use the name of the room as a string:
 
-    :::python3
     room = "hometown"
 
 As soon as you reach the room *"clearing"*, the game ends.
 You can check that in the condition of the `while` loop:
 
-    :::python3
     while room != "clearing":
         print(f"You are in {room}")
         room = input("Where would you like to go? ")
 
 **Execute the program and make sure you can finish the game.**
 
-----
 
 ### Step 4: Rooms
 
@@ -136,7 +124,6 @@ Your game does not have any rooms yet, so it is hard to tell where you are.
 Write interesting descriptions of the rooms and print them
 by adding `if` instructions like the following to the main loop:
 
-    :::python3
     if room == "hometown":
         print("""
         You are in your home town.
@@ -147,7 +134,6 @@ You can replace the `print()` statement from the previous step with the `if` sta
 
 **Execute the program and make sure it works.**
 
-----
 
 ### Step 5: Data Structure
 
@@ -157,7 +143,6 @@ But imagine your game has 100 or more rooms – the program would become quite m
 A better alternative is to **structure the room data**.
 We will use a **dictionary** that contains descriptions of all rooms:
 
-    :::python3
     descriptions = {
         "hometown": """You are in your home town...""",
         "desert": """...""",
@@ -169,14 +154,12 @@ The **key** is the `room` variable.
 
 Add these commands to the `while` loop:
 
-    :::python3
     print(descriptions[room])
 
 and remove the `if` statements from step 4.
 
 **Execute the program and make sure it works.**
 
-----
 
 ### Step 6: Checks
 
@@ -187,7 +170,6 @@ Let's check the input to prevent that.
 
 The following code matches the users input with the keys of the dictionary `descriptions`:
 
-    :::python3
     target = input("Where do you want to go? ")
     if target in descriptions:
         room = target
@@ -198,7 +180,6 @@ Find out where in the program these lines need to be inserted.
 
 **Execute the program and make sure it works.**
 
-----
 
 ### Step 7: Paths
 
@@ -212,7 +193,6 @@ The game would be a lot more interesting if only some rooms were connected.
 For that, we need a second dictionary that contains the connections.
 Each entry points from one starting room to one or more targets:
 
-    :::python3
     paths = {
         "hometown": ["beekeeper", "forest"],
         "forest": ["hometown", "deser"],
@@ -224,30 +204,25 @@ If you leave one of them away, you also could create *one-way-streets*.
 
 The paths for the current room could be displayed with the following line:
 
-    :::python3
     print(paths[room])
 
 or somewhat more nicely with:
 
-    :::python3
     print(", ".join(paths[room]))
 
 If you would like to extend the plausibility check, so that only the current paths are accessible, you need the following line:
 
-    :::python3
     if target in paths[room]:
         ...
 
 **Execute the program and make sure it works.**
 
-----
 
 ### Step 8: Puzzles
 
 An interesting adventure should also contain a few puzzles.
 Here is how a puzzle could look like:
 
-    :::text
     Where would you like to go? forest
 
     There is a BEAR in the forest!!! You run away.
@@ -268,19 +243,16 @@ How to implement such a puzzle?
 
 First you need a **state variable** that you define before the main loop, e.g.:
 
-    :::python3
     honey = False
 
 Second, you need to check in the main loop whether the state should change, and then change it, e.g.:
 
-    :::python3
     if room == "beekeeper" and not honey:
         print("You buy a pot of honey at the beekeeper.")
         honey = True
 
 Finally you need to check the state variable in the main loop to allow actions or prevent them:
 
-    :::python3
     if target == "forest":
         if honey:
             print("You leave the honeypot to the bear and carefully sneak through.")
@@ -289,7 +261,6 @@ Finally you need to check the state variable in the main loop to allow actions o
             print("There is a BEAR in the forest!!! You run away.")
             target = room   # player stays in the same place
 
-----
 
 ### Final Remarks
 

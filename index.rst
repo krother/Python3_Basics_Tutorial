@@ -84,23 +84,23 @@ Challenges
 .. toctree:: 
    :maxdepth: 1
 
-   challenges/ctree.md
-   challenges/pyramid.md
-   challenges/fizzbuzz.md
-   challenges/tictac.md
-   challenges/quiz.md
-   challenges/checker.md
-   challenges/baby_name_generator.md
-   challenges/palindrome.md
-   challenges/anagrams.md
-   challenges/spiral.md
-   challenges/roman.md
-   challenges/encrypt.md
+   challenges/ctree.rst
+   challenges/pyramid.rst
+   challenges/fizzbuzz.rst
+   challenges/tictac.rst
+   challenges/quiz.rst
+   challenges/checker.rst
+   challenges/baby_name_generator.rst
+   challenges/palindrome.rst
+   challenges/anagrams.rst
+   challenges/spiral.rst
+   challenges/roman.rst
+   challenges/encrypt.rst
    challenges/minesweeper.md
-   challenges/gcd.md
+   challenges/gcd.rst
    challenges/fibonacci.md
-   challenges/querprodukt.md
-   challenges/birthdays.md
+   challenges/querprodukt.rst
+   challenges/birthdays.rst
    challenges/seven_peaks.rst
    challenges/count_words/README.md
    challenges/text_adventure/README.md
