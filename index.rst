@@ -96,14 +96,15 @@ Challenges
    challenges/spiral.rst
    challenges/roman.rst
    challenges/encrypt.rst
-   challenges/minesweeper.md
+   challenges/minesweeper.rst
    challenges/gcd.rst
-   challenges/fibonacci.md
+   challenges/fibonacci.rst
    challenges/querprodukt.rst
    challenges/birthdays.rst
    challenges/seven_peaks.rst
-   challenges/count_words/README.md
-   challenges/text_adventure/README.md
+   challenges/count_words.rst
+   challenges/postcard.rst
+   challenges/text_adventure.rst
 
 --------------
 
