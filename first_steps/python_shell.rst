@@ -8,14 +8,14 @@ Unsplash <https://unsplash.com/@charlesdeluvio>`__
 
 
 In this chapter you will:
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 ==== ================================
 area topic
 ==== ================================
 🚀   use Python as a pocket calculator
 💡   use the data type *integer*
-⚙    use arithmetical operators (+-*/)
+⚙    use arithmetical operators (+-\*/)
 ⚙    store numbers in a variable
 ⚙    change the contents of a variable
 🔧   use the Variable Explorer
@@ -170,12 +170,11 @@ The rabbits constantly multiply. Every month, their number grows by
 
 **How many rabbits will you have in December?**
 
-Hints:
-^^^^^^
-
--  assume that rabbits never die
--  it is ok to calculate with fractions of rabbits
--  it is ok to copy the same lines multiple times for each month
+.. hint::
+   
+   -  assume that rabbits never die
+   -  it is ok to calculate with fractions of rabbits
+   -  it is ok to copy the same lines multiple times for each month
 
 .. |image0| image:: calculator.png
 

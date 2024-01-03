@@ -5,7 +5,7 @@ Python 3.11 has 75 builtin functions.
 To start writing useful programs, knowing about 25 of them is sufficient.
 Here you find a few exercises where you use builtin functions to make code shorter.
 
-### Exercise 1
+## Exercise 1
 
 Simplify the following code using the function `sum()`:
 
@@ -16,7 +16,7 @@ Simplify the following code using the function `sum()`:
         total = total + number
     print(total)
 
-### Exercise 2
+## Exercise 2
 
 Simplify the following code using the function `range()`:
 
@@ -25,7 +25,7 @@ Simplify the following code using the function `range()`:
         print(i * '*')
         i += 1
 
-### Exercise 3
+## Exercise 3
 
 Simplify the following code using the function `zip()`:
 
@@ -40,7 +40,7 @@ Simplify the following code using the function `zip()`:
         i += 1
     print(table)
 
-### Exercise 4
+## Exercise 4
 
 Simplify the following code using the function `enumerate()`:
 
@@ -51,7 +51,7 @@ Simplify the following code using the function `enumerate()`:
         print(i, name)
         i += 1
 
-### Exercise 5
+## Exercise 5
 
 Use `list(range())` to create the following lists:
 
@@ -62,7 +62,7 @@ Use `list(range())` to create the following lists:
     [33, 32, 31, 30]
     
 
-### Exercise 6
+## Exercise 6
 
 On which data types does the `len()` function work?
 

@@ -182,7 +182,7 @@ In the **Guess the Number** game, the player tries to guess a number that the co
 5. Repeat steps 3-5 until the correct number was guessed.
 
 Example output:
----------------
+~~~~~~~~~~~~~~~
 
 ::
 

@@ -1,7 +1,7 @@
 
 # Dictionaries
 
-### Exercise 1: Explore
+## Exercise 1: Explore
 
 Find out what each of the expressions does to the dictionary in the center.
 
@@ -9,7 +9,7 @@ Find out what each of the expressions does to the dictionary in the center.
 
 ----
 
-### Exercise 2: Commands
+## Exercise 2: Commands
 
 Define a dictionary:
 
@@ -34,7 +34,7 @@ Then run the following commands and find out what they result in:
 
 ----
 
-### Exercise 3
+## Exercise 3
 
 The following program allows you to travel from one city to the next.
 Unfortunately, it contains **three bugs**. Find and fix them.
@@ -62,7 +62,7 @@ Unfortunately, it contains **three bugs**. Find and fix them.
     
 ----
 
-### Reflection Questions
+## Reflection Questions
 
 * How can you create a dictionary?
 * How can you modify values in a dictionary?

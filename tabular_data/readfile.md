@@ -13,7 +13,7 @@ The authorities of the United States have recorded the first names of all people
 
 Download the shorter archive of baby names (not grouped by states) from [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html).
 
-### Exercise 1
+## Exercise 1
 
 Create a text file `bigbang.txt` in a text editor, containing the following data:
 
@@ -29,7 +29,7 @@ Create a text file `bigbang.txt` in a text editor, containing the following data
 
 
 
-## Exercise 1:
+## Exercise 2
 
 Make the program work by inserting `close`, `line`, `bigbang.txt`, `print` into the gaps.
 
@@ -38,12 +38,12 @@ Make the program work by inserting `close`, `line`, `bigbang.txt`, `print` into 
         ____(line)
     f.____()
 
-#### Hint:
+### Hint:
 
 Depending on your editor, you may need to insert the complete path to the file. If the program does not work, a wrong file name or location are the most probable reasons.
 
 
-### Exercise 3
+## Exercise 3
 
 How many different *girls names* were there in 2015?
 
@@ -62,11 +62,11 @@ How many different *girls names* were there in 2015?
     girls += 1
 
 
-### Exercise 4
+## Exercise 4
 
 Extend the program from the previous exercise such that boys and girls names are counted separately.
 
 
-### Exercise 5
+## Exercise 5
 
 Write a program that reads lines from the file `yob2015.txt`. Identify all lines containing your name and print them to the screen.

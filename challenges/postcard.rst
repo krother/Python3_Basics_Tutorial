@@ -3,11 +3,6 @@ Create a Postcard
 
 **🎯 Write a program that composes a postcard from your favorite city.**
 
-.. figure:: images/poznan.png
-   :alt: Welcome to Poznan
-
-   Welcome to Poznan
-
 Step 1: Images
 --------------
 
@@ -82,7 +77,7 @@ Paste images with Pillow:
 .. code:: python3
 
    image1.paste(image2, (0, 0))
-   image1.save(‘postcard.png’)
+   image1.save('postcard.png')
 
 -  Create a postcard composed of smaller pictures
 -  Add the horizontal bar and some text on it.

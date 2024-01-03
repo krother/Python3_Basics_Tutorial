@@ -1,14 +1,14 @@
 
 # Writing Files
 
-### Exercise 1: 
+## Exercise 1: 
 
 Form pairs of Python commands and their meanings.
 
 ![file exercise](../images/files.png)
 
 
-### Exercise 2: Write a file
+## Exercise 2: Write a file
 
 Execute the following program. Explain what happens.
 
@@ -20,13 +20,13 @@ Execute the following program. Explain what happens.
     f.close()
 
 
-### Exercise 3: New lines
+## Exercise 3: New lines
 
 Remove the `+ '\n'` from the program and execute it again. What happens?
 
 ----
 
-### Exercise 5: f-Strings
+## Exercise 5: f-Strings
 
 Try the following commands in a Python shell:
 
@@ -44,7 +44,7 @@ Try the following commands in a Python shell:
 
 ----
 
-### Exercise 6: Table to string
+## Exercise 6: Table to string
 
 Create a single comma-separated string from the nested list in exercise 4 and print it.
 
@@ -54,7 +54,7 @@ You can concatenate a list of strings with:
 
 ----
 
-### Exercise 7: Table to file
+## Exercise 7: Table to file
 
 Write the formatted data from exercise 6 to a CSV file.
 

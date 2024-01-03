@@ -35,8 +35,8 @@ have mastered this challenge.
 The Data
 --------
 
-You can find the full text for Herman Melville’s “Moby Dick” in the text
-file :download:`mobydick.txt` and on
+You can find the full text for Herman Melville's “Moby Dick” in the text
+file :download:`moby_dick.txt` and on
 `www.gutenberg.org <http://www.gutenberg.org>`__.
 
 Hints
@@ -91,8 +91,8 @@ Which operations on this data type will be necessary to
    .. code:: python3
 
       counter = {}
-      counter.setdefault(‘fish’, 0)
-      counter[‘fish’] += 1
+      counter.setdefault('fish', 0)
+      counter['fish'] += 1
 
 
 Hint 4: Functions
@@ -157,16 +157,16 @@ How does Python sort integers, strings, tuples, and other lists?
    
 Hint 7: Did it work?
 ~~~~~~~~~~~~~~~~~~~~
-Where would you expect words like ‘is’, ‘the’, ‘sea’, and ‘cerebellum’ to occur?
+Where would you expect words like 'is', 'the', 'sea', and 'cerebellum' to occur?
 Check whether the output of the program corresponds to your expectations.
-Does ‘captain’ or ‘whale’ occur more often in the text?
+Does 'captain' or 'whale' occur more often in the text?
 
 .. hint::
 
    The first five places should be taken by of (6614),  and (6433), a (4726), to (4625), and in (4173).
-   You have to check yourself whether ‘whale’ or ‘captain’ is first.
-   
-      
+   You have to check yourself whether 'whale' or 'captain' is first.
+
+
 Hint 8: Special characters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Special and uppercase characters may be a problem when separating words.

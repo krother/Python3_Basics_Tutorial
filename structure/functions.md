@@ -6,7 +6,7 @@
 Writing all instructions into a single sequence creates programs that are hard to debug.
 Here, you learn to break the code down into smaller units: **functions**.
 
-### In this chapter you learn:
+## In this chapter you learn:
 
 | Bereich | Thema |
 |---------|-------|
@@ -18,7 +18,7 @@ Here, you learn to break the code down into smaller units: **functions**.
 
 ----
 
-### Exercise 1: Sum up
+## Exercise 1: Sum up
 
 Write a function that calculates a sum from a list of numers.
 Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
@@ -35,7 +35,7 @@ Insert into the gaps: `amount`, `data`, `def`, `return`, `calc_sum', `+=`
 
 ----
 
-### Exercise 2: Mean
+## Exercise 2: Mean
 
 Write a function that calculates the arithmetic mean from the following numbers:
 
@@ -50,7 +50,7 @@ Find out what the function should deliver with `return`.
 
 ----
 
-### Exercise 3: Standard Deviation
+## Exercise 3: Standard Deviation
 
 The following program calculates the standard deviation from a list of numbers.
 You would like to generalize the code, so that it can be used with other data sets.
@@ -72,7 +72,7 @@ Wrap the code for the calculation – but not the data – in a function.
 
 ----
 
-### Exercise 4: Optional Parameters
+## Exercise 4: Optional Parameters
 
 Explain the program:
 
@@ -89,7 +89,7 @@ Explain the program:
 
 ----
 
-### Exercise 5: Recursion
+## Exercise 5: Recursion
 
 Explain the code:
 
@@ -107,7 +107,7 @@ Explain the code:
 
 ----
 
-### Reflection Questions
+## Reflection Questions
 
 * Why is it useful to write functions?
 * What is the difference between a function and a method?

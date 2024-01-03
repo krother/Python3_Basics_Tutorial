@@ -24,7 +24,7 @@ In this chapter we will create and process nested lists.
 
 ----
 
-### Exercise 1
+## Exercise 1
 
 Write all rows of the above table to the screen with a `for` loop.
 
@@ -35,13 +35,13 @@ Complete the code:
 
 ----
 
-### Exercise 2
+## Exercise 2
 
 Now modify the loop to output only the names.
 
 ----
 
-### Exercise 3
+## Exercise 3
 
 Write all *cells* of the table to the screen with a nested `for` loop.
 
@@ -53,7 +53,7 @@ Complete the code:
 
 ----
 
-### Exercise 4
+## Exercise 4
 
 Create an empty table of 10 x 10 cells and fill them with numbers from 1 to 100.
 

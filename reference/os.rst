@@ -65,11 +65,9 @@ Overview
 
 The table lists some frequently used functions in ``os``:
 
-================================
-=================================================
+================================ =================================================
 function                         description
-================================
-=================================================
+================================ =================================================
 ``os.listdir(path)``             returns list of file names in ``path``
 ``os.remove(path)``              removes a file
 ``os.getcwd()``                  returns current working directory
@@ -82,5 +80,4 @@ function                         description
 ``os.path.join(d1, d2, d3, ..)`` connects names by path separator
 ``os.environ[key]``              dictionary of environment variables
 ``os.system(cmd)``               executes shell command
-================================
-=================================================
+================================ =================================================
