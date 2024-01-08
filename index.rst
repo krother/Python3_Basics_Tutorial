@@ -117,6 +117,7 @@ Examples of common Python commands
    :maxdepth: 1
 
    reference/ipython_shell.rst
+   reference/run_from_terminal.rst
    reference/basics.rst
    reference/data_types.rst
    reference/numbers.rst
