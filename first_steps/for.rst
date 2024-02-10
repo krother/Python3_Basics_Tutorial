@@ -34,7 +34,6 @@ Execute the following program. What happens?
        print("You are great at programming!")
        time.sleep(5)
 
---------------
 
 Exercise 2: Counting
 ~~~~~~~~~~~~~~~~~~~~
@@ -43,12 +42,11 @@ Execute the following two lines:
 
 .. code:: python3
 
-   for zahl in range(1, 7):
-       print(zahl)
+   for number in range(1, 7):
+       print(number)
 
 Make the code print the numbers from 1 to 20.
 
---------------
 
 Exercise 3: Prints
 ~~~~~~~~~~~~~~~~~~
@@ -65,7 +63,6 @@ Explain why the ``for``-loop is better than this code sniplet:
    print(6)
    print(7)
 
---------------
 
 Exercise 4: Indentation
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,7 +85,6 @@ and
        x = x * 2
    print(x)
 
---------------
 
 Exercise 5: Squares
 ~~~~~~~~~~~~~~~~~~~
@@ -105,7 +101,6 @@ Implement a ``for`` loop that produces the following output:
    36
    49
 
---------------
 
 Exercise 6: More loops
 ~~~~~~~~~~~~~~~~~~~~~~

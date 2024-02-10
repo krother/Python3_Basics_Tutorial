@@ -35,10 +35,9 @@ window):
 
 If you see a different number than 1 it is still the right place.
 
---------------
 
 Exercise 1: Basic Arithmetics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 Execute a few calculations in Python. Insert the missing symbols into
 the gaps:
@@ -62,12 +61,13 @@ the gaps:
 
 Enter the commands into the console and see what happens.
 
-Do not enter the first part (``In [1]`` etc.). It appears automatically.
+.. hint::
 
---------------
+   Do not enter the first part (``In [1]`` etc.). It appears automatically.
+
 
 Exercise 2: Division
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 What is the difference between the following instructions?
 
@@ -80,10 +80,9 @@ What is the difference between the following instructions?
 
 Enter them in the console and examine the result.
 
---------------
 
 Exercise 3: Operators
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Which operations result in 8?
 
@@ -96,10 +95,9 @@ Which operations result in 8?
 
 Enter the instructions and examine the result.
 
---------------
 
 Exercise 4: Variables
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 For saving numbers and results of calculations for later, you can store
 them in **variables**.
@@ -112,16 +110,15 @@ Fill the gaps:
    In [2]: cats = 7
    In [3]: raccoons = 5
    In [4]: rabbits
-   Out[4]: ...
+   Out[4]: ___
    In [5]: cats + 1
-   Out[5]: ...
+   Out[5]: ___
    In [6]: 3 * raccoons
-   Out[6]: ...
+   Out[6]: ___
 
---------------
 
 Exercise 5: Modify Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 The first instruction modifies the value of a variable from exercise 4.
 Insert values and variables so that the result is correct:
@@ -130,19 +127,20 @@ Insert values and variables so that the result is correct:
 
    In [7]: rabbits = rabbits + 1
    In [8]: rabbits
-   Out[8]: ...
+   Out[8]: ___
 
-   In [9]: animals = ... + ... + ...
+   In [9]: animals = ___ + ___ + ___
    In [10]: animals
    Out[10]: 38
 
-In the **Variable Explorer** in Spyder (top right) you can inspect the
-content of each variable.
+.. hint::
 
---------------
+   In the **Variable Explorer** in Spyder (top right) you can inspect
+   the content of each variable.
 
-Exercise 6: Assignments
-~~~~~~~~~~~~~~~~~~~~~~~
+
+Exercise 6: Vaiable Assignments
+-------------------------------
 
 Which variable assignmments are correct? Enter the code and execute it
 to see if it works.
@@ -154,14 +152,13 @@ to see if it works.
    5 + 6 = y
    seven = 3 * 4
 
---------------
 
 Exercise 7: Rabbit Multiplication
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 In April you have 10 rabbits:
 
-.. code:: python3
+.. code:: text
 
    rabbits = 10
 
@@ -174,15 +171,15 @@ The rabbits constantly multiply. Every month, their number grows by
    
    -  assume that rabbits never die
    -  it is ok to calculate with fractions of rabbits
-   -  it is ok to copy the same lines multiple times for each month
+   -  it is ok to repeat the same lines multiple times for each month
 
 .. |image0| image:: calculator.png
 
-----
 
 Reflection Questions
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
+* Which arithmetic operators exist in Python?
+* What is a variable?
 * What does the `=` operator do?
-* Do you have to initialize every variable before using it?
 * How can you swap the values of two variables?
