@@ -15,7 +15,7 @@ area                            description
 🚀 **applications**             programs that do fun stuff
 💡 **functions and data types** useful Python objects                
 ⚙ **syntax**                    grammar rules and keywords
-🔀 **patterns**                  useful expressions and idioms
+🔀 **patterns**                 useful expressions and idioms
 🔧 **tools**                    things that make programming easier
 🐞 **debugging**                discover and fix broken code
 =============================== ===================================
@@ -72,6 +72,7 @@ Program Structures
    :maxdepth: 1
 
    structure/functions.md
+   debugging/README.rst
    structure/builtin_functions.md
    structure/modules.md
    structure/refactoring.rst
