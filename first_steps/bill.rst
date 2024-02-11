@@ -1,5 +1,5 @@
-Shopping Receipts
-=================
+Receipts
+========
 
 .. image:: receipts.jpg
 
@@ -53,7 +53,7 @@ Exercise 3: Add an extra item
 
 You have an extra item you need to take into account:
 
-.. code::python3
+.. code:: python3
 
    costs = [8, 5, 20, 12, 1]
    extra = 4
@@ -66,7 +66,7 @@ Exercise 4: Concatenate
 
 Explain the difference between the following expressions:
 
-.. code:: python3
+::
 
    [1, 2 + 3, 4]
 
@@ -131,9 +131,22 @@ The user enters amounts, one number at a time.
 If they enter nothing (an empty string),
 the program calculates the total value of the items entered. 
 
+The output of the program could look like this:
+
+::
+
+   Please enter the costs on your bills, one number at a time:
+   13
+   8
+   5
+   21
+
+   The total cost of your bills is 47
+
+
 .. hint::
 
-   You will need a ``while`` loop for entering numbers.
+   You will need a ``while`` loop for entering the numbers.
 
 
 Reflection Questions
