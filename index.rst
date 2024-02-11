@@ -38,7 +38,7 @@ First Steps
    first_steps/bill.rst
    first_steps/dictionaries.md
    first_steps/indexing.rst
-   first_steps/tables.rst
+   first_steps/nested_lists.rst
    first_steps/slideshow.rst
    first_steps/babynames.rst
 

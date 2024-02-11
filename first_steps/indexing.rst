@@ -76,8 +76,6 @@ once.
 .. figure:: list_funcs1.png
    :alt: list funcs exercise1
 
-   list funcs exercise1
-
 
 Exercise 5: Blocks
 ------------------
