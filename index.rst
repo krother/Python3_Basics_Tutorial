@@ -36,8 +36,9 @@ First Steps
    first_steps/guess_the_number.rst
    first_steps/cypher.rst
    first_steps/bill.rst
-   first_steps/slideshow.rst
    first_steps/dictionaries.md
+   first_steps/indexing.rst
+   first_steps/slideshow.rst
 
 
 Tabular Data
@@ -46,7 +47,6 @@ Tabular Data
 .. toctree:: 
    :maxdepth: 1
 
-   data_structures/indexing.rst
    data_structures/tables.md
    tabular_data/readfile.md
    tabular_data/parsing.md

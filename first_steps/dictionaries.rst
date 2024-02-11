@@ -11,6 +11,8 @@ area    topic
 ⚙       define a dictionary
 ⚙       look up values of a dictionary
 🔀      iterate through a list of dictionary keys
+🔀      use lists as dictionary values
+🐞      fix errors in dictionary definitions
 🐞      fix index errors
 ======= ====================================
 
@@ -73,9 +75,40 @@ Improve the receipt assistant from the previous chapter
 so that it uses a dictionary of prices.
 
 
+Exercise 5: Traveler
+--------------------
+
+The following program allows you to travel from one city to the next.
+Unfortunately, it contains **five bugs**. Find and fix them.
+
+.. code:: python3
+
+   cities = {
+       "New York": ["Tokyo", "Delhi", "London"],
+       "Poznan": ["London", "Berlin"],
+       "London": ["New York", "Poznan"]
+       "Berlin": ["Tokyo", "Poznan"],
+       "Tokyo": ["New York" "Berlin"],
+       "Delhi": ["Katmandu"]
+       }
+
+   location = "Berlin"
+   print "\nYour task: fly to Katmandu\n"
+
+   while location in cities and location == 'Katmandu':
+       print(f"You are in {location}")
+
+   print("There are flights to ", cities["location"])
+   location = input("Where would you like to travel?")
+
+   print("You have reached your destination")
+
+
 Reflection Questions
 --------------------
 
 -  How can you create a dictionary?
+-  What data types can you use as keys of a dictionary?
+-  What data types can you use as values of a dictionary?
 -  How can you modify values in a dictionary?
 -  Is it possible to run a for loop over a dictionary?
