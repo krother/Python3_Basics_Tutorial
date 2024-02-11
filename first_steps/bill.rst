@@ -3,7 +3,7 @@ Receipts
 
 .. image:: receipts.jpg
 
-Photo by `@carlijeen on unsplash.com <https://unsplash.com/@carlijeen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Carli Jeen</a> on <a href="https://unsplash.com/photos/black-ceramic-cup-with-saucer-and-cappuccino-on-brown-wooden-surface-UWRqlJcDCXA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash>`__
+Photo by `Carli Jeen on unsplash.com <https://unsplash.com/@carlijeen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash>`__
  
 
 In this chapter you will:

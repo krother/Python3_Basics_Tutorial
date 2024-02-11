@@ -37,7 +37,7 @@ First Steps
    first_steps/cypher.rst
    first_steps/bill.rst
    first_steps/slideshow.rst
-   data_structures/dictionaries.md
+   first_steps/dictionaries.md
 
 
 Tabular Data

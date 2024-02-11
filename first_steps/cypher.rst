@@ -1,4 +1,4 @@
-Cesar Cypher
+Cesar Cipher
 ============
 
 .. image:: enigma.jpg
@@ -21,10 +21,10 @@ area    topic
 ======= ====================================
 
 
-Exercise 1: Cesar Cypher
+Exercise 1: Cesar Cipher
 ------------------------
 
-Execute the following code calculating a **Cesar Cypher**:
+Execute the following code calculating a **Cesar Cipher**:
 
 .. code:: python3
 
