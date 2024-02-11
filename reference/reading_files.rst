@@ -40,8 +40,8 @@ Reading a table with multiple columns
 Frequently you have data in text files separated into multiple columns,
 like this:
 
+::
 
-   :::bash
    Emily;Smith;23
    Charlie;Parker;45
 
@@ -62,7 +62,7 @@ finally breaks the line into a list of items at the ``;`` character
 (``split``).
 
 The ``str.strip()`` function
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 With the string function ``strip()``, you chop off whitespace characters
 (spaces, newline characters and tabs) from both ends of a string. The
@@ -105,27 +105,27 @@ When opening files, you often need to specify a directory name as well.
 You can use both full or relative directory names. A full file name
 contains the entire path from the root directory, e.g.:
 
+::
 
-   :::bash
    /home/kristian/Desktop/myfile.txt
 
 or on Windows
 
+::
 
-   :::bash
    C:/Python3/python.exe
 
 A relative directory name starts from the current working directory,
 often the directory in which your program is started:
 
+::
 
-   :::bash
    data/my_file.txt
 
 or go one directory level up, then move into the folder below:
 
+::
 
-   :::bash
    ../data/my_file.txt
 
 Slashes versus Backslashes
@@ -160,7 +160,6 @@ Reading files with a Context Manager
 The modern way to open files in Python is using a **Context Manager** (a
 code block started by ``with``). The ``with`` statement takes care of
 closing the file automatically:
-
 
 .. code:: python3
 
