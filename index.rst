@@ -34,8 +34,8 @@ First Steps
    first_steps/rock_paper_scissors.rst
    first_steps/for.rst
    first_steps/guess_the_number.rst
+   first_steps/cypher.rst
    first_steps/slideshow.rst
-   data_structures/cypher.rst
 
 --------------
 
