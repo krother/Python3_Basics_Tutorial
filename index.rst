@@ -38,21 +38,9 @@ First Steps
    first_steps/bill.rst
    first_steps/dictionaries.md
    first_steps/indexing.rst
+   first_steps/tables.rst
    first_steps/slideshow.rst
-
-
-Tabular Data
-------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   data_structures/tables.md
-   tabular_data/readfile.md
-   tabular_data/parsing.md
-   tabular_data/writing_files.md
-   tabular_data/time_series.md
-   tabular_data/os.md
+   first_steps/babynames.rst
 
 --------------
 
