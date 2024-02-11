@@ -35,20 +35,10 @@ First Steps
    first_steps/for.rst
    first_steps/guess_the_number.rst
    first_steps/cypher.rst
+   first_steps/bill.rst
    first_steps/slideshow.rst
-
---------------
-
-Data Structures
----------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   data_structures/lists.md
    data_structures/dictionaries.md
 
---------------
 
 Tabular Data
 ------------
@@ -56,6 +46,7 @@ Tabular Data
 .. toctree:: 
    :maxdepth: 1
 
+   data_structures/indexing.rst
    data_structures/tables.md
    tabular_data/readfile.md
    tabular_data/parsing.md
