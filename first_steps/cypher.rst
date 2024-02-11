@@ -83,14 +83,14 @@ Exercise 5: Encryption
 
 Write a program that:
 
-1. defines a plain and encrypted alphabet as a 26-character string
+1. defines a plain and encrypted alphabet as 26-character strings
 2. reads a message from the keyboard
 3. defines an empty result string
-3. goes through each character of the message
-4. finds the position in the plain text alphabet
-5. looks up that position in the encrypted alphabet
-6. adds the encrypted character to the result string
-7. when all characters have been processed, output the result
+4. goes through each character of the message
+5. finds the position in the plain text alphabet
+6. looks up that position in the encrypted alphabet
+7. adds the encrypted character to the result string
+8. when all characters have been processed, output the result
 
 .. hint::
 
