@@ -1,24 +1,24 @@
 import sys
 
-# create empty playing field
-d = [
-    [".", ".", ".", ".", ".", ".", "."],
-    [".", ".", ".", ".", ".", ".", "."],
-    [".", ".", ".", ".", ".", ".", "."],
-    [".", ".", ".", ".", ".", ".", "."],
-    [".", ".", ".", ".", ".", ".", "."],
+# create empty game board
+board = [
+         [".", ".", ".", ".", ".", ".", "."],
+         [".", ".", ".", ".", ".", ".", "."],
+         [".", ".", ".", ".", ".", ".", "."],
+         [".", ".", ".", ".", ".", ".", "."],
+         [".", ".", ".", ".", ".", ".", "."],
 ]
 
 while True:
-    # print the playing field
+
+    # print the game board
     print()
     print("1 2 3 4 5 6 7")
-    for row in d:
+    for row in board:
         line = ""
         for cell in row:
             line += cell + " "
         print(line)
-
     print()
 
     # first player moves
@@ -26,21 +26,22 @@ while True:
     x = int(x)
 
     # find empty cell closest to bottom
-    if d[0][x - 1] == ".":
+    if board[0][x - 1] == ".":
         y = 0
-    if d[1][x - 1] == ".":
+    if board[1][x - 1] == ".":
         y = 1
-    if d[2][x - 1] == ".":
+    if board[2][x - 1] == ".":
         y = 2
-    if d[3][x - 1] == ".":
+    if board[3][x - 1] == ".":
         y = 3
-    if d[4][x - 1] == ".":
+    if board[4][x - 1] == ".":
         y = 4
 
-    d[y][x - 1] = "X"
+    board[y][x - 1] = "X"
+    # end: player moves
 
     # check rows
-    for row in d:
+    for row in board:
         for i in range(4):
             if (
                 row[i] == "X"
@@ -53,10 +54,10 @@ while True:
 
     # check columns
     for i in range(7):
-        if d[0][i] == "X" and d[1][i] == "X" and d[2][i] == "X" and d[3][i] == "X":
+        if board[0][i] == "X" and board[1][i] == "X" and board[2][i] == "X" and board[3][i] == "X":
             print("Player 1 (X) wins!")
             sys.exit(0)
-        elif d[1][i] == "X" and d[2][i] == "X" and d[3][i] == "X" and d[4][i] == "X":
+        elif board[1][i] == "X" and board[2][i] == "X" and board[3][i] == "X" and board[4][i] == "X":
             print("Player 1 (X) wins!")
             sys.exit(0)
 
@@ -64,28 +65,28 @@ while True:
     for y in range(2):
         for x in range(4):
             if (
-                d[y][x] == "X"
-                and d[y + 1][x + 1] == "X"
-                and d[y + 2][x + 2] == "X"
-                and d[y + 3][x + 3] == "X"
+                board[y][x] == "X"
+                and board[y + 1][x + 1] == "X"
+                and board[y + 2][x + 2] == "X"
+                and board[y + 3][x + 3] == "X"
             ):
                 print("Player 1 (X) wins!")
                 sys.exit(0)
     for y in range(2):
         for x in range(3, 7):
             if (
-                d[y][x] == "X"
-                and d[y + 1][x - 1] == "X"
-                and d[y + 2][x - 2] == "X"
-                and d[y + 3][x - 3] == "X"
+                board[y][x] == "X"
+                and board[y + 1][x - 1] == "X"
+                and board[y + 2][x - 2] == "X"
+                and board[y + 3][x - 3] == "X"
             ):
                 print("Player 1 (X) wins!")
                 sys.exit(0)
 
-    # print the playing field
+    # print the game board
     print()
     print("1 2 3 4 5 6 7")
-    for row in d:
+    for row in board:
         line = ""
         for cell in row:
             line += cell + " "
@@ -98,21 +99,21 @@ while True:
     x = int(x)
 
     # find empty cell closest to bottom
-    if d[0][x - 1] == ".":
+    if board[0][x - 1] == ".":
         y = 0
-    if d[1][x - 1] == ".":
+    if board[1][x - 1] == ".":
         y = 1
-    if d[2][x - 1] == ".":
+    if board[2][x - 1] == ".":
         y = 2
-    if d[3][x - 1] == ".":
+    if board[3][x - 1] == ".":
         y = 3
-    if d[4][x - 1] == ".":
+    if board[4][x - 1] == ".":
         y = 4
 
-    d[y][x - 1] = "O"
+    board[y][x - 1] = "O"
 
     # check rows
-    for row in d:
+    for row in board:
         for i in range(4):
             if (
                 row[i] == "O"
@@ -125,10 +126,10 @@ while True:
 
     # check columns
     for i in range(7):
-        if d[0][i] == "O" and d[1][i] == "O" and d[2][i] == "O" and d[3][i] == "O":
+        if board[0][i] == "O" and board[1][i] == "O" and board[2][i] == "O" and board[3][i] == "O":
             print("Player 2 (O) wins!")
             sys.exit(0)
-        elif d[1][i] == "O" and d[2][i] == "O" and d[3][i] == "O" and d[4][i] == "O":
+        elif board[1][i] == "O" and board[2][i] == "O" and board[3][i] == "O" and board[4][i] == "O":
             print("Player 2 (O) wins!")
             sys.exit(0)
 
@@ -136,20 +137,20 @@ while True:
     for y in range(2):
         for x in range(4):
             if (
-                d[y][x] == "O"
-                and d[y + 1][x + 1] == "O"
-                and d[y + 2][x + 2] == "O"
-                and d[y + 3][x + 3] == "O"
+                board[y][x] == "O"
+                and board[y + 1][x + 1] == "O"
+                and board[y + 2][x + 2] == "O"
+                and board[y + 3][x + 3] == "O"
             ):
                 print("Player 2 (O) wins!")
                 sys.exit(0)
     for y in range(2):
         for x in range(3, 7):
             if (
-                d[y][x] == "O"
-                and d[y + 1][x - 1] == "O"
-                and d[y + 2][x - 2] == "O"
-                and d[y + 3][x - 3] == "O"
+                board[y][x] == "O"
+                and board[y + 1][x - 1] == "O"
+                and board[y + 2][x - 2] == "O"
+                and board[y + 3][x - 3] == "O"
             ):
                 print("Player 2 (O) wins!")
                 sys.exit(0)
