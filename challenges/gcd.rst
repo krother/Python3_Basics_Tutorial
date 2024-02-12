@@ -1,8 +1,8 @@
 Greatest Common Denominator
 ===========================
 
-**🎯 Implement the**\ `Euclidean
-Algorithm <https://en.wikipedia.org/wiki/Euclidean_algorithm>`__\ **to
+**🎯 Implement the** `Euclidean
+Algorithm <https://en.wikipedia.org/wiki/Euclidean_algorithm>`__ **to
 determine the greatest common denominator of two integers.**
 
 Tests
