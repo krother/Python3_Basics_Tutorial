@@ -15,6 +15,7 @@ area topic
 ⚙    implement a function
 ⚙    call a function you defined
 💡   use the ``math`` module
+💡   use the ``sum`` function
 🔀   use a recursive function
 ==== ==============================================
 
@@ -56,7 +57,15 @@ Write a function that calculates the arithmetic mean from the following numbers:
 Don't forget about the ``return`` statement.
 
 
-Exercise 3: Standard Deviation
+Exercise 3: Shortcut
+--------------------
+
+Simplify the mean function using the function ``sum()``.
+
+Use your own or the builtin ``sum()`` function.
+
+
+Exercise 4: Standard Deviation
 ------------------------------
 
 The following program calculates the standard deviation from a list of
@@ -81,7 +90,7 @@ data – in a function.
    print(f"Standard Deviation: {stdev:8.2f}")
 
 
-Exercise 4: Optional Parameters
+Exercise 5: Optional Parameters
 -------------------------------
 
 Explain the program:
@@ -97,7 +106,7 @@ Explain the program:
    print(add(b=4))
 
 
-Exercise 5: Recursion
+Exercise 6: Recursion
 ---------------------
 
 Explain the code:

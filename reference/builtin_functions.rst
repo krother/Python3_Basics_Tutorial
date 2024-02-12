@@ -1,27 +1,26 @@
 Builtin functions
 =================
 
-In Python, there is a basic set of about 70 functions called **builtin
-functions**. Many of them are shortcuts that make your everyday
-programming a lot easier. Here, the 24 most important ones are given.
+Python 3.11 has 75 builtin functions. To start writing useful programs,
+knowing about 20 of them is sufficient.
+Many of them are shortcuts that make your everyday
+programming a lot easier.
 
-**These 24 functions are your basic vocabulary, knowing these is a must
+**These 20 functions are your basic vocabulary, knowing these is a must
 to write Python efficiently!**
 
-=============== ===== ===== ========= =============
-type conversion I/O   math  iterables introspection
-=============== ===== ===== ========= =============
-int             print abs   range     help
-float           input round len       type
-str             open  sum   sorted    dir
+=============== ===== ===== =========
+type conversion I/O   math  iterables
+=============== ===== ===== =========
+int             print abs   range    
+float           input round len      
+str             open  sum   sorted   
 bool                  min   reversed 
 tuple                 max   enumerate
 list                        zip      
 dict                                 
 set                                  
-=============== ===== ===== ========= =============
-
-See the topic **introspection** to find out about the other functions.
+=============== ===== ===== =========
 
 Type Conversions
 ----------------

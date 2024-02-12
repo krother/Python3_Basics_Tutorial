@@ -39,27 +39,18 @@ First Steps
    first_steps/dictionaries.md
    first_steps/indexing.rst
    first_steps/nested_lists.rst
+   first_steps/builtin_functions.rst
    first_steps/slideshow.rst
    first_steps/babynames.rst
-
---------------
-
-Program Structures
-------------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   structure/functions.md
+   first_steps/statistics.rst
    debugging/README.rst
-   structure/builtin_functions.md
-   structure/modules.md
-   structure/refactoring.rst
+   refactoring/refactoring.rst
+   challenges/text_adventure.rst
 
 --------------
 
-Challenges
-==========
+Coding Challenges
+-----------------
 
 .. toctree:: 
    :maxdepth: 1
@@ -67,24 +58,20 @@ Challenges
    challenges/ctree.rst
    challenges/pyramid.rst
    challenges/fizzbuzz.rst
-   challenges/tictac.rst
    challenges/quiz.rst
    challenges/checker.rst
    challenges/baby_name_generator.rst
    challenges/palindrome.rst
    challenges/anagrams.rst
-   challenges/spiral.rst
-   challenges/roman.rst
-   challenges/encrypt.rst
+   challenges/tictac.rst
    challenges/minesweeper.rst
    challenges/gcd.rst
    challenges/fibonacci.rst
    challenges/querprodukt.rst
    challenges/birthdays.rst
-   challenges/seven_peaks.rst
+   challenges/misty_mountains.rst
    challenges/count_words.rst
-   challenges/postcard.rst
-   challenges/text_adventure.rst
+   challenges/spiral.rst
 
 --------------
 
@@ -118,7 +105,6 @@ Examples of common Python commands
    reference/while.rst
    reference/builtin_functions.rst
    reference/functions.rst
-   reference/introspection.rst
 
 
 Appendix

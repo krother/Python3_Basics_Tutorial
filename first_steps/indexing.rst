@@ -55,8 +55,21 @@ What do the following commands result in?
    numbers[2:-2]
    numbers[::2]
 
+Exercise 3: Ranges
+------------------
 
-Exercise 3: Decypher
+Use ``list(range())`` to create the following lists:
+
+.. code:: python3
+
+   [4, 7, 9, 12, 15]
+
+   [10, 20, 30, 40, 50, 60]
+
+   [33, 32, 31, 30]
+
+
+Exercise 4: Decypher
 --------------------
 
 The following text contains an encrypted word:
@@ -68,7 +81,7 @@ The following text contains an encrypted word:
 Print every second character, starting with the 2nds.
 
 
-Exercise 4: Slicing puzzle
+Exercise 5: Slicing puzzle
 --------------------------
 
 Use the expressions to modify the list as indicated. Use each expression
@@ -78,7 +91,7 @@ once.
    :alt: list funcs exercise1
 
 
-Exercise 5: Blocks
+Exercise 6: Blocks
 ------------------
 
 The following code is creating the first two blocks for a `transposition cipher <https://en.wikipedia.org/wiki/Transposition_cipher>`__ .
@@ -95,7 +108,7 @@ Complete the code by creating the other two blocks as well.
    encrypted = block1 + block2 + block3 + block4
 
 
-Exercise 6: Transposition Cipher
+Exercise 7: Transposition Cipher
 --------------------------------
 
 Complete the program that encrypts a text using a transposition cipher:
@@ -107,13 +120,13 @@ Complete the program that encrypts a text using a transposition cipher:
    for start in range(4):
        ___
 
-Exercise 7: Decrypt
+Exercise 8: Decrypt
 -------------------
 
 Write a program to decrypt an encrypted message again.
 
 
-Exercise 8: Encryption Key
+Exercise 9: Encryption Key
 --------------------------
 
 Use an encryption key like ``2031`` that specifies a new order for the blocks.
