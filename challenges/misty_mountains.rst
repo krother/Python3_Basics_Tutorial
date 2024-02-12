@@ -1,9 +1,9 @@
 Misty Mountains
----------------
+===============
 
 .. image:: mountains.jpg
 
-*Photo by `Rohit Tandon on unsplash.com <https://unsplash.com/@sepoys?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash>`__*
+Photo by `Rohit Tandon on unsplash.com <https://unsplash.com/@sepoys?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash>`__
   
 **🎯 Find the highest peak.**
 
