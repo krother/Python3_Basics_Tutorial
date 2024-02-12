@@ -12,6 +12,7 @@ area    topic
 ⚙       slice lists and strings
 💡      use the ``join`` method of the ``string`` data type
 🔀      use a loop variable for indexing
+🔀      use indexing to re-arrange a list
 ======= ====================================
 
 
@@ -110,3 +111,25 @@ Exercise 7: Decrypt
 -------------------
 
 Write a program to decrypt an encrypted message again.
+
+
+Exercise 8: Encryption Key
+--------------------------
+
+Use an encryption key like ``2031`` that specifies a new order for the blocks.
+Implement the following:
+
+1. create an empty list
+2. create the blocks as above and add them to the list
+3. go through each position of the encryption key
+4. select the block with the index given by the digit from the key (convert it to int)
+5. add the block to the result string
+
+
+Reflection questions
+--------------------
+
+- what is indexing?
+- what do the three numbers in *slicing* do?
+- what do you think about the transposition cipher. Is it secure?
+- how could you decrypt a transposition cipher without the key?
