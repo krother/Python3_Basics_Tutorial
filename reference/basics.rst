@@ -9,8 +9,8 @@ A Python program is simply a text file that contains Python statements.
 
 To execute a Python program, you run it from the command line with:
 
+::
 
-   :::bash
    python my_program.py
 
 For those unfamiliar with the command line all Python editors have

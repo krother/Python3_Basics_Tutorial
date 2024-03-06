@@ -8,7 +8,7 @@ Rock-Paper-Scissors
 
 
 In this chapter you will:
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 ======= ====================================
 area    topic
@@ -21,14 +21,13 @@ area    topic
 🐞      recognize indentation errors
 ======= ====================================
 
-An important structural element in program is *making decisions*. In
-Python, the instruction ``if`` (also called a conditional statement)
-decides which part of the program to execute.
+An important structural element in program is *making decisions*.
+In Python, the instruction ``if`` 
+decides which instruction to execute next.
 
---------------
 
 Exercise 1: Decision
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 With the instruction ``if``, you can make a decision inside your program. 
 Test the following program with different inputs:
@@ -41,10 +40,9 @@ Test the following program with different inputs:
    if player == computer:
        print("it's a draw")
 
---------------
 
 Exercise 2: Alternative decisions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 Insert the words ``elif``, ``else`` and ``if`` into the gaps in the code
 so that it runs:
@@ -56,24 +54,22 @@ so that it runs:
    player = input("Please enter R, P or S (for [R]ock, [P]aper and [S]cissors) ")
    computer = random.choice('RPS')
 
-   ... player == 'R' and computer == 'P':
+   ___ player == 'R' and computer == 'P':
        print("Computer wins")
-   ... player == 'R' and computer == 'S':
+   ___ player == 'R' and computer == 'S':
        print("Player wins")
-   ...:
+   ___:
        print("it's a draw")
 
---------------
 
 Exercise 3: Paper
-~~~~~~~~~~~~~~~~~
+-----------------
 
-Extend the program, so that it also works if the player chooses *rock*.
+Extend the program, so that it also works if the player chooses *paper*.
 
---------------
 
 Exercise 4: Debugging
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Fix one bug in each ``if``-statement:
 
@@ -91,10 +87,9 @@ Fix one bug in each ``if``-statement:
    else:
    print('You chose something else than "scissors"')
 
---------------
 
 Exercise 5: Expressions
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Which comparisons in the following ``if`` statements result in ``True``:
 
@@ -119,27 +114,28 @@ Which comparisons in the following ``if`` statements result in ``True``:
    if a + b == "7":
        print(True)
 
---------------
 
 Exercise 6: State variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
-The following program saves a comparison expression in a variable of the
-data type ``bool``. Complete the code:
+The following program saves the result of a comparison
+in a variable of the data type ``bool``.
+Complete the code:
 
 .. code:: python3
 
-   player_wins = (player == "R" and computer == "S") \
-                  or (player == "P" and ...) \
-                  or (...)
+   player_wins = (
+                  (player == "R" and computer == "S") or
+                  (player == "P" and ___) or
+                  (___)
+                 )
 
    if player_wins:
        print('You won!')
 
---------------
 
 Exercise 7: Nested if statements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 Complete the program, so that it covers all possible situations:
 
@@ -154,27 +150,37 @@ Complete the program, so that it covers all possible situations:
            winner = "computer"
 
    elif player == "P":
-       ...
+       ___
 
    print("The winner is:", winner)
 
---------------
+.. hint::
+
+   A *nested if* is an if inside another if block.
+
 
 Exercise 8: Rock-Paper-Scissors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Complete the Rock-Paper-Scissors game.
 
 Optional goals:
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 -  take draws into account as a possibility
 -  inputs should be valid in upper and lower case
 -  use a single ``if..elif..else`` block
--  extend the game by `lizard and
-   Spock <https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons>`__
--  use state variables, so that only one or two ``if`` statements
-   without ``elif`` or ``else``) remains
+-  extend the game by `lizard and Spock <https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons>`__
+-  use ``bool`` variables, so that only one or two ``if`` statements
+   without ``elif`` or ``else``) remain
+
+Reflection Questions
+--------------------
+
+* in which order do the parts of an ``if`` statement have to be?
+* which parts of an ``if`` statement are optional?
+* what is indentation?
+* which *comparison operators* do you know so far?
+
 
 .. |image0| image:: rock_paper_scissors.svg
-

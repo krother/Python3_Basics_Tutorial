@@ -2,7 +2,7 @@ Hello World
 ===========
 
 In this chapter you will:
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 ==== ==============================================
 area topic
@@ -18,7 +18,7 @@ area topic
 
 
 Exercise 1: Your first Program
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Create a new file in the **editor window** and enter the following
 instructions:
@@ -31,10 +31,9 @@ instructions:
 Execute the program by pressing the **“Execute”** button or pressing
 **F5** in Spyder. What happens?
 
---------------
 
-Exercise 2: Break the program!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 2: Break the program
+-----------------------------
 
 When programming, it is inevitable that you make mistakes. Errors can be
 simple typos or complicated errors in the logical structure. One of the
@@ -61,10 +60,9 @@ the error message:
 
 How can you find out what is going on?
 
---------------
 
 Exercise 3: input
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Which of the following ``input`` commands work? Try them one by one.
 
@@ -78,10 +76,9 @@ Which of the following ``input`` commands work? Try them one by one.
 
    name = input()
 
---------------
 
 Exercise 4: print
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Which of the following ``print`` commands work? Try them one by one.
 
@@ -97,10 +94,9 @@ Which of the following ``print`` commands work? Try them one by one.
 
    print(name)
 
---------------
 
 Exercise 5: Variable names
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Try which of the following names of Python variables can be used:
 
@@ -118,14 +114,14 @@ Try which of the following names of Python variables can be used:
 
    darth.maul = 'sith'
 
---------------
 
 Exercise 6: Three little bugs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 The following program should output a song by Bob Marley.
 It contains three bugs.
-Find and fix them.
+Copy the code into your editor.
+Then find and fix the bugs.
 
 .. code:: python3
 
@@ -136,18 +132,18 @@ Find and fix them.
    text = "part1 + part2 + part3"
    print(text
 
---------------
 
 Exercise 7
-~~~~~~~~~~
+----------
 
 Write a program that asks for your first and last name and outputs both.
 
-----
 
 Reflection questions
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
+* What is a function in Python?
+* How can you recognize a function?
 * What can you put inside the brackets of the `print()` function?
 * What are legal/illegal variable names?
 * What can you do if your program does not work?

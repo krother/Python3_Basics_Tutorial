@@ -15,7 +15,7 @@ area                            description
 🚀 **applications**             programs that do fun stuff
 💡 **functions and data types** useful Python objects                
 ⚙ **syntax**                    grammar rules and keywords
-🔀 **patterns**                  useful expressions and idioms
+🔀 **patterns**                 useful expressions and idioms
 🔧 **tools**                    things that make programming easier
 🐞 **debugging**                discover and fix broken code
 =============================== ===================================
@@ -34,76 +34,44 @@ First Steps
    first_steps/rock_paper_scissors.rst
    first_steps/for.rst
    first_steps/guess_the_number.rst
+   first_steps/cypher.rst
+   first_steps/bill.rst
+   first_steps/dictionaries.md
+   first_steps/indexing.rst
+   first_steps/nested_lists.rst
+   first_steps/builtin_functions.rst
    first_steps/slideshow.rst
+   first_steps/babynames.rst
+   first_steps/statistics.rst
+   debugging/README.rst
+   refactoring/refactoring.rst
+   challenges/text_adventure.rst
 
 --------------
 
-Data Structures
----------------
+Coding Challenges
+-----------------
 
 .. toctree:: 
    :maxdepth: 1
 
-   data_structures/strings.md
-   data_structures/lists.md
-   data_structures/dictionaries.md
-   data_structures/tables.md
-
---------------
-
-Tabular Data
-------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   tabular_data/readfile.md
-   tabular_data/parsing.md
-   tabular_data/writing_files.md
-   tabular_data/time_series.md
-   tabular_data/os.md
-
---------------
-
-Program Structures
-------------------
-
-.. toctree:: 
-   :maxdepth: 1
-
-   structure/functions.md
-   structure/builtin_functions.md
-   structure/modules.md
-   structure/refactoring.md
-
---------------
-
-Challenges
-==========
-
-.. toctree:: 
-   :maxdepth: 1
-
-   challenges/ctree.md
-   challenges/pyramid.md
-   challenges/fizzbuzz.md
-   challenges/tictac.md
-   challenges/quiz.md
-   challenges/checker.md
-   challenges/baby_name_generator.md
-   challenges/palindrome.md
-   challenges/anagrams.md
-   challenges/spiral.md
-   challenges/roman.md
-   challenges/encrypt.md
-   challenges/minesweeper.md
-   challenges/gcd.md
-   challenges/fibonacci.md
-   challenges/querprodukt.md
-   challenges/birthdays.md
-   challenges/seven_peaks.md
-   challenges/count_words/README.md
-   challenges/text_adventure/README.md
+   challenges/ctree.rst
+   challenges/pyramid.rst
+   challenges/fizzbuzz.rst
+   challenges/quiz.rst
+   challenges/checker.rst
+   challenges/baby_name_generator.rst
+   challenges/palindrome.rst
+   challenges/anagrams.rst
+   challenges/tictac.rst
+   challenges/minesweeper.rst
+   challenges/gcd.rst
+   challenges/fibonacci.rst
+   challenges/querprodukt.rst
+   challenges/birthdays.rst
+   challenges/misty_mountains.rst
+   challenges/count_words.rst
+   challenges/spiral.rst
 
 --------------
 
@@ -116,6 +84,7 @@ Examples of common Python commands
    :maxdepth: 1
 
    reference/ipython_shell.rst
+   reference/run_from_terminal.rst
    reference/basics.rst
    reference/data_types.rst
    reference/numbers.rst
@@ -136,7 +105,6 @@ Examples of common Python commands
    reference/while.rst
    reference/builtin_functions.rst
    reference/functions.rst
-   reference/introspection.rst
 
 
 Appendix

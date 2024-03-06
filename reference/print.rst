@@ -16,6 +16,7 @@ operations separated by commas.
 Examples for print statements:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. code:: python3
 
    print('Hello World\n')
    print(3 + 4)
