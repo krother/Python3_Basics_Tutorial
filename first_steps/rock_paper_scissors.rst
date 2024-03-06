@@ -79,7 +79,6 @@ Fix one bug in each ``if``-statement:
 
 .. code:: python3
 
-
    elif player.upper() not in 'RPS':
        print('Invalid input. Please enter R,P or S.')
 
