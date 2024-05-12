@@ -58,7 +58,8 @@ You have an extra item you need to take into account:
    costs = [8, 5, 20, 12, 1]
    extra = 4
 
-Modify the code from exercise 1 to include the extra item in the sum.
+Use a list method from exercise 2 to add the extra item to the list.
+Then calculate the sum.
 
 
 Exercise 4: Concatenate
@@ -79,24 +80,8 @@ Explain the difference between the following expressions:
    "[1, 2" + "3, 4]"
 
 
-Exercise 5: Conversion
-----------------------
 
-Often, you need to modify list items while processing them.
-Consider the following code:
-
-.. code:: python3
-
-   costs = ["8", "5", "20", "12", "1"]
-   total = 0
-   for item in costs:
-       ___
-   print(total)
-
-What do you need to insert in the gap so that the sum gets calculated?
-
-
-Exercise 6: Puzzle
+Exercise 5: Puzzle
 ------------------
 
 Use the expressions to modify the list as indicated. Use each expression
@@ -106,7 +91,7 @@ once.
    :alt: list funcs exercise2
 
 
-Exercise 7: List transformation
+Exercise 6: List transformation
 -------------------------------
 
 Sometimes it is useful to create a new list from an existing one.
@@ -123,7 +108,7 @@ Order the lines in the following program:
    numbers = []
 
 
-Exercise 8: Receipt assistant
+Exercise 7: Receipt assistant
 -----------------------------
 
 Write a program that sums up shopping bills.
