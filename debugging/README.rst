@@ -129,5 +129,5 @@ Reflection Questions
 
 .. seealso:: 
 
-    - `Kristians Debugging Tutorial at PyData 2017 <>`__
+    - `Kristians Debugging Tutorial at PyData 2017 <https://www.youtube.com/watch?v=04paHt9xG9U>`__
     - Data from: `github.com/knkeniston/TwentyQuestions <https://github.com/knkeniston/TwentyQuestions/>`__
