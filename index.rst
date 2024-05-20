@@ -56,7 +56,6 @@ Coding Challenges
    :maxdepth: 1
 
    challenges/ctree.rst
-   challenges/pyramid.rst
    challenges/fizzbuzz.rst
    challenges/quiz.rst
    challenges/checker.rst
@@ -70,6 +69,7 @@ Coding Challenges
    challenges/querprodukt.rst
    challenges/birthdays.rst
    challenges/misty_mountains.rst
+   challenges/sierpinski.rst
    challenges/count_words.rst
    challenges/spiral.rst
 
