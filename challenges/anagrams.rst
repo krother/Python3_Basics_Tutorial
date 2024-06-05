@@ -1,35 +1,40 @@
 Anagrams
 ========
 
-**🎯 Generate all anagrams of a word with 3-6 letters.**
+**🎯 Check whether two words are anagrams of each other.**
 
 For example, the string:
 
 ::
 
-   ROT
+   players
 
-has the anagrams (permutations of characters):
+has the anagram (permutations of characters):
 
 ::
 
-   TOR
-   ORT
-   TRO
-   RTO
-   OTR
+   parsley
+
+Write a function `anagram()` that satisfies the following checks:
+
+.. code:: python3
+
+   assert anagram("players", "parsley") is True
+   assert anagram("hello", "world") is False
 
 Hints
 -----
 
--  Look up the function ``itertools.permutations()``.
--  You may need an expression like ``''.join(["T", "O", "R"])``
+- consider sorting the characters
+- consider the `set()` data type
+- consider `collections.Counter`
+- look up the function `itertools.permutations()`.
 
 Extra challenges
 ----------------
 
--  Get yourself a word list. Find anagrams that are real words.
--  Implement the algorithm to generate the anagrams yourself. Get
-   informed about **dynamic programming**.
+-  Look for anagrams in the `SOWPODS word list <https://www.freescrabbledictionary.com/sowpods/download/sowpods.txt>`__ .
+-  Implement an algorithm to generate all possible anagrams. Inform yourself about **dynamic programming**.
+-  what is the time complexity of your implementation?
 
 *Translated with* `www.DeepL.com <https://www.DeepL.com/Translator>`__
