@@ -9,7 +9,7 @@ def is_answer(node):
 f = open('quetions.json')
 node = json.load()
 
-finished = False
+finished = "False"
 
 while not finished
     print(node['text']
